@@ -1,0 +1,11 @@
+shift cap: 8 cells, 1,803 pairs rejected [('France', 'd3', 'chg', True, 960, 16, 32), ('France', 'd3', 'same', False, 337, 174, 221), ('France', 'd2', 'chg', True, 279, 0, 5), ('France', 'd1', 'chg', True, 237, 5, 17), ('France', 'd2', 'same', False, 185, 37, 71), ('France', 'd1', 'same', False, 170, 31, 59), ('France', 'd3', 'chg', False, 36, 5, 16), ('France', 'd1', 'chg', False, 31, 2, 11)]
+variant vocab [('France', ['associes', 'developpement', 'fils', 'france', 'groupe', 'services']), ('India', ['center', 'partners', 'service', 'services']), ('US', ['center', 'partners', 'service', 'services'])]
+variant rule: 23,771 accepted, 9,045 rejected
+legal-add rule: [('France', 2035), ('India', 2), ('US', 3)]
+France number-missing rule: 806 accepted
+memory allocation of memory allocation of memory allocation of 822083600822083600 bytes failed
+skipping backtrace printing to avoid potential recursion
+822083600 bytes failed
+ bytes failed
+skipping backtrace printing to avoid potential recursion
+EXIT 127

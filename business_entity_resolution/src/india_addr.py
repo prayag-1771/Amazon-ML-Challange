@@ -42,8 +42,9 @@ def skel(col):
         e = e.str.replace_all(ch + "+", ch)
     return e.str.replace_all(r" +", " ").str.strip_chars()
 
-def pairs(split, exclude):
-    """Address ∪ name-skeleton top-K S1 candidates for India addressed queries not in `exclude` (s23_id), with features."""
+def retrieve(split, exclude):
+    """Address ∪ name-skeleton top-K S1 candidates for India addressed queries not in `exclude` (s23_id).
+    Returns the candidate frame (qi, si, asim, nsim, comb, ranks, q_row, s1_row) and the S1 / query frames."""
     s1 = pl.read_parquet(W + f"norm_{split}_s1.parquet", columns=["entity_id", "country", "name_core", "state", "addr_core", "legal"]) \
         .with_row_index("s1_row").with_columns(pl.col("s1_row").cast(pl.UInt32)).filter(pl.col("country") == "India")
     q = pl.concat([pl.read_parquet(W + f"norm_{split}_s{k}.parquet", columns=["entity_id", "country", "name_core", "state", "addr_core", "legal", "addr_empty"])
@@ -74,6 +75,12 @@ def pairs(split, exclude):
     d = d.with_columns([pl.col(c).rank("ordinal", descending=True).over("qi").alias("rk_" + c) for c in ("asim", "nsim", "comb")])
     d = d.filter((pl.col("rk_comb") <= 10) | (pl.col("rk_asim") <= 2) | (pl.col("rk_nsim") <= 2))
     d = d.with_columns(pl.Series("q_row", q["q_row"].to_numpy()[d["qi"].to_numpy()]), pl.Series("s1_row", s1["s1_row"].to_numpy()[d["si"].to_numpy()]))
+    return d, s1, q
+
+
+def pairs(split, exclude):
+    """retrieve() candidates with the channel's features."""
+    d, s1, q = retrieve(split, exclude)
     d = d.join(s1.select("s1_row", pl.col("entity_id").alias("s1_id"), pl.col("name_core").alias("n1"), pl.col("sk").alias("k1"),
                          pl.col("addr_core").alias("a1"), pl.col("legal").alias("l1")), on="s1_row")
     d = d.join(q.select("q_row", pl.col("entity_id").alias("s23_id"), pl.col("name_core").alias("nq"), pl.col("sk").alias("kq"),

@@ -1,0 +1,11 @@
+[Bpred] unassigned validation records with a pick: [('unmatched', 7042), ('val_true', 15613)]
+  per false-merge effect -1.20e-06; per true-match effect 4.09e-07
+  t=0.2: picks 9,900 TP 3,233 | false merges counted 4,221 (type a all 4,019, type b visible 202) precision 0.434 | naive +0.00057 corrected -0.00375
+  t=0.3: picks 7,866 TP 2,825 | false merges counted 3,046 (type a all 2,878, type b visible 168) precision 0.481 | naive +0.00058 corrected -0.00251
+  t=0.4: picks 5,936 TP 2,284 | false merges counted 2,030 (type a all 1,902, type b visible 128) precision 0.529 | naive +0.00054 corrected -0.00150
+  t=0.5: picks 4,237 TP 1,643 | false merges counted 1,236 (type a all 1,134, type b visible 102) precision 0.571 | naive +0.00044 corrected -0.00080
+  t=0.6: picks 2,646 TP 947 | false merges counted 592 (type a all 518, type b visible 74) precision 0.615 | naive +0.00026 corrected -0.00030
+  t=0.7: picks 2,013 TP 665 | false merges counted 370 (type a all 310, type b visible 60) precision 0.643 | naive +0.00014 corrected -0.00020
+  t=0.8: picks 1,739 TP 577 | false merges counted 289 (type a all 239, type b visible 50) precision 0.666 | naive +0.00012 corrected -0.00015
+  t=0.9: picks 1,250 TP 386 | false merges counted 155 (type a all 129, type b visible 26) precision 0.713 | naive +0.00008 corrected -0.00006
+  t=0.95: picks 834 TP 197 | false merges counted 75 (type a all 57, type b visible 18) precision 0.724 | naive +0.00003 corrected -0.00003

@@ -1,0 +1,10 @@
+[A] base (v15) F 0.99055 US 0.99087 IN 0.99007; unassigned validation records with a pick: 22,655 (5,237 pick a validation S1)
+  per false merge effect on validation F: -1.14e-06
+  t=0.2: picks 9,305, correct 2,815, precision (all picks) 0.303 | naive F +0.00041  TP-only +0.00112  corrected -0.00628
+  t=0.3: picks 7,512, correct 2,453, precision (all picks) 0.327 | naive F +0.00042  TP-only +0.00096  corrected -0.00481
+  t=0.4: picks 5,729, correct 1,957, precision (all picks) 0.342 | naive F +0.00036  TP-only +0.00075  corrected -0.00355
+  t=0.5: picks 4,080, correct 1,381, precision (all picks) 0.338 | naive F +0.00024  TP-only +0.00052  corrected -0.00255
+  t=0.6: picks 2,519, correct 790, precision (all picks) 0.314 | naive F +0.00014  TP-only +0.00030  corrected -0.00167
+  t=0.7: picks 1,585, correct 415, precision (all picks) 0.262 | naive F +0.00006  TP-only +0.00016  corrected -0.00118
+  t=0.8: picks 1,222, correct 288, precision (all picks) 0.236 | naive F +0.00005  TP-only +0.00010  corrected -0.00096
+  t=0.9: picks 931, correct 194, precision (all picks) 0.208 | naive F +0.00002  TP-only +0.00006  corrected -0.00078

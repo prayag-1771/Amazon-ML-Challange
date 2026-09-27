@@ -13,12 +13,14 @@ Last updated 2026-09-27. Gains are estimates on the public leaderboard (LB) unle
 |---|---|---|---|---|
 | 1 | **v16**: India addressed no-candidate channel with a third retrieval method and retrained models. Recommended cutoff **0.7** rather than 0.6: val +0.00013 at precision 0.949, versus +0.00015 at 0.931. The test set has about 50% more decoy records than validation. | peer session (other machine) | +0.0001–0.0002 | In progress there; not on this machine |
 | 2 | **v17**: France number-missing rule, in `work/v17/` | this repo (2026-09-27) | +0.00004 | **Done.** Built and validated (`work/sub17_fr_on_v15/`). Too small for its own upload slot, so bundle it with the next change. Apply to any base with `python v17/build.py <base_dir> <out_dir> v17/fr_patch.parquet`. |
-| 3 | **Empty-address rescue v2** (`work/v10/resc2.py`): cover every empty-address record left unassigned. Features: legal-form match and the Source-1 business's addressed-match count. Strict cutoff. | next | +0.0001–0.0003 | Pairs built on 09-27; not trained yet |
-| 4 | Stage-2 features for empty-address name ties: legal-form match within the tied group, addressed-match count | open | +0.0001–0.0002 | Todo. 92% of these misses are genuine ties, so expect little. |
-| 5 | Stage-2 retrain and cutoff with decoy records upweighted to the test-set mix | open | +0.0001–0.0003 | Todo |
+| 3 | Empty-address rescue v2 (`work/v18/rescue_v2.py`) | this repo (2026-09-27) | **negative** | **Rejected.** The naive validation gain is +0.0006, but with false merges counted properly it is −0.00003 to −0.0025 at every cutoff. See `work/release_v18_rescue2_REJECTED.md`. |
+| 4 | Stage-2 features for empty-address name ties | open | ~0 | **Deprioritised.** The same tie features could not lift rescue precision above 0.72, and a false merge costs about 3× a true match (break-even about 0.75). |
+| 5 | Stage-2 cutoff under test-like decoy density | done earlier by the team | ≤ +0.00003 | **Deprioritised.** `work/dshift.txt` and `dshift_v6k.txt`: at 1.4–2× decoys the best cutoff stays 0.75–0.8. |
 | 6 | Reproducibility before the final zip. `src/india_addr.py` has PR_MIN=0.6 but loads the v15 models. `stage2.py` needs `feat_cache.py`, `samerule.py`, `dshift_v6k.py` and `v10/cascade_lists.py`, which live in `work/`; move them into `src/`. | whoever packages | required | Todo |
 
 ## Tested and dropped (do not repeat)
+
+- **Empty-address rescue v2 (resc2 pairs + LightGBM, with or without tie features):** negative once false merges are counted properly. See `work/release_v18_rescue2_REJECTED.md`, which also covers the evaluation trap to avoid.
 
 - **Filling in the missing French region from the city.** 32% of France Source-2/3 records have no region, but acceptance is the same with and without it (59.6% vs 59.5%).
 - **Breaking empty-address name ties** by addressed-match count, whether picking the most (worse than random) or the fewest (51% vs 47% random for two-way ties). A LightGBM resolver lowered F at every cutoff. Legal form is the best single signal (60%), and that is still not enough.

@@ -4,6 +4,15 @@ Newest entries go at the top. Times are IST.
 
 ## 2026-09-27
 
+### ~20:30 v18 candidate: empty-address rescue v2. Rejected (`work/v18/`)
+- **The resc2 holdout left ~7% of the data for training.** It held out every record with any validation-S1 candidate. Trained that way, every cutoff lowers F.
+- **Switched to a "true S1" split** (validation = records whose true S1 is a validation S1), which trains on 6.8M pairs.
+  - Naive validation: +0.00042 for set A and +0.00060 for set B (tie features). B is still +0.00058 with the addressed-match count taken from predictions.
+- **That split hides most false merges.** Wrong picks landing on non-validation S1 are invisible, while test has the mirror image. Corrected in `v18/eval_split.py`, which counts all wrong picks of matched records and the visible ones of unmatched records.
+  - Corrected result: **negative at every cutoff**, from −0.00251 at 0.3 to −0.00003 at 0.95.
+  - Precision over all picks is 0.43–0.72, and break-even is about 0.75.
+- **Decision:** do not ship. Steps 4 and 5 deprioritised: tie features cannot reach break-even, and the team's `dshift` simulation shows the cutoff is stable under test-like decoy density.
+
 ### ~19:00 v17: France number-missing rule (`work/v17/`)
 - **Audit:** `fr_cells.py` groups each record's top-1 pair by name, house-number, legal-form and street relation. It compares US/India validation purity with France acceptance.
 - **Reading examples showed two false alarms**, both fixed in `fr_rule.py`:

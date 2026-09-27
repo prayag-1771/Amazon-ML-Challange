@@ -16,12 +16,13 @@ Last updated 2026-09-27. Gains are estimates on the public leaderboard (LB) unle
 | 3 | Empty-address rescue v2 (`work/v18/rescue_v2.py`) | this repo (2026-09-27) | **negative** | **Rejected.** The naive validation gain is +0.0006, but with false merges counted properly it is −0.00003 to −0.0025 at every cutoff. See `work/release_v18_rescue2_REJECTED.md`. |
 | 4 | Stage-2 features for empty-address name ties | open | ~0 | **Deprioritised.** The same tie features could not lift rescue precision above 0.72, and a false merge costs about 3× a true match (break-even about 0.75). |
 | 5 | Stage-2 cutoff under test-like decoy density | done earlier by the team | ≤ +0.00003 | **Deprioritised.** `work/dshift.txt` and `dshift_v6k.txt`: at 1.4–2× decoys the best cutoff stays 0.75–0.8. |
-| 6 | Reproducibility before the final zip. `src/india_addr.py` has PR_MIN=0.6 but loads the v15 models. `stage2.py` needs `feat_cache.py`, `samerule.py`, `dshift_v6k.py` and `v10/cascade_lists.py`, which live in `work/`; move them into `src/`. | whoever packages | required | Todo |
+| 6 | Reproducibility before the final zip. `src/india_addr.py` has PR_MIN=0.6 but loads the v15 models. `stage2.py` needs `feat_cache.py`, `samerule.py`, `dshift_v6k.py` and `v10/cascade_lists.py`, which live in `work/`; move them into `src/`. | whoever packages | required | Todo. **Wait for the peer's v16 code**: it changes `src/india_addr.py` and `src/stage2.py`, and editing them here now would conflict. |
 
 ## Tested and dropped (do not repeat)
 
 - **Empty-address rescue v2 (resc2 pairs + LightGBM, with or without tie features):** negative once false merges are counted properly. See `work/release_v18_rescue2_REJECTED.md`, which also covers the evaluation trap to avoid.
 
+- **Accepting stage-2 rejections by pattern (addressed records, US/India):** 11,639 rejected top-1 pairs, 19.6% true. With patterns selected on one half of the validation S1s, none with ≥ 30 pairs reached 85% precision on the other half (`work/v18/rej_cells.py`).
 - **Filling in the missing French region from the city.** 32% of France Source-2/3 records have no region, but acceptance is the same with and without it (59.6% vs 59.5%).
 - **Breaking empty-address name ties** by addressed-match count, whether picking the most (worse than random) or the fewest (51% vs 47% random for two-way ties). A LightGBM resolver lowered F at every cutoff. Legal form is the best single signal (60%), and that is still not enough.
 - **Per-Source-1 expected-F0.5 decision rule:** −0.00015 val.

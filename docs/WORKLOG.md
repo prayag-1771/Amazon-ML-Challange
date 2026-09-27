@@ -4,6 +4,12 @@ Newest entries go at the top. Times are IST.
 
 ## 2026-09-27
 
+### ~21:00 Stage-2 rejections: no pattern-level gain (`work/v18/rej_cells.py`)
+- US/India addressed records whose top-1 pair has p2 in [0.01, cutoff): 11,639 pairs, 19.6% true matches.
+- Patterns (name / number / legal / street × p2 band) were selected on one half of the validation S1s and measured on the other.
+- No pattern with ≥ 30 pairs reaches 85% precision in either direction. Stage 2 is well calibrated at pattern level, so rules cannot add points here.
+- **Where things stand:** on this machine, the only positive change left is v17 (France, about +0.00004 LB). The remaining gains need the peer's v16 (India channel), LB probe results for France cutoffs, or GPU work (a larger cross-encoder).
+
 ### ~20:30 v18 candidate: empty-address rescue v2. Rejected (`work/v18/`)
 - **The resc2 holdout left ~7% of the data for training.** It held out every record with any validation-S1 candidate. Trained that way, every cutoff lowers F.
 - **Switched to a "true S1" split** (validation = records whose true S1 is a validation S1), which trains on 6.8M pairs.

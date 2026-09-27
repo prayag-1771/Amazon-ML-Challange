@@ -1,0 +1,3 @@
+rejected top-1 pairs with p2 in [0.01, cutoff): 11,639, true-match rate 0.196
+select on half 0: 0 cells; on half 1: +0 pairs, precision nan, F +0.00000 (on that half)
+select on half 1: 0 cells; on half 0: +0 pairs, precision nan, F +0.00000 (on that half)

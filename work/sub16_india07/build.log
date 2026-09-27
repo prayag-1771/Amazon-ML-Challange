@@ -1,0 +1,12 @@
+base sub16_india07: 5,827,973 matches, 6,921,864 candidates, 1,732,544 S1 rows
+out sub16_india07_checked: 5,827,973 matches, 6,921,864 candidates (3.995/S1)
+9fa9275a44db46cb0a818c5ac8e4968f930c9942103229ce204e061151708ddc  output/matching_results.tsv
+35013d3a2bfce19cd06b6acd04c7a8a6cdaba647aaf3958320a1d839d0d88869  output/candidate_pairs.tsv
+ML Challenge 2026 — submission validator
+  test dir: G:\Amazon-ML-Challenge-2026\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (100446 empty, 1632098 non-empty).
+  candidate_pairs.tsv: 1732544 rows (62154 empty, 1670390 non-empty).
+
+PASS — no blocking issues found. Safe to submit.

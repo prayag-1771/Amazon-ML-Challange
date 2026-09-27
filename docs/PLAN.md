@@ -1,6 +1,6 @@
 # Improvement plan
 
-Last updated 2026-09-27. Gains are estimates on the public leaderboard (LB) unless marked "val".
+Last updated 2026-09-27 (evening). **Final version: v17** (`work/sub17_final/`). Gains are estimates on the public leaderboard (LB) unless marked "val".
 
 ## Where the score can and cannot go
 
@@ -11,12 +11,12 @@ Last updated 2026-09-27. Gains are estimates on the public leaderboard (LB) unle
 
 | # | Step | Owner | Est. gain | Status |
 |---|---|---|---|---|
-| 1 | **v16**: India addressed no-candidate channel with a third retrieval method and retrained models. Recommended cutoff **0.7** rather than 0.6: val +0.00013 at precision 0.949, versus +0.00015 at 0.931. The test set has about 50% more decoy records than validation. | peer session (other machine) | +0.0001–0.0002 | In progress there; not on this machine |
-| 2 | **v17**: France number-missing rule, in `work/v17/` | this repo (2026-09-27) | +0.00004 | **Done.** Built and validated (`work/sub17_fr_on_v15/`). Too small for its own upload slot, so bundle it with the next change. Apply to any base with `python v17/build.py <base_dir> <out_dir> v17/fr_patch.parquet`. |
+| 1 | **v16**: India addressed channel with retrained models at cutoff **0.7** | this repo (2026-09-27) | +0.00015 | **Done.** `work/sub16_india07/`, validator PASS. The peer's variant (third retrieval method) is not on this machine; this v16 uses the retrained `india_addr16` models on the v15 retrieval. |
+| 2 | **v17**: France number-missing rule (`src/france_rules.py`) | this repo (2026-09-27) | +0.00004 | **Done.** Final build `work/sub17_final/` = v16 + 806 France pairs, validator PASS. **This is the version to upload and package.** |
 | 3 | Empty-address rescue v2 (`work/v18/rescue_v2.py`) | this repo (2026-09-27) | **negative** | **Rejected.** The naive validation gain is +0.0006, but with false merges counted properly it is −0.00003 to −0.0025 at every cutoff. See `work/release_v18_rescue2_REJECTED.md`. |
 | 4 | Stage-2 features for empty-address name ties | open | ~0 | **Deprioritised.** The same tie features could not lift rescue precision above 0.72, and a false merge costs about 3× a true match (break-even about 0.75). |
 | 5 | Stage-2 cutoff under test-like decoy density | done earlier by the team | ≤ +0.00003 | **Deprioritised.** `work/dshift.txt` and `dshift_v6k.txt`: at 1.4–2× decoys the best cutoff stays 0.75–0.8. |
-| 6 | Reproducibility before the final zip. `src/india_addr.py` has PR_MIN=0.6 but loads the v15 models. `stage2.py` needs `feat_cache.py`, `samerule.py`, `dshift_v6k.py` and `v10/cascade_lists.py`, which live in `work/`; move them into `src/`. | whoever packages | required | Todo. **Wait for the peer's v16 code**: it changes `src/india_addr.py` and `src/stage2.py`, and editing them here now would conflict. |
+| 6 | Reproducibility: `src/` reproduces the final version | this repo (2026-09-27) | required | **Done.** New `src/stage1_scores.py` (checked: identical cascade lists and validation scores) and `src/france_rules.py` (checked: identical 806 pairs); `india_addr.py` set to the v16 models and cutoff 0.7; `run_pipeline.py` retrains `lgb_v5cf` with its 64 features; README gives the full command sequence. |
 
 ## Tested and dropped (do not repeat)
 

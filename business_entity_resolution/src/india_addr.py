@@ -1,11 +1,11 @@
-"""India addressed no-candidate channel (v15; PR_MIN 0.9 -> 0.6 in v16). Some India queries with an address still end with no candidate in the
+"""India addressed no-candidate channel (v15; v16: models retrained with this code -> india_addr16_s{1,2,3}.lgb, PR_MIN 0.9 -> 0.7). Some India queries with an address still end with no candidate in the
 cascade set - mostly transliterated names ("Shri Ganesh" / "Sree Ganesha") whose address overlaps the true S1 only
 partially. For those queries this channel retrieves, per state, the top-K S1s by address word TF-IDF and the top-K by
 a phonetic name skeleton (char_wb 2-3 gram TF-IDF over skel(name_core)), scores the union with a 3-seed LightGBM on
 address-overlap / name-similarity / ambiguity features and keeps the top-1 pair when pr >= PR_MIN. Accepted pairs are
 added to both output files. India only (the population is India-specific; US has no such gap, France is unlabelled).
 
-  python -m src.india_addr train   # fit on train queries whose true pair is not in the pruned set -> work/india_addr_s{1,2,3}.lgb
+  python -m src.india_addr train   # fit on train queries whose true pair is not in the pruned set -> work/india_addr16_s{1,2,3}.lgb
 """
 import sys
 import time
@@ -23,7 +23,8 @@ from .config import WORK_DIR, is_valid_expr
 
 W = str(WORK_DIR) + "/"
 K = 30
-PR_MIN = 0.6  # v16: validation sweep 0.5-0.9 peaks at 0.6 (precision 0.93; F0.5 counts the new TP S1s at full weight)
+PR_MIN = 0.7  # v16: validation +0.00013 at precision 0.949 (0.6: +0.00015 at 0.931; the test set has more decoys, so 0.7)
+MODEL = "india_addr16"  # v16 models; v15 used india_addr_s{1,2,3}.lgb (earlier code) with PR_MIN 0.9
 SEEDS = (1, 2, 3)
 F = ["asim", "nsim", "comb", "rk_asim", "rk_nsim", "rk_comb", "num_sh", "num_q", "num_1", "w_sh", "w_q", "w_1", "key_eq", "eq", "leq",
      "num_fq", "w_fq", "r", "ts", "jw", "kr", "len1", "lenq", "n_c", "s1_nq", "asim_gap", "nsim_gap", "comb_gap", "kr_gap", "num_fq_gap",
@@ -103,7 +104,7 @@ def pairs(split, exclude):
 
 def score(d):
     X = d.select(F).to_numpy().astype(np.float32)
-    return d.with_columns(pl.Series("pr", np.mean([lgb.Booster(model_file=W + f"india_addr_s{s}.lgb").predict(X) for s in SEEDS], axis=0)))
+    return d.with_columns(pl.Series("pr", np.mean([lgb.Booster(model_file=W + f"{MODEL}_s{s}.lgb").predict(X) for s in SEEDS], axis=0)))
 
 def accept(d, cand):
     """Top-1 pair per query with pr >= PR_MIN, for queries absent from the candidate set `cand`."""
@@ -127,7 +128,7 @@ def train():
     tr, va = d.join(vq, on="q_row", how="anti"), d.join(vq, on="q_row", how="semi")
     X, y = tr.select(F).to_numpy().astype(np.float32), tr["label"].to_numpy()
     for s in SEEDS:
-        lgb.train({**P, "seed": s}, lgb.Dataset(X, y), 500).save_model(W + f"india_addr_s{s}.lgb")
+        lgb.train({**P, "seed": s}, lgb.Dataset(X, y), 500).save_model(W + f"{MODEL}_s{s}.lgb")
     s1v = pl.read_parquet(W + "norm_train_s1.parquet", columns=["entity_id", "country"]).filter(is_valid_expr("entity_id")).rename({"entity_id": "s1_id"})
     gtv = gt.join(s1v.select("s1_id"), on="s1_id", how="semi")
     v = pl.read_parquet(W + "valid_scores_stage2.parquet").join(s1v, on="s1_id")

@@ -4,7 +4,8 @@ shift-symmetry cap, see shift_cap). v12 cuts the candidate set to first-stage p 
 also the published candidate list) and adds the label-free variant-vocabulary rule for unlabelled countries
 (see variant_rule) and the legal-form-add rule (legal_add_rule); stage 2 is bagged over three seeds. v13 adds the empty-address name rescue (src/rescue.py).
 v14 adds the exact house-number shift features (ndiff, nd3, nratio) to stage 2.
-v15 adds the India addressed no-candidate channel (src/india_addr.py).
+v15 adds the India addressed no-candidate channel (src/india_addr.py); v16 retrains it (india_addr16 models, cutoff 0.7).
+v17 adds the France number-missing rule (src/france_rules.py) after the other France rules.
 
 Input: first-stage scores of lgb_v5cf and lgb_v6k (p = their mean). Adds per-query and per-S1 aggregates of
 those scores - e.g. how many other queries confidently pick this S1, from the same or the other source, and
@@ -25,7 +26,7 @@ import polars as pl
 from .config import OUTPUT_DIR, WORK_DIR, is_valid_expr
 from .io_utils import load_ground_truth, load_source, write_id_lists
 from .metric import macro_f05
-from . import india_addr, rescue
+from . import france_rules, india_addr, rescue
 
 W = str(WORK_DIR) + "/"
 T = {"US": 0.75, "India": 0.80, "France": 0.75}  # India keeps v8's stricter threshold
@@ -328,6 +329,7 @@ def stage_predict():
     top = d.sort("p2", descending=True).unique("s23_id", keep="first").select("s1_id", "s23_id", "p2", "country")
     top = shift_cap(shift_cells(top, "test"), pl.read_parquet(W + "shift_R.parquet"), pl.read_parquet(W + "shift_Rp.parquet"))
     top = legal_add_rule(variant_rule(top, d, "test", ["France"]), d, "test")
+    top = france_rules.number_missing_rule(top, d, "test", pl.col("country").replace_strict(T, default=0.75))  # v17
     matches = top.filter(pl.col("p2") >= pl.col("country").replace_strict(T, default=0.75)).select("s1_id", "s23_id")
     res = rescue.predict("test", d).select("s1_id", "s23_id")  # empty-address queries with no cascade candidate
     res.write_parquet(W + "rescue_test_accept.parquet")

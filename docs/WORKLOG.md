@@ -4,6 +4,23 @@ Newest entries go at the top. Times are IST.
 
 ## 2026-09-27
 
+### ~22:00 Final build v17, `src/` reproduction, documentation, package
+- **Leaderboard results.** All files were searched. Besides the known scores, only `probe_fr_empty` = 0.850 is recorded: France left empty, which implies France F0.5 ≈ 0.956 at v9. The France cutoff probes (t40/t95/t99/t999) were written, but their scores were never recorded.
+- **v16 built here**, since the peer's v16 is not on this machine.
+  - The saved India channel test pairs (`india_addr_test_pairs_v15c.parquet`) reproduce v15's 5,505 accepted pairs exactly.
+  - Re-scored with the retrained `india_addr16` models; cutoff 0.7 accepts 8,918 pairs.
+  - Test acceptance per India S1 is 1.10%, vs 1.27% on validation, so there is no sign of extra false merges from the heavier decoy mix.
+  - `work/sub16_india07/`, validator PASS, validation 0.99068.
+- **v17 final** = v16 + France patch (806 pairs) → `work/sub17_final/`, 5,828,779 matches, validator PASS.
+- **`src/` now reproduces v17:**
+  - `src/france_rules.py`, called in `stage2.predict`, gives the same 806 pairs as `work/v17/fr_rule.py`.
+  - `src/stage1_scores.py` rebuilds the cascade lists (identical pairs) and validation scores (max difference 0.0).
+  - `india_addr.py` uses the `india_addr16` models at cutoff 0.7.
+  - `run_pipeline.py` retrains `lgb_v5cf` with its 64 features.
+  - The hard-pair cross-encoder was started from a fine-tuned cross-encoder: its training log loaded 201 tensors, which includes the classifier head. It ran 1 epoch; its learning rate was not recorded.
+- **Methodology document** written: `Documentation_template.md`. Team members are still to be filled in.
+- **Packaging script:** `tools/package.py` builds `dist/<version>/Greedy_Decoders_submission.zip` and `submissions/<version>/MANIFEST.txt`.
+
 ### ~21:00 Stage-2 rejections: no pattern-level gain (`work/v18/rej_cells.py`)
 - US/India addressed records whose top-1 pair has p2 in [0.01, cutoff): 11,639 pairs, 19.6% true matches.
 - Patterns (name / number / legal / street × p2 band) were selected on one half of the validation S1s and measured on the other.

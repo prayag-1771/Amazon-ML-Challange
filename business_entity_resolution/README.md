@@ -6,13 +6,16 @@ For every Source 1 (S1) business record, this pipeline finds all Source 2 / Sour
 
 ```
 normalize -> embed -> block (TF-IDF + e5 embeddings, per country) -> prune (cheap LightGBM, top-6 per query)
-          -> cross-encoder logit (fine-tuned e5-small) + pair + context features
-          -> LightGBM -> per-query argmax + threshold -> S1 match lists
+          -> cross-encoder logit (fine-tuned e5-small, cross-fitted) + pair + context + token-statistic features
+          -> two first-stage LightGBMs (lgb_v5cf, lgb_v6k), mean score p
+          -> cascade cut (p >= 0.001) = candidate set -> stage-2 re-ranker (3 seeds, collective + structure + hard-pair CE features)
+          -> per-query argmax, per-country cutoff (US 0.75, India 0.80, France 0.75), label-free rules (shift cap, France rules)
+          -> + empty-address name rescue (US/India) + India addressed no-candidate channel -> S1 match lists
 ```
 
 - **Reverse-direction resolution.** In training, every S2/S3 record matches at most one S1. Each S2/S3 record is therefore treated as a query that picks its best S1 or none. Uniqueness then holds by construction.
 - **Country is only a partition key.** It is never used as a feature, so countries not seen in training (France) work unchanged.
-- **The pruned set is `candidate_pairs.tsv`.** It is exactly the set of candidates the final model scores.
+- **`candidate_pairs.tsv` is the cascade set** (first-stage p >= 0.001) that stage 2 scores, plus the pairs of the rescue and India channels. Every match is a candidate.
 - **Cross-fitted cross-encoder.** Two cross-encoders are fine-tuned, one on each hash half (fold A / fold B) of the training queries. Each training query gets the logit of the model that did not see it, so the LightGBM trains on all queries without leakage. Validation and test pairs get the mean of both logits (`CROSS_FIT=True`, v6).
 
 | Module | Purpose |
@@ -29,7 +32,9 @@ normalize -> embed -> block (TF-IDF + e5 embeddings, per country) -> prune (chea
 | `src/stage2.py` | Stage-2 collective re-ranker over the ensemble scores (v9); house-number / name-diff structure and sibling-agreement features (v10); hard-pair CE feature and shift-symmetry cap (v11); cascade candidate cut, 3-seed bagging, France variant-vocabulary and legal-form-add rules, writes `candidate_pairs.tsv` (v12) |
 | `src/ce_hard.py` | Hard-pair cross-encoder: e5-small fine-tuned on the ambiguous band of training pairs, scored on uncertain validation/test pairs as a stage-2 feature (v11) |
 | `src/rescue.py` | Empty-address name rescue (v13): name-only char-3-gram retrieval and LightGBM for queries with no cascade candidate |
-| `src/india_addr.py` | India addressed no-candidate channel (v15): per-state address-word and phonetic-name-skeleton retrieval, 3-seed LightGBM |
+| `src/india_addr.py` | India addressed no-candidate channel (v15): per-state address-word and phonetic-name-skeleton retrieval, 3-seed LightGBM (v16: retrained models `india_addr16_s*`, cutoff 0.7) |
+| `src/france_rules.py` | France number-missing rule (v17): accepts France pairs where only the house number is missing, the name core is identical and the street matches, and one S1 owns that name + street |
+| `src/stage1_scores.py` | Writes the stage-1 files that stage 2 and the channels read: validation scores of both first-stage models, the test feature cache, the cascade lists |
 
 ## Setup
 
@@ -43,16 +48,30 @@ pip install -r requirements.txt
 
 The e5-small weights download from the Hugging Face hub on first use (about 470 MB). This is a pretrained model, not an external data source.
 
-## Run
+## Run (reproduces the final version, v17)
 
 Data is expected at `../student_resource/dataset/{train,test}/`. You can override the locations with the `BER_DATA`, `BER_WORK` and `BER_OUTPUT` environment variables.
 
 ```bash
 cd business_entity_resolution
-python -m src.run_pipeline --stage all        # or one stage: normalize | embed | block | prune | ce | train | predict
-python ../student_resource/utils/validate_submission.py \
-    --matching ../output/matching_results.tsv --candidate ../output/candidate_pairs.tsv \
-    --test-dir ../student_resource/dataset/test --check-ids
+# 1. first stage: normalize, embed, block, prune, cross-encoders (2 folds), LightGBM lgb_v6k, test prediction
+python -m src.run_pipeline --stage all --model lgb_v6k
+# 2. the second first-stage model (64 features, no context-keyed token statistics; reuses all cached stages)
+python -m src.run_pipeline --stage train --model lgb_v5cf
+python -m src.run_pipeline --stage predict --model lgb_v5cf
+# 3. stage-1 files read by stage 2: validation scores, test feature cache, cascade lists
+python -m src.stage1_scores
+# 4. hard-pair cross-encoder (stage-2 feature). Initialised from the fold-A cross-encoder, 1 epoch.
+#    The learning rate of the submitted model was not recorded; 5e-5 is train_ce's default.
+python -m src.ce_hard train s1 ../work/ce_e5s 1 5e-5
+python -m src.ce_hard score s1
+# 5. stage 2 (writes work/stage2_s{7,17,27}.lgb and validation scores), then the two add-on channels
+python -m src.stage2 train
+python -m src.rescue train
+python -m src.india_addr train
+# 6. test prediction: stage 2 + rules + channels -> output/matching_results.tsv, output/candidate_pairs.tsv
+python -m src.stage2 predict
+python ../student_resource/utils/validate_submission.py     --matching ../output/matching_results.tsv --candidate ../output/candidate_pairs.tsv     --test-dir ../student_resource/dataset/test --check-ids
 ```
 
 Every stage caches its outputs under `work/`, so a run can resume after an interruption.
@@ -65,7 +84,8 @@ Approximate timings on an RTX 4070 laptop GPU with 48 GB RAM:
 | embed | ~1 h |
 | block | ~1 h |
 | ce (2 folds × (fine-tune ~35 min + score ~70 min)) | ~3 h 30 min |
-| prune + features + train + predict | ~1–2 h |
+| prune + features + train + predict (per first-stage model) | ~1–2 h |
+| stage1_scores + ce_hard + stage 2 + channels + predict | ~2–3 h |
 
 ## Validation
 
@@ -92,4 +112,5 @@ Ten percent of training S1 entities are held out using a deterministic hash (`co
 | v13 | `python -m src.rescue train` (→ `work/rescue.lgb`), then `python -m src.stage2 predict` (v12 plus rescued pairs appended to both TSVs) | 0.9901 |
 | v14 | `python -m src.stage2 train` then `python -m src.stage2 predict` (adds `ndiff`, `nd3`, `nratio` to stage 2; rescue as v13) | 0.9902 |
 | v15 | `python -m src.india_addr train` (→ `work/india_addr_s{1,2,3}.lgb`), then `python -m src.stage2 predict` (v14 plus the India addressed pairs appended to both TSVs) | 0.9906 |
-| v17 | v15 outputs + `cd work && python v17/build.py sub15_indiaaddr <out> v17/fr_patch.parquet` (France number-missing rule, `work/v17/fr_rule.py`; France only, so val is unchanged) | 0.9906 |
+| v16 | `python -m src.india_addr train` (→ `work/india_addr16_s{1,2,3}.lgb`), then `python -m src.stage2 predict` (India channel retrained, cutoff 0.7) | 0.9907 |
+| v17 (final) | the full sequence above; adds `src/france_rules.py` in stage-2 predict (France only, so validation is unchanged) | 0.9907 |

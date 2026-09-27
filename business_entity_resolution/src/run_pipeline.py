@@ -28,6 +28,8 @@ MODEL_NAME = "lgb_v6k"
 N_TRAIN_Q = 20_000_000  # i.e. all train queries (~8.5M)
 USE_CE = True  # cross-encoder logit as a feature (src/cross_encoder.py)
 CROSS_FIT = True  # two cross-encoders (fold A / fold B): LightGBM can then train on all queries
+# lgb_v5cf (v6) predates the context-keyed token statistics (v7): it is trained without them (64 features)
+MODEL_DROP = {"lgb_v5cf": {"xq_krelmin", "xq_krelmean", "xq_kfmin", "x1_krelmin", "x1_krelmean", "x1_kfmin"}}
 
 
 def featurize(cand: pl.DataFrame, split: str, chunk: int = 5_000_000) -> pl.DataFrame:
@@ -88,7 +90,7 @@ def stage_train():
     tr = tr.join(gl, on=["s1_id", "s23_id"], how="left").with_columns(pl.col("label").fill_null(0))
     va = va.join(gl, on=["s1_id", "s23_id"], how="left").with_columns(pl.col("label").fill_null(0))
     va.write_parquet(WORK_DIR / "valid_feats.parquet")
-    feats = feature_cols(tr)
+    feats = [f for f in feature_cols(tr) if f not in MODEL_DROP.get(MODEL_NAME, set())]
     print(f"train pairs {len(tr):,} (pos {tr['label'].mean():.3f}), valid pairs {len(va):,}, {len(feats)} feats")
     model = train(tr, feats, rounds=2000, valid=va)
     va = va.with_columns(pl.Series("p", predict(model, va, feats)))

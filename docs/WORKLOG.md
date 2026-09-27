@@ -4,6 +4,16 @@ Newest entries go at the top. Times are IST, taken from file timestamps.
 
 ## 2026-09-27
 
+### 21:15–21:30 Push for 0.99 with 2 uploads left: France calibration check (`work/v19/fr_calib.py`)
+- **Target.** The user reports the best LB so far as 0.98873 and has 2 uploads left; 0.99 needs +0.0013.
+- **Check.** Is stage 2 under-confident on France across the board (which a lower France cutoff would fix)?
+  - With the crude street test, France rejects 44× more pairs than validation in validation-pure cells.
+  - But that test is the "rue" flaw found for v17. With the fuzzy street-name test the excess is 2.3×, and validation says those rejections are correct.
+  - **Result: no evidence for a lower France cutoff.** Changing it would be a blind gamble.
+- **France empty-address rescue:** at most ~1,400 records without candidates, worth about +0.00005. Not worth the risk (the team's mass-accept probe scored 0.850).
+- **India retrieval check** (`work/v16/repro_india_retrieve.py`) ran out of memory while running alongside the calibration check. That step is covered by the saved-pairs evidence.
+- **Decision:** upload v17 (expected ~0.9889). Keep the last upload in reserve for a France change only if the portal's probe history supports it.
+
 ### 19:15–21:10 Reproduction of v17 on this machine; final package
 - **`python -m src.stage2 predict` ran end to end until the India channel's feature step, then ran out of memory** (14 GB RAM; the original run used 48 GB). Everything up to that step matches v15:
   - stage-2 scores identical (6,909,690 pairs, max |Δp2| 0.0);

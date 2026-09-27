@@ -1,0 +1,20 @@
+
+PURE anchor cells (val purity >= 0.999): validation 280,145 pairs, France 577,585 pairs
+  share with p2 < t  (validation | France):
+    t=0.05  0.00008 | 0.00193
+    t=0.1   0.00009 | 0.00253
+    t=0.2   0.00010 | 0.00334
+    t=0.3   0.00013 | 0.00398
+    t=0.4   0.00014 | 0.00457
+    t=0.5   0.00015 | 0.00511
+    t=0.6   0.00016 | 0.00578
+    t=0.75  0.00016 | 0.00712
+  p2 quantiles 1/5/10/25%  validation: [0.9999, 1.0, 1.0, 1.0]  France: [0.9231, 0.9998, 1.0, 1.0]
+
+DECOY cells (val purity <= 0.02): validation 0 pairs, France 0 pairs
+  share with p2 < t  (validation | France):
+Traceback (most recent call last):
+  File "G:\Amazon-ML-Challenge-2026\work\v19\fr_calib.py", line 40, in <module>
+    print(f"    t={t:<5} {rate(v, t):.5f} | {rate(f, t):.5f}")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__

@@ -1,0 +1,9 @@
+memory allocation of memory allocation of memory allocation of memory allocation of memory allocation of 822083600 bytes failed
+822083600 bytes failed
+skipping backtrace printing to avoid potential recursion
+822083600822083600822083600 bytes failed
+skipping backtrace printing to avoid potential recursion
+ bytes failed
+skipping backtrace printing to avoid potential recursion
+ bytes failed
+skipping backtrace printing to avoid potential recursion

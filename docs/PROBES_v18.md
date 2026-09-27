@@ -43,6 +43,6 @@ The sha256 of each file is in its folder's `MANIFEST.txt`. The number-missing ru
 ## Results (fill in after each upload)
 | Upload | File | Public LB | Δ vs v17 |
 |---|---|---|---|
-| 1 | v17 | | – |
+| 1 | v17 | **0.9888** (previous best 0.98873) | – |
 | 2 | fr060 | | |
 | 3 | | | |

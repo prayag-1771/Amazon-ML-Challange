@@ -1,0 +1,7 @@
+v6                                       f05=0.98927 US=0.99004 IN=0.98812 P=0.99871 R=0.96928
+no false positives                       f05=0.99035 US=0.99112 IN=0.98919 P=1.00000 R=0.96928
++ all true pairs in candidates           f05=0.99366 US=0.99536 IN=0.99111 P=0.99872 R=0.98322
+perfect on candidates                    f05=0.99473 US=0.99644 IN=0.99217 P=1.00000 R=0.98322
+perfect                                  f05=1.00000 US=1.00000 IN=1.00000 P=1.00000 R=1.00000
+S2 row gap between records of same S1: median 1087819.0  share gap<=5: 1.6905761088911343e-06
+corr(S1 id number, S2 id number): nan  corr(S1 id, row): nan

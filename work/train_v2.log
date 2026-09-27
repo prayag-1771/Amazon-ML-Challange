@@ -1,0 +1,43 @@
+  features train: 5,000,000/10,765,020 51s
+  features train: 10,000,000/10,765,020 53s
+  features train: 10,765,020/10,765,020 9s
+  features train: 2,317,419/2,317,419 23s
+train pairs 10,765,020 (pos 0.618), valid pairs 2,317,419, 48 feats
+[100]	train's binary_logloss: 0.072704	valid's binary_logloss: 0.089668
+[200]	train's binary_logloss: 0.0608312	valid's binary_logloss: 0.0789672
+[300]	train's binary_logloss: 0.0561395	valid's binary_logloss: 0.0751625
+[400]	train's binary_logloss: 0.0532957	valid's binary_logloss: 0.0730242
+[500]	train's binary_logloss: 0.051538	valid's binary_logloss: 0.0718118
+[600]	train's binary_logloss: 0.0501407	valid's binary_logloss: 0.0709978
+[700]	train's binary_logloss: 0.0489807	valid's binary_logloss: 0.0703607
+[800]	train's binary_logloss: 0.0479738	valid's binary_logloss: 0.0699218
+[900]	train's binary_logloss: 0.0469787	valid's binary_logloss: 0.0694591
+[1000]	train's binary_logloss: 0.046019	valid's binary_logloss: 0.0690156
+[1100]	train's binary_logloss: 0.045198	valid's binary_logloss: 0.0686526
+[1200]	train's binary_logloss: 0.0444628	valid's binary_logloss: 0.0684191
+[1300]	train's binary_logloss: 0.0437473	valid's binary_logloss: 0.0681987
+[1400]	train's binary_logloss: 0.0430967	valid's binary_logloss: 0.0680056
+[1500]	train's binary_logloss: 0.0424509	valid's binary_logloss: 0.0678303
+[1600]	train's binary_logloss: 0.0418558	valid's binary_logloss: 0.0676895
+[1700]	train's binary_logloss: 0.0412958	valid's binary_logloss: 0.0675615
+[1800]	train's binary_logloss: 0.0407175	valid's binary_logloss: 0.0674258
+[1900]	train's binary_logloss: 0.0401645	valid's binary_logloss: 0.0672976
+[2000]	train's binary_logloss: 0.0396878	valid's binary_logloss: 0.0672455
+  t=0.20 f05=0.9667 P=0.9713 R=0.9706 single=0.9089
+  t=0.25 f05=0.9701 P=0.9759 R=0.9692 single=0.9248
+  t=0.30 f05=0.9725 P=0.9794 R=0.9678 single=0.9348
+  t=0.35 f05=0.9743 P=0.9822 R=0.9663 single=0.9430
+  t=0.40 f05=0.9757 P=0.9846 R=0.9647 single=0.9504
+  t=0.45 f05=0.9768 P=0.9867 R=0.9630 single=0.9568
+  t=0.50 f05=0.9776 P=0.9884 R=0.9612 single=0.9629
+  t=0.55 f05=0.9781 P=0.9899 R=0.9591 single=0.9675
+  t=0.60 f05=0.9785 P=0.9913 R=0.9571 single=0.9729
+  t=0.65 f05=0.9786 P=0.9924 R=0.9547 single=0.9770
+  t=0.70 f05=0.9785 P=0.9936 R=0.9521 single=0.9802
+  t=0.75 f05=0.9782 P=0.9946 R=0.9491 single=0.9840
+  t=0.80 f05=0.9774 P=0.9956 R=0.9455 single=0.9869
+  t=0.85 f05=0.9762 P=0.9964 R=0.9406 single=0.9898
+  t=0.90 f05=0.9738 P=0.9974 R=0.9330 single=0.9918
+  t=0.95 f05=0.9679 P=0.9984 R=0.9175 single=0.9948
+VALID 0.65 {'f05': 0.9785762414729452, 'precision_micro': 0.9924349385636877, 'recall_micro': 0.9546906177157705, 'singleton_acc': 0.976952212104118, 'f05_India': 0.9751026229896983, 'f05_US': 0.9809031726962777}
+top features: [('p0', 43465575), ('p0_s1_gap_best', 4135209), ('num_jacc', 3103098), ('num_min_rel', 2637540), ('nf_ratio', 2450552), ('legal_eq', 1177141), ('q_nums_n', 1012309), ('s1_nums_n', 809482), ('num_first_eq', 754035), ('q_ncand', 743992), ('nc_len2', 718736), ('ac_tset', 655603), ('nc_tsort', 606343), ('ac_tsort', 560446), ('addr_tok_jacc', 557147), ('nc_jw', 556038), ('nc_tset', 543599), ('nc_partial', 512208), ('s1_nq', 457670), ('s1_name_cnt', 413665)]

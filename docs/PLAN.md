@@ -1,0 +1,27 @@
+# Improvement plan
+
+Last updated 2026-09-27. Gains are estimates on the public leaderboard (LB) unless marked "val".
+
+## Where the score can and cannot go
+
+- **The LB ceiling is about 0.9967.** Empty-address records are about 97.7% true matches, but when their name is shared by two or more Source-1 businesses nothing identifies the owner. Four ways of breaking the tie were tested; none helped. This costs about 0.0033 on the LB and 0.0057 on validation. Details: [analysis/2026-09-27-loss-analysis.md](analysis/2026-09-27-loss-analysis.md).
+- **Realistic target: about 0.989–0.990**, from about 0.9886 (v15, estimated). 0.999 is not reachable.
+
+## Steps
+
+| # | Step | Owner | Est. gain | Status |
+|---|---|---|---|---|
+| 1 | **v16**: India addressed no-candidate channel with a third retrieval method and retrained models. Recommended cutoff **0.7** rather than 0.6: val +0.00013 at precision 0.949, versus +0.00015 at 0.931. The test set has about 50% more decoy records than validation. | peer session (other machine) | +0.0001–0.0002 | In progress there; not on this machine |
+| 2 | **v17**: France number-missing rule, in `work/v17/` | this repo (2026-09-27) | +0.00004 | **Done.** Built and validated (`work/sub17_fr_on_v15/`). Too small for its own upload slot, so bundle it with the next change. Apply to any base with `python v17/build.py <base_dir> <out_dir> v17/fr_patch.parquet`. |
+| 3 | **Empty-address rescue v2** (`work/v10/resc2.py`): cover every empty-address record left unassigned. Features: legal-form match and the Source-1 business's addressed-match count. Strict cutoff. | next | +0.0001–0.0003 | Pairs built on 09-27; not trained yet |
+| 4 | Stage-2 features for empty-address name ties: legal-form match within the tied group, addressed-match count | open | +0.0001–0.0002 | Todo. 92% of these misses are genuine ties, so expect little. |
+| 5 | Stage-2 retrain and cutoff with decoy records upweighted to the test-set mix | open | +0.0001–0.0003 | Todo |
+| 6 | Reproducibility before the final zip. `src/india_addr.py` has PR_MIN=0.6 but loads the v15 models. `stage2.py` needs `feat_cache.py`, `samerule.py`, `dshift_v6k.py` and `v10/cascade_lists.py`, which live in `work/`; move them into `src/`. | whoever packages | required | Todo |
+
+## Tested and dropped (do not repeat)
+
+- **Filling in the missing French region from the city.** 32% of France Source-2/3 records have no region, but acceptance is the same with and without it (59.6% vs 59.5%).
+- **Breaking empty-address name ties** by addressed-match count, whether picking the most (worse than random) or the fewest (51% vs 47% random for two-way ties). A LightGBM resolver lowered F at every cutoff. Legal form is the best single signal (60%), and that is still not enough.
+- **Per-Source-1 expected-F0.5 decision rule:** −0.00015 val.
+- **France "equal house number, same name, same street" flips:** validation shows stage 2's rejections there are mostly right (flip precision 0–0.2 below p2 = 0.3).
+- **From the team notes:** per-country or per-segment thresholds (≤ +0.00006), phone numbers in names, entity ID order, mass-accepting French empty-address records (LB 0.850), bigger models (overfit), relaxed cutoff for siblings, spreading a match to identical names, letter case, US/India swaps of two real words.

@@ -1,0 +1,180 @@
+'my industries' | 'my industries' ['My Industries  Private Limited']
+     '3 p 6 1 3 huda trade center nallagandla serilingampally hyderabad'
+     '3 p hyderabad'
+'southern engineering' | 'sdrn imjnirimg' ['సదర్న్ ఇంజనీరింగ్']
+     'pent madhuranagar vishakhapatnam 49 24 63 visakhapatnam'
+     '49 24 63 kakinada'
+'best consultants' | 'best kmsltemts' ['बेस्ट कंसल्टेंट्स प्रा. लि.']
+     '107 ambala wholesale plaza kalk ambala city ambala'
+     '107 panchkula'
+'infra' | 'shreeinfra' ['Sri shreeinfra.com [#36979]']
+     'south 120 gidc phase 1 railway station road villgae dahej taluk vagra '
+     'plto south 120 bharuch'
+'global' | 'global' ['Global & Co Private Ltd']
+     'b 6 81 82 top sector 11 rohini sector 11 north west delhi north west d'
+     ''
+'global grand infrastructure' | 'global gerlld infrastructure' ['Global Gerlld Infrastructure Pvt. Ltd.']
+     'a 33 first dda colony new jaffrabad shahdara north east'
+     ''
+'shiva technologies' | 'shiva technologies' ['Shiva  Technologies']
+     '2 4th cross svs nagar valasaravakkam chennai'
+     '576 2 chennai'
+'my consulting' | 'my cinsultming' ['Dr My Cinsultming Private Limited']
+     '86 1 5 junction road kiff furniture gandh rajahmundry east godavari'
+     ''
+'bright software' | 'brait sophtveyr' ['ब्राइट सॉफ्टवेयर प्रा. लि.']
+     'patna ps kotwali 301 3rd silverwood appartment bandar bagicha gpo'
+     '6 44 301 patna ps kotwali'
+'prime all ventures' | 'praim al vemcrs' ['ప్రైమ్ ఆల్ వెంచర్స్ ప్రైవేట్ లిమిటెడ్']
+     '7 11 5 panthulugari meda street gajuwaka visakhapatnam visakhapatnam v'
+     'b3 7 11 5 visakhapatnam vishakhapatnam'
+'disha development' | 'vioarcvantage' ['Vioarcvantage']
+     '19 janata road new santoshpur kolkata howrah'
+     '19 kolkata region howrah'
+'rajasthan import' | 'riprivate' ['Smt RIPRIVATE.COM']
+     'office 6 ward 17 anand trucking campus tata show room panna khajuraho '
+     'office 6 chhatarpur'
+'surya investment' | 'surya surya service' ['Mr Surya Surya Service']
+     'b 1803 18th ebony block salarpuria sattva greenage bangalore bangalore'
+     ''
+'sunrise food' | 'snraij phud elelpi' ['సన్\u200cరైజ్ ఫుడ్ ఎల్\u200cఎల్\u200cపీ']
+     '5 8 45 14 kapra mandal kranthi royal gardens tirumalagiri hyderabad'
+     'hyderabad tirumalagiri 615 5 8 45 14'
+'vijay technology' | 'vijy teknoloji' ['विजय टेक्नोलॉजी प्राइवेट लिमिटेड']
+     'office 343 s2 tower 3rd cloud 9 vaishali ghaziabad'
+     'ghaziabad ofice 3 43'
+'mumbai contractors' | 'mumbai conbercnoos' ['Mumbai Conbercnoos Private Limited']
+     'building 13 shop 3 mhada residential complex oshiwara police stn lokha'
+     'building 13 mumbai city'
+'east agro' | 'east agro' ['EAST-LLP AGRO']
+     'sunder mohalla jagmohansaraswati vidya mandir chandusi moradabad'
+     ''
+'modern infra' | 'modrn imphra' ['मॉडर्न इंफ्रा प्राइवेट लिमिटेड']
+     'thane sector 8 36 37 sanpada shop 10'
+     'thane shpo 10'
+'international trading' | 'imtrnyasnl tredimg' ['ಇಂಟರ್\u200cನ್ಯಾಷನಲ್ ಟ್ರೇಡಿಂಗ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್']
+     '941 8th cross 13th main rmvextn bangalore rmvextn bangalore'
+     '941 bangalore bangalore'
+'good' | 'good' ['Good Co &']
+     '1st cross abbigere main road chikkabanavara bangalore rural bangalore '
+     ''
+'vision global' | 'vijn globl' ['विजन ग्लोबल']
+     'vasai 1 thane 204 2 wing b rashmi ustav thane jangid estate vijay park'
+     '209 1 vasai thane'
+'blue solutions' | 'blu solyusns' ['ಬ್ಲೂ ಸೊಲ್ಯೂಷನ್ಸ್ ಲಿಮಿಟೆಡ್']
+     '248 bangalore 4th sai shikha plaze defence colony indiranagar bangalor'
+     '248 bangalore'
+'classic consultants' | 'klasik knsltnts' ['ક્લાસિક કન્સલ્ટન્ટ્સ પ્રાઇવેટ લિમિટેડ']
+     '425 gala empire t v tower ahmadabad city ahmedabad'
+     '425 ahmedabad hq region ahmedabad'
+'jai care' | 'jai keyr' ['Jai केयर']
+     '585 new delhi south delhi basement z 93 defence colony'
+     '5 85 south delhi new delhi'
+'global investments' | 'global investments' ['Limited Global Investments Private']
+     '2 3 guruwar peth panch houd pune city pune'
+     '188 2 3 pune city pune'
+'black services' | 'blaik srvisej' ['ब्लैक सर्विसेज']
+     'f 13 first tdi fun republic moti nagar new delhi west delhi'
+     'block 388 f 13 new delhi west delhi'
+'ahmedabad electrical' | 'ahmedabad center' ['Ahmedabad Limited-Center']
+     'shop 27 uppar ground krishna complex model cinema gandhi road ahmedaba'
+     '27 ahmedabad'
+'royal projects' | 'royal projects' ['Mr ROYAL  PROJECTS LIMITED']
+     'office 2 2nd south 4 12 13 14 rucha building taluk mulshi punawale pun'
+     ''
+'blue investment' | 'blu investmemt' ['ब्लू इन्वेस्टमेंट प्राइवेट लिमिटेड']
+     '505 western edge 1 magathane flyover western express highway borivali '
+     'mumbai city 505 mumbai'
+'sg infomatics' | 'sg ifndftacs' ['Dr Sg Ifndftacs-Limited']
+     'shop 2 hill crest chs 16th road bandra west mumbai mumbai city'
+     'shtp 2 mumbai city mumbai'
+'baba infotech' | 'baba infotech' ['BABA INFOTECH PRIVATE LTD']
+     'b 6 panchvati 2 co operative housing society ltd raheja township malad'
+     ''
+'new aditya infotech' | 'nyu adity imphotek elelpi' ['न्यू आदित्य इंफोटेक एलएलपी']
+     '16 first back side mahindra park new delhi west delhi'
+     '16 west delhi new delhi'
+'maa agro' | 'maa agro' ['Maa Agro']
+     'rze 668 20a street 18ci sadh nagar palam colony new delhi south delhi'
+     ''
+'exports great technology' | 'exports girta technology' ['Exports Girta Technology Limited']
+     'arjun kaushik kh 4 village salarpur dadri gautam buddha nagar'
+     ''
+'green tech' | 'grin tek' ['ग्रीन टेक लिमिटेड']
+     'dwarikapuri lane jamna lal bajaj marg jaipur 19'
+     '149 19 jaipur'
+'sympathy charitable trust' | 'jaxvantage' ['Jaxvantage']
+     '31 community centre ashok vihar phase i new delhi'
+     '31 phase i north west'
+'services sai holdings' | 'services sai' ['Services Sai Limited']
+     'patra chawl 209 211 tardeo road grant road mumbai city mumbai 209'
+     ''
+'all' | 'all' ['>> ALL  &-CO']
+     '101 building 2 commercial building fp 166 sub way sv road andheri west'
+     '2 101 mumbai mumbai city'
+'delhi mahila' | 'delhi mabhsla' ['Limited Delhi Mabhsla']
+     '332 pocket ii mayur vihar phase 1 east delhi'
+     'east delhi 332'
+'ss marketing' | 'eses marketim praibhet' ['এসএস মার্কেটিং প্রাইভেট লিমিটেড']
+     'office 5 third milestone building sevoke road bhaktinagar thana siligu'
+     'office b3 5 darjeeling siliguri'
+'om infotech' | 'om infotech' ['om infotech pvt [ltd]']
+     'shop 2 94 chintawar cornor datta nagar road nanded'
+     ''
+'shyam marketing' | 'syam marketimg elelpi' ['श्याम मार्केटिंग एलएलपी']
+     '3rd nirlon drive annie besant road worli mumbai'
+     'mumbai 1'
+'sky management' | 'sky management center' ['M/s Sky Management Limited Center']
+     '294 crasto building 2nd drive h street marine lines mumbai'
+     ''
+'star trading' | 'star tredimg' ['स्टार ट्रेडिंग प्राइवेट लिमिटेड']
+     '1st atal path vivek nagar society east boringcanal road kolkata bazaar'
+     '1st patna'
+'baba properties' | 'babaproperties' ['Sri #babaproperties']
+     '22 temple town thiruneermalai main road chrompet chennai'
+     '22 chennai'
+'ha technologies' | 'htprivate' ['htprivate.com']
+     'village koila belwa tola koila belwa block kalyanpur east champaran ch'
+     'raj anand chakia east champaran'
+'service' | 'service' ['Shree Service-Private Limited']
+     '6 cbi colony 2nd main road kandanchavadi perungudi chennai'
+     '6 chennai'
+'shiv systems' | 'siv sistms' ['शिव सिस्टम्स प्राइवेट लिमिटेड']
+     '1 chinar florina estate wadgaon sheri sno 16 1 pune'
+     '1 chinar pune'
+'hotel tech' | 'hotl tek' ['होटल टेक प्राइवेट लिमिटेड']
+     'b 123 okhla industrial area phase i new delhi south delhi'
+     'b 23 new delhi south delhi'
+'atam gyan india' | 'atam gn india' ['Limited Atam Gn (India)']
+     'dassappa reddy complex sy 62 1 balagere road varthur sobha dream acre '
+     '574 office 12 bangalore'
+'surya consultants' | 'surya consultants peaivate' ['Surya Consultants Peaivate Limited']
+     'a 102 veena co op hsg soc ltd 120 veena apartment sejal park new link '
+     '491 a 102 mumbai city mumbai'
+'hari eastern engineering' | 'brixtavo' ['Brixtavo']
+     'b 330 332 khasra 39 7 ground vikas enclave landmark prem nagar new del'
+     'west delhi new delhi b 330'
+'future management' | 'phiucar myanejment praibhet' ['ফিউচার ম্যানেজমেন্ট প্রাইভেট লিমিটেড']
+     '60 1 12 pramathesh barua sarani ballygunge circular road ballygunge ko'
+     '60 1 5 kolkata howrah'
+'maa media' | 'mam midiya' ['मां मीडिया लिमिटेड']
+     '1 b 9 mumbai mumbai city geebee apartment saibaba nagar sv road boriva'
+     '8 1 b 9'
+'indo products' | 'indo service' ['Indo Private Limited Sérvice']
+     '23 surya kunj soc ankur road ghatlodia ahmedabad'
+     '23 ahmedabad'
+'unique enterprises' | 'iunik entarpraijes praibhet' ['ইউনিক এন্টারপ্রাইজেস প্রাইভেট লিমিটেড']
+     '41 chittaranjan avenue 2nd room 6 kolkata kolkata howrah'
+     'kolkata region 41'
+'dream engineering' | 'drim imjiniyrimg elelpi' ['ड्रीम इंजीनियरिंग एलएलपी']
+     'g 6 garden residence chunna bhatti sho huzur bhopal'
+     'bhopal huzur g 6'
+'madhav nath' | 'madhav partners' ['Madhav Private Limited Partners']
+     '10 b wing nityanand hall hingane khurd narayan complex lane 3 sinhg ad'
+     '10 pune'
+'fortune services' | 'phorcyun services' ['ફોર્ચ્યુન Services Limited']
+     'block 166 458 to 467 om textile park 3 village parab taluk a kamrej su'
+     'block 166 surat'
+'lotus estate' | 'lots estet' ['లోటస్ ఎస్టేట్ ప్రైవేట్ లిమిటెడ్']
+     '161 166 lcgc towers paigah colony sp road secunderabad hyderabad'
+     'hyderabad urban 1 61 166'

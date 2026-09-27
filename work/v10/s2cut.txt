@@ -1,0 +1,72 @@
+===== groupe 1497 acc 0.10554442217768871
+### Q: Pharmacie de Laval Groupe | 61 Rue Du Ha, Bordeaux, Nouvelle-Aquitaine
+    p=0.042 Pharmacie de Laval | Nouvelle-Aquitaine, Bordeaux, 61 Rue du Hâ
+### Q: Clinique Du Anciennes Groupe | 4 R. Ambroise Pré, Pessac, Nouvelle-Aquitaine
+    p=0.061 Clinique du Anciennes | 4 Rue Ambroise Paré, Pessac, Nouvelle-Aquitaine
+### Q: Fédération des Biarritz Groupe | 16 Place Du Général De Gaulle, Lille, Nord
+    p=0.022 Fédération des Biarritz | 16 Place du Général de Gaulle, Lille, Hauts-de-France
+### Q: Poursuite SARL Groupe | 14 RUE CAPITAINE NÉMO, NANTES
+    p=0.458 Poursuite Cie SARL | 14 Rue Capitaine Némo, Nantes, Pays de la Loire
+### Q: Comité de Evenements Groupe | 35 R DE TAUZIA, BORDEAUX, Nouvelle-Aquitaine
+    p=0.038 Comité de Evenements | 35 Rue de Tauzia, Bordeaux, Nouvelle-Aquitaine
+### Q: Clinique de la Dame Groupe | (20) Rue De Croy, Calais, Pas-de-Calais
+    p=0.027 Clinique de la Dame | Calais, 20 Rue de Croy, Hauts-de-France
+===== developpement 1646 acc 0.23207776427703525
+### Q: Développement Pietons Cie SARL | 276 Crs De L'argonne, Bordeaux
+    p=0.969 Pietons & Cie SARL | Bordeaux, 276 Cours de l'Argonne, Nouvelle-Aquitaine
+### Q: Publique Frères SAS Développement | 16 Rue Marechal Joffre, Nantes, Pays de la Loire
+    p=0.422 Publique & Frères SAS | Nantes, 16 RUE Marechal Joffre, Pays de la Loire
+### Q: EHPAD Louis Développement | 18 R Elsa Triolet, Saint-herblain
+    p=0.042 EHPAD Louis | 18 Rue Elsa Triolet, Saint-Herblain, Pays de la Loire
+### Q: COMITÉ DE SITE  DÉVELOPPEMENT | 79 BOULEVARD DE L’ATLANTIQUE PYLA, LA TESTE-DE-BUCH, Nouvelle-Aquitaine
+    p=0.642 Comité de Site | 79 Boulevard de l’Atlantique Pyla, La Teste-de-Buch, Nouvelle-Aquitaine
+### Q: Maison Beaux SASU Développement | 241 RUE PIERRE DE ROUBAIX, ROUBAIX, Nord
+    p=0.556 Maison Beaux SASU | 241 Rue Pierre de Roubaix, Roubaix, Hauts-de-France
+### Q: Maison Te  SAS Développement | # 5 Avenue Des Muriers, La Baule-escoublac
+    p=0.646 Maison Te SAS | Pays de la Loire, La Baule-Escoublac, 5 Avenue des Mûriers
+===== comite 160 acc 0.55
+### Q: Vieux Comite | 87 R. De La Pelouse De Douet, Bordeaux, Nouvelle-Aquitaine
+    p=0.999 Vieux Compagnie SARL | 87 RUE DE LA PELOUSE DE DOUET, Bordeaux, Nouvelle-Aquitaine
+    p=0.000 Full & Fils | 87 RUE de la Pelouse de Douet, Bordeaux, Nouvelle-Aquitaine
+    p=0.000 Recherche Comite SARL | 149 Rue de la Pelouse de Douet, Bordeaux, Nouvelle-Aquitaine
+    p=0.000 Irish Comite | 113 Rue de la Pelouse de Douet, Bordeaux, Nouvelle-Aquitaine
+    p=0.000 Bordeaux Comite SCI | 91 Rue de la Pelouse de Douet, Bordeaux, Nouvelle-Aquitaine
+### Q: Mediterraneenne Comite | 0045 Rue Mercure, Saint-herblain, Loire-Atlantique
+    p=1.000 Mediterraneenne Compagnie | 45 Rue Mercure, Saint-Herblain, Pays de la Loire
+### Q: Colombier Comite | 13 Rue Massena, Bordeaux, Nouvelle-Aquitaine
+    p=0.999 Colombier Compagnie SARL | Nouvelle-Aquitaine, Bordeaux, 13 Rue Massena
+    p=0.000 Colombe Comite | 117 Rue François de Sourdis, Bordeaux, Nouvelle-Aquitaine
+### Q: Culturiste Comite [SARL] | 74 RUE PASTUER, LILLE
+    p=0.967 Culturiste Compagnie SARL | 53 Rue Pasteur, Lille, Hauts-de-France
+### Q: SAS Lège-Cap-Ferret Comite | N° 7 IMP DU PIERRET, Lège-Cap-Ferret, Nouvelle-Aquitaine
+    p=0.999 Lège-Cap-Ferret Compagnie SAS | 7 Impasse du Pierret, Lège-Cap-Ferret, Nouvelle-Aquitaine
+    p=0.000 Lège-Cap-Ferret Sante SAS | 1 Impasse du Pierret, Lège-Cap-Ferret, Nouvelle-Aquitaine
+    p=0.000 Lège-Cap-Ferret Comite SA | 4 Avenue Duperré, Lège-Cap-Ferret, Nouvelle-Aquitaine
+### Q: ROUBAIX COMITE SAS | 19 Rue Cuvier, Roubaix, Nord
+    p=0.995 Roubaix Comite SAS | Roubaix, Hauts-de-France, 19 RUE Cuvier
+    p=0.024 Roubaix Compagnie | 19 RUE Cuvier, Roubaix, Hauts-de-France
+    p=0.000 Roubaix Comite SARL | 19 Rue d'Espagne, Roubaix, Hauts-de-France
+===== sportive 33 acc 0.30303030303030304
+### Q: Professionnel Sportive EURL | #110 Bd Des Belges, Nantes, Pays de la Loire
+    p=0.545 Professionnel Compagnie EURL | 110 BD des Belges, B31, Nantes, Pays de la Loire
+    p=0.000 Professionnelle Sportive EURL | 37 Rue des Rochettes, Nantes, Pays de la Loire
+### Q: SAS Ressortissants Sportive | 12 Rue De Budapest, Nantes, Loire-Atlantique
+    p=0.940 Ressortissants Compagnie SAS | 12 Rue de Budapest, Nantes, Pays de la Loire
+### Q: POTES SPORTIVE EURL | Tourcoing, 0017 Impasse Saint Louis 215 Rue Des Cinq Voies, Nord
+    p=0.965 Potes Compagnie EURL | 17 Impasse Saint Louis 215 Rue des Cinq Voies, Hauts-de-France, Tourcoing
+### Q: Chu Spôrtive EURL | 
+    p=0.084 Chu Compagnie EURL | 9 RUE Armand Carrel, Lycee Faidherbe, Lille, Hauts-de-France
+    p=0.000 Chu Sportive SAS | 5 Rue Beaumarchais, Tourcoing, Hauts-de-France
+    p=0.000 Chu Compagnie SAS | 1 RUE Rameau, Nantes, Pays de la Loire
+    p=0.000 XU Sportif EURL | 1 PL Deliot - Universite Droit Sante Lille II, Faculte des Sciences Jurid.Politi.Soci, Lille, Hauts-de-France
+### Q: Partage Sportive EURL | LA BAULE-ESCOUBLAC, Pays de la Loire, N° 32 AVNEUE FRANCOIS-RENE DE CHATEAUBRIAND
+    p=0.107 Partage Compagnie EURL | 32 Avenue François-René de Chateaubriand, La Baule-Escoublac, Pays de la Loire
+### Q: Terre (Sportive) | 111 R Pierre De Roubaix, Roubaix
+    p=0.686 Terre Compagnie | 111 Rue Pierre de Roubaix, Roubaix, Hauts-de-France
+    p=0.000 Terres Sportive | RUE Cugnot, 11, Roubaix, Hauts-de-France
+    p=0.000 Roubaix Sportive SAS | 111 Rue Pierre de Roubaix, Roubaix, Hauts-de-France
+PCUT=0: val 10.51/S1 true kept 858,051  F 0.98993 (US 0.99074 IN 0.98871)  test 13,187,937 pairs 7.612/S1
+PCUT=0.001: val 5.16/S1 true kept 858,021  F 0.98991 (US 0.99068 IN 0.98876)  test 6,909,690 pairs 3.988/S1
+PCUT=0.005: val 4.91/S1 true kept 857,915  F 0.98990 (US 0.99068 IN 0.98874)  test 6,617,591 pairs 3.820/S1
+PCUT=0.02: val 4.64/S1 true kept 857,185  F 0.98989 (US 0.99065 IN 0.98875)  test 6,370,804 pairs 3.677/S1
+PCUT=0.05: val 4.38/S1 true kept 855,407  F 0.98988 (US 0.99062 IN 0.98877)  test 6,188,253 pairs 3.572/S1

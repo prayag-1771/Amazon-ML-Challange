@@ -1,0 +1,60 @@
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:84: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  tc = x.select("s1_id", pl.col("tq").alias("tok")).explode("tok").drop_nulls().group_by("s1_id", "tok").len("ct")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:85: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  ga = (x.select("i", "s1_id", pl.col("add").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:87: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  gd = (x.select("i", "s1_id", "nx", pl.col("drop").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+t=0.6 base 0.98914 (US 0.98996 IN 0.98792)  stage2 0.98979 (US 0.99065 IN 0.98850)
+t=0.65 base 0.98925 (US 0.99005 IN 0.98804)  stage2 0.98987 (US 0.99071 IN 0.98862)
+t=0.7 base 0.98930 (US 0.99007 IN 0.98815)  stage2 0.98994 (US 0.99074 IN 0.98875)
+t=0.75 base 0.98928 (US 0.99005 IN 0.98812)  stage2 0.98990 (US 0.99066 IN 0.98877)
+t=0.8 base 0.98924 (US 0.98997 IN 0.98815)  stage2 0.98985 (US 0.99060 IN 0.98874)
+[('p', np.float64(4511869.0)), ('pb', np.float64(3509166.0)), ('pa', np.float64(942623.0)), ('ce_h', np.float64(47856.0)), ('ce_logit', np.float64(23162.0)), ('q_p2', np.float64(17643.0)), ('nrel_c', np.float64(12079.0)), ('q_n', np.float64(11204.0)), ('ce_h_gap', np.float64(8186.0)), ('q_gap_best', np.float64(6127.0)), ('s1_name_cnt', np.float64(6042.0)), ('nc_tset', np.float64(4073.0)), ('ac_tset', np.float64(3273.0)), ('s1_hi_same', np.float64(3058.0)), ('s1_gap_best', np.float64(3000.0)), ('s1_hi_other', np.float64(2002.0)), ('s1_n', np.float64(1790.0)), ('s1_hi_tot', np.float64(1486.0)), ('s1_mid_same', np.float64(1327.0)), ('s1_src_rank', np.float64(1290.0)), ('ce_h_rank', np.float64(1219.0)), ('drop_n', np.float64(1074.0)), ('q_rank', np.float64(1066.0)), ('alt_hi_same', np.float64(1055.0)), ('alt_hi_tot', np.float64(916.0)), ('add_n', np.float64(775.0)), ('sib_drop_min', np.float64(528.0)), ('s1_mid_other', np.float64(470.0)), ('src', np.float64(467.0)), ('sib_drop_max', np.float64(408.0)), ('sib_add_min', np.float64(229.0)), ('sib_add_max', np.float64(177.0)), ('q_nonascii', np.float64(146.0)), ('q_addr_empty', np.float64(113.0))]
+shift cap: 0 cells, 0 pairs rejected []
+per-country T: 0.98989 (US 0.99066 IN 0.98874)
++ shift cap: 0.98989 (US 0.99066 IN 0.98874)
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:84: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  tc = x.select("s1_id", pl.col("tq").alias("tok")).explode("tok").drop_nulls().group_by("s1_id", "tok").len("ct")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:85: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  ga = (x.select("i", "s1_id", pl.col("add").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:87: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  gd = (x.select("i", "s1_id", "nx", pl.col("drop").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+shift cap: 8 cells, 2,717 pairs rejected [('France', 'd3', 'chg', True, 1623, 17, 34), ('France', 'd3', 'same', False, 728, 176, 227), ('France', 'd2', 'chg', True, 229, 2, 12), ('France', 'd1', 'chg', True, 201, 5, 17), ('France', 'd2', 'same', False, 128, 37, 72), ('France', 'd3', 'chg', False, 116, 5, 16), ('France', 'd1', 'same', False, 110, 30, 57), ('France', 'd3', 'add', False, 31, 4, 14)]
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:233: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  st = s1.select("country", _tok("n1").alias("tok")).explode("tok").drop_nulls().group_by("country", "tok").len("s1f")
+variant vocab [('France', ['associes', 'developpement', 'fils', 'france', 'groupe', 'services']), ('India', ['center', 'partners', 'service', 'services']), ('US', ['center', 'partners', 'service', 'services'])]
+variant rule: 23,480 accepted, 8,725 rejected
+test: 6,909,690 candidates (3.99/S1), 5,812,059 matches, 123s
+E:\Programming\Amazon-ML-Challenge-2026\work\outchk.py:10: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  pairs = m.select(pl.col(idc).cast(pl.Utf8).alias("s1_id"), pl.col(lc).cast(pl.Utf8).str.split(",").alias("s23_id")).explode("s23_id").filter(pl.col("s23_id").str.len_chars() > 0)
+../output/matching_results.tsv pairs [('France', 855342), ('India', 2713094), ('US', 2243623)] excess [('France', -335.0), ('India', -880.0), ('US', 880.0)]
+E:\Programming\Amazon-ML-Challenge-2026\work\v12diff.py:5: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  return m.select(pl.col(m.columns[0]).alias("s1_id"),pl.col(m.columns[1]).str.split(",").alias("s23_id")).explode("s23_id").filter(pl.col("s23_id").str.len_chars()>0)
+vfix-only 3072 [(False, True, True, 1395), (True, False, True, 695), (True, True, True, 603), (False, False, True, 358), (False, True, False, 20), (True, False, False, 1)]
+  p2_11 mean 0.5722711167755582 p2_12 mean 0.4813474054651172 p2_12 null 0
+   (0.8669952617055999, 0.6068884912259688, 'nantes amis', '3', 'as', '3')
+   (0.9761378166827298, 0.9613319058580313, 'ecole maternelle notre', '2', 'ecole notre', '13')
+   (0.8216332546462328, 0.7457349965718901, 'kraken club', '6', 'miraectovera', '6')
+   (0.821137338820274, 0.6216293619682084, 'amicale ancolie', '22', 'amicale ancolie', '22')
+   (0.7721915413717397, 0.7358931633833788, 'nantes sportive', '28', 'nantes sportive', '28')
+   (0.7791310293605389, 0.5237844370834625, 'pessac comite', '4', 'pessac comite', '14')
+   (0.012002252211895477, 0.004552174702048636, 'concours culturelle', '17', 'concours associes', '17')
+   (0.010206683065870518, 0.0053011855517660494, 'cd services', '3', 'cd developpement', '3')
+   (0.7721049139712236, 0.6497099205458109, 'etablissements deleves', '16', 'etablissements deleves', '')
+   (0.8235973667312176, 0.709574512819653, 'baule escoublac service', '88', 'baule escoublac services', '')
+   (0.7725309268698605, 0.5853882205733933, 'bocca amicale', '22', 'drexkelocalo', '2')
+   (0.015617183831954954, 0.0055272300430276484, 'teste buch sportive', '19', 'teste buch developpement', '19')
+v12-only 1410 [(False, True, True, 594), (True, False, True, 367), (True, True, True, 299), (False, False, True, 150)]
+  p2_11 mean 0.5515995491669786 p2_12 mean 0.6276592147091481 p2_12 null 0
+   (0.6612586485788747, 0.7952666283024398, 'croix immobiliere', '16', 'ea', '16')
+   (0.0096224285632391, 0.02072457655156775, 'global energie', '33', 'global groupe', '33')
+   (0.7409789812776968, 0.8235394040689586, 'nantes ecole', '20', 'nantes ecole', '28')
+   (0.35513459155780136, 0.20842448735663288, 'institut noel', '', 'institut noel france', '')
+   (0.004735786941991056, 0.010774201420243075, 'lille patrimoine', '18', 'lille fils', '18')
+   (0.7225622828129453, 0.8215930038458122, 'mdo jeunes', '365', 'mdo jeunes', '365')
+   (0.6323518922937462, 0.7825732570076117, 'association graines', '8', 'association graines', '8')
+   (0.5928053163069573, 0.7818678009466877, 'mission freres', '9', 'mission freres', '9')
+   (0.7360559112239413, 0.7654664356608487, 'comite danimation', '5', 'comite danimation', '5')
+   (0.7340415884973663, 0.8437695376848849, 'sauvegarde lecole collectif', '9', 'sauvegarde lecole', '')
+   (0.7249411032366283, 0.7584425327841621, 'step club', '3', 'sclub', '3')
+   (0.7081061792386528, 0.8669985037938223, 'bde ecole', '32', 'bde ecole', '23')

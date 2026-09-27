@@ -1,0 +1,25 @@
+import sys; sys.path.insert(0,'../business_entity_resolution')
+import polars as pl
+from src.stage2 import _tok
+pl.Config.set_tbl_rows(40); pl.Config.set_fmt_str_lengths(40); pl.Config.set_tbl_width_chars(220)
+V=['fils','groupe','services','associes','developpement','france']
+exec(open('frcell.py').read().split("rows=[]")[0])
+def amb(split,d,s1,q):
+    d=prep(d.join(s1,on='s1_id').join(q,on='s23_id'))
+    d=d.filter((pl.col('na')==1)&(pl.col('nd')<=1))
+    return d.group_by('s23_id').agg(pl.len().alias('nalt'))
+s1,q=load('test')
+d=pl.read_parquet('test_scores_stage2_v15.parquet')
+A=amb('test',d,s1,q)
+t=pl.read_parquet('frcell_t.parquet').filter((pl.col('country')=='France')&(pl.col('na')==1)&(pl.col('nd')==1)).with_columns(pl.col('A').list.first().alias('at'),pl.col('D').list.first().alias('dt'))
+t=t.filter(pl.col('at').is_in(V)&~pl.col('dt').is_in(V)).join(A,on='s23_id',how='left')
+b=pl.col('p2').cut([.01,.1,.75],labels=['<.01','.01','.1','.75']).alias('b')
+print(t.group_by(b,'nalt').agg(pl.len(),pl.col('acc').mean().round(3)).sort('b','nalt'))
+t=t.join(d.select('s1_id','s23_id','p'),on=['s1_id','s23_id'])
+t=t.with_columns((pl.col('a1')==pl.col('aq')).alias('aeq'))
+print(t.group_by(b).agg(pl.len(),pl.col('p').median().round(3),(pl.col('p')>=.5).mean().round(3).alias('p5'),pl.col('aeq').mean().round(3),pl.col('perm').mean()).sort('b'))
+x=t.filter(pl.col('p2')<.01)
+print(x.group_by('at').len().sort('len',descending=True).rows())
+print(t.filter(pl.col('p2').is_between(.01,.1)).group_by('at').len().sort('len',descending=True).rows())
+pl.Config.set_tbl_rows(40)
+print(x.sample(40,seed=7).select('nq','n1','aq','a1',pl.col('p').round(3),pl.col('p2').round(4)))

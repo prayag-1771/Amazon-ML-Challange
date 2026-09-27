@@ -1,0 +1,25 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 3492.07it/s]
+  ce score [train]: 1,000,000/7,697,566 207s
+  ce score [train]: 2,000,000/7,697,566 484s
+  ce score [train]: 3,000,000/7,697,566 769s
+  ce score [train]: 4,000,000/7,697,566 1050s
+  ce score [train]: 5,000,000/7,697,566 1354s
+  ce score [train]: 6,000,000/7,697,566 1598s
+  ce score [train]: 7,000,000/7,697,566 1833s
+  ce score [train]: 7,697,566/7,697,566 1978s
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   7%|▋         | 15/201 [00:00<00:01, 143.80it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 1750.37it/s]
+  ce score [test]: 1,000,000/13,187,937 256s
+  ce score [test]: 2,000,000/13,187,937 616s
+  ce score [test]: 3,000,000/13,187,937 1042s
+  ce score [test]: 4,000,000/13,187,937 1436s
+  ce score [test]: 5,000,000/13,187,937 1656s
+  ce score [test]: 6,000,000/13,187,937 2167s
+  ce score [test]: 7,000,000/13,187,937 2606s
+  ce score [test]: 8,000,000/13,187,937 2945s
+  ce score [test]: 9,000,000/13,187,937 3146s
+  ce score [test]: 10,000,000/13,187,937 3356s
+  ce score [test]: 11,000,000/13,187,937 3678s
+  ce score [test]: 12,000,000/13,187,937 3968s
+  ce score [test]: 13,000,000/13,187,937 4261s
+  ce score [test]: 13,187,937/13,187,937 4314s

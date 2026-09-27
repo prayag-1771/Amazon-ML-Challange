@@ -1,0 +1,76 @@
+['s1_id', 's23_id']
+shape: (2, 3)
+┌──────────┬──────────────┬─────────┐
+│ country1 ┆ low_name_sim ┆ len     │
+│ ---      ┆ ---          ┆ ---     │
+│ str      ┆ f64          ┆ u32     │
+╞══════════╪══════════════╪═════════╡
+│ India    ┆ 0.036626     ┆ 3059843 │
+│ US       ┆ 0.017887     ┆ 4578522 │
+└──────────┴──────────────┴─────────┘
+shape: (25, 4)
+┌──────────────────────────────────────────────┬────────────────────────────────┬─────────────────────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────────────────┐
+│ business_name1                               ┆ business_name                  ┆ business_address1                                                       ┆ business_address                                                        │
+│ ---                                          ┆ ---                            ┆ ---                                                                     ┆ ---                                                                     │
+│ str                                          ┆ str                            ┆ str                                                                     ┆ str                                                                     │
+╞══════════════════════════════════════════════╪════════════════════════════════╪═════════════════════════════════════════════════════════════════════════╪═════════════════════════════════════════════════════════════════════════╡
+│ Eastern It Private Limited                   ┆ Pyraveo                        ┆ Flat No C74, S.No 721, 733, C.S.No 3295, Littile Hearts, Talegaon Dabh… ┆ Block A-808 Flat No C74, Maval, Pune, MH                                │
+│ Premier Team Private Limited                 ┆ Nylabelo                       ┆ 2 - 246, Kotha, Cherlopalli Near Anjaneyaswam, Tirupathi, Chittoor, An… ┆ 2 - 246, Kotha, Cherlopalli Near Anjaneyaswam, Tirupathi, Chittoor, An… │
+│ Tanner's Prime Health                        ┆ TANNERSPRIMEHEALTH.COM         ┆ 508 Macnary Road, New Windsor, NY                                       ┆ 08 MACNARY ROAD, PMB 9148, NEW WINDSOR, NY                              │
+│ East Consultants Private Limited             ┆ ईस्ट कंसल्टेंट्स प्राइवेट लिमिटेड       ┆ Unit 201, 2Nd Floor, Time Tower M.G. Road, Sector-28, Gurgaon, Gurgaon… ┆ Unit 201, 2Nd Floor, Time Tower M.g. Road, Sector-28, Gurgaon, Gurgaon… │
+│ Wallie Lozano, D.D.S. LLC                    ┆ wallielozanodds.com            ┆ 821 Martinez Spring Road, Bozeman, MT                                   ┆ 821 MARTINEZ SPRING RD, BOZEMAN, MT                                     │
+│ T 4 S Network Inc.                           ┆ T4s.Com                        ┆ Tijeras, NM, 25 Mustang Mesa Trail                                      ┆ New Mexico, 25 Mustang Mesa Trail, Tijeras                              │
+│ Life Consulting Private Limited              ┆ LC                             ┆ C/O Kishorilal Sharma, Noida, Gautam Buddha Nagar, Uttar Pradesh        ┆ C/O Kishorilal Sharma, Noida, Gautam Buddha Nagar, Uttar Pradesh        │
+│ Campos and Schell Pan P.C.                   ┆ Nylajaxumbra                   ┆ 18 Smithwheel Road, Unit Apartment 59, Old Orchard Beach, ME            ┆ 18 Smithwheel Road, Old Orchard Beach, Unit Apartment 59, ME            │
+│ Future International Private Limited         ┆ KELOZEPH                       ┆ C-307, Kailash Enclave, Sec-18, Vrindawan Yojna, Lucknow, Uttar Prades… ┆ NO. 282 C-307, KAILASH ENCLAVE, SEC-18, VRINDAWAN YOJNA, LUCKNOW, उत्त…  │
+│ Green Consultancy Limited                    ┆ ग्रीन कंसल्टेंसी लिमिटेड             ┆ Kh No-274, Lucknow, Uttar Pradesh, Atalpur I, Sector-2, Lane 2A, Luckn… ┆ KH NO-274, ATALPUR I, SECTOR-2, LANE 2A, LUCKNOW, null, उत्तर प्रदेश       │
+│ Cox Etf LLC                                  ┆ Arcdrex                        ┆ 49 Liberty Street, Donegal Township, PA                                 ┆ 49 Liberty St, West Alexander, Pennsylvania                             │
+│ Rideout Capital Partners PLLC                ┆ *** @rideoutcapital            ┆ 676 101st Street, Cleveland, OH                                         ┆ 676 101ST STREET, NULL, CLEVELAND, OH                                   │
+│ Kelly, Mcgill and Dennie Tire Shop           ┆ mdkélly.com                    ┆ 39 Tower Hill Road, Unit 15B, Barnstable, MA                            ┆ 39 TOWER HILL ROAD, OSTERVILLE, MA                                      │
+│ Secure Regional Ligand LLC                   ┆ secureregionalligand.com       ┆ 19109 14th Street, Independence, MO                                     ┆ 19109 FOURTEENTH ST, NULL, INDEPENDENCE, MO                             │
+│ My Food                                      ┆ ಮೈ ಫುಡ್                          ┆ C-71, Iii Stage, Peenya Industrial Estate, Peenya, Bangalore, Karnatak… ┆ C-##71, BANGALORE, ಕರ್ನಾಟಕ                                               │
+│ Industries Rashmi Yarn Private Limited       ┆ Drexyumacalo                   ┆ No.172, Karanthoor P O, Karanthur, Kozhikode, Mannur House, Kozhikode,… ┆ MANNUR HOUSE, KOZHIKODE, Keralam                                        │
+│ Internal Medicine Center of Herriman Town PC ┆ Rizasyn                        ┆ 5695 Plow Lane, Unit 304, Herriman Town, UT                             ┆ 5695 Plow Ln, # 304, Herriman Town, Utah                                │
+│ East Consultancy Private Limited             ┆ ईस्ट कंसल्टेंसी प्राइवेट लिमिटेड       ┆ Fl No 603, Sylvania, Bldg H, Magarpatta City, Hadapsar, Pune City, Pun… ┆ Fl No 603, Sylvania, Bldg H, Magarpatta City, Hadapsar, Pune City, Sas… │
+│ Lakshmi Producer Limited                     ┆ Véranyla                       ┆ H.No 8-2-293/82/A/1285/A, 4Th Floor Road No 1 & 64, Jubilee Hills, Hyd… ┆ No 8-2-293/82/A/1285/A, 4Th Floor Road No 1 & 64, Jubilee Hills, Hyder… │
+│ Tejansh Travels Private Limited              ┆ Korbelo                        ┆ Da 14 Salt Lake Citysector 1, Kolkata, North 24 Parganas, West Bengal   ┆ Da 14 Salt Lake Citysector 1, Kolkata, North 24 Parganas, West Bengal   │
+│ Hari Constructions Private Limited           ┆ हरि कंस्ट्रक्शंस प्राइवेट लिमिटेड      ┆ Plot No. D-24/25, Mangla Puri Village Palam Bagh Wala School, New Delh… ┆ HN 906 PLOT NO. D-24/25, SOUTH WEST DELHI, WEST DELHI, Delhi            │
+│ City Engineering Private Limited             ┆ সিটি ইঞ্জিনিয়ারিং প্রাইভেট লিমিটেড ┆ Kolkata, B T Road, Bonhooghly, West Bengal, 110/23A, Parganas North     ┆ 110/23A, B T Road, Bonhooghly, Calcutta, Parganas North, পশ্চিমবঙ্গ       │
+│ Hyma Software Limited                        ┆ Soldovaumbra                   ┆ C-206, Tower-C, Purva Heights, Bilekahalli, Bangalore South, Bangalore… ┆ NO. 320 C-206, TOWER-C, PURVA HEIGHTS, BILEKAHALLI, BANGALORE SOUTH, B… │
+│ Golden Constructions Private Limited         ┆ गोल्डन कंस्ट्रक्शंस प्राइवेट लिमिटेड    ┆ A 205 Gandharva Society Omega Sector 1, Greater Noida, Gautam Buddha N… ┆ PLOT 572 A 205 GANDHARVA SOCIETY OMEGA SECTOR 1, N/A, GAUTAM BUDDHA NA… │
+│ Red Polytechnic                              ┆ Umbraveo                       ┆ C/O-Krishna Chandra Mandal, Supermarket Chinsurah Station Road, Po-Chi… ┆ C/O-KRISHNA CHANDRA MANDAL, SUPERMARKET CHINSURAH STATION ROAD, PO-CHI… │
+└──────────────────────────────────────────────┴────────────────────────────────┴─────────────────────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────────────────┘
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: ONE  TECH
+S1-786121005 | Eastern Care Private Limited | Q: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ് | sib: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ്
+S1-767523798 | Golden Wholesale Technologies Inc | Q: wtgolden.com (ID: 14607) | sib: INC GOLDEN WHLEAHE TECHNOLOGIES
+S1-54486754 | Patriot Learning Center | Q: Nylakorxylo | sib: Patriot  Learning Center Corp
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: प्रीमियर इंफ्रास्ट्रक्चर प्राइवेट लिमिटेड
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: प्रीमियर इंफ्रास्ट्रक्चर प्राइवेट लिमिटेड
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: Premier Itlrastructuer Private Limited
+S1-54486754 | Patriot Learning Center | Q: Nylakorxylo | sib: Patriot Cénter Learning
+S1-54486754 | Patriot Learning Center | Q: Nylakorxylo | sib: CHTNR LEARNING PATRIOT
+S1-782190497 | Little Ice Cream | Q: Solpyraavi | sib: LITTLE ICE CNM
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: ஒன் டெக் பிரைவேட் லிமிடெட்
+S1-54486754 | Patriot Learning Center | Q: Nylakorxylo | sib: Patriot Learning Center Inc.
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: Smt otprivate.com
+S1-789959318 | Blue Beacon Rice | Q: Zetadrextav0 | sib: Zetadrextav0
+S1-786121005 | Eastern Care Private Limited | Q: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ് | sib: Private Eastern Care Limited
+S1-304249169 | Bontrager Choice Mitsui Inc | Q: Veraevo | sib: Veraevo
+S1-767523798 | Golden Wholesale Technologies Inc | Q: wtgolden.com (ID: 14607) | sib: wtgolden.com (ID: 14607)
+S1-767523798 | Golden Wholesale Technologies Inc | Q: wtgolden.com (ID: 14607) | sib: Golden Wholesale Inc  Technologies
+S1-782190497 | Little Ice Cream | Q: Solpyraavi | sib: Arianovi+ a/k/a Little Ice Cream
+S1-786121005 | Eastern Care Private Limited | Q: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ് | sib: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ്
+S1-789959318 | Blue Beacon Rice | Q: Zetadrextav0 | sib: Rice Baecn Blue
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: प्रीमियर इंफ्रास्ट्रक्चर प्राइवेट लिमिटेड
+S1-54486754 | Patriot Learning Center | Q: Nylakorxylo | sib: Nylakorxylo
+S1-786121005 | Eastern Care Private Limited | Q: ഈസ്റ്റേൺ കെയർ പ്രൈവറ്റ് ലിമിറ്റഡ് | sib: Smt Eastern Care  Private Limited
+S1-782190497 | Little Ice Cream | Q: Solpyraavi | sib: Solpyraavi
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: PI
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: Dr One Th Private Limited
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: ஒன் டெக் பிரைவேட் லிமிடெட்
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: ஒன் டெக் பிரைவேட் லிமிடெட்
+S1-466384833 | One Tech Private Limited | Q: Smt otprivate.com | sib: One Tech Private
+S1-727749839 | Premier Infrastructure Private Limited | Q: PI | sib: प्रीमियर इंफ्रास्ट्रक्चर प्राइवेट लिमिटेड
+S1-789959318 | Blue Beacon Rice | Q: Zetadrextav0 | sib: Blue Beacon  Rice
+S1-304249169 | Bontrager Choice Mitsui Inc | Q: Veraevo | sib: Bontrager Cnorice Mitsui Inc
+S1-304249169 | Bontrager Choice Mitsui Inc | Q: Veraevo | sib: bontragerchoicemitsui.com

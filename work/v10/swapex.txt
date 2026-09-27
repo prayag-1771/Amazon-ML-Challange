@@ -1,0 +1,85 @@
+===== fils 17331 acc 0.886965553055219 da_len [(0, 3544), (1, 13716), (2, 70), (4, 1)] db_len [(0, 1163), (1, 16163), (2, 5)]
+  p=0.991 S1: ZIR Maison SARL | 24 RUE de Tregey, Bordeaux, Nouvelle-Aquitaine
+          Q: ZIR SARL & Fils | 24 R. De Tregey, Bordeaux, Gironde
+  p=0.049 S1: Saint-Nazaire Comite SARL | 29 Avenue des Sports, Saint-Nazaire, Pays de la Loire
+          Q: Saint-Nazaire  SARL Et Fils | Avenue Des Sports, Saint-nazaire, Loire-Atlantique
+  p=0.139 S1: Association du Gallia | 31 RUE de lHeronniere, Nantes, Pays de la Loire
+          Q: ASSOCIATION DU GALLIA ET FILS | 
+  p=0.996 S1: Chasse Gestion (France) SAS | 17 Avenue du Général Leclerc, Pessac, Nouvelle-Aquitaine
+          Q: Chasse (France) SAS  Et Fils | 0017 Av Du General Leclerc, Nouvelle-Aquitaine, Pessac
+  p=1.000 S1: Accordeon & Frères SA | 47 Rue de Monterey, Pessac, Nouvelle-Aquitaine
+          Q: Accordeon &  SA & Fils | PESSAC, 0047 RUE DE MONTEREY
+  p=1.000 S1: Velo & Fils SARL | 37 Rue du Maréchal Lyautey, Calais, Hauts-de-France
+          Q: Velo & | Calais, 37 Rue Du Maréchal Lyautey
+  p=1.000 S1: Ets Viet SARL | 28 Rue de Pontoise, Tourcoing, Hauts-de-France
+          Q: Ets Viet SARL Et Fils | Tourcoing, N° 28 Rue De Pontoise
+  p=1.000 S1: What & Fils | 4 Avenue du Kurun, Saint-Herblain, Pays de la Loire
+          Q: What &-Fmgs | Avenue Du Kurun, Saint-herblain
+===== services 10275 acc 0.8404866180048661 da_len [(0, 2183), (1, 7982), (2, 110)] db_len [(0, 114), (1, 10159), (2, 2)]
+  p=1.000 S1: Saint-Nazaire Transports SAS | 3 Allée des Pluviers, Saint-Nazaire, Pays de la Loire
+          Q: Saint-Nazaire SAS Services | 3 All. Des Pluviers, St.-nazaire
+  p=1.000 S1: Beaumetz Havre Musique SAS | 32 Rue Guillaume Apollinaire, Calais, Hauts-de-France
+          Q: Beaumetz Havre SAS Services | 32 Rue Guillaume Apollinaire, Calais
+  p=1.000 S1: Centre Hospitalier Lyons | 5 Rue Frédéric Dard, Pessac, Nouvelle-Aquitaine
+          Q: Centre Lyons Services | 5 RUE FRÉDÉRIC DARD, PESSAC, Gironde
+  p=1.000 S1: Ama Local Club SAS | 158 Boulevard de Reims, Roubaix, Hauts-de-France
+          Q: Ama Local SAS Services | (158) Boulevard De Reims, Roubaix
+  p=1.000 S1: Miss Services SARL | 13 Avenue des Martyrs, Hauts-de-France, Lille
+          Q: Miss Servictles SARL | NO 13 AV DES MARTYRS, LILLE
+  p=1.000 S1: Chevreuse Cuir Cie SAS | 299 Boulevard Jean-Jacques Bosc, Bordeaux, Nouvelle-Aquitaine
+          Q: Chevreuse Cuir SAS Services | Nouvelle-Aquitaine, 299 Boulevard Jean-jacques Bosc, Bordeaux
+  p=1.000 S1: Organisation Collectif SAS | 8 Avenue des Cardinaux, Nantes, Pays de la Loire
+          Q: Organisation SAS Services | 8 Avenue Des Cardinaux, Nantes, Loire-Atlantique
+  p=1.000 S1: EHPAD Pierre | 266 Le Bois d' Achelles, Tourcoing, Hauts-de-France
+          Q: Ehpad Pierre Services | 266 Le Bois D' Achelles, Tourcoing, Nord
+===== france 14037 acc 0.7334900619790553 da_len [(0, 2281), (1, 11712), (2, 43), (4, 1)] db_len [(0, 2828), (1, 11018), (2, 191)]
+  p=1.000 S1: Bp Groupement (France) EURL | 40 Rue Jean-Jacques Rousseau, Lille, Hauts-de-France
+          Q: Bp Groupement EURL Cie | 0040 Rue Jean-jacques Rousseau, Lille
+  p=1.000 S1: Saad Club (France) SAS | Pessac, Nouvelle-Aquitaine, 30 Rue Aliénor d'Aquitaine
+          Q: Saad Club SAS Services | No 30 Rue Aliénor D'aquitaine, Pessac
+  p=0.983 S1: Douvrin Records Federation SAS | 25 ter RUE du Cardinal Richaud, Bordeaux, Nouvelle-Aquitaine
+          Q: Douvrin Records SAS France | 25 TER RUE DU CARDINAL RICHAUD, BORDEAUX, Gironde
+  p=1.000 S1: Buggy Ecole (France) SARL | 54 Rue du Hamel, Bordeaux, Nouvelle-Aquitaine
+          Q: Buggy Ecole | R. Du Hamel, Bordeaux, Nouvelle-Aquitaine
+  p=1.000 S1: Petanque Amis (France) | 13 Place de la République, Tourcoing, Hauts-de-France
+          Q: Petanque Amis | 13 PLACE DE LA RÉPUBLIQUE, TOURCOING
+  p=0.932 S1: Cours Yves Amicale SA | 180 Rue Eugène Freyssinet, La Teste-de-Buch, Nouvelle-Aquitaine
+          Q: Cours Yves SA France | 180 Rue Eugène Freyssinet, La Teste-de-buch
+  p=1.000 S1: Aperos Amicale (France) SARL | 10 ter Avenue Aristide Briand, Pessac, Nouvelle-Aquitaine
+          Q: Aperos Amicale (Fbrnace) SARL | 10 Ter Avenue Aristide Briand, Pessac, Gironde
+  p=0.490 S1: École primaire de Marie | 8 RUE Rene Dumont, Nantes, Pays de la Loire
+          Q: école De Marie France | 8 Rue Rene Dumoit, Nantes, Pays de la Loire
+===== amicale 10409 acc 0.6243635315592276 da_len [(0, 70), (1, 10239), (2, 99), (3, 1)] db_len [(0, 933), (1, 9471), (2, 5)]
+  p=0.905 S1: Sexuelle Amicale SASU | 5 BIS Rue Denis Papin, Saint-Nazaire, Pays de la Loire
+          Q: Sexuelle Comite SASU | 5 B Rue Denis Papin, Saint-nazaire, Loire-Atlantique
+  p=0.985 S1: Pu Patrimoine | 8 Avenue François Broussais, Nantes, Pays de la Loire
+          Q: Pu Amicale | 8 Avenue François Broussais, Nantes
+  p=0.040 S1: Filipe Collège EURL | 11 Rue Charles Quint, Lille, Hauts-de-France
+          Q: Filipe Amicale EURL | 24 RUE CHARLES QUINT, LILLE, Nord
+  p=0.996 S1: Calais Amicale EURL | 15 Rue Watt, Calais, Hauts-de-France
+          Q: Calais EURL Et Fils | 15 R Watt, Calais
+  p=1.000 S1: Raroia Musik Amicale SAS | 15 Avenue de l'Alouette, Mérignac, Nouvelle-Aquitaine
+          Q: Raroia (Musik) | 15 AVENUE DE L'ALOUETTE, MÉRIGNAC
+  p=0.466 S1: EJ Amicale SARL | 17 Rue Marcelin, Bordeaux, Nouvelle-Aquitaine
+          Q: EJ | 17 Rue De Cestas, Bordeaux, Gironde
+  p=0.999 S1: Pessac Amicale SARL | 9 Rue Irène Et Frédéric Joliot-Curie, Pessac, Nouvelle-Aquitaine
+          Q: Pessac  Amicnle SARL | N°9 R Irène Et Frédéric Joliot-curie, Pessac
+  p=0.997 S1: Ailes Ecole EURL | 3 Rue Robespierre, Lille, Hauts-de-France
+          Q: Ailes Amicale  EURL | 3 R Robespierre, Lille, Nord
+===== club 17696 acc 0.6244349005424955 da_len [(0, 116), (1, 17402), (2, 178)] db_len [(0, 1858), (1, 15816), (2, 20), (3, 2)]
+  p=0.992 S1: Quais Club SARL | 59 Avenue Louis Barthou, Bordeaux, Nouvelle-Aquitaine
+          Q: Quais SARL & Fils | 59 Avenue Louis Barthou, Bordeaux
+  p=1.000 S1: Deco Expressions Club SAS | 15 RUE Sainte Therese, Bordeaux, Nouvelle-Aquitaine
+          Q: Deco [Expressions] | 15 Rue Saitne Therese, Bordeaux, Nouvelle-Aquitaine
+  p=1.000 S1: Rue Compassion Club SARL | 14 Rue de l'Ouche Cormier, Nantes, Pays de la Loire
+          Q: RUE COMPASSION | 14 RUE DE L'OUCHE CORMIER, NANTES
+  p=0.048 S1: Ii Bout Club SAS | 404 bis Rue des 3 Pierres, Tourcoing, Hauts-de-France
+          Q: II BOUT COMITE SAS | 425 Bis R Des 3 Pierres, Tourcoing
+  p=0.267 S1: Uck (France) Club SARL | 1 RUE de Mulhouse, Appartement 07, Lille, Hauts-de-France
+          Q: Uck (France) Primaire Sàrl | LILLE, Hauts-de-France, (1) RUE DE MUOHOUSE, APPT 07
+  p=0.993 S1: RB Club | 84 Rue Bel Air, Dunkerque, Hauts-de-France
+          Q: RB Groupe | N° 84 Rue Bel Air, Dunkerque, Nord
+  p=0.944 S1: Pui Club SAS | 39 Avenue de la République, Lille, Hauts-de-France
+          Q: Pui Cb SAS | 
+  p=0.461 S1: Askell Ehpad SARL | 21 Rue de la Béraudière, Nantes, Pays de la Loire
+          Q: Askell Club SARL | 21 R De La Béraudière, Nantes, Pays de la Loire

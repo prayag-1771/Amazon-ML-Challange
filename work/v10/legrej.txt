@@ -1,0 +1,124 @@
+
+## S1 GU Élémentaire | 40 Rue Alsace Lorraine, Dunkerque, Hauts-de-France
+  REJ p=0.98 p2=0.31 ceh=-1.880859375  GU Élémentaire SASU | DUNKERQUE, 40 RUE ALSICE LORRAINE
+     sib p2=1.00 Gu-élémentaire | 40 R. Alsace Lorraine, Hauts-de-France, Dunkerque
+     sib p2=1.00 GU Élémentaire | 40 Rue Alsaue Lorraine, Dunkerque, Hauts-de-France
+     sib p2=1.00 GU Élémèntaire | DUNKERQUE, 40 RUE ALSACE LORRAINE
+     sib p2=1.00 GU Élémèntaire | DUNKERQUE, 40 R. ALSACE LORRAINE
+     sib p2=1.00 GU Élémentaire | 40 RUE ALSACE LORRAINE, DUNKERQUE
+
+## S1 DL Santé | 1 Rue de la Hautière, Nantes, Pays de la Loire
+  REJ p=1.00 p2=0.63 ceh=-2.3515625  DL Santé SASU | 1 R De La Hautiere, Pays de la Loire, Nantes
+     sib p2=1.00 DL [Santé] | 1 R. De La Hautière, Nantes, Pays de la Loire
+     sib p2=1.00 DL Sntné | 1 R De La Hautière, Nantes, Pays de la Loire
+     sib p2=0.01 DL Centre | 5 R. DE LA HAUTIERE, NANTES, Pays de la Loire
+     sib p2=0.00 DL Santé EURL | 5 R. De La Hautière, Nantes, Pays de la Loire
+
+## S1 Collège Notre | 24 Rue de Florence, Roubaix, Hauts-de-France
+  REJ p=0.04 p2=0.00 ceh=-7.5625  S.A.R.L. Collège de Notre | # 24 Rue De Tunis, Roubaix, Nord
+     sib p2=1.00 COLLÈGE NOTRE | 24 R De Florence, Roubaix
+     sib p2=1.00 Collège Nôtre | 24 Rue De Florence, Roubaix
+     sib p2=1.00 Collège Notre +  Fils | 24 Rue De Florence, Roubaix
+     sib p2=1.00 Collège Notre SAS | 24 Rue De Florence, Roubaix
+     sib p2=1.00 collgenotre.com | 24 Rue De Florence, Roubaix
+
+## S1 Comité de Honda | 19 Boulevard de la Liberté, Nantes, Pays de la Loire
+  REJ p=0.99 p2=0.40 ceh=-3.537109375  Comité de  Honda SASU | 19 Boluevard De La Liberté, Nantes, Pays de la Loire
+     sib p2=1.00 COMITÉ DE [HONDA] | 19 BD. DE LA LIBERTÉ, NANTES, Pays de la Loire
+     sib p2=0.88 Comité De Honda SASU | 19 Boulevard De La Liberte, Nantes, Pays de la Loire
+     sib p2=0.01 Comité Honda [Sarl] | 21 Boulevard De La Liberté, Nantes, Loire-Atlantique
+     sib p2=0.00 Comité dé Honda International | 21 BD. DE LA LIBERTÉ, NANTES, Loire-Atlantique
+
+## S1 Collège de Futurs | Dunkerque, 14 Rue Albert Sauvage, Hauts-de-France
+  REJ p=0.99 p2=0.72 ceh=-3.16015625  Collège De Futurs (EURL) | 014 Rue Albert Sauvage, Dunkerque, Hauts-de-France
+     sib p2=1.00 Collège de-Futurs | Nord, 0014 R ALBERT SAUVAGE, DUNKERQUE
+     sib p2=1.00 Collège | 14 Rue Albert Sauvage, Dunkerque, Hauts-de-France
+     sib p2=0.00 Futurs de Jeunes | 25 R Albcrt Sauvage, Dunkerque, Hauts-de-France
+
+## S1 Lycée Pompes | 1751 Rue du Banc Vert, Dunkerque, Hauts-de-France
+  REJ p=0.99 p2=0.73 ceh=-1.83984375  Lycée Pompes (EURL) | 1751 RUE DU BANC VERT, DUNKERQUE, Nord
+     sib p2=1.00 Lycée  Pompes | 1751 R. Du Banc Vert, Dunkerque, Hauts-de-France
+     sib p2=1.00 Lycée Pompes | 1751 R. DU BANC VERT, DUNKERQUE, Nord
+     sib p2=0.00 pompes lycée holding | 1758 Rue Du Banc Vert, Dunkerque, Hauts-de-France
+
+## S1 Aubin (France) Service | 22 Rue Edmond Rostand, Pessac, Nouvelle-Aquitaine
+  REJ p=0.99 p2=0.21 ceh=-4.83984375  Aubin (France) Service SASU | 22 R. EMDOND ROSTAND, PESSAC
+     sib p2=0.00 SAS Aubin (France) Service | 33 Rue Edmond Rostand, Pessac, Gironde
+
+## S1 ZMH Comite | Pays de la Loire, Maison des Sports, 44 RUE Romain Rolland, Nantes
+  REJ p=0.94 p2=0.12 ceh=-6.33984375  ZMH Comite SASU | 44 R Rotain Rolland, Nantes, Pays de la Loire
+     sib p2=1.00 ZMH Comite | 44 Rue Romain Rolland, Nantes, Pays de la Loire
+     sib p2=1.00 zmh comite | 44 R Romain Rolland, Maison Des Sports, Nantes, Pays de la Loire
+     sib p2=1.00 zmh comite | RUE ROMAIN ROLLAND, NANTES, Pays de la Loire
+     sib p2=1.00 ZMHCOMITE.COM | R. ROMAIN ROLLAND, MAISON DES SPORTS, NANTES, Pays de la Loire
+     sib p2=1.00 ZMH COMITE-EURL | RUE ROMAIN ROLLAND, MAISON DES SPORTS, NANTES, Pays de la Loire
+
+## S1 Centre Hospitalier Georges | 2 Rue Jean Vermeer, Dunkerque, Hauts-de-France
+  REJ p=1.00 p2=0.65 ceh=-5.06640625  Centre Hospitalier  Georges SASU | Dunkerque, Nord, 2 Rue Jean Vermeer
+     sib p2=1.00 Centre Hospitalier Georges | 2 RUE JEAN VERMEER, DUNKERQUE, Nord
+     sib p2=1.00 Centre Hospitalier Georges | 2 RUE JEAN VERMEER, DUNKERQUE, Nord
+     sib p2=1.00 centre hospitalier georges | 2 Rue Jean Vermeer, Dunkerque, Nord
+     sib p2=0.00 Section Georges | Dunkerque, 6 Rue Jean Vermeer, Nord
+     sib p2=0.00 Centre Hospitalier Georges International | DUNKERQUE, Nord, 6 RUE JEAN VERMEER
+
+## S1 Association des Cavaliers | 14 Rue de la Fontaine aux Bretons, Pornic, Pays de la Loire
+  REJ p=0.99 p2=0.64 ceh=0.1575927734375  Association des Cavaliers  SASU | (14) RUE DE LA FONTAINE AUX BRETONS, PORNIC, Pays de la Loire
+     sib p2=0.00 Lilian-Club SAS Développement | (14) R. DE LA FONTAINE AUX BRETONS, Pays de la Loire, PORNIC
+     sib p2=0.00 Association des Cavaliers Développement | 21 R De La Fontaine Aux Bretons, Pornic, Pays de la Loire
+     sib p2=0.00 Association des Cavaliers Groupe EURL | 21 R. De La Fontaine Aux Bretons, Pornic, Pays de la Loire
+
+## S1 Association des Classe | 4 E Rue Virginie Ghesquière, Lille, Hauts-de-France
+  REJ p=0.92 p2=0.65 ceh=-0.8486328125  Association des Classe SASU | 4e R. Virginie Ghesquière, Lille
+     sib p2=1.00 Association des Classe | 4e Rue Virginie Ghesquière, Lille
+     sib p2=1.00 Association des Classe EURL | 4 E RUE VIRGINIE GHESQUIÈRE, Nord, LILLE
+     sib p2=0.88 Association des Classe [France] | Lille, 4 E R. Virginie Ghesquiere
+     sib p2=0.00 Association des Classe Holding | LILLE, Hauts-de-France, 11 E RUE VIRGINIE GHESQUIERE
+     sib p2=0.00 Association des Classe Distribution | 11e Rue Virginie Ghesquiere, Lille, Nord
+
+## S1 Anjou Comite | 62 Rue Nabuchodonosor, Roubaix, Hauts-de-France
+  REJ p=0.99 p2=0.56 ceh=-2.642578125  Anjou Comite SASU | 62 - R NBUCHODONOSOR, ROUBAIX, Nord
+     sib p2=1.00 Anjou Comite | 62 R Nabuchodonosor, Roubaix
+     sib p2=0.99 AC | 62 - RUE NABUCHODONOSOR, Roubaix, Nord
+     sib p2=0.98 Korveraorbi | 62 - RUE NABUCHODONOSOR, Nord, Roubaix
+     sib p2=0.00 Anjou Comite  Participations | 66 Rue Nabuchodnosor, Roubaix
+
+## S1 Creative Maison | 41 Rue des Omnibus, Hauts-de-France, Tourcoing
+  REJ p=0.99 p2=0.63 ceh=-3.203125  Creative Maison SASU | No 41 Rue Des Omnibus, Tourcoing, Nord
+     sib p2=0.00 Holding Maison Creative | 54 Rue Des Omnibus, Tourcoing
+
+## S1 Centre Hospitalier du Comice | 20 Rue Laroche, Bordeaux, Nouvelle-Aquitaine
+  REJ p=0.99 p2=0.38 ceh=-0.6884765625  Centre Hospitalier du Comice SCI | (20) Rue Laroche, Bordeaux
+     sib p2=1.00 Centre  Hospitalier du Comice | (20) Rue Laroche, Bordeaux
+     sib p2=0.06 CC | 1 R. Laroche, Bordeaux, Nouvelle-Aquitaine
+     sib p2=0.00 Centre du Comice  SARL Et Fils | 31 R LAROCHE, BORDEAUX
+
+## S1 HK Parents | 25 D Rue Bellevue, Pessac, Nouvelle-Aquitaine
+  REJ p=1.00 p2=0.59 ceh=-1.5400390625  HK Parents SCI | Gironde, PESSAC, 25 D R. BELLEVUE
+     sib p2=1.00 HK Parents | 25 D RUE BELLEVUE, PESSAC, Gironde
+     sib p2=1.00 HK Parents | 25D RUE BELLEVUE, PESSAC, Gironde
+     sib p2=1.00 Arcveo F/K/A HK Parents | Pessac, 25 D Rue Bellevue, Nouvelle-Aquitaine
+     sib p2=1.00 HK Parents | 25d R Bellevue, Pessac
+     sib p2=1.00 parentshk.com | Gironde, 25D R. BELLEVUE, Pessac
+
+## S1 Tourisme Club | 8 Rue Louis Loucheur, Nantes, Pays de la Loire
+  REJ p=0.99 p2=0.69 ceh=-3.548828125  Tourisme Club SASU | 8 R Louis Loucheur, Nantes
+     sib p2=1.00 Tourisme Club | 8 R. Luis Loucheur, Nantes
+     sib p2=1.00 Tourisme Club | 8 RUE LOUIS LOUCHEUR, NANTES, Pays de la Loire
+     sib p2=1.00 Tourisme Club SARL | 8 R LOUIS LOUCHEUR, NANTES, Pays de la Loire
+     sib p2=0.00 Club Tourisme SA | 21 Rue Louis Loucheur, Nantes, Loire-Atlantique
+     sib p2=0.00 Tourisme-Club (France) | 21 Rue Louis Loucheur, Nantes, Loire-Atlantique
+
+## S1 Fédération du Departemental | 19 Boulevard de la Louëtrie, Nantes, Pays de la Loire
+  REJ p=0.95 p2=0.52 ceh=-0.9345703125  Fédération du Departemental  SASU | 19 BLVD DE LA LOUËTREI, NANTES, Pays de la Loire
+     sib p2=1.00 Fédération Departemental dû | 19 BOULEVARD DE LA LOUETRIE, NANTES, Pays de la Loire
+     sib p2=1.00 Fédération du Departemental | 19 Bd. De La Louetrie, Nantes, Pays de la Loire
+     sib p2=1.00 Fédération du Departemental SAS | 19 BOULEVARD DE LA LOUËTRIE, NANTES, Pays de la Loire
+     sib p2=0.00 Fédération Du Departemental International | 28 BOULEVARD DE LA LOUËTRIE, NANTES, Pays de la Loire
+
+## S1 Collège de la Pierre | 34 Rue de la Colline, Dunkerque, Hauts-de-France
+  REJ p=0.99 p2=0.69 ceh=-4.828125  Collège De La Pierre SASU | Dunkerque, 34 Rue De La Colline, Nord
+     sib p2=1.00 Collège de la Pîerre | 34 RUE DE LA COLLINE, DUNKERQUE
+     sib p2=1.00 collgedela.com | 34 R. De La Colline, Dunkerque, Nord
+     sib p2=0.36 COLLÈGE DÈ LA PIERRE | 
+     sib p2=0.18 Collège de la Pierre | 
+     sib p2=0.06 COLLÈGE  PIMERHE | 

@@ -1,0 +1,2 @@
+shift cap: 8 cells, 2,977 pairs rejected [('France', 'd3', 'chg', True, 1720, 16, 33), ('France', 'd3', 'same', False, 814, 183, 235), ('France', 'd2', 'chg', True, 249, 1, 9), ('France', 'd1', 'chg', True, 209, 4, 15), ('France', 'd2', 'same', False, 140, 38, 73), ('France', 'd3', 'chg', False, 136, 5, 16), ('France', 'd1', 'same', False, 128, 32, 60), ('France', 'd3', 'add', False, 35, 3, 13)]
+test: 5,800,714 matches, 278s

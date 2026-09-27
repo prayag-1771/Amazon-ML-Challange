@@ -1,0 +1,13 @@
+base sub15_indiaaddr: 5,824,560 matches, 6,918,451 candidates, 1,732,544 S1 rows
+patch fr_patch.parquet: 806 pairs, 806 added (records not yet matched), 806 already candidates
+out sub17_fr_on_v15: 5,825,366 matches, 6,918,451 candidates (3.993/S1)
+53289b84bc77c38548099b1598a05c8e7d75e8e51ed56ecc09c7851fdaafa6d0  output/matching_results.tsv
+a01ffc77819cf3dc77cf047945a87afcb16d438bcc41f4086ae078da8c9afe6f  output/candidate_pairs.tsv
+ML Challenge 2026 — submission validator
+  test dir: G:\Amazon-ML-Challenge-2026\student_resource\dataset\test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (100581 empty, 1631963 non-empty).
+  candidate_pairs.tsv: 1732544 rows (62282 empty, 1670262 non-empty).
+
+PASS — no blocking issues found. Safe to submit.

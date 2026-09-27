@@ -1,0 +1,90 @@
+shape: (4, 6)
+┌─────────┬────────────┬────────┬──────┬────────┬───────────┐
+│ country ┆ addr_empty ┆ TP     ┆ lowp ┆ nocand ┆ outranked │
+│ ---     ┆ ---        ┆ ---    ┆ ---  ┆ ---    ┆ ---       │
+│ str     ┆ i8         ┆ u32    ┆ u32  ┆ u32    ┆ u32       │
+╞═════════╪════════════╪════════╪══════╪════════╪═══════════╡
+│ India   ┆ 0          ┆ 290137 ┆ 572  ┆ 3258   ┆ 234       │
+│ India   ┆ 1          ┆ 5917   ┆ 1071 ┆ 4184   ┆ 895       │
+│ US      ┆ 0          ┆ 432223 ┆ 1724 ┆ 511    ┆ 444       │
+│ US      ┆ 1          ┆ 11577  ┆ 2316 ┆ 4843   ┆ 2872      │
+└─────────┴────────────┴────────┴──────┴────────┴───────────┘
+shape: (8, 6)
+┌───────────┬────────┬───────┬─────────┬──────────┬──────────┐
+│ st        ┆ eqcore ┆ len   ┆ med_cnt ┆ uniq     ┆ absent   │
+│ ---       ┆ ---    ┆ ---   ┆ ---     ┆ ---      ┆ ---      │
+│ str       ┆ bool   ┆ u32   ┆ f64     ┆ f64      ┆ f64      │
+╞═══════════╪════════╪═══════╪═════════╪══════════╪══════════╡
+│ TP        ┆ false  ┆ 4655  ┆ 0.0     ┆ 0.001074 ┆ 0.998281 │
+│ TP        ┆ true   ┆ 12839 ┆ 1.0     ┆ 0.883558 ┆ 0.0      │
+│ lowp      ┆ false  ┆ 1103  ┆ 0.0     ┆ 0.015413 ┆ 0.972801 │
+│ lowp      ┆ true   ┆ 2284  ┆ 3.0     ┆ 0.034151 ┆ 0.0      │
+│ nocand    ┆ false  ┆ 5192  ┆ 0.0     ┆ 0.039291 ┆ 0.885978 │
+│ nocand    ┆ true   ┆ 3835  ┆ 50.0    ┆ 0.101434 ┆ 0.0      │
+│ outranked ┆ false  ┆ 1137  ┆ 0.0     ┆ 0.062445 ┆ 0.844327 │
+│ outranked ┆ true   ┆ 2630  ┆ 4.0     ┆ 0.00038  ┆ 0.0      │
+└───────────┴────────┴───────┴─────────┴──────────┴──────────┘
+shape: (30, 4)
+┌───────────────────────────────────┬────────────────────────────────┬───────────────────────────────────────────────────────────────┬──────┐
+│ qbn                               ┆ business_name                  ┆ business_address                                              ┆ ncnt │
+│ ---                               ┆ ---                            ┆ ---                                                           ┆ ---  │
+│ str                               ┆ str                            ┆ str                                                           ┆ u32  │
+╞═══════════════════════════════════╪════════════════════════════════╪═══════════════════════════════════════════════════════════════╪══════╡
+│ SREE VENTURES PRIVATE             ┆ Sree Ventures Private Limited  ┆ C/O Ashtbhoja Pathka Pathak Puram Mawiya, Lucknow, Uttar Pra… ┆ 53   │
+│ ALL MARKETING PRIVATE             ┆ All Marketing Private Limited  ┆ C/O Shri Santosh Baburao Kand, H.No-406, Lonikand, Tal-Havel… ┆ 59   │
+│ ACE ÁDVISORS PVT. LTD.            ┆ Ace Advisors Pvt. Ltd.         ┆ C-594 2Nd Floor, New Friends Colony, Near Guruduwara, New De… ┆ 2    │
+│ Mr Shree Developers Pvt           ┆ Shree Developers Pvt Ltd       ┆ Holding No -36/1197, Gurdaha Natun Pally, Shyamnagar, North … ┆ 96   │
+│ RA Services                       ┆ RA Bakery                      ┆ 5140 Kraus Road, Clarence, NY                                 ┆ 0    │
+│ Delta Irebic                      ┆ Delta Irenic                   ┆ 8 Brand Avenue, MA, Wilmington                                ┆ 0    │
+│ TRINITY (ZION)                    ┆ Trinity Zion P.C.              ┆ 22275 231, Unit Lot 52, Troy, AL                              ┆ 79   │
+│ Eye Center                        ┆ Eye Center LLC                 ┆ 3503 30th Place, Tulsa, OK                                    ┆ 242  │
+│ Cozy Cozy (Yoga)                  ┆ Cozy Yoga                      ┆ 3539 Easton Square Place, Fl 1, Columbus, OH                  ┆ 0    │
+│ GULF DENTAL ASSOCIATES,  LLC      ┆ Gulf Dental Associates, LLC    ┆ PA, 49 Bedford Street, Carlisle Borough                       ┆ 20   │
+│ The Upper Academy                 ┆ Upper Academy                  ┆ 40967 Hwy 25, Vincent, AL                                     ┆ 16   │
+│ First Synagogue Ltd               ┆ First Synagogue                ┆ 3228 Obregon, Tucson, AZ                                      ┆ 60   │
+│ Balaji Agro Enterprises           ┆ Balaji Agro Limited            ┆ Plot No.25, Ashok Vihar, Colony, Varanasi, Uttar Pradesh      ┆ 0    │
+│ New Delhi lt Private Limited      ┆ New Delhi It Private Limited   ┆ Flatno 414 Somduttchamber, 2, 9, Bhikaji Cama Place, New Del… ┆ 1    │
+│ Metropolitan Brtder Pro LLC       ┆ Metropolitan Better Pro LLC    ┆ 1627 Opelika Road, Unit STE 114, Auburn, AL                   ┆ 0    │
+│ Dream Tech Ltd Pvt                ┆ Dream Tech Pvt Ltd             ┆ Rangareddy, Telangana, Hyderabad, Flat No 101, First Floor H… ┆ 65   │
+│ Memorial Coalition LLC            ┆ Memorial Coalition             ┆ 8307 Old Mill Lane, Spotsylvania County, VA                   ┆ 49   │
+│ Express Advisors Inc Service      ┆ Express Payroll Advisors Inc   ┆ 2921 Drexel Avenue, IN, Fort Wayne                            ┆ 0    │
+│ BAY STNFL LLC                     ┆ Bay Stifel LLC                 ┆ 71 Dusty Lane, Mount Sterling, KY                             ┆ 0    │
+│ Pediatric Dental  Medicine Inc    ┆ Pediatric Dental Medicine Inc  ┆ 6110 Shanda Drive, Unit A, Raleigh, NC                        ┆ 214  │
+│ Fresh Dtner                       ┆ Fresh Diner                    ┆ 27 Frontrunner Way, Scarborough, ME                           ┆ 0    │
+│ Tech Trading  Pvt Ltd Enterprises ┆ Tech Trading Pvt Ltd           ┆ Shop 186, 1St Floor, Golani Market, Jalgaon, Jalgaon, Mahara… ┆ 0    │
+│ Ivenan Bluerock                   ┆ Ivenan Bluerock PLLC           ┆ 3217 Sunset Avenue, East Norriton Township, PA                ┆ 13   │
+│ ZF Media Private  Limited         ┆ ZF Media Private Limited       ┆ Flat No.203 & 204, Midtown Empire Building, Nr. Season Build… ┆ 1    │
+│ Cascade Alliance Llc              ┆ Cascade Alliance LLC           ┆ 1321 Lake Drive, Unit Unit 309, Chanhassen, MN                ┆ 33   │
+│ Empire  School Of (Medicine)      ┆ Empire School of Medicine      ┆ 22 Hildreth Street, Unit 2, Marlborough, MA                   ┆ 24   │
+│ Haryana Consultants               ┆ Haryana Consultants            ┆ Bhopal, Madhya Pradesh, Hargovind Complex, First Flore, Zone… ┆ 1    │
+│ Vijay Ventures Private Ltd        ┆ Vijay Ventures Private Limited ┆ Egmore Nungambakkam, The Metrozone, 44, Pillayarkoil Street,… ┆ 60   │
+│ Arts  Center Trading              ┆ Arts Center III                ┆ 3416 Boccacio Road, Rio Rancho, NM                            ┆ 0    │
+│ Select Co Center                  ┆ Select Investment Co           ┆ 578 Mckinley Avenue, Akron, OH                                ┆ 0    │
+└───────────────────────────────────┴────────────────────────────────┴───────────────────────────────────────────────────────────────┴──────┘
+shape: (20, 2)
+┌──────┬───────┐
+│ ncnt ┆ count │
+│ ---  ┆ ---   │
+│ u32  ┆ u32   │
+╞══════╪═══════╡
+│ 0    ┆ 4600  │
+│ 20   ┆ 2724  │
+│ 1    ┆ 593   │
+│ 2    ┆ 248   │
+│ 3    ┆ 178   │
+│ 4    ┆ 120   │
+│ 7    ┆ 72    │
+│ 5    ┆ 67    │
+│ 9    ┆ 54    │
+│ 6    ┆ 54    │
+│ 10   ┆ 52    │
+│ 8    ┆ 51    │
+│ 12   ┆ 34    │
+│ 11   ┆ 33    │
+│ 16   ┆ 30    │
+│ 13   ┆ 25    │
+│ 14   ┆ 24    │
+│ 17   ┆ 20    │
+│ 19   ┆ 18    │
+│ 18   ┆ 16    │
+└──────┴───────┘

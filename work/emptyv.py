@@ -1,0 +1,26 @@
+import sys; sys.path.insert(0, ".")
+import polars as pl
+from src.config import is_valid_expr
+pl.Config.set_tbl_width_chars(250)
+W="../work/"
+gt = pl.read_parquet(W+"gt_pairs.parquet").filter(is_valid_expr("s1_id"))
+tq = pl.concat([pl.read_parquet(W+f"norm_train_s{k}.parquet", columns=["entity_id","country","addr_empty"]) for k in (2,3)]).rename({"entity_id":"s23_id"})
+sc = pl.read_parquet(W+"valid_scores_lgb_v6k.parquet")
+best = sc.sort("p", descending=True).unique("s23_id", keep="first").rename({"s1_id":"pred","p":"pbest"}).drop("label")
+incand = sc.join(gt, on=["s1_id","s23_id"], how="inner").select("s23_id", pl.col("p").alias("ptrue"))
+g = gt.join(tq, on="s23_id").join(incand, on="s23_id", how="left").join(best, on="s23_id", how="left")
+g = g.with_columns(pl.when(pl.col("ptrue").is_null()).then(pl.lit("nocand"))
+   .when((pl.col("pred")==pl.col("s1_id")) & (pl.col("pbest")>=0.7)).then(pl.lit("TP"))
+   .when(pl.col("pred")!=pl.col("s1_id")).then(pl.lit("outranked")).otherwise(pl.lit("lowp")).alias("st"))
+print(g.group_by("country","addr_empty","st").len().sort("country","addr_empty","st").pivot(on="st", index=["country","addr_empty"], values="len"))
+s1 = pl.read_parquet(W+"norm_train_s1.parquet", columns=["entity_id","country","name_core","name_full","business_name","business_address"]).rename({"entity_id":"s1_id"})
+q = pl.concat([pl.read_parquet(W+f"norm_train_s{k}.parquet", columns=["entity_id","name_core","name_full","business_name","business_address"]) for k in (2,3)]).rename({"entity_id":"s23_id","name_core":"qn","name_full":"qf","business_name":"qbn","business_address":"qba"})
+cnt = s1.group_by("country","name_core").len("ncnt")
+e = g.filter(pl.col("addr_empty")==1).join(q, on="s23_id").join(s1, on=["s1_id","country"])
+e = e.join(cnt, left_on=["country","qn"], right_on=["country","name_core"], how="left").with_columns(pl.col("ncnt").fill_null(0))
+e = e.with_columns((pl.col("qn")==pl.col("name_core")).alias("eqcore"))
+print(e.group_by("st","eqcore").agg(pl.len(), pl.col("ncnt").median().alias("med_cnt"), (pl.col("ncnt")==1).mean().alias("uniq"), (pl.col("ncnt")==0).mean().alias("absent")).sort("st","eqcore"))
+pl.Config.set_fmt_str_lengths(60); pl.Config.set_tbl_rows(40)
+print(e.filter(pl.col("st")=="nocand").sample(30, seed=2).select("qbn","business_name","business_address","ncnt"))
+# how many other S2/S3 of the true S1 exist, and do they have address?
+print(e.filter(pl.col("st")=="nocand").select(pl.col("ncnt").clip(0,20).value_counts(sort=True)).unnest("ncnt").head(20))

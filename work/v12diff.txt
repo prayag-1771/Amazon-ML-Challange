@@ -1,0 +1,30 @@
+E:\Programming\Amazon-ML-Challenge-2026\work\v12diff.py:5: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  return m.select(pl.col(m.columns[0]).alias("s1_id"),pl.col(m.columns[1]).str.split(",").alias("s23_id")).explode("s23_id").filter(pl.col("s23_id").str.len_chars()>0)
+vfix-only 3291 [(False, True, True, 1713), (True, False, True, 678), (True, True, True, 513), (False, False, True, 367), (False, True, False, 19), (True, False, False, 1)]
+  p2_11 mean 0.5175411479137341 p2_12 mean 0.4331600367296551 p2_12 null 0
+   (0.7726582683875346, 0.7379197339932497, 'mcl france groupement', '184', 'mcl france', '184')
+   (0.010300910944330556, 0.005771167388743634, 'ehpad juristes', '4', 'ehpad juristes groupe', '4')
+   (0.7792312015474258, 0.6764901954343792, 'maison sante sainte jeet', '3', 'maison sante sainte jeet', '3')
+   (0.012559281627593406, 0.007551165279331609, 'salle hopital', '5', 'salle developpement', '5')
+   (0.010520954071695527, 0.003387802720019767, 'bordeaux ecole', '1', 'bordeaux associes', '1')
+   (0.8504487851566478, 0.6804556008033407, 'teste buch amicale', '9', 'amicale fils', '9')
+   (0.0229900542253391, 0.009746301937822235, 'moulin pharmacie', '8', 'moulin fils', '8')
+   (0.017120737236053844, 0.0025706513074427186, 'tourcoing residence', '79', 'tourcoing fils', '79')
+   (0.8268770051561664, 0.5359806427138062, 'pessac', '41', 'pessac', '')
+   (0.9534931730250005, 0.899296955946499, 'promotion amis', '32', 'promotion amicale', '33')
+   (0.8483945018805166, 0.5364953623561053, 'roubaix ecole', '31', 'eac', '30')
+   (0.7630956813294364, 0.6626186529176301, 'on union', '7', 'on union', '')
+v12-only 1751 [(False, True, True, 565), (True, True, True, 545), (True, False, True, 429), (False, False, True, 212)]
+  p2_11 mean 0.5925490845912943 p2_12 mean 0.6988174403141388 p2_12 null 0
+   (0.6612586485788747, 0.7725410873028307, 'croix immobiliere', '16', 'ea', '16')
+   (0.9646709939797358, 0.9710504202743714, 'dogue parents', '8', 'dogue fetes', '11')
+   (0.5876779671003348, 0.8829176947922212, 'bordeaux', '30', 'societe bordeaux', '')
+   (0.005812631294555521, 0.010107117682287791, 'pont lycee france', '111', 'pont lycee groupe', '111')
+   (0.731234800076353, 0.8036609354076366, 'nantes lycee', '15', 'ciravantage', '15')
+   (0.03787531223628034, 0.04345947555031742, 'etablissements preservation', '', 'etablissements preservation groupe', '')
+   (0.72855238788136, 0.7696979784759003, 'chasse loisirs', '5', 'chasse loisirs', '')
+   (0.009072820772756342, 0.016189342700389034, 'lycee saint hippique', '37', 'lycee hippique associes', '37')
+   (0.6492470143337542, 0.8879148189128463, 'ape concept', '5', 'pe', '5')
+   (0.7379372852515278, 0.7690060615805863, 'bordeaux ecole', '20', 'bordeaux ecole', '71')
+   (0.34545210681577493, 0.7862174897386519, 'ie union', '2', 'ie union', '2')
+   (0.6295263945306565, 0.7582244714356507, 'ecole maternelle safety', '8', 'ecole maternelle safety', '1')

@@ -1,0 +1,17 @@
+import sys; sys.path.insert(0,'../business_entity_resolution')
+import polars as pl
+from src.io_utils import load_ground_truth
+pl.Config.set_tbl_rows(40)
+gt=load_ground_truth()
+def qs(split): return pl.concat([pl.read_parquet(f'norm_{split}_s{k}.parquet',columns=['entity_id','country','addr_empty']).with_columns(pl.lit(k).alias("src")) for k in (2,3)]).rename({'entity_id':'s23_id'})
+qt=qs("train").with_columns(pl.col("s23_id").is_in(gt["s23_id"].implode()).alias("m"))
+pred15=pl.read_parquet("pred15_v.parquet")
+acc=pl.read_csv('../output/matching_results.tsv',separator='\t',infer_schema_length=0).with_columns(pl.col('matched_entity_ids').str.split(',')).explode('matched_entity_ids').drop_nulls()
+print(acc.columns)
+ids=acc.select(pl.col("matched_entity_ids").alias("s23_id")).unique()
+qe=qs("test").with_columns(pl.col("s23_id").is_in(ids["s23_id"].implode()).alias("m"))
+a=qt.group_by("country","src","addr_empty").agg(pl.len().alias("n_tr"),pl.col("m").mean().round(4).alias("true_rate"))
+b=qe.group_by("country","src","addr_empty").agg(pl.len().alias("n_te"),pl.col("m").mean().round(4).alias("acc_rate"))
+print(b.join(a,on=["country","src","addr_empty"],how="left").sort("country","src","addr_empty"))
+s1t=pl.read_parquet("norm_test_s1.parquet",columns=["entity_id","country"]); s1r=pl.read_parquet("norm_train_s1.parquet",columns=["entity_id","country"])
+print("S1 per country test", s1t.group_by("country").len(), "train", s1r.group_by("country").len())

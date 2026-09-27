@@ -1,0 +1,28 @@
+base (0.98927, 0.99004, 0.98812)
+xq_relmin describe (test same1 unassigned):
+shape: (3, 5)
+┌─────────┬───────┬──────────┬──────────┬──────────┐
+│ country ┆ len   ┆ q10      ┆ med      ┆ x1med    │
+│ ---     ┆ ---   ┆ ---      ┆ ---      ┆ ---      │
+│ str     ┆ u32   ┆ f32      ┆ f32      ┆ f32      │
+╞═════════╪═══════╪══════════╪══════════╪══════════╡
+│ France  ┆ 27323 ┆ 0.494341 ┆ 0.8638   ┆ 0.986655 │
+│ India   ┆ 4117  ┆ 0.593109 ┆ 0.937261 ┆ 0.940434 │
+│ US      ┆ 15967 ┆ 0.639803 ┆ 0.972647 ┆ 1.021037 │
+└─────────┴───────┴──────────┴──────────┴──────────┘
+rmin -99 tl 0.01 (0.98901, 0.98974, 0.98793) valid_added 386 test_added [('France', 20816), ('India', 1794), ('US', 3111)]
+rmin -99 tl 0.05 (0.98917, 0.98992, 0.98805) valid_added 242 test_added [('France', 16582), ('India', 1063), ('US', 1635)]
+rmin -99 tl 0.1 (0.98921, 0.98996, 0.98809) valid_added 206 test_added [('France', 13744), ('India', 825), ('US', 1173)]
+rmin -99 tl 0.3 (0.98926, 0.99002, 0.98812) valid_added 149 test_added [('France', 8388), ('India', 541), ('US', 610)]
+rmin 0.2 tl 0.01 (0.98902, 0.98975, 0.98793) valid_added 380 test_added [('France', 20785), ('India', 1794), ('US', 3066)]
+rmin 0.2 tl 0.05 (0.98917, 0.98992, 0.98805) valid_added 240 test_added [('France', 16563), ('India', 1063), ('US', 1613)]
+rmin 0.2 tl 0.1 (0.98921, 0.98996, 0.98809) valid_added 204 test_added [('France', 13733), ('India', 825), ('US', 1156)]
+rmin 0.2 tl 0.3 (0.98926, 0.99002, 0.98812) valid_added 148 test_added [('France', 8382), ('India', 541), ('US', 603)]
+rmin 0.3 tl 0.01 (0.98902, 0.98975, 0.98793) valid_added 380 test_added [('France', 20785), ('India', 1794), ('US', 3062)]
+rmin 0.3 tl 0.05 (0.98917, 0.98992, 0.98805) valid_added 240 test_added [('France', 16563), ('India', 1063), ('US', 1612)]
+rmin 0.3 tl 0.1 (0.98921, 0.98996, 0.98809) valid_added 204 test_added [('France', 13733), ('India', 825), ('US', 1155)]
+rmin 0.3 tl 0.3 (0.98926, 0.99002, 0.98812) valid_added 148 test_added [('France', 8382), ('India', 541), ('US', 602)]
+rmin 0.4 tl 0.01 (0.98902, 0.98975, 0.98793) valid_added 380 test_added [('France', 20785), ('India', 1794), ('US', 3061)]
+rmin 0.4 tl 0.05 (0.98917, 0.98992, 0.98805) valid_added 240 test_added [('France', 16563), ('India', 1063), ('US', 1611)]
+rmin 0.4 tl 0.1 (0.98921, 0.98996, 0.98809) valid_added 204 test_added [('France', 13733), ('India', 825), ('US', 1154)]
+rmin 0.4 tl 0.3 (0.98926, 0.99002, 0.98812) valid_added 148 test_added [('France', 8382), ('India', 541), ('US', 601)]

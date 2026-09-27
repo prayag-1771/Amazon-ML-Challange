@@ -1,0 +1,80 @@
+0.84->0.40 | Squadra Compagnie SASU | 1 Clos des Iris, La Teste-de-Buch, Nouvelle-Aquitaine
+            | scompagnie.com | CLOS DES IRIS, La Teste-de-Buch, Nouvelle-Aquitaine
+0.76->0.52 | Vietnamiens Parents SASU | 8 RUE des Cupressus, Nantes, Pays de la Loire
+            | Vietnamiens Parents Sarl | 9 R Des Cupressus, Nantes, Pays de la Loire
+0.92->0.46 | Maison Histoire | 55 Rue Hélène Boucher, Calais, Hauts-de-France
+            | MAISON  HISTOIRE DÉVELOPPEMENT | Nº 55 R HÉLÈNE BOUCHER, CALAIS
+0.79->0.31 | Centre Hospitalier Saint Enfants | 55 Rue des Bougrenets, Pornic, Pays de la Loire
+            | Parents Saint Enfants | Pays de la Loire, 55 R. DES BOUGRENETS, PORNIC
+0.81->0.50 | Amical Culturel SARL | 25 Avenue des Provinces, Nouvelle-Aquitaine, Pessac
+            | AC | Nouvelle-Aquitaine, Pessac, 25 Aevnue Des Provinces
+0.84->0.30 | Team Club SA | 24 Avenue de Broceliande, Nantes, Pays de la Loire
+            | Team  Union | 24 Av De Broceliande, Nantes, Pays de la Loire
+0.95->0.51 | Chasse Aiguilles Culturel SARL | 16 Square Arthur Rubinstein, Mérignac, Nouvelle-Aquitaine
+            | Chasse Aiguilles Amis | Nouvelle-Aquitaine, MÉRIGNAC, 16 SQUARE ARTHUR RUBINSTEIN
+0.75->0.47 | Nantes Lycee SAS | 23 RUE Jeanne dArc, Nantes, Pays de la Loire
+            | SA Nantes Lycee | Nantes, 27 RUE JEANNE DARC
+0.78->0.66 | Roubaix Ecole SASU | 7 Cour Heuls, 89b rue de l'épeule, Roubaix, Hauts-de-France
+            | Drexectoyuma | 7 Cour Heusl, 89b Rue De L'épeule, Roubaix
+0.79->0.06 | Clinique The | 6 Rue de la Source, Bordeaux, Nouvelle-Aquitaine
+            | Snc Clinique The | Gironde, No. 11 R. De La Source, Bordeaux
+0.91->0.70 | Nantes Amicale | 15 Place Waldeck Rousseau, Nantes, Pays de la Loire
+            | nantesamicale.com | Nantes, Place Waldeck Rousseau
+0.86->0.61 | Institut Arsenic | 60 b Route du Cap Ferret, Lège-Cap-Ferret, Nouvelle-Aquitaine
+            | Institut Arsenic Développement | 60 B Route Du Cap Ferret, Lege-cap-ferret
+0.86->0.49 | Institut du Chant | 15 Impasse Faure, Bordeaux, Nouvelle-Aquitaine
+            | Institut du Chant Développement | 15 Imp. Faure, Bordeaux
+0.84->0.37 | Tonique Bras Amis | 36 Rue Arago, Nantes, Pays de la Loire
+            | Tonique Bras Groupement | 36 R. ARAGO, NANTES
+0.83->0.71 | Saint-Nazaire Sportive SAS | 38 BIS Rue Philibert Delorme, Saint-Nazaire, Pays de la Loire
+            | SAINT-NAZAIRE SPORTIVE SAS | 43 R Philibert Delorme, Saint-nazaire
+0.95->0.74 | Conde (France) Collectif SA | 62 Avenue Antoine de Saint Exupéry, Calais, Hauts-de-France
+            | Conde (France) Amicale | 62 Ave Antoine De Saint Exupery, Calais, Hauts-de-France
+0.93->0.44 | Clinique Toques | 84 Allée Félix Guyon, Saint-Herblain, Pays de la Loire
+            | Clinique Toques France | 84 Allée Félix Guyon, Saint-herblain
+0.76->0.74 | Lille Gestion | Lille, Hauts-de-France, 326 Rue Léon Gambetta
+            | Lille Gestion | Hauts-de-France, Lille, 31 Rue Frémy
+0.91->0.57 | Bordeaux Societe EURL | 21 Rue Roger Touton, Bordeaux, Nouvelle-Aquitaine
+            | Bordeaux Srnvgdoe EURL | Gironde, BORDEAUX, 21 R PAULIN
+0.94->0.54 | Association des Ours | 158 Chaussée Gramme, Tourcoing, Hauts-de-France
+            | Association  des Ours France | 158 Chaussee Grame, Tourcoing, Hauts-de-France
+0.99->0.49 | Pornic Foyer SAS | 26 Rue de la Chaussée, Pornic, Pays de la Loire
+            | Pornic Sante S.A.S. | 0026 R DE LA CHAUSSEE, PORNIC
+0.79->0.68 | Piccola Sportive SAS | 7 Rue de Normandie, Dunkerque, Hauts-de-France
+            | Ectopyra | #37 R DE NORMANDIE, Dunkerque
+0.83->0.34 | Madame Collège | 6 Rue Eugène Descamps, Lille, Hauts-de-France
+            | Madame Lycee | 19 Rue Eugène Descamps, Lille, Nord
+0.99->0.74 | Mérignac Amicale SAS | 17 Rue de Marseille, Mérignac, Nouvelle-Aquitaine
+            | Mérignac Mâison SAS | 17 RUE DES MILLEPERTUIS, MERIGNAC, Nouvelle-Aquitaine
+0.82->0.22 | Institut Sainte | 10 Quai Richelieu, Bordeaux, Nouvelle-Aquitaine
+            | Institut Sainte Développement | 10 Q. RICHELIEU, BORDEAUX, Gironde
+0.76->0.71 | Fraise Amicale SARL | 31 Rue La Tour d'Auvergne, Nantes, Pays de la Loire
+            | Groupe Fraise SARL | 31 Rue La Tour D'auvergne, Nantes
+0.80->0.58 | Ets Perspectives SA | 144 Rue de la Poudrière, Pessac, Nouvelle-Aquitaine
+            | Ets Perspectives SAS | 153 RUE DE LA POUDRIERE, PESSAC, Gironde
+0.95->0.09 | Amicale du Ensemble | 6 Rue de Wagram, Tourcoing, Hauts-de-France
+            | Snc Amicale Du Ensemble | 7 R De Wagram, Tourcoing, Hauts-de-France
+0.88->0.54 | Mérignac Fetes SCI | 71 bis Avenue des Eyquems, Mérignac, Nouvelle-Aquitaine
+            | MÉRIGNAC  FETES | AEVNUE DES EYQUEMS, MÉRIGNAC, Gironde
+0.81->0.27 | Pharmacie Joseph | 133 Rue des Maraichers, Tourcoing, Hauts-de-France
+            | Pharmacie Joseph  France | N° 133 Rue Des Marachers, Tourcoing, Hauts-de-France
+0.79->0.39 | Crayons Club | 68 Rue du Général Bonnaud, Tourcoing, Hauts-de-France
+            | Crayons Patrimoine | 68 RUE DU GÉNÉRAL BONNAUD, TOURCOING, Nord
+0.78->0.58 | Bordeaux Maternelle | 347 Avenue du Maréchal de Lattre de Tassigny, Bordeaux, Nouvelle-Aquitaine
+            | S.A.S Bordeaux Maternelle | 262 Avenue Du Maréchal De Lattre De Tassigny, Bordeaux, Nouvelle-Aquitaine
+0.93->0.54 | Lille Club SARL | 8 Rue Branly, Lille, Hauts-de-France
+            | Lille Groupement SARL | N° 8 R. BRANLY, LILLE, Hauts-de-France
+0.80->0.62 | Nantes Danse SARL | 31 Avenue de Gourin, Nantes, Pays de la Loire
+            | Zetadovabrix | 31 Avenue De Gourin, Nantes
+0.86->0.73 | Calais Ecole SAS | Hauts-de-France, Calais, 33 Rue Augereau
+            | Calais  Ecole SAS | 31 RUE AUGEREAU, CALAIS, Hauts-de-France
+0.98->0.52 | Union du Deleves | 116 Rue de Flandre, Roubaix, Hauts-de-France
+            | Union du Deleves France | 116 RUE DE FLADRE, ROUBAIX, Hauts-de-France
+0.78->0.31 | Pessac Lycee SASU | 28 Avenue Raymond Boivin, Pessac, Nouvelle-Aquitaine
+            | sasu pessac sportive | 28 AVENUE RAYMOND BOIVIN, Pessac, Gironde
+0.82->0.45 | Sourires Collège SARL | 10 ter Rue Lagrua, La Teste-de-Buch, Nouvelle-Aquitaine
+            | Sourires Comite | 10 Ter Rue Lagrua, La Teste-de-buch, Gironde
+0.93->0.15 | Association des Éluard | 206 bis Rue de l'Hommelet, Roubaix, Hauts-de-France
+            | ASSOCIATION DES PERSONNEL EURL | Roubaix, 206 Bis Rue De L'hommelet, Hauts-de-France
+0.78->0.38 | La Teste-de-Buch Pharmacie EURL | 3 Rue Louis Blériot, La Teste-de-Buch, Nouvelle-Aquitaine
+            | La Pharmacie EURL France | 3 R Louis Blériot, La Teste-de-buch, Gironde

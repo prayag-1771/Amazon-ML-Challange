@@ -1,0 +1,85 @@
+S1: Eglise Groupement SA | Saint-Herblain, 64 Quai Emile Cormerais, Pays de la Loire
+   p=1.000 y=-1  Eglise Groupement | 064 Quai Emile Cormerais, Saint-herblain, Loire-Atlantique
+   p=1.000 y=-1  Eglise SA Services | 064 Quai Emile Cormerais, Saint-herblain, Loire-Atlantique
+   p=0.980 y=-1  Orbiumbra | Pays de la Loire, 64 QUAI EMILE CORMERAIS, Saint-Herblain
+   p=0.004 y=-1  Eglise Comite S.A. | Pays de la Loire, ST-HERBLAIN, NO 75 QUCI EMILE CORMERAIS
+S1: Deleves Club | Saint-Nazaire, Pays de la Loire, 2 Rue Emile Combes
+   p=1.000 y=-1  Deleves Club | 2 Rue Emile Combes, Saint-nazaire
+   p=1.000 y=-1  Deleves Club | 2 Rue Emile Combes, St-nazaire
+   p=1.000 y=-1  Deleves Club | (2) RUE EMILE COMBES, ST-NAZAIRE, Pays de la Loire
+   p=1.000 y=-1  DELEVES  CLUB | (2) R. EILE COMBES, ST.-NAZAIRE, Pays de la Loire
+   p=0.001 y=-1  Deleves Club SCI | 23 Rue Emile Comnes, St.-nazaire, Loire-Atlantique
+   p=0.000 y=-1  Deleves Travaux | Pays de la Loire, 23 RUE EMILE COMBES, SAINT-NAZAIRE
+S1: Fédération des Bout | 9 Contour Vertes Allées, Roubaix, Hauts-de-France
+   p=1.000 y=-1  Fédération des Bout | 9 CONTOUR VERTES ALLEES, ROUBAIX, Nord
+   p=1.000 y=-1  Fédération des [Bout] | 9 Contour Vertes Allees, Roubaix
+   p=0.000 y=-1  Fédération  des But International | (12) Contour Vertes Allées, Roubaix, Hauts-de-France
+   p=0.000 y=-1  Fédération des Bout Participations (SARL) | (12) Contour Vertes Allees, Roubaix, Hauts-de-France
+S1: Vertige Societe SARL | 30 Rue Saint Roch, Tourcoing, Hauts-de-France
+   p=1.000 y=-1  SARL Vertige Sffime | 30 R SAINT ROCH, Tourcoing
+   p=0.999 y=-1  Vertige Societe SARL | 
+   p=0.000 y=-1  Vertige Societe France | NO 33 R SAINT ROHC, TOURCOING
+S1: Team Primaire (France) SAS | 1 Rue d'Alembert, Bordeaux, Nouvelle-Aquitaine
+   p=1.000 y=-1  Team (France) Primaire SAS | 1 RUE D'ALEMBERT, BORDEAUX, Gironde
+   p=1.000 y=-1  Team Prmare (France) SAS | Bordeaux, 1 Rue D'alembert
+   p=1.000 y=-1  Team  Primaire | 1 R D'alembert, Bordeaux
+   p=0.017 y=-1  Team Primaire (Faancgse (SA) | 8 R D'ALEMBERT, BORDEAUX
+   p=0.000 y=-1  team primaire (france) sa | 69 RUE DU CHEVALIER DE LA BARRE, DUNKERQUE, Nord
+   p=0.000 y=-1  Team Primaire (France) SCI | 8 R D'ALEMBERT, BORDEAUX
+   p=0.000 y=-1  TEAM LOISIRS (FRANCE) SAS | BORDEAUX, 8 RUE D'ALEMBERT
+S1: École maternelle Dame | 16 RUE du Sabot, Appartement 7 - 3eme Etage, Lille, Hauts-de-France
+   p=1.000 y=-1  École maternelle Dame | 16 R. DU SABOT, APT 7 - 3EME ETAGE, LILLE, Hauts-de-France
+   p=1.000 y=-1  École matemelle Dame | 16 R Du Sebot, Appt 7 - 3eme Etage, Lille, Nord
+   p=0.981 y=-1  École maternelle Dame SA | Lille, 16 R. Du Sabot, Nord
+   p=0.979 y=-1  École maternelle Dame SASU | 16 R DU SABOT, APP 7 - 3EME ETAGE, LILLE, Hauts-de-France
+   p=0.000 y=-1  Fetes Dame EURL | 18 R. Du Sabot, Appartement 7 - 3eme Etage, Lille, Hauts-de-France
+S1: Bordeaux Compagnie SARL | 14 RUE SOUBIRAS, Nouvelle-Aquitaine, Bordeaux
+   p=1.000 y=-1  SARL Bordeaux Compagnie | 14 Rue Soubiras, Bordeaux
+   p=1.000 y=-1  BORDEAUX COMPAGNIE | 14 RUE SOUBIRAS, BORDEAUX, Nouvelle-Aquitaine
+   p=0.996 y=-1  Bordeaux Compagnie Sarl | 14 Rue Soubirsa, Bordeaux
+   p=0.968 y=-1  Bordeaux Compagnie | 14 Rue Soubras, Bordeaux
+   p=0.056 y=-1  Bordeaux SARL France | 14 Rue Des Villas, Bordeaux, Nouvelle-Aquitaine
+   p=0.027 y=-1  Bordeaux SARL Groupe | 14 Rue Soubiras, Bordeaux
+   p=0.002 y=-1  Bordeaux Compagnie SAS | Nouvelle-Aquitaine, NO 17 RUE SOUBIRAS, BORDEAUX
+   p=0.000 y=-1  Compagnie Notre | 14 RUE DES LDÈGES, BORDEAUX, Gironde
+   p=0.000 y=-1  Bordeaux Compagnie Développement SARL | NO 17 RUE SOUBIRAS, BORDEAUX, Nouvelle-Aquitaine
+S1: Syndicat Amis SA | 284 bis Rue de Lannoy, cour papillon bonte, Roubaix, Hauts-de-France
+   p=1.000 y=-1  syndicat amis sa | 284 BIS R DE LANOY, COUR PAPILLON BONTE, ROUBAIX
+   p=0.034 y=-1  S.A.S.U. Syndicat Amis | 291 Bis R. De Lannoy, Cour Papillon Bonte, Roubaix, Hauts-de-France
+S1: UL Lycee | 29 RUE Virginie Ghesquiere, Lille, Hauts-de-France
+   p=1.000 y=-1  UL  Lycee | LILLE, Nº 29 RUE VIRGINIE GHESQUIERE
+   p=1.000 y=-1  UL-Lycee | Nº 29 RUE VIRGINIE GHESQUIERE, Lille
+   p=1.000 y=-1  ullycee.com | 29 R. Virginie Ghesquiere, Lille, Hauts-de-France
+   p=0.000 y=-1  UL Culturel | N°34 RUE VIRGINIE GHESQUIERE, LILLE
+   p=0.000 y=-1  UL Lycee Holding | 34 R. Virginie Ghesquiere, Lille, Nord
+S1: École primaire de la Georges | 2 Allée de la Galerne, Saint-Nazaire, Pays de la Loire
+   p=1.000 y=-1  COLEPRIMAIREGEORGES.COM | N° 2 ALL. DE LA GALERNE, Saint-Nazaire
+   p=0.538 y=-1  École  primaire de la Georges SA | 1 All De La Galerne, Saint-nazaire, Pays de la Loire
+   p=0.048 y=-1  ÉCOLE PRIMAIRE DE LA GEORGES EURL | NO. 1 ALL. DE LA GALERNE, ST-NAZAIRE
+   p=0.000 y=-1  Garage  de Georges | 015 ALL DE LA GALERNE, SAINT-NAZAIRE, Pays de la Loire
+   p=0.000 y=-1  école Primaire De La Georges Développement | 15 Allée De La Galerne, Saint-nazaire
+S1: Praticiens & Frères SA | 22 Rue d'Erquy, Nantes, Pays de la Loire
+   p=1.000 y=-1  Praticiens & Frères  SA | 22 RUE D'ERQUY, NANTES, Pays de la Loire
+   p=0.000 y=-1  Praticiens & Frs Groupe SA | 26 Rue D'erquy, Nantes
+   p=0.000 y=-1  Praticiens & Frères Holding SA | Pays de la Loire, NANTES, Nº 26 R. D'ERQUY
+S1: Amicale du 2000 | 7 Rue Chevert, Nantes, Pays de la Loire
+   p=1.000 y=-1  Amicale dû 2000 | N° 7 Rue Chevert, Nantes, Loire-Atlantique
+   p=1.000 y=-1  Amicale du 2000 | 7 R CHEVERT, NANTES, Pays de la Loire
+   p=1.000 y=-1  Amicale 2000 du | N° 7 Rue Chevert, Nantes, Loire-Atlantique
+   p=0.992 y=-1  Amicale Du 2000 | 
+   p=0.000 y=-1  Amicale du 2000 SNC | N° 20 Rue Chevert, Nantes, Loire-Atlantique
+   p=0.000 y=-1  AMICALE DU 2000 INTERNATIONAL | 20 R. CHEVERT, NANTES, Loire-Atlantique
+S1: Entraide Havre Conseil SASU | 51 Rue des Grillons, Dunkerque, Hauts-de-France
+   p=1.000 y=-1  ENTRAIDE HAVRE CONSEIL SASU | #51 RUE DES GRILLONS, DUNKERQUE, Nord
+   p=1.000 y=-1  Entraide Havre Conseil SASU | 51 - Rue Des Grillons, Dunkerque, Nord
+   p=0.000 y=-1  Entraide Havre Çonseil Distribution SASU | 52 RUE DES GRILLONS, DUNKERQUE, Nord
+S1: Lille Groupe SAS | 81 Rue d'Athènes, Lille, Hauts-de-France
+   p=1.000 y=-1  Lille Grôupe SAS | Lille, 81 Rue D'athènes
+   p=1.000 y=-1  LILLE (GROUPE) | 0081 RUE D'ATHENES, LILLE
+   p=1.000 y=-1  lille groupe sas | 0081 R. D'ATHÈNES, LILLE
+   p=0.083 y=-1  LILLE SAS GROUPE | 
+   p=0.021 y=-1  LILLE GROUPEMENT | 81 R DU FOUR À CHAUX, LILLE
+   p=0.010 y=-1  Lille SAS Groupe | 87 RUE RENAN, LILLE
+   p=0.000 y=-1  Cie Lille Groupe SAS | 118 Rue De Condé, Lille, Hauts-de-France
+   p=0.000 y=-1  Lille Grôupe SNC | 92 RUE D'ATHÈNES, LILLE
+   p=0.000 y=-1  Lille Groupe  SA et Fils | Hauts-de-France, 84 R. Masséna, Lille

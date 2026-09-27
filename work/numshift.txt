@@ -1,0 +1,116 @@
+val
+shape: (40, 5)
+┌─────────┬──────────┬───────────────┬────────┬──────────┐
+│ country ┆ cat      ┆ b             ┆ per_s1 ┆ y        │
+│ ---     ┆ ---      ┆ ---           ┆ ---    ┆ ---      │
+│ str     ┆ str      ┆ enum          ┆ f64    ┆ f64      │
+╞═════════╪══════════╪═══════════════╪════════╪══════════╡
+│ India   ┆ empty    ┆ (0.02, 0.3]   ┆ 0.0622 ┆ 0.09845  │
+│ India   ┆ empty    ┆ (0.3, 0.7]    ┆ 0.0341 ┆ 0.484534 │
+│ India   ┆ empty    ┆ (0.7, 0.95]   ┆ 0.0185 ┆ 0.840909 │
+│ India   ┆ empty    ┆ (0.95, 0.999] ┆ 0.0805 ┆ 0.993064 │
+│ India   ┆ empty    ┆ (0.999, inf]  ┆ 0.0078 ┆ 1.0      │
+│ India   ┆ nonum    ┆ (0.02, 0.3]   ┆ 0.0017 ┆ 0.111455 │
+│ India   ┆ nonum    ┆ (0.3, 0.7]    ┆ 0.0011 ┆ 0.422535 │
+│ India   ┆ nonum    ┆ (0.7, 0.95]   ┆ 0.0014 ┆ 0.856089 │
+│ India   ┆ nonum    ┆ (0.95, 0.999] ┆ 0.0095 ┆ 0.992201 │
+│ India   ┆ nonum    ┆ (0.999, inf]  ┆ 0.1614 ┆ 0.999967 │
+│ India   ┆ num_diff ┆ (0.02, 0.3]   ┆ 0.0092 ┆ 0.105323 │
+│ India   ┆ num_diff ┆ (0.3, 0.7]    ┆ 0.0031 ┆ 0.487352 │
+│ India   ┆ num_diff ┆ (0.7, 0.95]   ┆ 0.005  ┆ 0.879747 │
+│ India   ┆ num_diff ┆ (0.95, 0.999] ┆ 0.0262 ┆ 0.991774 │
+│ India   ┆ num_diff ┆ (0.999, inf]  ┆ 0.0559 ┆ 0.999623 │
+│ India   ┆ num_eq   ┆ (0.02, 0.3]   ┆ 0.01   ┆ 0.119622 │
+│ India   ┆ num_eq   ┆ (0.3, 0.7]    ┆ 0.0066 ┆ 0.464286 │
+│ India   ┆ num_eq   ┆ (0.7, 0.95]   ┆ 0.0085 ┆ 0.83995  │
+│ India   ┆ num_eq   ┆ (0.95, 0.999] ┆ 0.0673 ┆ 0.990146 │
+│ India   ┆ num_eq   ┆ (0.999, inf]  ┆ 1.4039 ┆ 0.999962 │
+│ US      ┆ empty    ┆ (0.02, 0.3]   ┆ 0.0935 ┆ 0.11991  │
+│ US      ┆ empty    ┆ (0.3, 0.7]    ┆ 0.0682 ┆ 0.453788 │
+│ US      ┆ empty    ┆ (0.7, 0.95]   ┆ 0.0297 ┆ 0.862494 │
+│ US      ┆ empty    ┆ (0.95, 0.999] ┆ 0.1079 ┆ 0.991551 │
+│ US      ┆ empty    ┆ (0.999, inf]  ┆ 0.0063 ┆ 0.998556 │
+│ US      ┆ nonum    ┆ (0.02, 0.3]   ┆ 0.0018 ┆ 0.164524 │
+│ US      ┆ nonum    ┆ (0.3, 0.7]    ┆ 0.0022 ┆ 0.431535 │
+│ US      ┆ nonum    ┆ (0.7, 0.95]   ┆ 0.0012 ┆ 0.8327   │
+│ US      ┆ nonum    ┆ (0.95, 0.999] ┆ 0.0048 ┆ 0.983871 │
+│ US      ┆ nonum    ┆ (0.999, inf]  ┆ 0.1577 ┆ 1.0      │
+│ US      ┆ num_diff ┆ (0.02, 0.3]   ┆ 0.0492 ┆ 0.075955 │
+│ US      ┆ num_diff ┆ (0.3, 0.7]    ┆ 0.0063 ┆ 0.516813 │
+│ US      ┆ num_diff ┆ (0.7, 0.95]   ┆ 0.008  ┆ 0.858871 │
+│ US      ┆ num_diff ┆ (0.95, 0.999] ┆ 0.0403 ┆ 0.991809 │
+│ US      ┆ num_diff ┆ (0.999, inf]  ┆ 0.1095 ┆ 0.999958 │
+│ US      ┆ num_eq   ┆ (0.02, 0.3]   ┆ 0.0062 ┆ 0.133431 │
+│ US      ┆ num_eq   ┆ (0.3, 0.7]    ┆ 0.006  ┆ 0.410198 │
+│ US      ┆ num_eq   ┆ (0.7, 0.95]   ┆ 0.0038 ┆ 0.86506  │
+│ US      ┆ num_eq   ┆ (0.95, 0.999] ┆ 0.0584 ┆ 0.995212 │
+│ US      ┆ num_eq   ┆ (0.999, inf]  ┆ 1.6485 ┆ 0.999969 │
+└─────────┴──────────┴───────────────┴────────┴──────────┘
+test
+shape: (60, 5)
+┌─────────┬──────────┬───────────────┬────────┬──────┐
+│ country ┆ cat      ┆ b             ┆ per_s1 ┆ y    │
+│ ---     ┆ ---      ┆ ---           ┆ ---    ┆ ---  │
+│ str     ┆ str      ┆ enum          ┆ f64    ┆ f64  │
+╞═════════╪══════════╪═══════════════╪════════╪══════╡
+│ France  ┆ empty    ┆ (0.02, 0.3]   ┆ 0.0456 ┆ null │
+│ France  ┆ empty    ┆ (0.3, 0.7]    ┆ 0.0248 ┆ null │
+│ France  ┆ empty    ┆ (0.7, 0.95]   ┆ 0.0167 ┆ null │
+│ France  ┆ empty    ┆ (0.95, 0.999] ┆ 0.0584 ┆ null │
+│ France  ┆ empty    ┆ (0.999, inf]  ┆ 0.0019 ┆ null │
+│ France  ┆ nonum    ┆ (0.02, 0.3]   ┆ 0.0102 ┆ null │
+│ France  ┆ nonum    ┆ (0.3, 0.7]    ┆ 0.0059 ┆ null │
+│ France  ┆ nonum    ┆ (0.7, 0.95]   ┆ 0.0095 ┆ null │
+│ France  ┆ nonum    ┆ (0.95, 0.999] ┆ 0.0276 ┆ null │
+│ France  ┆ nonum    ┆ (0.999, inf]  ┆ 0.1475 ┆ null │
+│ France  ┆ num_diff ┆ (0.02, 0.3]   ┆ 0.1481 ┆ null │
+│ France  ┆ num_diff ┆ (0.3, 0.7]    ┆ 0.0299 ┆ null │
+│ France  ┆ num_diff ┆ (0.7, 0.95]   ┆ 0.0214 ┆ null │
+│ France  ┆ num_diff ┆ (0.95, 0.999] ┆ 0.0229 ┆ null │
+│ France  ┆ num_diff ┆ (0.999, inf]  ┆ 0.0117 ┆ null │
+│ France  ┆ num_eq   ┆ (0.02, 0.3]   ┆ 0.0939 ┆ null │
+│ France  ┆ num_eq   ┆ (0.3, 0.7]    ┆ 0.0686 ┆ null │
+│ France  ┆ num_eq   ┆ (0.7, 0.95]   ┆ 0.1017 ┆ null │
+│ France  ┆ num_eq   ┆ (0.95, 0.999] ┆ 0.3672 ┆ null │
+│ France  ┆ num_eq   ┆ (0.999, inf]  ┆ 2.5875 ┆ null │
+│ India   ┆ empty    ┆ (0.02, 0.3]   ┆ 0.0288 ┆ null │
+│ India   ┆ empty    ┆ (0.3, 0.7]    ┆ 0.0167 ┆ null │
+│ India   ┆ empty    ┆ (0.7, 0.95]   ┆ 0.0107 ┆ null │
+│ India   ┆ empty    ┆ (0.95, 0.999] ┆ 0.0542 ┆ null │
+│ India   ┆ empty    ┆ (0.999, inf]  ┆ 0.004  ┆ null │
+│ India   ┆ nonum    ┆ (0.02, 0.3]   ┆ 0.0034 ┆ null │
+│ India   ┆ nonum    ┆ (0.3, 0.7]    ┆ 0.0011 ┆ null │
+│ India   ┆ nonum    ┆ (0.7, 0.95]   ┆ 0.0016 ┆ null │
+│ India   ┆ nonum    ┆ (0.95, 0.999] ┆ 0.0148 ┆ null │
+│ India   ┆ nonum    ┆ (0.999, inf]  ┆ 0.3227 ┆ null │
+│ India   ┆ num_diff ┆ (0.02, 0.3]   ┆ 0.0179 ┆ null │
+│ India   ┆ num_diff ┆ (0.3, 0.7]    ┆ 0.0046 ┆ null │
+│ India   ┆ num_diff ┆ (0.7, 0.95]   ┆ 0.0063 ┆ null │
+│ India   ┆ num_diff ┆ (0.95, 0.999] ┆ 0.0402 ┆ null │
+│ India   ┆ num_diff ┆ (0.999, inf]  ┆ 0.1079 ┆ null │
+│ India   ┆ num_eq   ┆ (0.02, 0.3]   ┆ 0.0151 ┆ null │
+│ India   ┆ num_eq   ┆ (0.3, 0.7]    ┆ 0.0067 ┆ null │
+│ India   ┆ num_eq   ┆ (0.7, 0.95]   ┆ 0.0085 ┆ null │
+│ India   ┆ num_eq   ┆ (0.95, 0.999] ┆ 0.094  ┆ null │
+│ India   ┆ num_eq   ┆ (0.999, inf]  ┆ 2.6908 ┆ null │
+│ US      ┆ empty    ┆ (0.02, 0.3]   ┆ 0.031  ┆ null │
+│ US      ┆ empty    ┆ (0.3, 0.7]    ┆ 0.0233 ┆ null │
+│ US      ┆ empty    ┆ (0.7, 0.95]   ┆ 0.0122 ┆ null │
+│ US      ┆ empty    ┆ (0.95, 0.999] ┆ 0.0845 ┆ null │
+│ US      ┆ empty    ┆ (0.999, inf]  ┆ 0.0031 ┆ null │
+│ US      ┆ nonum    ┆ (0.02, 0.3]   ┆ 0.0007 ┆ null │
+│ US      ┆ nonum    ┆ (0.3, 0.7]    ┆ 0.001  ┆ null │
+│ US      ┆ nonum    ┆ (0.7, 0.95]   ┆ 0.0009 ┆ null │
+│ US      ┆ nonum    ┆ (0.95, 0.999] ┆ 0.0064 ┆ null │
+│ US      ┆ nonum    ┆ (0.999, inf]  ┆ 0.2495 ┆ null │
+│ US      ┆ num_diff ┆ (0.02, 0.3]   ┆ 0.1516 ┆ null │
+│ US      ┆ num_diff ┆ (0.3, 0.7]    ┆ 0.0124 ┆ null │
+│ US      ┆ num_diff ┆ (0.7, 0.95]   ┆ 0.0121 ┆ null │
+│ US      ┆ num_diff ┆ (0.95, 0.999] ┆ 0.0619 ┆ null │
+│ US      ┆ num_diff ┆ (0.999, inf]  ┆ 0.1812 ┆ null │
+│ US      ┆ num_eq   ┆ (0.02, 0.3]   ┆ 0.0102 ┆ null │
+│ US      ┆ num_eq   ┆ (0.3, 0.7]    ┆ 0.0043 ┆ null │
+│ US      ┆ num_eq   ┆ (0.7, 0.95]   ┆ 0.0045 ┆ null │
+│ US      ┆ num_eq   ┆ (0.95, 0.999] ┆ 0.0957 ┆ null │
+│ US      ┆ num_eq   ┆ (0.999, inf]  ┆ 2.6709 ┆ null │
+└─────────┴──────────┴───────────────┴────────┴──────┘

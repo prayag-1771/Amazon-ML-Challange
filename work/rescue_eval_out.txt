@@ -1,0 +1,14 @@
+base {'f05': 0.98989, 'f05_India': 0.98874, 'f05_US': 0.99066}
+0.5 2785 0.569 {'f05': -0.00069, 'f05_US': -0.00103, 'f05_India': -0.00018}
+0.6 2119 0.619 {'f05': -0.00035, 'f05_US': -0.00062, 'f05_India': 5e-05}
+0.7 1284 0.709 {'f05': -3e-05, 'f05_India': 0.00029, 'f05_US': -0.00024}
+0.8 1080 0.757 {'f05': 6e-05, 'f05_US': -0.00012, 'f05_India': 0.00033}
+0.9 848 0.817 {'f05': 0.00013, 'f05_US': -2e-05, 'f05_India': 0.00035}
+0.95 653 0.864 {'f05': 0.00013, 'f05_India': 0.00034, 'f05_US': -1e-05}
+Traceback (most recent call last):
+  File "E:\Programming\Amazon-ML-Challenge-2026\work\v10\rescue_eval.py", line 25, in <module>
+    print(x.group_by(pl.col("bcnt").clip(upper_bound=4), (pl.col("qmax") >= 0).alias("hascand"), (pl.col("pr") >= .9).alias("hi"), "is_in").agg(pl.len(), pl.col("label").mean().round(3)).sort("is_in","bcnt","hascand","hi"))
+  File "C:\Users\abhyu\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 16-63: character maps to <undefined>

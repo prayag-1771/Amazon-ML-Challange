@@ -1,0 +1,104 @@
+=== train US 'midtown'
+  p=None  Q: Freed, Wilson and Tsofy Dynamix Midtown | 4427 FENWICK WAY, NORTH HIGHLANDS, CA
+        S1: None | None
+  p=None  Q: Morua's Crystal Pharmaceuticals Midtown Corporation | Annawan, Illinois, 207 Tamaroa Trl
+        S1: None | None
+  p=None  Q: Georgia Ray, DPM Midtown Corporation | 60 Jack Ellington Rd, Fredericksburg, Virginia
+        S1: None | None
+  p=None  Q: Bastin Ventures Midtown | Arkansas, Centerton, 130 Birch St
+        S1: None | None
+  p=None  Q: Happy 8istro! Midtown Corporation | 242 Fifth Avenue, <NULL>, Incorporated, Washington
+        S1: None | None
+  p=None  Q: 6reen Chemical Associates Midtown, L.L.C. | 1293- ROYVONNE AVENUE, NULL, SALEM, OR
+        S1: None | None
+=== train US 'holdings'
+  p=None  Q: Laurianne D. Tucker, D.C., DDS PC Holdings | NY, OYSTER BAY, 241 GARDNER AVE
+        S1: None | None
+  p=None  Q: Holdings T J & Electronics G | 2164 Tryton Way, Fairfax County, Virginia
+        S1: None | None
+  p=None  Q: Velsonis Holdings Group  Partners | 1 Clinton Ptah, # B, Brookline, Massachusetts
+        S1: Velsonis Holdings Group Partners | 1 Clinton Path, Unit B, Brookline, MA
+  p=None  Q: Mountain Aspen Holdings | 108 Roast Meat Hill Road, NULL, Killingworth, Connecticut
+        S1: None | None
+  p=None  Q: 3860 Maasnns Avenue Holdings Corp | 77- Haywood Street, Unit 601, Asheville CITY, North Carolina
+        S1: None | None
+  p=None  Q: Choice Digital Holdings | 2423 INWOOD DR, VIDOR, TX
+        S1: None | None
+=== train India 'overseas'
+  p=None  Q: Sandhu Trading Overseas | C-12-2-459/A/23/22, AMBA GARDEN, ASIFNAGAR, N/A, Telangana
+        S1: None | None
+  p=None  Q: Co Superlife Seva Samiti Overseas | No 0134 Wz-1607 R/znangal Raya, West Delhi, New Delhi, DL
+        S1: None | None
+  p=None  Q: International Overseas Plastotech Group Limited | New Delhi, Second Floor Safdarjung Enclave, DL, B/5 33, New Delhi
+        S1: None | None
+  p=None  Q: Sharda Academy Overseas Corporation | 9/10 Ekdalia Rd, Kolkata, Calcutta, পশ্চিমবঙ্গ
+        S1: None | None
+  p=None  Q: Sri Tanishka Overseas Industries Limited | Plot 606- 805, Mumbai, महाराष्ट्र
+        S1: None | None
+  p=None  Q: Mumbai Overseas Interior | महाराष्ट्र, 527/5, SWASTIK CHAMBERS, CST ROAD, CHEMBUR, MUMBAI
+        S1: None | None
+=== test France 'participations'
+  p=0.0  Q: Ibos Comite Participations SARL | 18 AVE DES PINS, LÈGE-CAP-FERRET
+        S1: Ibos Comite SARL | 16 Avenue des Pins, Lège-Cap-Ferret, Nouvelle-Aquitaine
+  p=0.0  Q: Personnels Golf Gestion Participations S.A.S | 18 Bd De Beaurepaire, Roubaix, Nord
+        S1: Personnels Golf Gestion SAS | 14 Boulevard de Beaurepaire, Roubaix, Hauts-de-France
+  p=0.0  Q: Colotis Sport Participations SARL | 041 Rue Calmette Et Guerin, Pessac
+        S1: Colotis Sport SARL | 28 Rue Calmette Et Guerin, Pessac, Nouvelle-Aquitaine
+  p=0.0  Q: Bordeaux-Amicale Participations SAS | Nº 87 R. Camille Flammarion, Bordeaux
+        S1: Bordeaux Amicale SAS | 85 Rue Camille Flammarion, Bordeaux, Nouvelle-Aquitaine
+  p=0.0  Q: Établissements Partenaires Participations SAS | Pays de la Loire, Saint-nazaire, 41 Rue Du Bois Savary
+        S1: Établissements Partenaires SAS | 38 Rue du Bois Savary, Saint-Nazaire, Pays de la Loire
+  p=0.0010000000474974513  Q: SARL Lille Maternelle Participations | 107 RUE DU VINGTIÈME SIÈCLE, Lille, Hauts-de-France
+        S1: Lille Maternelle SARL | Lille, 86 Rue du Vingtième Siècle, Hauts-de-France
+=== test France 'holding'
+  p=0.0  Q: OAO Sante Holding SARL | 24 BIS RÉS DU COMMANDANT MARZAC, LA TESTE-DE-BUCH, Gironde
+        S1: OAO Sante SARL | 19 bis Résidence du Commandant Marzac, La Teste-de-Buch, Nouvelle-Aquitaine
+  p=0.0  Q: Holding Des Robin Union | 38 R Morand, Nantes, Loire-Atlantique
+        S1: Union des Robin | 35 Rue Morand, Nantes, Pays de la Loire
+  p=0.0  Q: Établissements Donzenac Holding | 10 Rue De Guyenne, Mérignac, Nouvelle-Aquitaine
+        S1: Établissements Donzenac EURL | 1 Rue de Guyenne, Mérignac, Nouvelle-Aquitaine
+  p=0.0  Q: Autonome & Fils Holding | 9 Rue Rene Roy De Clotte, Bordeaux, Gironde
+        S1: Autonome & Fils | 6 Rue René Roy de Clotte, Bordeaux, Nouvelle-Aquitaine
+  p=0.0  Q: Comité des Autisme Holding | 87 Rue Colbert, Calais, Hauts-de-France
+        S1: Comité des Autisme | 83 Rue Colbert, Calais, Hauts-de-France
+  p=0.0  Q: Association de Solidere Holding | 5 SQUARE DU VAL DU CANON, LÈGE-CAP-FERRET, Nouvelle-Aquitaine
+        S1: Association de Solidere | 3 Square du Val du Canon, Lège-Cap-Ferret, Nouvelle-Aquitaine
+=== test France 'distribution'
+  p=0.0010000000474974513  Q: SARL Chasse Parents Distribution | 3 RUE DU BALLON, Lille, Hauts-de-France
+        S1: Chasse Parents SARL | 1 RUE des Urbanistes, Lille, Hauts-de-France
+  p=0.0  Q: Familiale & Fils Distribution EURL | 141 Impasse Meesemaceker, Dunkerque
+        S1: Familiale & Fils | 128 Impasse Meesemaecker, Dunkerque, Hauts-de-France
+  p=0.0  Q: Club de Sourds Distribution | # 38 Rue Duhem, Lille, Hauts-de-France
+        S1: Club de Sourds | 17 Rue Duhem, Lille, Hauts-de-France
+  p=0.0  Q: Autonomie Maison Distribution SARL | 39 R De Vaucouleurs, Bordeaux, Nouvelle-Aquitaine
+        S1: Autonomie Maison SARL | 34 Rue de Vaucouleurs, Bordeaux, Nouvelle-Aquitaine
+  p=0.0  Q: Deleves & Fils Distribution SAS | Bordeaux, 28 R Baste
+        S1: Deleves & Fils SAS | 21 RUE Baste, Bordeaux, Nouvelle-Aquitaine
+  p=0.0  Q: May Amis Distribution SARL | 29 R. DE LA PAIX DU 8 MAI 1945, LILLE
+        S1: Établissements Chapelle SARL | 8 Rue de la Paix du 8 Mai 1945, Lille, Hauts-de-France
+=== test France 'developpement'
+  p=0.0  Q: Maison Francois Santé St de Développement | 37BIS RUE DES HAUTS PAVES, NANTES, Pays de la Loire
+        S1: Maison de Santé Saint Francois | 26 bis RUE des Hauts Paves, Nantes, Pays de la Loire
+  p=0.0  Q: purple (france) comite développement eurl | 100 R. Decrême, Roubaix, Nord
+        S1: Purple (France) Comite EURL | 96 Rue Decrême, Roubaix, Hauts-de-France
+  p=0.0  Q: Club de Il Développement | Nord, Dunkerque, #59 R Joseph Jacquard
+        S1: Club de Il | 52 Rue Joseph Jacquard, Dunkerque, Hauts-de-France
+  p=0.0  Q: Indian Service (France) Développement [EURL] | 30 R Louis Braille, Pessac
+        S1: Indian Service (France) EURL | Pessac, Nouvelle-Aquitaine, 9 Rue Louis Braille
+  p=0.0  Q: Maison Rest Développement SARL | 10 Pl De La Vctoire, Tourcoing, Hauts-de-France
+        S1: Maison Rest SARL | 8 Place de la Victoire, Tourcoing, Hauts-de-France
+  p=0.0  Q: Financement Union Développement | 4 AV GAMBETTA, MÉRIGNAC, Nouvelle-Aquitaine
+        S1: Financement Union SAS | 1 Avenue Gambetta, Mérignac, Nouvelle-Aquitaine
+=== test France 'groupe'
+  p=0.0  Q: EURL Lions Comite Groupe | (44) RUE AUGUSTE BRUTAILS, Bordeaux
+        S1: Lions Comite EURL | 42 RUE AUGUSTE BRUTAILS, Bordeaux, Nouvelle-Aquitaine
+  p=0.0  Q: [Sas] établissements Bais Groupe | 1294 Grande Rue Du Petit Courgain, Calais, Pas-de-Calais
+        S1: Établissements Bais SAS | 1289 Grande Rue du Petit Courgain, Calais, Hauts-de-France
+  p=0.0  Q: Bois Hopital Groupe SARL | N° 10 Rue Gabriel Poulain, Nantes
+        S1: Nb Hopital SARL | 6 AV Augustin Louis Cauchy, Nantes, Pays de la Loire
+  p=0.0  Q: Lille Primaire Groupe SAS | 74 Rue Du Guet, Lille
+        S1: Lille Primaire SAS | 65 Rue du Guet, Lille, Hauts-de-France
+  p=0.0  Q: Fédération du Jalmalv Groupe | Hauts-de-France, N°10 Cour Bonnet, Lille
+        S1: Fédération du Jalmalv | 3 Cour Bonnet, Lille, Hauts-de-France
+  p=0.006000000052154064  Q: Lège-Cap-Ferret Groupe SARL | 50 AVENUE DU MERLOT, LEGE-CAP-FERRET
+        S1: Lège-Cap-Ferret Restaurant SARL | 50 Avenue du Merlot, Lège-Cap-Ferret, Nouvelle-Aquitaine

@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4727.39it/s]
+  ce score [train]: 494,388/494,388 81s
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 4392.95it/s]
+  ce score [test]: 1,000,000/2,179,423 251s
+  ce score [test]: 2,000,000/2,179,423 507s
+  ce score [test]: 2,179,423/2,179,423 537s

@@ -1,0 +1,74 @@
+xq ['tok'] AUC 0.8335 groups 1396538
+xq ['tok', 'kind'] AUC 0.845 groups 1415168
+xq ['tok', 'kind', 'pos'] AUC 0.8502 groups 1502109
+x1 ['tok'] AUC 0.6105 groups 97760
+x1 ['tok', 'kind'] AUC 0.7252 groups 113554
+x1 ['tok', 'kind', 'pos'] AUC 0.7293 groups 163505
+shape: (64, 5)
+┌─────────┬───────────────┬──────┬─────┬──────────┐
+│ country ┆ tok           ┆ kind ┆ pos ┆ rel      │
+│ ---     ┆ ---           ┆ ---  ┆ --- ┆ ---      │
+│ str     ┆ str           ┆ str  ┆ str ┆ f64      │
+╞═════════╪═══════════════╪══════╪═════╪══════════╡
+│ France  ┆ amicale       ┆ a    ┆ M   ┆ 0.952381 │
+│ France  ┆ amicale       ┆ s    ┆ M   ┆ 0.987347 │
+│ France  ┆ amicale       ┆ s    ┆ P   ┆ 1.216872 │
+│ France  ┆ amicale       ┆ s    ┆ S   ┆ 1.023503 │
+│ France  ┆ club          ┆ a    ┆ M   ┆ 1.093721 │
+│ France  ┆ club          ┆ a    ┆ P   ┆ 1.0      │
+│ France  ┆ club          ┆ a    ┆ S   ┆ 1.075133 │
+│ France  ┆ club          ┆ s    ┆ M   ┆ 0.930142 │
+│ France  ┆ club          ┆ s    ┆ P   ┆ 1.108445 │
+│ France  ┆ club          ┆ s    ┆ S   ┆ 0.978158 │
+│ France  ┆ comite        ┆ a    ┆ M   ┆ 1.075133 │
+│ France  ┆ comite        ┆ s    ┆ M   ┆ 0.904567 │
+│ France  ┆ comite        ┆ s    ┆ P   ┆ 1.03474  │
+│ France  ┆ comite        ┆ s    ┆ S   ┆ 0.973615 │
+│ France  ┆ developpement ┆ a    ┆ M   ┆ 0.023932 │
+│ France  ┆ developpement ┆ a    ┆ P   ┆ 0.107045 │
+│ France  ┆ developpement ┆ a    ┆ S   ┆ 0.312488 │
+│ France  ┆ developpement ┆ s    ┆ M   ┆ 0.380513 │
+│ France  ┆ developpement ┆ s    ┆ P   ┆ 1.781104 │
+│ France  ┆ developpement ┆ s    ┆ S   ┆ 1.338095 │
+│ France  ┆ ecole         ┆ a    ┆ M   ┆ 0.952381 │
+│ France  ┆ ecole         ┆ a    ┆ P   ┆ 1.0      │
+│ France  ┆ ecole         ┆ s    ┆ M   ┆ 0.892217 │
+│ France  ┆ ecole         ┆ s    ┆ P   ┆ 0.940946 │
+│ France  ┆ ecole         ┆ s    ┆ S   ┆ 0.963934 │
+│ France  ┆ fils          ┆ a    ┆ M   ┆ 1.0      │
+│ France  ┆ fils          ┆ a    ┆ P   ┆ 1.075133 │
+│ France  ┆ fils          ┆ a    ┆ S   ┆ 2.271536 │
+│ France  ┆ fils          ┆ s    ┆ M   ┆ 0.594386 │
+│ France  ┆ fils          ┆ s    ┆ P   ┆ 1.708646 │
+│ …       ┆ …             ┆ …    ┆ …   ┆ …        │
+│ France  ┆ france        ┆ s    ┆ M   ┆ 0.46309  │
+│ France  ┆ france        ┆ s    ┆ P   ┆ 1.865975 │
+│ France  ┆ france        ┆ s    ┆ S   ┆ 1.251311 │
+│ France  ┆ groupe        ┆ a    ┆ M   ┆ 0.023266 │
+│ France  ┆ groupe        ┆ a    ┆ P   ┆ 0.101246 │
+│ France  ┆ groupe        ┆ a    ┆ S   ┆ 0.311794 │
+│ France  ┆ groupe        ┆ s    ┆ M   ┆ 0.489056 │
+│ France  ┆ groupe        ┆ s    ┆ P   ┆ 1.614523 │
+│ France  ┆ groupe        ┆ s    ┆ S   ┆ 1.267555 │
+│ France  ┆ holding       ┆ a    ┆ M   ┆ 0.023967 │
+│ France  ┆ holding       ┆ a    ┆ P   ┆ 0.109372 │
+│ France  ┆ holding       ┆ a    ┆ S   ┆ 0.020534 │
+│ France  ┆ holding       ┆ s    ┆ M   ┆ 0.32676  │
+│ France  ┆ holding       ┆ s    ┆ P   ┆ 0.656791 │
+│ France  ┆ holding       ┆ s    ┆ S   ┆ 0.200583 │
+│ France  ┆ sas           ┆ a    ┆ M   ┆ 0.187655 │
+│ France  ┆ sas           ┆ a    ┆ P   ┆ 0.09428  │
+│ France  ┆ sas           ┆ a    ┆ S   ┆ 1.487649 │
+│ France  ┆ sas           ┆ s    ┆ M   ┆ 0.260943 │
+│ France  ┆ sas           ┆ s    ┆ P   ┆ 0.197498 │
+│ France  ┆ sas           ┆ s    ┆ S   ┆ 0.314928 │
+│ France  ┆ sportive      ┆ a    ┆ M   ┆ 0.869565 │
+│ France  ┆ sportive      ┆ s    ┆ M   ┆ 0.903551 │
+│ France  ┆ sportive      ┆ s    ┆ P   ┆ 1.015349 │
+│ France  ┆ sportive      ┆ s    ┆ S   ┆ 0.962286 │
+│ France  ┆ union         ┆ a    ┆ M   ┆ 0.869565 │
+│ France  ┆ union         ┆ a    ┆ P   ┆ 1.0      │
+│ France  ┆ union         ┆ s    ┆ M   ┆ 0.902893 │
+│ France  ┆ union         ┆ s    ┆ P   ┆ 0.887099 │
+│ France  ┆ union         ┆ s    ┆ S   ┆ 0.951122 │
+└─────────┴───────────────┴──────┴─────┴──────────┘

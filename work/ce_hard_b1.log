@@ -1,0 +1,23 @@
+  hard-pair ce train pairs 1,386,356 (pos 0.440)
+  ce tokenized 1,386,356 pairs 143s
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:   2%|▏         | 3/197 [00:00<00:14, 13.31it/s]Loading weights:   3%|▎         | 5/197 [00:00<00:15, 12.03it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 462.07it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: ../work/hf/e5-base
+Key                        | Status     | 
+---------------------------+------------+-
+pooler.dense.weight        | UNEXPECTED | 
+pooler.dense.bias          | UNEXPECTED | 
+classifier.out_proj.weight | MISSING    | 
+classifier.dense.bias      | MISSING    | 
+classifier.dense.weight    | MISSING    | 
+classifier.out_proj.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  ce step 500/10831 loss 0.4440 37 pairs/s
+  ce step 1000/10831 loss 0.3773 38 pairs/s
+  ce step 1500/10831 loss 0.3448 38 pairs/s
+  ce step 2000/10831 loss 0.2979 38 pairs/s
+  ce step 2500/10831 loss 0.2891 38 pairs/s
+  ce step 3000/10831 loss 0.2816 38 pairs/s
+  ce step 3500/10831 loss 0.2600 38 pairs/s

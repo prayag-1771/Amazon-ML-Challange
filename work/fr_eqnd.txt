@@ -1,0 +1,104 @@
+===== eq numdiff 21719 p quantiles [0.001, 0.007, 0.086, 0.935, 0.999]
+  p=0.084 | Mérignac Club SARL | 438 Avenue de Verdun, Mérignac, Nouvelle-Aquitaine
+            | Mérignac Club SARL | 444 AVENUE DE VERDUN, MÉRIGNAC, Nouvelle-Aquitaine   [m1=438 mq=444]
+  p=0.007 | YY Club SARL | 3 Avenue de la Mer, Pornic, Pays de la Loire
+            | YY CLUB SARL | Pornic, N°22 Rue Des Maçonnières, Loire-Atlantique   [m1=3 mq=22]
+  p=0.064 | Lille Club | 186 BD Victor Hugo, Lille, Hauts-de-France
+            | Lille Club | NO 68 BD VICTOR HGUO, LA CANNE A SUCRE, LILLE, Nord   [m1=186 mq=68]
+  p=0.008 | La Baule-Escoublac Ecole SASU | 11 quater Allée du Loqui, La Baule-Escoublac, Pays de la Loire
+            | La Baule-Escoublac Ecole SASU | 10 AV MARGUERITE-JEAN, LA BAULE-ESCOUBLAC   [m1=11 mq=10]
+  p=1.000 | Bridge Institut SAS | 62 AV Jeanne D Arc, Appartement 25 Etage 2 Residence Charles Vii, Bordeaux, Nouvelle-Aquitaine
+            | Bridge  Institut SAS | Av Jeanne D Arc, Appartement 25 Etage 2 Residence Charles Vii, Bordeaux, Nouvelle-Aquitaine   [m1=62 25 2 mq=25 2]
+  p=0.001 | Bordeaux Residence SARL | 17 Rue Gratiolet, Bordeaux, Nouvelle-Aquitaine
+            | Bordeaux Residence SARL | Bordeaux, 6 All. Ganda, Gironde   [m1=17 mq=6]
+  p=0.032 | Bordeaux Federation SAS | 15 Rue Boudet, Bordeaux, Nouvelle-Aquitaine
+            | Bordeaux Federation S.A.S | 14 RUE MARCELINE DESBORDES-VALMORE, BORDEAUX, Gironde   [m1=15 mq=14]
+  p=0.001 | Bordeaux Concept SASU | 74 Rue Quintin, Bordeaux, Nouvelle-Aquitaine
+            | Bordeaux Concept SASU | 73, 3 RUE VICTOR CAFFIN, BORDEAUX   [m1=74 mq=73 3]
+  p=0.996 | Approches Anciens | Lille, Hauts-de-France, 228 Rue d'Arras
+            | Approches ànciens | Lille, 459 R. D'arras   [m1=228 mq=459]
+  p=0.001 | Association de Aide | 28 Boulevard de Fourmies, Roubaix, Hauts-de-France
+            | Association de Aide | 2 - Cour Demester, Roubaix, Nord   [m1=28 mq=2]
+  p=0.014 | Tourcoing Comite EI | 227 Rue du Congo, Tourcoing, Hauts-de-France
+            | Tourcoing  Comite EI | No. 167 Rue D' Aavers, Tourcoing   [m1=227 mq=167]
+  p=0.908 | Bordeaux Comite SARL | 116 Boulevard du Président Franklin Roosevelt, Bordeaux, Nouvelle-Aquitaine
+            | bordeaux comite sarl | Gironde, 123 Blvd Du Président Franklin Roosevelt, Bordeaux   [m1=116 mq=123]
+  p=0.002 | La Baule-Escoublac Comite SCI | 22 Allée Jeanne, La Baule-Escoublac, Pays de la Loire
+            | LA BAULE-ESCOUBLAC COMITE SCI | 30 Av. Jean Sohier, La Baule-escoublac, Pays de la Loire   [m1=22 mq=30]
+  p=0.002 | Football Jeunes SARL | 35 Quai des Mariniers, Tourcoing, Hauts-de-France
+            | Football Jeunes SARL | TOURCOING, 62 R DES BLEUETS   [m1=35 mq=62]
+===== swap same 145924 p quantiles [0.113, 0.892, 0.998, 1.0, 1.0]
+  p=0.978 | La Baule-Escoublac Ecole SA | 5 Place des Salines, La Baule-Escoublac, Pays de la Loire
+            | La Ecole SA Et Fils | 5 PLACE DES SALINES, LA BAULE ESCOUBLAC, Pays de la Loire   [m1=5 mq=5]
+  p=0.859 | Bordeaux Ateliers SAS | 369 Boulevard Jean-Jacques Bosc, Bordeaux, Nouvelle-Aquitaine
+            | Bordeaux SAS Groupe | 369 Boulevard Jean-jacques Bosc, Bordeaux, Nouvelle-Aquitaine   [m1=369 mq=369]
+  p=0.954 | Defense Cie SAS | 60 Rue Jean Mermoz, Calais, Hauts-de-France
+            | DC | Nº 60 R JEAN MERMOZ, Calais, Pas-de-Calais   [m1=60 mq=60]
+  p=0.664 | Zen Pause Centre SARL | 10 Parvis Saint-Rédempteur, Roubaix, Hauts-de-France
+            | Zen Pause SARL Groupe | 10 PARVIS SAINT-RÉDEMPTEUR, ROUBAIX, Hauts-de-France   [m1=10 mq=10]
+  p=0.716 | Saint-Herblain Loisirs SAS | 11 Rue de la Vecquerie, Saint-Herblain, Pays de la Loire
+            | Saint-Herblain SAS & Associés | 11 Rue De La Vecquerie, Saint-herblain, Loire-Atlantique   [m1=11 mq=11]
+  p=0.001 | Horizon Service SARL | 21 bis Rue Paul Painlevé, Pessac, Nouvelle-Aquitaine
+            | Horizon Anciens | 21 Bis Rue Paul Painlevé, Pessac, Gironde   [m1=21 mq=21]
+  p=0.019 | École maternelle du Pierre | 54 Avenue de Saint-Medard, Mérignac, Nouvelle-Aquitaine
+            | Jeunes du Pierre | (54) AVENUE DE SAINT-MEDARD, MÉRIGNAC, Gironde   [m1=54 mq=54]
+  p=1.000 | Lycée Jacques | 57 Rue de Cronstadt, Lille, Hauts-de-France
+            | LJ | 57 RUE DE CRONSTADT, Lille, Hauts-de-France   [m1=57 mq=57]
+  p=1.000 | Jardins Club SARL | 5 Rue Henri Cochard, Nantes, Pays de la Loire
+            | jardinsclubsarl.com | 5 Rue Henri Cochard, Nantes, Loire-Atlantique   [m1=5 mq=5]
+  p=1.000 | Pessac Parents SARL | 4 Allée des Hibiscus, Pessac, Nouvelle-Aquitaine
+            | pessacparentssarl.com | 4 All Des Hibiscus, Pessac, Gironde   [m1=4 mq=4]
+  p=0.075 | Trianon (France) Anciens SASU | 89 Rue de France, Roubaix, Hauts-de-France
+            | Trianon (France) Culture SASU | 89 Rue De France, Roubaix   [m1=89 mq=89]
+  p=0.713 | Or Amicale SARL | 12 Rue Mauvoisins, Nantes, Pays de la Loire
+            | Or Parents SARL | 12 Rue Mauvoisins, Nantes, Loire-Atlantique   [m1=12 mq=12]
+  p=0.935 | PDM Comite SARL | 13 Rue Joris Karl Huysmans, Lille, Hauts-de-France
+            | Nexnovi | 13 Rue Joris Karl Huysmans, Hauts-de-France, Lille   [m1=13 mq=13]
+  p=0.982 | Tous Patrimoine SAS | 260 COUR2 Balguerie Stuttenberg, Bordeaux, Nouvelle-Aquitaine
+            | Tous SAS France | 260 COUR2 BALGUERIE STUTTENBERG, BORDEAUX   [m1=260 2 mq=260 2]
+===== added empty 4095 p quantiles [0.005, 0.015, 0.058, 0.334, 0.942]
+  p=0.801 | Touristique Lycee | 106 Rue David Johnston, Bordeaux, Nouvelle-Aquitaine
+            | Touristique  Lycee SA |    [m1=106 mq=]
+  p=0.032 | Pharmacie Louis | Lille, 11 Cour Saint Victor, Hauts-de-France
+            | Pharmacie Louis & Co |    [m1=11 mq=]
+  p=0.010 | Union des Defense | 6 Rue Juan Gris, Calais, Hauts-de-France
+            | Union des Defense SCI |    [m1=6 mq=]
+  p=0.834 | Centre Médical Professionnels | Nouvelle-Aquitaine, Bordeaux, 7 Rue Maurice Lanoire
+            | Centre Médical Professionnels SAS |    [m1=7 mq=]
+  p=0.009 | Centre Médical du Georges | 29 Rue Miraumont, Calais, Hauts-de-France
+            | Centre Médical du Georges Enterprises |    [m1=29 mq=]
+  p=0.023 | Fédération du Sein | 49 Boulevard Diderot, Dunkerque, Hauts-de-France
+            | Fédération du Sein Et Fils |    [m1=49 mq=]
+  p=0.990 | Lycée de Garder | 17 Avenue de l'Eperonnière, Nantes, Pays de la Loire
+            | Lycée de Garder SAS |    [m1=17 mq=]
+  p=0.693 | Entre Institut | 40 Avenue des Salines, La Baule-Escoublac, Pays de la Loire
+            | ENTRE INSTITUT SAS |    [m1=40 mq=]
+  p=0.019 | Établissements Departemental | 1 A Rue Fernand Pelloutier, Nantes, Pays de la Loire
+            | Établissements Departemental Enterprises |    [m1=1 mq=]
+  p=0.009 | Pharmacie de la Jean | 14 Allée de la Pinède, Pessac, Nouvelle-Aquitaine
+            | Pharmacie De La Jean Enterprises |    [m1=14 mq=]
+  p=0.941 | Union du Miel | 94 Rue Jean Jacques Rousseau, Roubaix, Hauts-de-France
+            | Union du Miel SARL |    [m1=94 mq=]
+  p=0.389 | Musiciens Lycée | 349 Chaussée Denis Papin, Tourcoing, Hauts-de-France
+            | Musiciens Lycée SA |    [m1=349 mq=]
+  p=0.010 | Maison de Santé Louis | 19 Rue du Docteur Souverbie, Bordeaux, Nouvelle-Aquitaine
+            | Maison de Santé du Louis SASU |    [m1=19 mq=]
+  p=0.954 | EHPAD Sainte Lanton | 67 Rue Jules Vallès, Lille, Hauts-de-France
+            | EHPAD Sainte Lanton SASU |    [m1=67 mq=]
+===== US eq numdiff
+  p=0.995 | Callahan Holding Company | 1285 13 Avenue, Saint Cloud, MN
+            | Callahan Holding Co | MN, 128 13 AVE, SAINT CLOUD   [m1=1285 13 mq=128 13]
+  p=0.999 | Silver Total Acquisitions Co | 4251 Sullivan Gardens Drive, Kingsport, TN
+            | silver total acquisitions co | Tennessee, 425 Sullivan Gardens Dr, Kingsport   [m1=4251 mq=425]
+  p=1.000 | Piedmont Network | 8850 Morgan Co Highway, Sunbright, TN
+            | Piedmont [Network] | 885 MORGAN CO HWY, NULL, SUNBRIGHT, TN   [m1=8850 mq=885]
+  p=0.332 | Ward Tax Inc. | 81 Pedley Place, Cameron, NC
+            | WARD TAX INC | 102 PEDLEY PLACE, CAMERON, NC   [m1=81 mq=102]
+  p=0.994 | Deleo Equity Partners Partners | 2170 Red Pine Drive, Cambridge, MN
+            | Deleo Equity Pártners Partners | Minnesota, 217 Red Pine Dr, Cambridge   [m1=2170 mq=217]
+  p=1.000 | Pediatric Health Inc. | 2067 Cascade Road, Atlanta, GA
+            | pediatric health ínc. | 206 Cascade Rd, Atlanta, Georgia   [m1=2067 mq=206]
+  p=0.994 | Synify Intelligent, LLC | 14114 Lauren Lane, Unit 27B, Laurel, MD
+            | Synify Íntelligent, LLC | LAUREL, 014350 LAUREN LN, MD   [m1=14114 27 mq=14350]
+  p=0.999 | Straight Edge Hair Studio! P.C. | 15330 Trebbiano Drive, Fishers, IN
+            | STRAIGHT  EDGE HAIR STUDIO! (P.C.) | 15692 TREBBIANO DRIVE, FISHERS, IN   [m1=15330 mq=15692]

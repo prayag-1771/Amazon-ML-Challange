@@ -1,0 +1,5 @@
+24 27
+p9 up-shift acc [('France', 6594), ('India', 56425), ('US', 18018)] total [('France', 867765), ('India', 2711434), ('US', 2242074)]
+[('India', 'd3', 'same', False, 6023), ('India', 'dx', 'same', False, 5789), ('India', 'dx', 'same', True, 5580), ('India', 'd3', 'same', True, 5527), ('India', 'd1', 'same', False, 4411), ('India', 'd1', 'same', True, 4365), ('India', 'd2', 'same', False, 4162), ('India', 'd2', 'same', True, 4076)]
+ps up-shift acc [('France', 5117), ('India', 55979), ('US', 17399)] total [('France', 865581), ('India', 2711822), ('US', 2243362)]
+[('India', 'd3', 'same', False, 5897), ('India', 'dx', 'same', False, 5769), ('India', 'dx', 'same', True, 5575), ('India', 'd3', 'same', True, 5517), ('India', 'd1', 'same', False, 4365), ('India', 'd1', 'same', True, 4357), ('India', 'd2', 'same', False, 4113), ('India', 'd2', 'same', True, 4066)]

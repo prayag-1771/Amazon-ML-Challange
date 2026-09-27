@@ -1,0 +1,108 @@
+misses 12796
+shape: (8, 4)
+┌─────────┬─────┬───────┬──────┐
+│ country ┆ qe  ┆ eq    ┆ len  │
+│ ---     ┆ --- ┆ ---   ┆ ---  │
+│ str     ┆ i8  ┆ bool  ┆ u32  │
+╞═════════╪═════╪═══════╪══════╡
+│ India   ┆ 0   ┆ false ┆ 3038 │
+│ India   ┆ 0   ┆ true  ┆ 220  │
+│ India   ┆ 1   ┆ false ┆ 2039 │
+│ India   ┆ 1   ┆ true  ┆ 2145 │
+│ US      ┆ 0   ┆ false ┆ 507  │
+│ US      ┆ 0   ┆ true  ┆ 4    │
+│ US      ┆ 1   ┆ false ┆ 3153 │
+│ US      ┆ 1   ┆ true  ┆ 1690 │
+└─────────┴─────┴───────┴──────┘
+shape: (10, 3)
+┌─────────┬─────────────┬──────┐
+│ country ┆ rb          ┆ len  │
+│ ---     ┆ ---         ┆ ---  │
+│ str     ┆ enum        ┆ u32  │
+╞═════════╪═════════════╪══════╡
+│ India   ┆ (-inf, 50]  ┆ 1012 │
+│ India   ┆ (50, 70]    ┆ 1573 │
+│ India   ┆ (70, 85]    ┆ 1592 │
+│ India   ┆ (85, 99.9]  ┆ 900  │
+│ India   ┆ (99.9, inf] ┆ 2365 │
+│ US      ┆ (-inf, 50]  ┆ 594  │
+│ US      ┆ (50, 70]    ┆ 795  │
+│ US      ┆ (70, 85]    ┆ 1457 │
+│ US      ┆ (85, 99.9]  ┆ 814  │
+│ US      ┆ (99.9, inf] ┆ 1694 │
+└─────────┴─────────────┴──────┘
+shape: (10, 3)
+┌─────────┬───────────┬──────┐
+│ country ┆ db        ┆ len  │
+│ ---     ┆ ---       ┆ ---  │
+│ str     ┆ enum      ┆ u32  │
+╞═════════╪═══════════╪══════╡
+│ India   ┆ (-inf, 1] ┆ 366  │
+│ India   ┆ (1, 3]    ┆ 212  │
+│ India   ┆ (3, 10]   ┆ 239  │
+│ India   ┆ (10, 50]  ┆ 440  │
+│ India   ┆ (50, inf] ┆ 1108 │
+│ US      ┆ (-inf, 1] ┆ 57   │
+│ US      ┆ (1, 3]    ┆ 62   │
+│ US      ┆ (3, 10]   ┆ 157  │
+│ US      ┆ (10, 50]  ┆ 524  │
+│ US      ┆ (50, inf] ┆ 894  │
+└─────────┴───────────┴──────┘
+shape: (4, 3)
+┌─────────┬───────┬──────┐
+│ country ┆ st_eq ┆ len  │
+│ ---     ┆ ---   ┆ ---  │
+│ str     ┆ bool  ┆ u32  │
+╞═════════╪═══════╪══════╡
+│ India   ┆ true  ┆ 218  │
+│ India   ┆ false ┆ 2147 │
+│ US      ┆ true  ┆ 6    │
+│ US      ┆ false ┆ 1688 │
+└─────────┴───────┴──────┘
+shape: (30, 6)
+┌─────────┬─────────────────────────────┬─────┬────────────────┬─────┬─────────────────────────────┐
+│ country ┆ name_core                   ┆ dup ┆ state          ┆ qs  ┆ business_name               │
+│ ---     ┆ ---                         ┆ --- ┆ ---            ┆ --- ┆ ---                         │
+│ str     ┆ str                         ┆ u32 ┆ str            ┆ str ┆ str                         │
+╞═════════╪═════════════════════════════╪═════╪════════════════╪═════╪═════════════════════════════╡
+│ India   ┆ shivam consulting           ┆ 60  ┆ maharashtra    ┆     ┆ Shivam Consulting           │
+│ US      ┆ gulf specialty              ┆ 8   ┆ ca             ┆     ┆ Gulf Spécialty LLC          │
+│ India   ┆ indian ventures             ┆ 46  ┆ delhi          ┆     ┆ INDIAN VENTURES PRIVATE     │
+│         ┆                             ┆     ┆                ┆     ┆ LIMITE…                     │
+│ India   ┆ association                 ┆ 5   ┆ bihar          ┆     ┆ Association + [Company]     │
+│ US      ┆ womens health care          ┆ 197 ┆ me             ┆     ┆ Womens Health Care & Co     │
+│ India   ┆ aditya products             ┆ 57  ┆ karnataka      ┆     ┆ Mr Aditya Private Products  │
+│         ┆                             ┆     ┆                ┆     ┆ [Li…                        │
+│ US      ┆ surgical associates         ┆ 239 ┆ in             ┆     ┆ Surgical Ássociates P.C.    │
+│ India   ┆ dream solutions             ┆ 59  ┆ haryana        ┆     ┆ Dream-Solutions             │
+│ US      ┆ rocky group                 ┆ 8   ┆ va             ┆     ┆ The Rocky Group             │
+│ US      ┆ perot moore                 ┆ 16  ┆ in             ┆     ┆ Perot & Moore, L.L.C.       │
+│ India   ┆ dream infrastructure        ┆ 72  ┆ telangana      ┆     ┆ Dream Infrastructure        │
+│         ┆                             ┆     ┆                ┆     ┆ Private …                   │
+│ India   ┆ anand finance               ┆ 76  ┆ delhi          ┆     ┆ Anand  Finance              │
+│ India   ┆ sun it                      ┆ 41  ┆ telangana      ┆     ┆ sun ít                      │
+│ India   ┆ shivam global               ┆ 58  ┆ madhya pradesh ┆     ┆ Shivam Global Corp          │
+│ US      ┆ equinox                     ┆ 270 ┆ nc             ┆     ┆ Equinox & Co                │
+│ US      ┆ heritage fund               ┆ 47  ┆ or             ┆     ┆ Heritage (Fund)             │
+│ US      ┆ back alley diner            ┆ 86  ┆ tn             ┆     ┆ Back  Alley [Diner]         │
+│ India   ┆ xi india                    ┆ 2   ┆ karnataka      ┆     ┆ XI (INDIA) PRÍVATE LTD      │
+│ India   ┆ bombay construction         ┆ 63  ┆ maharashtra    ┆     ┆ Bombay Construction         │
+│         ┆                             ┆     ┆                ┆     ┆ Private-Lt…                 │
+│ US      ┆ internal medicine highland  ┆ 9   ┆ la             ┆     ┆ INTERNAL MEDICINE HIGHLAND  │
+│         ┆ car…                        ┆     ┆                ┆     ┆ CAR…                        │
+│ India   ┆ perfect industries          ┆ 63  ┆ madhya pradesh ┆     ┆ Perfect  Industries Pvt Ltd │
+│ India   ┆ dynamic constructions       ┆ 62  ┆ delhi          ┆     ┆ Dynamic Constructions       │
+│         ┆                             ┆     ┆                ┆     ┆ Private …                   │
+│ India   ┆ raj ventures                ┆ 53  ┆ rajasthan      ┆     ┆ Raj Ventures  Private       │
+│         ┆                             ┆     ┆                ┆     ┆ Limited                     │
+│ US      ┆ pediatric dental            ┆ 223 ┆ tx             ┆     ┆ Pediatric-Dental            │
+│         ┆ specialists                 ┆     ┆                ┆     ┆ Specialists L…              │
+│ US      ┆ vision physicians           ┆ 248 ┆ ny             ┆     ┆ Vision Physicians           │
+│         ┆                             ┆     ┆                ┆     ┆ Incorporated                │
+│ US      ┆ family health               ┆ 228 ┆ in             ┆     ┆ Family (Health)             │
+│ India   ┆ big products                ┆ 52  ┆ rajasthan      ┆     ┆ Big Products                │
+│ US      ┆ colon smith                 ┆ 12  ┆ ny             ┆     ┆ Colon And Smith             │
+│ India   ┆ southern energy             ┆ 40  ┆ telangana      ┆     ┆ Southern Energy Private Ltd │
+│ India   ┆ red enterprises             ┆ 53  ┆ telangana      ┆     ┆ Sri Red Enterprises Private │
+│         ┆                             ┆     ┆                ┆     ┆ Lt…                         │
+└─────────┴─────────────────────────────┴─────┴────────────────┴─────┴─────────────────────────────┘

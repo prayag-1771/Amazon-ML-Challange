@@ -1,0 +1,80 @@
+France groupe 44490 [('mid', 'added', 16101, 0.0, 0.0), ('suffix', 'swap', 12199, 0.288, 0.065), ('suffix', 'added', 10738, 0.075, 0.005), ('mid', 'swap', 4191, 0.087, 0.015), ('prefix', 'swap', 1059, 0.38, 0.195), ('prefix', 'added', 202, 0.005, 0.0)]
+France developpement 41768 [('mid', 'added', 16385, 0.0, 0.0), ('suffix', 'swap', 11140, 0.308, 0.042), ('suffix', 'added', 10465, 0.074, 0.024), ('mid', 'swap', 2668, 0.048, 0.003), ('prefix', 'swap', 892, 0.439, 0.39), ('prefix', 'added', 218, 0.005, 0.005)]
+France club 11135 [('mid', 'swap', 6745, 0.231, 0.144), ('suffix', 'swap', 2926, 0.257, 0.233), ('prefix', 'swap', 1442, 0.284, 0.04), ('mid', 'added', 19, 0.053, 0.105), ('suffix', 'added', 2, 0.0, 0.0), ('prefix', 'added', 1, 0.0, 0.0)]
+France sportive 5197 [('mid', 'swap', 3287, 0.218, 0.061), ('suffix', 'swap', 1402, 0.25, 0.042), ('prefix', 'swap', 503, 0.296, 0.008), ('mid', 'added', 5, 0.0, 0.0)]
+France sas 49707 [('suffix', 'added', 26708, 0.35, 0.578), ('suffix', 'swap', 18208, 0.05, 0.022), ('prefix', 'swap', 1871, 0.027, 0.015), ('mid', 'swap', 1671, 0.044, 0.006), ('prefix', 'added', 813, 0.011, 0.021), ('mid', 'added', 436, 0.03, 0.057)]
+France france 43711 [('mid', 'added', 15340, 0.0, 0.0), ('suffix', 'swap', 11321, 0.281, 0.313), ('suffix', 'added', 10647, 0.078, 0.043), ('mid', 'swap', 5424, 0.05, 0.002), ('prefix', 'swap', 766, 0.436, 0.303), ('prefix', 'added', 213, 0.009, 0.0)]
+France holding 33816 [('mid', 'added', 16374, 0.0, 0.0), ('suffix', 'added', 9006, 0.0, 0.0), ('suffix', 'swap', 4684, 0.02, 0.0), ('mid', 'swap', 3508, 0.029, 0.0), ('prefix', 'added', 205, 0.0, 0.0), ('prefix', 'swap', 39, 0.0, 0.0)]
+France participations 34265 [('mid', 'added', 16796, 0.0, 0.0), ('suffix', 'added', 9461, 0.0, 0.0), ('suffix', 'swap', 4344, 0.018, 0.0), ('mid', 'swap', 3427, 0.06, 0.0), ('prefix', 'added', 206, 0.0, 0.0), ('prefix', 'swap', 31, 0.0, 0.0)]
+France fils 19415 [('suffix', 'swap', 15489, 0.473, 0.669), ('suffix', 'added', 3372, 0.489, 0.823), ('mid', 'swap', 495, 0.109, 0.04), ('prefix', 'swap', 54, 0.296, 0.537), ('mid', 'added', 4, 0.0, 0.0), ('prefix', 'added', 1, 1.0, 1.0)]
+France et 15175 [('mid', 'swap', 12979, 0.425, 0.639), ('mid', 'added', 2055, 0.484, 0.824), ('prefix', 'swap', 105, 0.467, 0.657), ('suffix', 'swap', 36, 0.389, 0.639)]
+US group 110053 [('suffix', 'swap', 57522, 0.0, 0.0), ('suffix', 'added', 29821, 0.0, 0.0), ('mid', 'swap', 10379, 0.0, 0.0), ('prefix', 'swap', 6693, 0.0, 0.0), ('prefix', 'added', 3538, 0.0, 0.0), ('mid', 'added', 2100, 0.0, 0.0)]
+US holdings 110704 [('suffix', 'swap', 58078, 0.0, 0.0), ('suffix', 'added', 30479, 0.0, 0.0), ('mid', 'swap', 9610, 0.0, 0.0), ('prefix', 'swap', 6875, 0.0, 0.0), ('prefix', 'added', 3617, 0.001, 0.0), ('mid', 'added', 2045, 0.0, 0.0)]
+US center 105182 [('suffix', 'swap', 85459, 0.243, 0.636), ('suffix', 'added', 8883, 0.305, 0.794), ('prefix', 'swap', 6890, 0.232, 0.589), ('mid', 'swap', 3588, 0.127, 0.327), ('mid', 'added', 300, 0.12, 0.343), ('prefix', 'added', 62, 0.258, 0.597)]
+US services 76908 [('suffix', 'swap', 62886, 0.242, 0.631), ('suffix', 'added', 6300, 0.299, 0.775), ('prefix', 'swap', 4892, 0.229, 0.576), ('mid', 'swap', 2637, 0.125, 0.316), ('mid', 'added', 139, 0.23, 0.482), ('prefix', 'added', 54, 0.185, 0.537)]
+US inc 168503 [('suffix', 'added', 82868, 0.182, 0.483), ('suffix', 'swap', 64454, 0.058, 0.129), ('mid', 'swap', 8416, 0.012, 0.02), ('prefix', 'swap', 6059, 0.038, 0.092), ('prefix', 'added', 3813, 0.004, 0.014), ('mid', 'added', 2893, 0.069, 0.181)]
+India group 77345 [('mid', 'added', 31529, 0.001, 0.0), ('mid', 'swap', 24260, 0.001, 0.0), ('suffix', 'added', 12964, 0.001, 0.0), ('suffix', 'swap', 7997, 0.001, 0.0), ('prefix', 'added', 368, 0.0, 0.0), ('prefix', 'swap', 227, 0.0, 0.0)]
+India enterprises 87173 [('mid', 'added', 41836, 0.0, 0.0), ('mid', 'swap', 23904, 0.001, 0.0), ('suffix', 'added', 12367, 0.001, 0.0), ('suffix', 'swap', 8469, 0.0, 0.0), ('prefix', 'added', 344, 0.0, 0.0), ('prefix', 'swap', 253, 0.0, 0.0)]
+India center 123526 [('suffix', 'swap', 115656, 0.156, 0.697), ('prefix', 'swap', 3521, 0.149, 0.633), ('mid', 'swap', 2629, 0.101, 0.495), ('suffix', 'added', 1451, 0.135, 0.58), ('mid', 'added', 252, 0.0, 0.052), ('prefix', 'added', 17, 0.0, 0.471)]
+India services 97773 [('suffix', 'swap', 81661, 0.153, 0.692), ('mid', 'swap', 11838, 0.017, 0.076), ('prefix', 'swap', 3033, 0.128, 0.515), ('suffix', 'added', 1019, 0.105, 0.589), ('mid', 'added', 201, 0.0, 0.05), ('prefix', 'added', 21, 0.095, 0.286)]
+India sri 81739 [('prefix', 'swap', 50575, 0.124, 0.536), ('prefix', 'added', 28607, 0.139, 0.631), ('mid', 'swap', 2548, 0.13, 0.575), ('mid', 'added', 7, 0.0, 0.286), ('suffix', 'swap', 2, 0.0, 0.5)]
+== groupe same True
+  p=0.905 S1: Souche Club SASU | 19 Allee Valmon Bal, La Teste-de-Buch, Nouvelle-Aquitaine
+           Q: Souche SASU Groupe | 19 ALLEE VALMON BAL, LA TESTE-DE-BUCH
+  p=0.427 S1: Physic Residence SARL | 21 Rue des Fondeurs, Roubaix, Hauts-de-France
+           Q: Physic SARL Groupe | No 21 Rue Des Fondeurs, Roubaix
+  p=0.207 S1: Competition Freedom Sportive SARL | 55 Rue Thomas Edison, Roubaix, Hauts-de-France
+           Q: Competition-Freedom SARL Groupe | 55 R Thomas Edison, Roubaix, Nord
+  p=0.099 S1: Ulm Service SARL | 24 Rue du Marais de Lomme, Lille, Hauts-de-France
+           Q: Ulm SARL Groupe | 24 - R Du Marais De Lomme, Lille, Hauts-de-France
+  p=0.545 S1: Deleves Sportive SAS | 40 Rue Frantz Despagnet, Bordeaux, Nouvelle-Aquitaine
+           Q: Deleves SAS Groupe | 40 Rue Frantz Despagnet, Bordeaux, Nouvelle-Aquitaine
+  p=0.202 S1: Établissements Roll SAS | 6 rue de Seclin, 59200 TOURCOING, Tourcoing, Hauts-de-France
+           Q: Établissements Roll SAS Groupe | 6 R DE SECLIN, 59200 TOURCOING, TOURCOING
+  p=0.445 S1: Sound Petits Centre SASU | 40 bis Rue Gustave Loude, La Teste-de-Buch, Nouvelle-Aquitaine
+           Q: Sound Petits SASU Groupe | 40 BIS R. GUSTAVE LOUDE, LA TESTE-DE-BUCH
+  p=0.049 S1: Comité de Sportives | 47 Rue de Châteaulin, Nantes, Pays de la Loire
+           Q: Comité De Sportives Groupe | 47 R. De Châteaulin, Nantes, Loire-Atlantique
+== groupe same False
+  p=0.000 S1: Joueurs Etablissement SARL | 25 RUE Andronne, Bordeaux, Nouvelle-Aquitaine
+           Q: Joueurs Etablissement Groupe SARL | 36 RUE ANDRONNE, BORDEAUX
+  p=0.000 S1: Jeremy Agricole SAS | 20 Allée de la Gélinotte Piraillan, Lège-Cap-Ferret, Nouvelle-Aquitaine
+           Q: Jeremy Agricole Groupe SAS | 25 All. De La Gelinotte Piraillan, Lege-cap-ferret, Nouvelle-Aquitaine
+  p=0.000 S1: Vtt Collectif | 6 Rue du Pont Lottin, Calais, Hauts-de-France
+           Q: vtt collectif groupe | 15 R. Du Pont Lottin, Calais
+  p=0.000 S1: Tourcoing Loisirs SASU | Tourcoing, Hauts-de-France, 3 Rue Berlin Mitte
+           Q: Aide teatre Groupe SARL | 23 Rue Berlin Mitte, Tourcoing
+  p=0.000 S1: École primaire de la Familiale | 37 RUE du Commandant Gustave Gate, Saint-Nazaire, Pays de la Loire
+           Q: École primaire de la Familiale Groupe | 38 Rue Du Commandant Gustave Gate, Saint-nazaire, Pays de la Loire
+  p=0.000 S1: Favoriser Compagnie SARL | 3 Rue de l'Observance, Bordeaux, Nouvelle-Aquitaine
+           Q: Favoriser Cie Groupe SARL | BORDEAUX, 6 RUE DE L'OBSERVANCE
+  p=0.000 S1: Saint-Nazaire Centre SA | 3 Allée des Bosquets, Saint-Nazaire, Pays de la Loire
+           Q: SAINT-NAZAIRE CENTRE GROUPE | 12 ALLÉE DES BOSQUETS, SAINT-NAZAIRE, Loire-Atlantique
+  p=0.000 S1: Maison Rubans SARL | 107 Rue Martyn, Calais, Hauts-de-France
+           Q: MAISON RUBANS GROUPE SARL | Nº 114 Rue Matryn, Calais
+== developpement same True
+  p=0.002 S1: Calais Amis | 629 Rue Maurice Marinot, Calais, Hauts-de-France
+           Q: CALAIS DÉVELOPPEMENT | 629 R MAURICE MARINOT, CALAIS, Pas-de-Calais
+  p=0.888 S1: Danimation Comite SARL | 10 Rue Massena, Mérignac, Nouvelle-Aquitaine
+           Q: Danimation SARL Développement | 10 Rue Massena, Merignac, Nouvelle-Aquitaine
+  p=0.089 S1: Financement Ecole (France) SARL | 10 Impasse John William Coltrane, Mérignac, Nouvelle-Aquitaine
+           Q: Financement (France) SARL Développement | 10 - Impasse John William Coltrane, Merignac
+  p=0.313 S1: Doctobre Gamins Culture SAS | 13 Rue Chanzy, Dunkerque, Hauts-de-France
+           Q: Doctobre Gamins SAS Développement | 13 Rue Chanzy, Dunkerque, Nord
+  p=0.265 S1: Fish Auto (France) SARL | 19 Avenue de la Milletière, Nantes, Pays de la Loire
+           Q: Fish Auto SARL Développement | 19 Avenue De La Milletière, Nantes, Loire-Atlantique
+  p=0.064 S1: Cavaliers Loisirs SCI | 51 -53 RUE de lAlcazar, Lille, Hauts-de-France
+           Q: Cavaliers SCI Développement | NO 51 -53 RUE DE LALCAZAR, LILLE, Hauts-de-France
+== developpement same False
+  p=0.000 S1: Comité du Nationale | 50 Avenue des Echoppes, Pessac, Nouvelle-Aquitaine
+           Q: Comité du Nationale Développement | #71 AVENUE DES ECHOPPES, PESSAC, Gironde
+  p=0.000 S1: Fédération des Km | 53 Rue du Coutoum, La Teste de Buch, La Teste-de-Buch, Nouvelle-Aquitaine
+           Q: Fédération Des Développement Km | 56 Rue Du Coutoum, La Teste De Buch, La Teste-de-buch
+  p=0.000 S1: VMG Amis SARL | Nouvelle-Aquitaine, Bordeaux, 120 Cours Édouard Vaillant
+           Q: VMG Amis Développement SARL | 125 Cours Édouard Vaillant, Bordeaux
+  p=0.000 S1: Utilisateurs Compagnie (France) SARL | Pays de la Loire, Nantes, 14 Avenue Francis Athimon
+           Q: Utilisateurs Compagnie (France) Développement SARL | 21 Av. Francis Athimon, Nantes
+  p=0.000 S1: Association de Ensemble | 82 Boulevard de l'Epine, Lille, Hauts-de-France
+           Q: de Association Ensemble Développement | 93 Boulevard De L'epene, Lille, Nord
+  p=0.000 S1: Club des Defense | 32 Rue Vantroyen, Lille, Hauts-de-France
+           Q: Defense Club Développement | 13 RUE BOISSY DANGLAS, LILLE, Nord

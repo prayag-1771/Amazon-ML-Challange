@@ -1,0 +1,67 @@
+== precision proxies of assigned pairs (p>=0.75) ==
+shape: (3, 7)
+┌───────────┬─────────┬─────────────┬──────────────┬─────────────┬────────────┬──────────┐
+│ country_1 ┆ n       ┆ num_missing ┆ num_disagree ┆ pc_disagree ┆ name_exact ┆ p_lt_0.9 │
+│ ---       ┆ ---     ┆ ---         ┆ ---          ┆ ---         ┆ ---        ┆ ---      │
+│ str       ┆ u32     ┆ f64         ┆ f64          ┆ f64         ┆ f64        ┆ f64      │
+╞═══════════╪═════════╪═════════════╪══════════════╪═════════════╪════════════╪══════════╡
+│ France    ┆ 870073  ┆ 0.077415    ┆ 0.019811     ┆ 0.005579    ┆ 0.4918     ┆ 0.022853 │
+│ India     ┆ 2713141 ┆ 0.121266    ┆ 0.066607     ┆ 0.02148     ┆ 0.257757   ┆ 0.004403 │
+│ US        ┆ 2239698 ┆ 0.105139    ┆ 0.107898     ┆ 0.038798    ┆ 0.333602   ┆ 0.004741 │
+└───────────┴─────────┴─────────────┴──────────────┴─────────────┴────────────┴──────────┘
+== matches per (S1, source) distribution ==
+shape: (6, 5)
+┌───────────┬─────┬──────────┬──────────┬──────────┐
+│ country_1 ┆ src ┆ mean     ┆ ge3      ┆ ge5      │
+│ ---       ┆ --- ┆ ---      ┆ ---      ┆ ---      │
+│ str       ┆ i32 ┆ f64      ┆ f64      ┆ f64      │
+╞═══════════╪═════╪══════════╪══════════╪══════════╡
+│ France    ┆ 2   ┆ 1.905214 ┆ 0.241499 ┆ 0.01268  │
+│ France    ┆ 3   ┆ 1.998239 ┆ 0.273177 ┆ 0.018303 │
+│ India     ┆ 2   ┆ 1.893964 ┆ 0.237309 ┆ 0.011363 │
+│ India     ┆ 3   ┆ 1.9935   ┆ 0.27189  ┆ 0.017364 │
+│ US        ┆ 2   ┆ 1.898722 ┆ 0.238415 ┆ 0.011606 │
+│ US        ┆ 3   ┆ 2.004254 ┆ 0.275148 ┆ 0.018025 │
+└───────────┴─────┴──────────┴──────────┴──────────┘
+== France, confident but house number disagrees ==
+shape: (25, 5)
+┌──────────┬──────────────────────────────────┬──────────────────────────────────┬───────────────────────────────────────────────────────────────┬───────────────────────────────────────────────────────────────┐
+│ p        ┆ business_name_1                  ┆ business_name                    ┆ business_address_1                                            ┆ business_address                                              │
+│ ---      ┆ ---                              ┆ ---                              ┆ ---                                                           ┆ ---                                                           │
+│ f32      ┆ str                              ┆ str                              ┆ str                                                           ┆ str                                                           │
+╞══════════╪══════════════════════════════════╪══════════════════════════════════╪═══════════════════════════════════════════════════════════════╪═══════════════════════════════════════════════════════════════╡
+│ 0.996606 ┆ Adapte Federation SAS            ┆ Adapte Federation SAS            ┆ 7 Avenue Jean Guitteny, Pornic, Pays de la Loire              ┆ 1 Avenue Jean Guitteny, Pornic, Pays de la Loire              │
+│ 0.999837 ┆ Alevis Loisirs EI                ┆ Alevis Lôisirs EI                ┆ 29 Rue des Tours, Lille, Hauts-de-France                      ┆ Lille, 1 Rue Des Tours, Hauts-de-France                       │
+│ 0.999884 ┆ FKO Club SAS                     ┆ FKO Club                         ┆ 34 Rue du Moulin des Carmes, Nantes, Pays de la Loire         ┆ 1 RUE DU MOULIN DES CARMES, NANTES                            │
+│ 0.99877  ┆ Detude Societe (France)          ┆ Detude Societe [(France)]        ┆ Calais, Hauts-de-France, 89 Rue Robert Deschamps              ┆ N° 110 R. Robert Deschapms, Calais, Hauts-de-France           │
+│ 0.996789 ┆ Studio Federation SARL           ┆ SF                               ┆ 2 BD de l Estuaire, Cs 96201, Nantes, Pays de la Loire        ┆ BD DE L ESTUAIRE, CS 96201, Nantes                            │
+│ 0.994115 ┆ Combattants Concept              ┆ Combattants Concept              ┆ 7 Bis Avenue des Troënes, Nantes, Pays de la Loire            ┆ Loire-Atlantique, 63 Av Des Troënes, Nantes                   │
+│ 0.998107 ┆ Lannexe Danse SA                 ┆ Lannexe Danse S.A.               ┆ 5 Rue des Tisserands, Dunkerque, Hauts-de-France              ┆ 6 Rue Des Tisserands, Dunkerque                               │
+│ 0.989179 ┆ Curieux Culturelle SARL          ┆ Curieux Çulturelle SARL          ┆ 8 Allée des Aulnes, La Baule-Escoublac, Pays de la Loire      ┆ 27 All Des Aulnes, La Baule-escoublac, Loire-Atlantique       │
+│ 0.968794 ┆ Meux Amicale SASU                ┆ MEUX AMICALE SASU                ┆ 14 BIS Rue Auguste Renoir, Saint-Nazaire, Pays de la Loire    ┆ 181 RUE AUGUSTE RENOIR, ST.-NAZAIRE                           │
+│ 0.992819 ┆ JJ Sante SARL                    ┆ JJ SANTE                         ┆ 11 Rue Blaise Pascal, Dunkerque, Hauts-de-France              ┆ DUNKERQUE, 260 RUE BLAISE PASCAL, Nord                        │
+│ 0.998508 ┆ Nantes Centre SARL               ┆ Nantes Centre Sarl               ┆ 22 Rue Général Lanrezac, Nantes, Pays de la Loire             ┆ 52 R Général Lanrezac, Nantes, Loire-Atlantique               │
+│ 0.999928 ┆ Dorat Amicale                    ┆ Dorat Àmicale                    ┆ 20 Cité Lievrauw, Lille, Hauts-de-France                      ┆ 1 - CNTE LIEVRAUW, LILLE                                      │
+│ 0.999556 ┆ Clinique Mer                     ┆ Clinique-Mer                     ┆ 63 Avenue de la République, Bordeaux, Nouvelle-Aquitaine      ┆ 176 AVENUE DE LA RÉPUBLIQUE, BORDEAUX, Nouvelle-Aquitaine     │
+│ 0.99393  ┆ Infirmiers Loisirs SASU          ┆ Infirmiers Lôisirs SASU          ┆ 1 Rue de Roubaix, Tourcoing, Hauts-de-France                  ┆ 370 RUE DE ROUBAIX, TOURCOING, Hauts-de-France                │
+│ 0.999939 ┆ Maison Publique EURL             ┆ Maison Publique                  ┆ 84 BD Marechal Leclerc  App 44, residence Vincent Scotto, Bo… ┆ BD MARECHAL LECLERC  APP 44, BORDEAUX                         │
+│ 0.999626 ┆ Team Amicale                     ┆ Team Àmicale                     ┆ 65 Rue Depe, Bordeaux, Nouvelle-Aquitaine                     ┆ BORDEAUX, 75 RUE DEPE                                         │
+│ 0.999726 ┆ Jardins Ecole SCI                ┆ Jardins Ecole                    ┆ 4 Place Charles Valentin, Dunkerque, Hauts-de-France          ┆ 1 Place Charles Valentin, Dunkerque, Nord                     │
+│ 0.994673 ┆ Bordeaux Centre SARL             ┆ Bordeaux Centre                  ┆ Bordeaux, 44 RUE du Jardin Public, Nouvelle-Aquitaine         ┆ N° 143 R DU JARDIN PUBLIC, BORDEAUX, Gironde                  │
+│ 0.958533 ┆ Bridge Loisirs SARL              ┆ Fayemira                         ┆ 141 Rue Eugène Descamps, Lille, Hauts-de-France               ┆ # 14 Rue Eugene Descamps, Lille, Hauts-de-France              │
+│ 0.99982  ┆ UL Maison SCI                    ┆ UL Maison                        ┆ 89 ALL Jean Giono, Residence Carre Rive Droite - Appt. A10, … ┆ 1 All Jean Giono, Residence Carre Rive Droite - Appt. A10, B… │
+│ 0.999534 ┆ Tous Pharmacie EURL              ┆ Tous Phaesgacie EURL             ┆ 4 Place Saint Pierre, Nantes, Pays de la Loire                ┆ NANTES, 128 - PL. SAINT PIERE, Pays de la Loire               │
+│ 0.999034 ┆ Dentrainement Centre SCI         ┆ Dentrainement Centre  S.C.I.     ┆ A22 Residence les Rives de lIsle, Lille, Hauts-de-France, 3 … ┆ 3 Rue Kant, Lille, Nord                                       │
+│ 0.999937 ┆ Touten Amicale SARL              ┆ TOUTEN AMICALE SARL              ┆ 13 Square Rameau, Lille, Hauts-de-France                      ┆ # 1 SQUARE RAMAEU, LILLE, Hauts-de-France                     │
+│ 0.998227 ┆ Maison Amities EURL              ┆ Maison Amities                   ┆ 8 bis Rue Rossini, Pessac, Nouvelle-Aquitaine                 ┆ 13 R ROSSINI, PESSAC, Nouvelle-Aquitaine                      │
+│ 0.986702 ┆ Coucourde Motocross Residence SA ┆ SA Coucourde Motocross Residence ┆ 12 Rue Antoine Watteau, Nantes, Pays de la Loire              ┆ 130 R. ANTOINE WATTEAU, Nantes                                │
+└──────────┴──────────────────────────────────┴──────────────────────────────────┴───────────────────────────────────────────────────────────────┴───────────────────────────────────────────────────────────────┘
+== France, confident but postcode disagrees ==
+Traceback (most recent call last):
+  File "E:\Programming\Amazon-ML-Challenge-2026\work\fr_err.py", line 45, in <module>
+    print(fr.filter((pl.col("pceq") == False) & (pl.col("p") > 0.95)).sample(25, seed=2).select(show))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\dataframe\frame.py", line 11710, in sample
+    return self._from_pydf(self._df.sample_n(n._s, with_replacement, shuffle, seed))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ShapeError: cannot take a larger sample than the total population when `with_replacement=false`

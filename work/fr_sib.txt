@@ -1,0 +1,66 @@
+train shape: (2, 3)
+┌─────────┬─────────────────┬──────────┐
+│ country ┆ s1_sharing_addr ┆ mean_k   │
+│ ---     ┆ ---             ┆ ---      │
+│ str     ┆ f64             ┆ f64      │
+╞═════════╪═════════════════╪══════════╡
+│ India   ┆ 0.051147        ┆ 1.119451 │
+│ US      ┆ 0.062668        ┆ 1.180428 │
+└─────────┴─────────────────┴──────────┘
+test shape: (3, 3)
+┌─────────┬─────────────────┬──────────┐
+│ country ┆ s1_sharing_addr ┆ mean_k   │
+│ ---     ┆ ---             ┆ ---      │
+│ str     ┆ f64             ┆ f64      │
+╞═════════╪═════════════════╪══════════╡
+│ France  ┆ 0.13271         ┆ 1.577363 │
+│ India   ┆ 0.049896        ┆ 1.110953 │
+│ US      ┆ 0.045628        ┆ 1.089817 │
+└─────────┴─────────────────┴──────────┘
+shape: (3, 5)
+┌─────────┬─────────┬──────────┬──────────┬──────────┐
+│ country ┆ len     ┆ p2>0.05  ┆ p2>0.2   ┆ sum>1    │
+│ ---     ┆ ---     ┆ ---      ┆ ---      ┆ ---      │
+│ str     ┆ u32     ┆ f64      ┆ f64      ┆ f64      │
+╞═════════╪═════════╪══════════╪══════════╪══════════╡
+│ France  ┆ 870073  ┆ 0.004263 ┆ 0.000872 ┆ 0.010585 │
+│ India   ┆ 2713141 ┆ 0.000854 ┆ 0.000234 ┆ 0.003614 │
+│ US      ┆ 2239698 ┆ 0.001172 ┆ 0.000332 ┆ 0.001604 │
+└─────────┴─────────┴──────────┴──────────┴──────────┘
+unassigned: shape: (3, 4)
+┌─────────┬─────────┬──────────┬──────────┐
+│ country ┆ len     ┆ p1>0.3   ┆ both>0.3 │
+│ ---     ┆ ---     ┆ ---      ┆ ---      │
+│ str     ┆ u32     ┆ f64      ┆ f64      │
+╞═════════╪═════════╪══════════╪══════════╡
+│ France  ┆ 564511  ┆ 0.069579 ┆ 0.004808 │
+│ India   ┆ 1976764 ┆ 0.014021 ┆ 0.003502 │
+│ US      ┆ 1549375 ┆ 0.020241 ┆ 0.006532 │
+└─────────┴─────────┴──────────┴──────────┘
+shape: (20, 8)
+┌──────────┬──────────┬────────────────────────┬───────────────────────────┬───────────────────────────┬──────────────────────────────────────────────┬──────────────────────────────────────────────┬────────────────────────────────────────────────┐
+│ p1       ┆ p2       ┆ q_name                 ┆ a_name                    ┆ b_name                    ┆ q_addr                                       ┆ a_addr                                       ┆ b_addr                                         │
+│ ---      ┆ ---      ┆ ---                    ┆ ---                       ┆ ---                       ┆ ---                                          ┆ ---                                          ┆ ---                                            │
+│ f32      ┆ f32      ┆ str                    ┆ str                       ┆ str                       ┆ str                                          ┆ str                                          ┆ str                                            │
+╞══════════╪══════════╪════════════════════════╪═══════════════════════════╪═══════════════════════════╪══════════════════════════════════════════════╪══════════════════════════════════════════════╪════════════════════════════════════════════════╡
+│ 0.952347 ┆ 0.511127 ┆ oc                     ┆ ogec college sarl         ┆ federation de oc          ┆ 221 avenue antoine de saint exupery calais   ┆ 221 avenue antoine de saint exupery calais   ┆ 341 avenue antoine de saint exupery calais     │
+│ 0.935293 ┆ 0.256717 ┆ es                     ┆ editions sportive sa      ┆ nantes anciens sarl       ┆ 51 rue de la contrie nantes                  ┆ 51 rue de la contrie nantes                  ┆ 51 rue de la contrie nantes                    │
+│ 0.84512  ┆ 0.223264 ┆ deltavera              ┆ actions parents sarl      ┆ lille concept             ┆ 16 place du general de gaulle lille          ┆ lille 16 place du general de gaulle          ┆ 16 place du general de gaulle lille            │
+│ 0.795783 ┆ 0.391629 ┆ dunkerque el sarl      ┆ dunkerque ecole sarl      ┆ dunkerque centre sarl     ┆ 220 rue de cambrai dunkerque                 ┆ 220 rue de cambrai dunkerque                 ┆ 220 rue de cambrai dunkerque                   │
+│ 0.854455 ┆ 0.318821 ┆ ai comite sas          ┆ ai comite sas             ┆ ai comite sas             ┆                                              ┆ 22 avenue beranger pessac                    ┆ 5 rue massena bordeaux                         │
+│ 0.892431 ┆ 0.494222 ┆ calais club sarl       ┆ calais club sarl          ┆ calais club sarl          ┆ avenue louis bleriot calais                  ┆ 163 avenue louis bleriot calais              ┆ 53 avenue louis bleriot calais                 │
+│ 0.835454 ┆ 0.263977 ┆ ce                     ┆ comite de elles           ┆ ce and co sarl            ┆ 29 route de letang saint nazaire             ┆ saint nazaire 29 route de l etang            ┆ 29 rue de laon tourcoing                       │
+│ 0.914132 ┆ 0.475154 ┆ be                     ┆ bouliste energie sas      ┆ bordeaux club sarl        ┆ 86 rue des terres de borde bordeaux          ┆ 86 rue des terres de borde bordeaux          ┆ 86 rue des terres de borde 1er etg bordeaux    │
+│ 0.750025 ┆ 0.555379 ┆ cavaliers maison       ┆ cavaliers maison sa       ┆ cavaliers maison sa       ┆ lille                                        ┆ lille 17 bis rue d avesnes                   ┆ hopital jeanne de flandre chru lille           │
+│ 0.847028 ┆ 0.837038 ┆ bordeaux club          ┆ bordeaux club sarl        ┆ bordeaux club sas         ┆ rue perey bordeaux                           ┆ 7 rue perey bordeaux                         ┆ 41 rue perey bordeaux                          │
+│ 0.817856 ┆ 0.663624 ┆ bordeaux loisirs       ┆ bordeaux loisirs sarl     ┆ bordeaux loisirs sas      ┆ avenue jeanne d arc bordeaux                 ┆ 1 avenue jeanne d arc bordeaux               ┆ 45 avenue jeanne d arc bordeaux                │
+│ 0.754181 ┆ 0.225669 ┆ bf                     ┆ bonheur and fils sarl     ┆ fk maison sarl            ┆ no 60 boulevard de la liberte lille          ┆ 60 boulevard de la liberte lille             ┆ 60 boulevard de la liberte lille               │
+│ 0.827835 ┆ 0.528756 ┆ centre medical georges ┆ centre medical du georges ┆ centre medical georges    ┆ calais                                       ┆ 5 rue george sand calais                     ┆ 11 rue champailler calais                      │
+│ 0.846686 ┆ 0.31514  ┆ voile france loisirs   ┆ voile loisirs france      ┆ voile france loisirs sarl ┆                                              ┆ 4 allee des soeurs de l esperance nantes     ┆ 49 rue giner de los rios bordeaux              │
+│ 0.88296  ┆ 0.3142   ┆ pp                     ┆ poesie pharmacie sarl     ┆ lycee de paul             ┆ 10 avenue des goelands pyla la teste de buch ┆ 10 avenue des goelands pyla la teste de buch ┆ 10 avenue du general de gaulle pyla la teste … │
+│ 0.887766 ┆ 0.657928 ┆ fr                     ┆ federation des rural      ┆ sporting france club sas  ┆ no 43 rue du bois d annappes lille           ┆ 43 rue du bois d annappes lille              ┆ 43 rue du bois d annappes lille                │
+│ 0.821449 ┆ 0.230582 ┆ wa                     ┆ ws auto sas               ┆ maison de sante de marie  ┆ 47 rue fourmentel lille                      ┆ 47 rue fourmentel lille                      ┆ 47 rue fourmentel lille                        │
+│ 0.967113 ┆ 0.249641 ┆ ca                     ┆ calais amicale sarl       ┆ cda union france sarl     ┆ 29 rue de londres calais                     ┆ 29 rue de londres calais                     ┆ 29 rue de londres calais                       │
+│ 0.81308  ┆ 0.3093   ┆ es                     ┆ ets george                ┆ enb services sas          ┆ 10 avenue amiral cuorbet la baule escoublac  ┆ 7 avenue amiral courbet la baule escoublac   ┆ 10 avenue amiral courbet la baule escoublac    │
+│ 0.92419  ┆ 0.369279 ┆ dcomite                ┆ defense comite ei         ┆ eleves comite sas         ┆ 24 place de la libete roubaix                ┆ 24 place de la liberte roubaix               ┆ 24 place de la liberte roubaix                 │
+└──────────┴──────────┴────────────────────────┴───────────────────────────┴───────────────────────────┴──────────────────────────────────────────────┴──────────────────────────────────────────────┴────────────────────────────────────────────────┘

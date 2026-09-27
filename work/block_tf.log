@@ -1,0 +1,5 @@
+  tf [train] India: S1=883,188 q=4,133,346 1450s
+  tf [train] US: S1=1,323,633 q=6,186,873 2371s
+  tf [test] France: S1=259,452 q=1,434,993 30s
+  tf [test] India: S1=809,986 q=4,717,565 1452s
+  tf [test] US: S1=663,106 q=3,817,031 549s

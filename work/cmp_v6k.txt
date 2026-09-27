@@ -1,0 +1,53 @@
+US v5cf 2239588 v6k 2243121 only_v5cf 1026 only_v6k 4559
+India v5cf 2713306 v6k 2715623 only_v5cf 1173 only_v6k 3490
+France v5cf 865764 v6k 874073 only_v5cf 3801 only_v6k 12110
+== ONLY v6k
+  p=0.961 ac amicale sarl | 9 rue canihac bordeaux
+          ac sarl france | 9 rue cnihac bordeaux
+  p=0.789 etablissements loeil eurl | 5 place jane boy lege cap ferret
+          etablissements loeil eurl france | 5 place jane boy lege cap ferret
+  p=0.825 ets clat sarl | pornic 9 terrace rue port cheri
+          ets clat sarl france | 9 terrace rue port cheri pornic
+  p=0.783 demployeurs sportive sas | 8 rue alexandre ribot nantes
+          sa demployeurs sportive | 19 rue alexandre ribot nantes
+  p=0.870 detente amicale sarl | 12 rue louis loucheur lille
+          detente sarl developpement | 12 rue louis loucheur lille
+  p=0.722 amicale de lions | 1 square morisson lille
+          amicale de lions france | square morisson lille
+  p=0.851 flagy pharmacie sarl | 13 rue epine tourcoing
+          rizaxylo | 3 rue epine tourcoing
+  p=0.793 maison ams eurl | 17 rue jeanne barret saint nazaire
+          maison ams eurl france | 17 rue jeanne barret saint nazaire
+  p=0.769 zr club sarl | 2 place croisic nantes
+          zc | 2 place corisic nantes
+  p=0.730 familiale france comite sas | 64 rue rouget lisle calais
+          developpement familiale france sas | 64 rue rouget lisle calais
+  p=0.776 fse amicale sa | 56 avenue bois amour baule escoublac
+          fse club sa | 56 avenue bois amour baule escoublac
+  p=0.766 cultuelle pharmacie sarl | 6 allee radelier baule escoublac
+          developpement cultuelle sarl | allee radelier baule escoublac
+== ONLY v5cf
+  p=0.806 socio and co sas | 7 allee histoire saint herblain
+          sa socio and co | saint herblain 20 allee histoire
+  p=0.792 talents parents sa | 2 rue pensees lille
+          talents foyer sa | 2 rue pensees lille
+  p=0.842 tourcoing lycee sarl | 1 allee jean baptiste carpeaux tourcoing
+          tl | 1 allee jean baptiste carpeaux tourcoing
+  p=0.954 lege cap ferret club eurl | 11 avenue commandant charcot lege cap ferret
+          lege cap ferret club eurl | 11 avenue commandant charcot lege cap ferret
+  p=0.755 corbeil maternelle sas | 4 rue santeuil nantes
+          corbeil maternelle sa | 13 rue santeuil nantes
+  p=0.802 pole federation sarl | bordeaux 3 avenue louis barthou
+          pf | 3 avenue louis barthou bordeaux
+  p=0.786 hbm lycee sas | 75 rue bonnets tourcoing
+          hbm club sas | tourcoing 75 rue bonnets
+  p=0.757 rpb union sarl | roubaix 50 rue jules michelet
+          nrpb union sarl | ndeg50 rue jules michelet roubaix
+  p=0.764 college de dame | 2 allee plage lege cap ferret
+          college de dame groupe | 2 allee plage lege cap ferret
+  p=0.824 fosse union sarl | lille 19 rue bone
+          fosse amis | 19 rue bone lille
+  p=0.843 terrains france club sas | 39 rue racine tourcoing
+          tc | tourcoing 39 rue racine
+  p=0.856 bvk comite sarl | lille 12 rue sainte marie
+          bvk co sarl | 19 rue sainte marie lille

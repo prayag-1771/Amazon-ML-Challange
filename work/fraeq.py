@@ -1,0 +1,16 @@
+import polars as pl
+pl.Config.set_tbl_rows(60); pl.Config.set_fmt_str_lengths(45); pl.Config.set_tbl_width_chars(250)
+t=pl.read_parquet('aeq_t.parquet')
+s1=pl.read_parquet('norm_test_s1.parquet',columns=['country','name_core'])
+voc=s1.select('country',pl.col('name_core').str.split(' ')).explode('name_core').group_by('country','name_core').len('f').rename({'name_core':'tok'})
+c=t.filter(~pl.col('neq')&pl.col('numeq')&pl.col('aeq')&(pl.col('addr_empty')==0)&(pl.col('a1cnt')==1))
+tok=lambda x: pl.col(x).fill_null('').str.split(' ').list.eval(pl.element().filter(pl.element()!=''))
+c=c.with_columns(tok('n1').alias('t1'),tok('nq').alias('tq'))
+c=c.with_columns((pl.col('t1').list.set_intersection('tq').list.len()).alias('sh'),pl.col('tq').list.len().alias('lq_'),pl.col('t1').list.len().alias('l1_'))
+# gibberish: query tokens absent from S1 vocab of the country
+ce=c.select('s23_id','country','tq').explode('tq').join(voc.rename({'tok':'tq'}),on=['country','tq'],how='left').group_by('s23_id').agg(pl.col('f').is_null().sum().alias('oov'),pl.len().alias('nt'))
+c=c.join(ce,on='s23_id')
+c=c.with_columns(pl.when(pl.col('sh')==0).then(pl.lit('noshare')).when(pl.col('sh')==pl.col('l1_')).then(pl.lit('q_superset')).when(pl.col('sh')==pl.col('lq_')).then(pl.lit('q_subset')).otherwise(pl.lit('partial')).alias('rel'),(pl.col('oov')>0).alias('hasoov'))
+print(c.group_by('country','rel','hasoov').agg(pl.len(),pl.col('p2').mean().round(2),(pl.col('p2')>=.75).mean().round(3).alias('acc')).sort('country','len',descending=[False,True]))
+c.write_parquet('fraeq_c.parquet')
+print(c.filter((pl.col('country')=='France')&(pl.col('p2')<.75)).sample(30,seed=5).select('nq','n1','aq','rel','oov','p2','p2nd'))

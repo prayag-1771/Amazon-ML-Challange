@@ -1,0 +1,13 @@
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:85: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  tc = x.select("s1_id", pl.col("tq").alias("tok")).explode("tok").drop_nulls().group_by("s1_id", "tok").len("ct")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:86: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  ga = (x.select("i", "s1_id", pl.col("add").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:88: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  gd = (x.select("i", "s1_id", "nx", pl.col("drop").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+shift cap: 8 cells, 2,717 pairs rejected [('France', 'd3', 'chg', True, 1623, 17, 34), ('France', 'd3', 'same', False, 728, 176, 227), ('France', 'd2', 'chg', True, 229, 2, 12), ('France', 'd1', 'chg', True, 201, 5, 17), ('France', 'd2', 'same', False, 128, 37, 72), ('France', 'd3', 'chg', False, 116, 5, 16), ('France', 'd1', 'same', False, 110, 30, 57), ('France', 'd3', 'add', False, 31, 4, 14)]
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:234: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  st = s1.select("country", _tok("n1").alias("tok")).explode("tok").drop_nulls().group_by("country", "tok").len("s1f")
+variant vocab [('France', ['associes', 'developpement', 'fils', 'france', 'groupe', 'services']), ('India', ['center', 'partners', 'service', 'services']), ('US', ['center', 'partners', 'service', 'services'])]
+variant rule: 23,480 accepted, 8,725 rejected
+legal-add rule: [('France', 2243), ('India', 3), ('US', 3)]
+test: 6,912,946 candidates (3.99/S1), 5,817,564 matches (3,256 rescued), 1455s

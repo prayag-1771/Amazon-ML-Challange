@@ -1,0 +1,61 @@
+Total matching count: 3700
+p=0.9999 diff y=1
+   S1: MA Gold LLC | 50 Embassy Square, Unit Unit 2B, Tonawanda, NY
+   Q : MA-Gold | 1 EMBASSY SQ, TONAWANDA, NY
+p=0.9998 diff y=1
+   S1: Global Federation | 9275 Windsor Street, Fl 1, Hillsboro, OR
+   Q : Global Federation | 9674 WINDSOR STREET, HILLSBORO, OR
+p=0.9995 diff y=1
+   S1: Olson, Torres & Alvarado Golden Corp | 265 Tate Avenue, Buchanan, NY
+   Q : Olson, Torres & Alvarado Golden Corporation | NY, BUCHANAN, 79 TATE AVE
+p=0.9999 diff y=1
+   S1: Agne & Harris Inc. | Amsterdam, 395 Main Street, OH
+   Q : agneharris.com | OH, 235 MAIN ST, AMSTERDAM
+p=1.0000 diff y=1
+   S1: First Hospitality Alliance LLC | 90 Glenhart Avenue, Winston, OR
+   Q : firsthospitalityalliance.com | 447 GLENHART AVE, WINSTOON, OR
+p=0.9999 diff y=1
+   S1: Gulf Ameren | 3682 Haig Street, Portland, OR
+   Q : 6ulf Almrn | PORTLAND, PO BOX 9107, 682 HAIG STREET, OR
+p=0.9998 diff y=1
+   S1: Heartland Superior Purecycle Inc | 5801 Central Street, Kansas City, MO
+   Q : Heartland Superior-Purecycle | 5799 CENTRAL STREET, KANSAS CITY, MO
+p=0.9998 diff y=1
+   S1: Bridgeman Coffee, Inc. | 4311 Oak Creek Drive, Nacogdoches, TX
+   Q : Bridgeman Coffee, | 4413 OAK CREEK DR, NACODOCHES TOWNSHIP, TX
+p=0.9992 diff y=1
+   S1: Ho Preferred Proshares | 5626 Joseph Court, New Market, MD
+   Q : Ho Preferred (Proshares) | 5436 JOSEPH COURT, NEW MARKET, MD
+p=0.9998 diff y=1
+   S1: Valley Desert Summit Inc | 764 Mcgill Place, Atlanta, GA
+   Q : Service Valley Desert Inc | 521 1/2 MCGILL PL, ATLANTA, GA
+p=1.0000 diff y=1
+   S1: Montay Horse Company | 36773 La Paz Street, Maricopa, AZ
+   Q : Montay Horse Co | La Paz Street, PMB 9051, Maricopa, Arizona
+p=0.9992 diff y=1
+   S1: Auth Toyo | 1605 Harrison Avenue, Shawnee, OK
+   Q : Auth Toyo | Shawnee, 1585 Harrison Avenue, Oklahoma
+p=0.9994 diff y=1
+   S1: Classic Apex Duke LLC | 5550 Luna Drive, Eloy, AZ
+   Q : Classic Apex Duke LLC | Arizona, 5873 Luna Drive, Eloy
+p=0.9994 diff y=1
+   S1: Fea Pizza LLC | 809 Nancy Street, White Hall, AR
+   Q : Fea Pizza | 812 Nancy Street, White Hall, Arkansas
+p=0.9998 diff y=1
+   S1: Cure Bike Shop! | 50 Dorchester Road, Painesville Township, OH
+   Q : Cure Bike | Dorchester Road, PO Box 2118, Painesville Twp, Ohio
+p=0.9991 diff y=1
+   S1: Midwest Resorts LLC | 101 Grouger Cove, Leander, TX
+   Q : The Midwest Resorts LLC | 115- Grouger Cv, Leander, Texas
+p=0.9997 diff y=1
+   S1: Keri Simmons Abacus | 506 Knox Place, Joliet, IL
+   Q : Keri  Simmons Abacus | 499 Knox Pl, Joliet, Illinois
+p=1.0000 diff y=1
+   S1: Stansberry Interstate Century LLC | 1500 Macvicar Avenue, Topeka, KS
+   Q : Stansberry Interstate Century | Macvicar Avenue, PMB 4966, Topeka, Kansas
+p=0.9993 diff y=1
+   S1: Pioneer Financial Worldwide, L.L.C. | 407 B Street, Silverton, OR
+   Q : Pi0neer Financial Worldwide, [L.L.C.] | 317. B Street, Silverton, Oregon
+p=0.9999 diff y=1
+   S1: MW Advisory P.C. | 22 Mobile Drive, Randall, MN
+   Q : mwadvisory.com | 18 Mobile Drgve, PO Box 8517, Randall, Minnesota

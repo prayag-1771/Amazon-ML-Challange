@@ -1,0 +1,35 @@
+VALID rule cell: 187,845 top-1 pairs, purity 0.99925; by (num, legal):
+shape: (6, 4)
+┌─────────────┬───────────┬────────┬─────────┐
+│ num_rel     ┆ legal_rel ┆ len    ┆ purity  │
+│ ---         ┆ ---       ┆ ---    ┆ ---     │
+│ str         ┆ str       ┆ u32    ┆ f64     │
+╞═════════════╪═══════════╪════════╪═════════╡
+│ num_eq      ┆ same      ┆ 124045 ┆ 0.99996 │
+│ num_eq      ┆ drop      ┆ 28533  ┆ 1.0     │
+│ num_eq      ┆ add       ┆ 19893  ┆ 0.99316 │
+│ num_missing ┆ same      ┆ 10687  ┆ 1.0     │
+│ num_missing ┆ drop      ┆ 2702   ┆ 1.0     │
+│ num_missing ┆ add       ┆ 1985   ┆ 1.0     │
+└─────────────┴───────────┴────────┴─────────┘
+VALID flips 77 (precision 0.09090909090909091), F 0.99055 -> 0.99047
+VALID flip precision by (num, p2 band): [('num_eq', '(-inf, 0.1]', 54, 0.0), ('num_eq', '(0.1, 0.3]', 15, 0.2), ('num_eq', '(0.3, 0.5]', 2, 0.0), ('num_eq', '(0.5, inf]', 5, 0.6), ('num_missing', '(0.1, 0.3]', 1, 1.0)]
+VALID reject rate inside cell: 0.00069 (129 of 187845); by num_rel: [('num_eq', 172471, 0.00074), ('num_missing', 15374, 7e-05)]
+  return t.with_columns(pl.col(col).str.split(",")).explode(col).filter(pl.col(col) != "").select(
+FRANCE rule cell: 554,401 top-1 pairs, v15 accepts 0.9964
+FRANCE reject rate by num_rel: [('num_missing', 32853, 0.03339), ('num_eq', 521548, 0.00173)]
+FRANCE unmatched in cell with p2 >= 0.01: 1,933
+FRANCE removed as ties with the 2nd candidate: 264; left: 1,669
+FRANCE number-missing flips: removed 66 whose name + street matches more than one France S1; final flips: 806
+shape: (3, 3)
+┌─────────────┬───────────┬─────┐
+│ num_rel     ┆ legal_rel ┆ len │
+│ ---         ┆ ---       ┆ --- │
+│ str         ┆ str       ┆ u32 │
+╞═════════════╪═══════════╪═════╡
+│ num_missing ┆ add       ┆ 438 │
+│ num_missing ┆ same      ┆ 293 │
+│ num_missing ┆ drop      ┆ 75  │
+└─────────────┴───────────┴─────┘
+p2 bands: [('(-inf, 0.05]', 85), ('(0.05, 0.1]', 58), ('(0.1, 0.3]', 198), ('(0.3, 0.5]', 154), ('(0.5, 0.75]', 311)]
+wrote v17/fr_patch.parquet and v17/fr_patch_sample.csv

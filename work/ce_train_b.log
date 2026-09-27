@@ -1,0 +1,36 @@
+  ce train pairs 1,500,000 (pos 0.617)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  ce tokenized 1,500,000 pairs 342s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2303.87it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: intfloat/multilingual-e5-small
+Key               | Status  | 
+------------------+---------+-
+classifier.weight | MISSING | 
+classifier.bias   | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  ce step 500/11719 loss 0.1720 349 pairs/s
+  ce step 1000/11719 loss 0.1078 352 pairs/s
+  ce step 1500/11719 loss 0.0841 325 pairs/s
+  ce step 2000/11719 loss 0.0829 359 pairs/s
+  ce step 2500/11719 loss 0.0684 378 pairs/s
+  ce step 3000/11719 loss 0.0604 386 pairs/s
+  ce step 3500/11719 loss 0.0573 356 pairs/s
+  ce step 4000/11719 loss 0.0585 360 pairs/s
+  ce step 4500/11719 loss 0.0596 363 pairs/s
+  ce step 5000/11719 loss 0.0504 378 pairs/s
+  ce step 5500/11719 loss 0.0514 392 pairs/s
+  ce step 6000/11719 loss 0.0483 406 pairs/s
+  ce step 6500/11719 loss 0.0465 419 pairs/s
+  ce step 7000/11719 loss 0.0448 431 pairs/s
+  ce step 7500/11719 loss 0.0446 442 pairs/s
+  ce step 8000/11719 loss 0.0419 453 pairs/s
+  ce step 8500/11719 loss 0.0475 462 pairs/s
+  ce step 9000/11719 loss 0.0479 470 pairs/s
+  ce step 9500/11719 loss 0.0395 479 pairs/s
+  ce step 10000/11719 loss 0.0430 487 pairs/s
+  ce step 10500/11719 loss 0.0420 494 pairs/s
+  ce step 11000/11719 loss 0.0382 501 pairs/s
+  ce step 11500/11719 loss 0.0378 507 pairs/s
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.48it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.48it/s]

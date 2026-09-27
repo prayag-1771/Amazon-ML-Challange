@@ -1,0 +1,12 @@
+pairs mine 20568726 peer 20568854 q 1827745 1827745
+joined 19829709
+rk_asim diff rows 4066188 max 29.0
+rk_nsim diff rows 7661274 max 32.0
+rk_comb diff rows 1393537 max 11.0
+n_c diff rows 1963925 max 4.0
+s1_nq diff rows 8406561 max 39.0
+kr_gap diff rows 10362 max 66.66667175292969
+num_fq_gap diff rows 1839 max 1.0
+w_fq_gap diff rows 23 max 0.5
+comb_s1gap diff rows 5353 max 0.4258406162261963
+EXIT 0

@@ -1,0 +1,9 @@
+t=0.6 base 0.98914 (US 0.98996 IN 0.98792)  stage2 0.98983 (US 0.99067 IN 0.98857)
+t=0.65 base 0.98925 (US 0.99005 IN 0.98804)  stage2 0.98992 (US 0.99076 IN 0.98866)
+t=0.7 base 0.98930 (US 0.99007 IN 0.98815)  stage2 0.98996 (US 0.99078 IN 0.98872)
+t=0.75 base 0.98928 (US 0.99005 IN 0.98812)  stage2 0.98994 (US 0.99074 IN 0.98874)
+t=0.8 base 0.98924 (US 0.98997 IN 0.98815)  stage2 0.98988 (US 0.99065 IN 0.98871)
+[('p', np.float64(12821270.0)), ('pb', np.float64(8754892.0)), ('pa', np.float64(1776844.0)), ('ce_h', np.float64(143252.0)), ('ce_logit', np.float64(114981.0)), ('ce_h_gap', np.float64(37264.0)), ('q_p2', np.float64(34581.0)), ('nrel_c', np.float64(10898.0)), ('s1_name_cnt', np.float64(6651.0)), ('s1_n', np.float64(5448.0)), ('q_gap_best', np.float64(5261.0)), ('nc_tset', np.float64(3678.0)), ('s1_hi_tot', np.float64(3106.0)), ('s1_hi_same', np.float64(3008.0)), ('ce_h_rank', np.float64(2926.0)), ('ac_tset', np.float64(2818.0)), ('s1_gap_best', np.float64(2666.0)), ('q_n', np.float64(2357.0)), ('s1_hi_other', np.float64(2024.0)), ('s1_mid_same', np.float64(1640.0)), ('q_rank', np.float64(1574.0)), ('alt_hi_same', np.float64(1201.0)), ('s1_src_rank', np.float64(1079.0)), ('alt_hi_tot', np.float64(882.0)), ('drop_n', np.float64(872.0)), ('s1_mid_other', np.float64(868.0)), ('sib_drop_min', np.float64(848.0)), ('sib_drop_max', np.float64(804.0)), ('add_n', np.float64(506.0)), ('src', np.float64(420.0)), ('sib_add_min', np.float64(279.0)), ('q_addr_empty', np.float64(224.0)), ('q_nonascii', np.float64(198.0)), ('sib_add_max', np.float64(190.0))]
+shift cap: 0 cells, 0 pairs rejected []
+per-country T: 0.98993 (US 0.99074 IN 0.98871)
++ shift cap: 0.98993 (US 0.99074 IN 0.98871)

@@ -1,0 +1,212 @@
+
+===== name= far REJ p2>.02: 2502
+  p2=0.023 acc=0 | Societes Ecole | 252 Route de Saint-Marc, Saint-Nazaire, Pays de la Loire
+                      | Societes Ecole SCI | 50 Route De Saint-arc, Saint-nazaire, Loire-Atlantique
+  p2=0.030 acc=0 | Calais Comite SASU | 58 Rue de Tunis, Calais, Hauts-de-France
+                      | Calais Comite Sasu | 93 Rue De Toul, Calais, Hauts-de-France
+  p2=0.052 acc=0 | La Teste-de-Buch Amicale | 61 Rue Jean Lavigne Cazaux, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | La Teste-de-Buch Amicale | 14 R. JEAN DASSIE, LA TESTE-DE-BUCH
+  p2=0.052 acc=0 | Amicale de Deleves | 33 RUE du Capitaine Ferber, Lille, Hauts-de-France
+                      | Amicale De Deleves | 97 RUE DE L'HÔPITAL MILITAIRE, LILLE, Nord
+  p2=0.059 acc=0 | Saint-Herblain Sportive SARL | 69 Avenue de la Bouvardière, Saint-Herblain, Pays de la Loire
+                      | Saint-Herblain Sportive SARL | 3 AV DE LANGEVINIERE, SILLON DE BRETAGNE, SAINT-HERBLAIN, Pays de la Loire
+  p2=0.078 acc=0 | Lille Ecole SAS | 93 Rue Jacquart, Lille, Hauts-de-France
+                      | Lille Ecole SAS | 140 RUE EUGENE JACQUTE, LILLE
+  p2=0.098 acc=0 | Tourcoing Sportive SARL | 17 bis Rue de Valenciennes, Tourcoing, Hauts-de-France
+                      | Tourcoing Sportive SARL | 121 BIS RUE DE LA MALCENSE, TOURCOING, Hauts-de-France
+  p2=0.113 acc=0 | Bobines Collège | 44300 NANTES, Pays de la Loire, Nantes, 184 b oulevard Jules Verne
+                      | Bobines Collège Sarl | 195 B Oulevard Jules Verne, 44300 Nantes, Nantes, Loire-Atlantique
+  p2=0.169 acc=0 | Social Centre SAS | 79 Rue Georges Mandel, Bordeaux, Nouvelle-Aquitaine
+                      | SOCIAL CENTRE | 39 RUE CONDNRCET, BORDEAUX, Nouvelle-Aquitaine
+  p2=0.269 acc=0 | Dunkerque Lycee EURL | Dunkerque, 134 Rue de Cahors, Hauts-de-France
+                      | Dunkerque Lycee | 48 Bis Rue De Cahors, Nord, Dunkerque
+  p2=0.505 acc=0 | Lille Comite SAS | 41 Rue Jean Jaurés, Lille, Hauts-de-France
+                      | Lille Comite  SA | 6 R. Jean Jaures, Lille, Nord
+  p2=0.710 acc=0 | Familiale Primaire SAS | 86 Rue Caumartin, Lille, Hauts-de-France
+                      | Familiale Primaire SAS | 220 R. Caumartin, Lille, Nord
+
+===== name= far ACC: 5121
+  p2=0.975 acc=1 | Lille Theatre SCI | 9 Cité Sainte Marie, Lille, Hauts-de-France
+                      | Lille SCI Theatre | #76 Cite Sainte Marie, Lille, Nord
+  p2=0.998 acc=1 | Bordeaux Maternelle | Bordeaux, Nouvelle-Aquitaine, 161 Rue Pelleport
+                      | Bordeaux Maternelle | 69 RUE PELLEPORT, BORDEAUX, Gironde
+  p2=0.999 acc=1 | Nantes Amicale SARL | 48 Avenue Lieutenant de Lavenne de la Montoise, Nantes, Pays de la Loire
+                      | Nantes Àmicale SARL | 1 Av. Lieutenant De Lavenne De La Montoise, Nantes, Pays de la Loire
+  p2=1.000 acc=1 | Dopposition Collège SAS | 43 Chemin de la Procession, Mérignac, Nouvelle-Aquitaine
+                      | Dopposition Çollège SAS | Nouvelle-Aquitaine, 237 CHEMIN DE LA PROCESSION, MÉRIGNAC
+  p2=1.000 acc=1 | Comité de Internationale | 104 COUR2 de la Martinique, apt ndeg2 Res Saint James II, Bordeaux, Nouvelle-Aquitaine
+                      | Comité de Internationale  SARL | APT NDEG2 RES SAINT JAMES II, BORDEAUX, 104 COUR2 DE LA MARTINIQUE
+  p2=1.000 acc=1 | École primaire Saint Hdj | 359 Route de Sainte Luce, Nantes, Pays de la Loire
+                      | école Prïmaire Saint Hdj | 290 Route De Sainte Luce, Nantes, Pays de la Loire
+
+===== name= near- REJ p2>.02: 1365
+  p2=0.024 acc=0 | Demployeurs Union SAS | Pays de la Loire, La Baule-Escoublac, 18 Allée Marguerite
+                      | Demployeurs Union SAS | LA BAULE-ESCOUBLAC, 9 AV RAYMOND COLDS
+  p2=0.029 acc=0 | Scolaire Amicale | Nouvelle-Aquitaine, Bordeaux, 12 Rue de Cérons
+                      | Scolaire Amicale SA | 7 R HUGLA, BORDEAUX, Nouvelle-Aquitaine
+  p2=0.037 acc=0 | Nantes Comite SARL | Pays de la Loire, Nantes, 27 Rue du Pipay
+                      | Nantes Comite SARL | 024 Rue Piétrus Joubert, Nantes, Pays de la Loire
+  p2=0.059 acc=0 | La Teste-de-Buch Federation SA | 36 Avenue Hameau des Barons, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | La Teste-de-Buch Federation SA | 26 Avenue De Biscarrosse Pyla, La Teste-de-buch
+  p2=0.067 acc=0 | Nantes Elémentaire | 23 Rue du Gué Robert, Nantes, Pays de la Loire
+                      | Nantes Élémentaire SARL | No. 6 Rue Du Gue Robert, Nantes, Pays de la Loire
+  p2=0.089 acc=0 | Calais Sportive EURL | Hauts-de-France, 21 Rue du Roule, Calais
+                      | EURL Calais Sportive | 11 RUE DU GÉNÉRAL CHANZY, Calais, Pas-de-Calais
+  p2=0.091 acc=0 | Saint-Nazaire Ehpad SAS | 66 Route de l'Etang, Saint-Nazaire, Pays de la Loire
+                      | Saint-Nazaire Ehpad SARL | 61 RTE DE L'TEANG, SAINT-NAZAIRE, Pays de la Loire
+  p2=0.209 acc=0 | La Baule-Escoublac Anciens SARL | 12 Allée Jeanne, La Baule-Escoublac, Pays de la Loire
+                      | La Baule-Escoublac Anciens SARL | 9 Allée Des Libellules, La Baule-escoublac, Loire-Atlantique
+  p2=0.296 acc=0 | Jeunesse Lycée SASU | Nouvelle-Aquitaine, Bordeaux, 31 Rue Avelane
+                      | Jeunesse Lycee SASU | Bordeaux, 21 Rue Sainte-cécile
+  p2=0.315 acc=0 | Coeur Comite SARL | 14 Rue du Général de Wett, Lille, Hauts-de-France
+                      | COEUR COMITE SARL | Hauts-de-France, 11 R Caumartin, Lille
+  p2=0.642 acc=0 | Pornic Culturelle EURL | 52 Rue de la Source, Pornic, Pays de la Loire
+                      | Pornic Culturelle EURL | 44 RUE DE LA CHAUSSEE, PORNIC, Loire-Atlantique
+  p2=0.675 acc=0 | La Teste-de-Buch Loisirs SAS | 39 Rue Notre Dame des Monts, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | La Teste-de-Buch Loisirs S.A. | 36 RUE NOTRE DAME DES MONTS, LA TESTE-DE-BUCH, Gironde
+
+===== name= near- ACC: 1907
+  p2=0.931 acc=1 | Saint-Nazaire Primaire SAS | 101 Rue de Trignac, Saint-Nazaire, Pays de la Loire
+                      | Saint-Nazaire Primaire SAS | 92 Ter R. De Trignac, Saint-nazaire
+  p2=0.999 acc=1 | Rythme Sportive SARL | Hauts-de-France, Lille, 38 Rue Faidherbe
+                      | Rythme Spôrtive SARL | 33 Rue Faidherbe, Lille, Hauts-de-France
+  p2=1.000 acc=1 | NWT Comite SARL | 20 Rue François Mauriac, Pornic, Pays de la Loire
+                      | NWT SARL Comite | 1 Rue François Mauriac, Pays de la Loire, Pornic
+  p2=1.000 acc=1 | HCV Maison SARL | Pays de la Loire, La Baule-Escoublac, 8 Avenue Saint-Hubert
+                      | HCV Maison SARL | 1 AV SAINT-HUBELT, LA BAULE-ESCOUBLAC, Loire-Atlantique
+  p2=1.000 acc=1 | Centre Médical Oscar | 58 avenue de l'océan, Lège-Cap-Ferret, Nouvelle-Aquitaine
+                      | Centre Médîcal Oscar | Nouvelle-Aquitaine, 52 AVENUE DE L'OCEAN, LEGE-CAP-FERRET
+  p2=1.000 acc=1 | Azadi Ecole SARL | 8 Allee Nivose, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | Azadi Ecole  SARL | LA TESTE-DE-BUCH, 1 ALLEE NIVOSE
+
+===== name= drop REJ p2>.02: 354
+  p2=0.033 acc=0 | EHPAD de la Dame | 73 Bis Rue des Maures, Saint-Herblain, Pays de la Loire
+                      | EHPAD DE DAME SASU | 3 RUE D'ISSOIRE, SAINT-HERBLAIN, Pays de la Loire
+  p2=0.039 acc=0 | Classes Union SARL | 39 Rue André, Bordeaux, Nouvelle-Aquitaine
+                      | Classes Union SARL | 3 RUE DE LA LOUISIANE, BORDEAUX, Gironde
+  p2=0.040 acc=0 | Tourcoing Comite SAS | 49 Rue de Tournai, Tourcoing, Hauts-de-France
+                      | Tourcoing Comite SAS | 09 RUE DE LA VIGNE, TOURCOING
+  p2=0.044 acc=0 | Calais Comite SASU | Calais, 167 Rue Rubens, Hauts-de-France
+                      | Calais Comite SASU | 67 RUE DU MARÉCHAL KELLERMANN, CALAIS
+  p2=0.050 acc=0 | La Teste-de-Buch Elementaire SASU | 261 Avenue de la Brasserie, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | SASU La Teste-de-Buch Élémentaire | 26 Rue Marie Dufaure, La Teste-de-Buch, Nouvelle-Aquitaine
+  p2=0.052 acc=0 | The Club SAS | 56 Avenue de Bordeaux, Lège-Cap-Ferret, Nouvelle-Aquitaine
+                      | Club de  The | 6 Avenue D’arguin, Lège-cap-ferret
+  p2=0.066 acc=0 | Roubaix Comite SARL | 142 Rue du Luxembourg, Roubaix, Hauts-de-France
+                      | Roubaix Comite SARL | 12 RUE D'ORAN, ROUBAIX, Hauts-de-France
+  p2=0.082 acc=0 | Nantes Lycee SARL | 15 Bis Rue Général Travot, Nantes, Pays de la Loire
+                      | Nantes Lycée SARL | 5 Bis R. Des Artisans, Nantes, Loire-Atlantique
+  p2=0.118 acc=0 | École maternelle Marie | 29 Rue Pierre Fosfer, Lille, Hauts-de-France
+                      | ÉCOLE MATERNELLE MARIE | 9 RUE FOURMENTEL, LILLE
+  p2=0.178 acc=0 | Tourcoing Fetes | 248 Rue du Flocon, Tourcoing, Hauts-de-France
+                      | Tourcoing Fetes | 24 R DES ARGES, TOURCOING
+  p2=0.280 acc=0 | Nantes Sante SASU | Nantes, 14 Rue de Pessac, Pays de la Loire
+                      | SASU Nantes Sante | Nantes, Pays de la Loire, 4 Bis Rue De Bellevue
+  p2=0.582 acc=0 | Roubaix Compagnie EURL | Hauts-de-France, 166 Rue de l'Épeule, Roubaix
+                      | ROUBAIX COMPAGNIE EURL | Roubaix, Hauts-de-France, 16 Hamau D'epinal
+
+===== name= drop ACC: 745
+  p2=1.000 acc=1 | Éducatif Soins SAS | 17 Rue d'Anvers, Lille, Hauts-de-France
+                      | éducatif Soins SAS | Nº 7 RUE D'ANEVRS, LILLE
+  p2=1.000 acc=1 | Dentraide Centre | Nouvelle-Aquitaine, 12 Avenue Charles de Gaulle, La Teste-de-Buch
+                      | Dentraide Centre | 1 Avenue Charles De Gaulle, La Teste-de-buch, Gironde
+  p2=1.000 acc=1 | YIU Sportive SARL | 81 RUE dAllonville, Nantes, Pays de la Loire
+                      | YIU Sportive SARL | 1 RUE DALLONVILLE, NANTES, Loire-Atlantique
+  p2=1.000 acc=1 | Chasse Sport | 14 Allée Alice Novial, Saint-Nazaire, Pays de la Loire
+                      | CHASSE SPÔRT | 1 ALLEE ALICE NOVIAL, ST-NAZAIRE, Loire-Atlantique
+  p2=1.000 acc=1 | Sad & Frères SARL | 21 Avenue Chambrelent Pyla, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | Sad & Frères Sarl | La Teste-de-buch, 1 Avenue Chambrelent Pyla
+  p2=1.000 acc=1 | Projet Club SARL | 46 RUE des stations, 4deg etage- Appartement 41 La Scola, Lille, Hauts-de-France
+                      | Projet Club  SARL | Hauts-de-France, 4deg Etage- Apt 41 La Scola, 46 R. Des Stations, Lille
+
+===== name= missing REJ p2>.02: 15421
+  p2=0.030 acc=0 | Agents Club SARL | 78 Rue Auber, Tourcoing, Hauts-de-France
+                      | Agents Club S.A.R.L. | 
+  p2=0.056 acc=0 | Team (France) Groupe | 2 Rue des Joncs, Lège-Cap-Ferret, Nouvelle-Aquitaine
+                      | Team (France) Groupe SA | Rue Des Joncs, Nouvelle-Aquitaine, Lège-cap-ferret
+  p2=0.192 acc=0 | Communale Amis EURL | 10 Rue Lesage Senault, Lille, Hauts-de-France
+                      | Communale Amis (EURL) | 
+  p2=0.205 acc=0 | Arts & Fils SARL | 12 Boulevard de l’Atlantique, Nouvelle-Aquitaine, La Teste-de-Buch
+                      | ARTS & FILS SÀRL | 
+  p2=0.223 acc=0 | Lao & Frères SCI | Tourcoing, 180 Rue de la Croix Rouge, Hauts-de-France
+                      | Lao & Frères S.C.I. | 
+  p2=0.243 acc=0 | Label Culturelle SCI | Hauts-de-France, 87 Rue Simon Tiberghien, Tourcoing
+                      | Label Culturelle S.C.I. | 
+  p2=0.267 acc=0 | Calais Groupe SAS | 67 bis Rue de la Tannerie, Calais, Hauts-de-France
+                      | Calais SA-Groupe | 
+  p2=0.294 acc=0 | Association du Cedres | 32 Rue du Marché, Lille, Hauts-de-France
+                      | Association du Cedres SASU | Rue Du Marcéh, Lille, Nord
+  p2=0.294 acc=0 | Reve Club SARL | 42 Ruelle des Pêcheurs, Dunkerque, Hauts-de-France
+                      | Reve  Club SARL | 
+  p2=0.454 acc=0 | YR Ecole SARL | 11 Allée Alexander Fleming, La Teste-de-Buch, Nouvelle-Aquitaine
+                      | YR École SARL | 
+  p2=0.466 acc=0 | Consultation & Frères SARL | 28 Rue de Valenciennes, Nantes, Pays de la Loire
+                      | Consultation & Frères Sarl | 
+  p2=0.729 acc=0 | The & Fils SCI | Lille, 13 RUE de Rivoli, Hauts-de-France
+                      | The & Fils  SCI | 
+
+===== name= missing ACC: 55987
+  p2=0.951 acc=1 | Club du Muses | 57 Avenue Hameau des Barons, Nouvelle-Aquitaine, La Teste-de-Buch
+                      | Club du Muses | 
+  p2=0.991 acc=1 | Twelve & Frères SAS | 5 Rue de la Concorde, Lille, Hauts-de-France
+                      | TWELVE ET FRÈRES SAS | 
+  p2=0.992 acc=1 | Lycée de la Observatoire | 8 Rue Edmond Biré, Nantes, Pays de la Loire
+                      | LYCÉE DE LA OBSERVATOIRE | 
+  p2=0.998 acc=1 | Tou Groupement EURL | Lille, 18 Rue de Nantes, Hauts-de-France
+                      | Tou Groupement EURL | 
+  p2=1.000 acc=1 | Wine Societe EURL | 12 Rue Jacques Cartier, Saint-Herblain, Pays de la Loire
+                      | WINE EURL SOCIETE | RUE JACQUES CARTIER, SAINT-HERBLAIN, Pays de la Loire
+  p2=1.000 acc=1 | Eleves Collège SASU | 38 Rue de Lannoy, Lille, Hauts-de-France
+                      | Eleves Collège  SASU | Rue De Lanoy, Lille, Hauts-de-France
+
+===== swap1_typo eq REJ: 3982
+  p2=0.000 acc=0 | Dunkerque Sportive SAS | 30 Rue André Chénier, Dunkerque, Hauts-de-France
+                      | 1ere Sportive SA | 30 Pl Voltaire, Dunkerque, Nord
+  p2=0.000 acc=0 | YK Amicale SARL | Nouvelle-Aquitaine, Bordeaux, 25 Rue Boyer
+                      | DY Amicale | 025 RUE CONTRESCARPE, BORDEAUX, Nouvelle-Aquitaine
+  p2=0.002 acc=0 | Saint-Nazaire Sportive | 19 Rue Alfred de Vigny, Saint-Nazaire, Pays de la Loire
+                      | Saint-Nazaire Sport Sarl | Saint-nazaire, 19 Rue Du Pertuischaud
+  p2=0.006 acc=0 | Etudiants Culture SAS | 23 Rue Alfred de Vigny, Pays de la Loire, Saint-Nazaire
+                      | ETUDIANTS CENTRE | 23 R. ALFRED DE VIGRY, SAINT-NAZAIRE, Loire-Atlantique
+  p2=0.006 acc=0 | FI Primaire SCI | 9 Allée du Haut Lévèque, Pessac, Nouvelle-Aquitaine
+                      | FZ Primaire SCI | 9 All Du Haut Leveque, Pessac
+  p2=0.009 acc=0 | EY Lycée SAS | 255 Rue Lecocq, Bordeaux, Nouvelle-Aquitaine
+                      | ENY Lycée | 255 R Lecocq, Bordeaux
+  p2=0.009 acc=0 | KZZ Fetes SASU | 63 Rue Royale, Calais, Hauts-de-France
+                      | KZLZ FETES S.A.S.U. | #63 R ROYALE, CALAIS, Hauts-de-France
+  p2=0.030 acc=0 | CUB Comite | 527 Rue du Clinquet, Tourcoing, Hauts-de-France
+                      | CB COMITE | 527 R. DU CLINQUET, TOURCOING, Nord
+  p2=0.082 acc=0 | Locale Club SAS | Lille, 27 RUE Jean Bart, Hauts-de-France
+                      | locataires club sas | Nord, Lille, 27 Rue Eugène Descamps
+  p2=0.109 acc=0 | Union des Lb | 20 Rue Achard, Bordeaux, Nouvelle-Aquitaine
+                      | UNION  DE LBM | 20 - RUE CHARLES CHAIGNEAU, BORDEAUX, Gironde
+  p2=0.645 acc=0 | Edelweiss Sportive (France) EURL | Bordeaux, 42 Rue Antoine Monier, Nouvelle-Aquitaine
+                      | Edelweiss Sportive (ranc) [EURL] | Bordeaux, Nouvelle-Aquitaine, 42 Rue Antoine Monier
+  p2=0.750 acc=0 | Disco Gestion SA | 20 RUE Newton, Lille, Hauts-de-France
+                      | Disco Federation SA | 20 Rue Newton, Lille
+
+===== swap1_var eq REJ: 3766
+  p2=0.000 acc=0 | Lille Pharmacie SAS | 8 Rue Surcouf, Lille, Hauts-de-France
+                      | Lille SAS Développement | N°8 R SURCOUF, LILLE
+  p2=0.000 acc=0 | La Baule-Escoublac Eau SAS | 1 Avenue Paul Glaize, La Baule-Escoublac, Pays de la Loire
+                      | La Baule-Escoublac SAS & Associés | #1 Avenue Paul Glaize, La Baule-escoublac
+  p2=0.001 acc=0 | Roubaix Sportive | 294 Rue de l'Alma, Roubaix, Hauts-de-France
+                      | Roubaix Développement | 294 R De L'elma, Roubaix, Nord
+  p2=0.002 acc=0 | Proprietaires Institut SAS | 41 TER Rue d'Anjou, Saint-Nazaire, Pays de la Loire
+                      | Proprietaires SAS  Développement | No. 41 T Rue D'anjou, St.-nazaire
+  p2=0.004 acc=0 | Hope (France) Anciens | 4 Rue Surson, Bordeaux, Nouvelle-Aquitaine
+                      | Hope (France) Développement | No 4 R. Surson, Bordeaux
+  p2=0.004 acc=0 | Science Pharmacie | 197 Rue du Général Souham, Tourcoing, Hauts-de-France
+                      | Science Développement | 197 R DU GÉNÉRAL SOUHAM, TOURCOING, Nord
+  p2=0.006 acc=0 | Ptites Collectif SARL | 65 Rue Murat, Bordeaux, Nouvelle-Aquitaine
+                      | Ptites SARL & Associés | N° 65 RUE MURAT, BORDEAUX, Gironde
+  p2=0.007 acc=0 | Bordeaux Ehpad SAS | 15 Rue de Langon, Bordeaux, Nouvelle-Aquitaine
+                      | Bordeaux SAS Développement | No. 15 R De Langon, Bordeaux, Nouvelle-Aquitaine
+  p2=0.007 acc=0 | Roussillon Amicale | Nantes, 19 Rue du Bois de Barre, Pays de la Loire
+                      | Roussillon Développement | 19 R. Du Bois De Barre, Nantes, Loire-Atlantique
+  p2=0.008 acc=0 | Ormeaux Primaire SAS | Lège-Cap-Ferret, 6 Avenue du Monument Salins, Nouvelle-Aquitaine
+                      | Ormeaux SAS Développement | 6 AVENUE DU MONUMENT SALINS, LÈGE-CAP-FERRET
+  p2=0.009 acc=0 | École maternelle de la Diocesaine | 52 Rue Philippe Auguste, Roubaix, Hauts-de-France
+                      | École de la Diocesaine & Associés | 52 R. Philippe Auguste, Roubaix
+  p2=0.989 acc=0 | Poitou Primaire SAS | 6 Route de l'Ile de l'Etier, Saint-Nazaire, Pays de la Loire
+                      | SAS Poitou Service | 6 RTE DE L'ILE DE L'ETIER, Saint-Nazaire, Loire-Atlantique

@@ -1,0 +1,16 @@
+VAL pooled per country/dg: [('India', 'd1', 1428, 1398, 1382, 1379, 1254, 1236), ('India', 'd2', 1334, 1309, 1284, 1283, 1004, 987), ('India', 'd3', 1822, 1668, 1662, 1653, 1924, 1872), ('India', 'dx', 1833, 1804, 1786, 1784, 3000, 2940), ('US', 'd1', 1262, 1039, 981, 974, 1116, 1108), ('US', 'd2', 1248, 1081, 1034, 1028, 1134, 1127), ('US', 'd3', 1575, 537, 537, 505, 597, 588), ('US', 'dx', 960, 950, 908, 908, 1033, 1022)]
+[('France', 8722.0, 13152), ('US', 29540.0, 47579), ('India', 5388.0, 58356)]
+Traceback (most recent call last):
+  File "E:\Programming\Amazon-ML-Challenge-2026\work\shiftcell.py", line 35, in <module>
+    print(x.filter(pl.col("n") > 1500).sort("fp_est", descending=True).select(K + ["n", "a", "n_dn", "a_dn", "fp_est", "n_v", "pos_v", "a_v", "tp_v", "n_dn_v"]).head(40))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\dataframe\frame.py", line 10585, in select
+    ._collect_eager(optimizations=QueryOptFlags._eager())
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\lazyframe\frame.py", line 2240, in _collect_eager
+    return _eager_engine().collect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\lazyframe\engine.py", line 443, in collect
+    return wrap_df(ldf.collect(self.name, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ColumnNotFoundError: unable to find column "pos_v"; valid columns: ["country", "dg", "leg", "nsame", "n", "a", "n_dn", "a_dn", "n_v", "a_v", "pos", "tp", "n_dn_v", "a_dn_v", "pos_dn", "tp_dn", "true_up_est", "fp_est"]

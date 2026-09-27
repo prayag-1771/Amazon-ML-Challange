@@ -1,0 +1,61 @@
+Total matching count: 18492
+p=0.9999 diff y=None
+   S1: United Bhav LLC | Albany, NY, 155 Rosemont Street
+   Q : United [Bhav] | PO BOX 4826, NY, ROSEMONT ST, ALBANY
+p=1.0000 diff y=None
+   S1: Colonial Center | 99 Hawthorne Avenue, Derby, CT
+   Q : Colonial Center | 01 HAWTHORNE AVENUE, PMB 6549, DERBY, CT
+p=0.9991 diff y=None
+   S1: Ear Nose & Throat Keystone Medicine | MN, 1048 Windmill Creek, Waconia
+   Q : Ear Nose & Throat Kyesgtlcne Medicine | 1034  WINDMILL CREEK, MN, PMB 6126, WACONIIA CITY
+p=0.9998 diff y=None
+   S1: Fresh Property Brands L.L.C. | 40 Robin Hood Road, Unit 787, Havre De Grace, MD
+   Q : Fresh Property  Brands | MD, HAVRE DE GRACE, 57 ROBIN HOOD RD
+p=0.9998 diff y=None
+   S1: Urology Care Associates Care | 5401 Avenue I, Rosenberg, TX
+   Q : urologycareassociates.com | AVENUE I, PO BOX 6562, ROSENBERG, TX
+p=1.0000 diff y=None
+   S1: Valentin Global Stardust Inc | WA, 16002 10th Circle, Vancouver
+   Q : Valentin Global  Stardust Inc | TENTH CIRCLE, PO BOX 1305, VANCOUVER, WA
+p=0.9999 diff y=None
+   S1: Baclarque Central Inc. | 93 Sciarappa Street, Unit 2, Cambridge, MA
+   Q : Baclarque Céntral | 1- SCIARAPPA STREET, CAMBRIDGE, MA
+p=0.9997 diff y=None
+   S1: Bair Investments | 8820 Karens Corne, Alvarado, TX
+   Q : Bair  Investments LP | 08703 KARENS CORNE, ALVARADO, TX
+p=0.9996 diff y=None
+   S1: Benford's All Plumbing | 462 Hoffman Street, Nashville, IL
+   Q : Benford's All (Plumbing) | 636 HOFFAMN ST, NASHVILLE, IL
+p=1.0000 diff y=None
+   S1: Darcey's Brewing Center | 1139 Pershing Street, Portland, OR
+   Q : Darcey'S Bréwngi Center | 01302 Pershing St, Portlland, Oregon
+p=0.9993 diff y=None
+   S1: Holt Allied Beijing Corp | Paris, 812 Vance Avenue, IL
+   Q : Holt Allied | 932-934 Vance Ave, Paris, Illinois
+p=0.9996 diff y=None
+   S1: Hermine Reddish Trusted Precious | 220 Brooks Street, Unit S2, Worcester, MA
+   Q : Hermine Reddish Trusted | 1 Brooks St, N/A, Worcester, Massachusetts
+p=0.9993 diff y=None
+   S1: Haines Vanguard Liberty LLC | 628 White Oak Lane, Bartlett, IL
+   Q : Haines LLC Liberty Vanguard | 630 White Oak Lane, Bartlett, Illinois
+p=1.0000 diff y=None
+   S1: Olimpia's Select Audio Installation | 1500 Cold Stream Court, Unit 101, Asheville, NC
+   Q : Olimpia's  Select | Cold Stream Ct, PO Box 4063, Ashevile CDP, North Carolina
+p=1.0000 diff y=None
+   S1: Regional Piedmont Cayson LLC | 195 Kahana Lane, TX, Bastrop
+   Q : -- Regional LLC Cayson Piedmont | Kahana Ln, PO Box 9725, Bastrop, Texas
+p=0.9995 diff y=None
+   S1: Villalobos & Burton LLC | Chicago, 6223 California Avenue, IL
+   Q : Villalobos & Búrton LLC | 6510 California Ave, Chicago, Illinois
+p=1.0000 diff y=None
+   S1: Guerrero, Mcwilliams and Keeton LLC | 25158 Heathrow Street, Toney, AL
+   Q : guerreromcwilliamskeeton.com | 0025508 Heathrow Street, Toney, Alabama
+p=1.0000 diff y=None
+   S1: Hines Canary Corp | 74 Michigan Hollow Road, NY, Spencer
+   Q : Hines Canary Corporation | 1 Michigan Hollow Rd, Spencer CIYT, New York
+p=0.9999 diff y=None
+   S1: Lower Bread Inc | 2175 Leesville Road, Bedford, IN
+   Q : Lower  Bread | 1783b Leesville Rd, Bdford, Indiana
+p=1.0000 diff y=None
+   S1: Biagi Pantages LLC | 21314 Reed Creek Lane, Spring, TX
+   Q : biagipantages.com | Texas, PMB 8198, 2131 Reed Creek Lane, Spring

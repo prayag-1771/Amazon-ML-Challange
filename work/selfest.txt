@@ -1,0 +1,5 @@
+VALID US {'n': 711278, 'assigned': 0.6653, 'estP': 0.99651, 'est_miss': 0.02915} trueP 0.99663
+VALID India {'n': 536262, 'assigned': 0.6516, 'estP': 0.99655, 'est_miss': 0.01939} trueP 0.99638
+TEST  France {'n': 1434584, 'assigned': 0.6133, 'estP': 0.99315, 'est_miss': 0.0343}
+TEST  US {'n': 3789073, 'assigned': 0.5916, 'estP': 0.99825, 'est_miss': 0.01331}
+TEST  India {'n': 4689905, 'assigned': 0.5784, 'estP': 0.99828, 'est_miss': 0.0081}

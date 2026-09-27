@@ -1,0 +1,77 @@
+['s1_id', 's23_id']
+== train top-1: match rate by kind x house-number agreement ==
+shape: (24, 5)
+┌─────────┬────────────┬─────┬────────┬────────────┐
+│ country ┆ kind       ┆ num ┆ n      ┆ match_rate │
+│ ---     ┆ ---        ┆ --- ┆ ---    ┆ ---        │
+│ str     ┆ str        ┆ str ┆ u32    ┆ f64        │
+╞═════════╪════════════╪═════╪════════╪════════════╡
+│ India   ┆ same       ┆ eq  ┆ 70954  ┆ 0.979043   │
+│ India   ┆ same       ┆ na  ┆ 12904  ┆ 0.846172   │
+│ India   ┆ same       ┆ ne  ┆ 8155   ┆ 0.628449   │
+│ India   ┆ typo       ┆ eq  ┆ 12661  ┆ 0.947003   │
+│ India   ┆ typo       ┆ na  ┆ 2138   ┆ 0.771282   │
+│ India   ┆ typo       ┆ ne  ┆ 1864   ┆ 0.469957   │
+│ India   ┆ word_addrm ┆ eq  ┆ 28426  ┆ 0.713396   │
+│ India   ┆ word_addrm ┆ na  ┆ 6095   ┆ 0.46694    │
+│ India   ┆ word_addrm ┆ ne  ┆ 16370  ┆ 0.069578   │
+│ India   ┆ word_swap  ┆ eq  ┆ 49571  ┆ 0.798088   │
+│ India   ┆ word_swap  ┆ na  ┆ 9239   ┆ 0.581989   │
+│ India   ┆ word_swap  ┆ ne  ┆ 21556  ┆ 0.132446   │
+│ US      ┆ same       ┆ eq  ┆ 122254 ┆ 0.996524   │
+│ US      ┆ same       ┆ na  ┆ 20382  ┆ 0.85757    │
+│ US      ┆ same       ┆ ne  ┆ 39231  ┆ 0.403558   │
+│ US      ┆ typo       ┆ eq  ┆ 17741  ┆ 0.971084   │
+│ US      ┆ typo       ┆ na  ┆ 2632   ┆ 0.87386    │
+│ US      ┆ typo       ┆ ne  ┆ 5782   ┆ 0.391214   │
+│ US      ┆ word_addrm ┆ eq  ┆ 33854  ┆ 0.97823    │
+│ US      ┆ word_addrm ┆ na  ┆ 4709   ┆ 0.672754   │
+│ US      ┆ word_addrm ┆ ne  ┆ 42567  ┆ 0.075011   │
+│ US      ┆ word_swap  ┆ eq  ┆ 39042  ┆ 0.924415   │
+│ US      ┆ word_swap  ┆ na  ┆ 5652   ┆ 0.741154   │
+│ US      ┆ word_swap  ┆ ne  ┆ 26221  ┆ 0.176996   │
+└─────────┴────────────┴─────┴────────┴────────────┘
+== test assigned top-1 pairs: share by kind x num ==
+shape: (36, 5)
+┌─────────┬────────────┬─────┬────────┬──────────┐
+│ country ┆ kind       ┆ num ┆ n      ┆ share    │
+│ ---     ┆ ---        ┆ --- ┆ ---    ┆ ---      │
+│ str     ┆ str        ┆ str ┆ u32    ┆ f64      │
+╞═════════╪════════════╪═════╪════════╪══════════╡
+│ France  ┆ same       ┆ eq  ┆ 90537  ┆ 0.680044 │
+│ France  ┆ same       ┆ na  ┆ 8600   ┆ 0.064597 │
+│ France  ┆ same       ┆ ne  ┆ 1906   ┆ 0.014316 │
+│ France  ┆ typo       ┆ eq  ┆ 3246   ┆ 0.024381 │
+│ France  ┆ typo       ┆ na  ┆ 290    ┆ 0.002178 │
+│ France  ┆ typo       ┆ ne  ┆ 65     ┆ 0.000488 │
+│ France  ┆ word_addrm ┆ eq  ┆ 12691  ┆ 0.095325 │
+│ France  ┆ word_addrm ┆ na  ┆ 539    ┆ 0.004049 │
+│ France  ┆ word_addrm ┆ ne  ┆ 192    ┆ 0.001442 │
+│ France  ┆ word_swap  ┆ eq  ┆ 14084  ┆ 0.105788 │
+│ France  ┆ word_swap  ┆ na  ┆ 727    ┆ 0.005461 │
+│ France  ┆ word_swap  ┆ ne  ┆ 257    ┆ 0.00193  │
+│ India   ┆ same       ┆ eq  ┆ 169159 ┆ 0.40326  │
+│ India   ┆ same       ┆ na  ┆ 26686  ┆ 0.063617 │
+│ India   ┆ same       ┆ ne  ┆ 12260  ┆ 0.029227 │
+│ India   ┆ typo       ┆ eq  ┆ 29241  ┆ 0.069708 │
+│ India   ┆ typo       ┆ na  ┆ 4103   ┆ 0.009781 │
+│ India   ┆ typo       ┆ ne  ┆ 2198   ┆ 0.00524  │
+│ India   ┆ word_addrm ┆ eq  ┆ 49241  ┆ 0.117386 │
+│ India   ┆ word_addrm ┆ na  ┆ 6688   ┆ 0.015944 │
+│ India   ┆ word_addrm ┆ ne  ┆ 2941   ┆ 0.007011 │
+│ India   ┆ word_swap  ┆ eq  ┆ 96944  ┆ 0.231106 │
+│ India   ┆ word_swap  ┆ na  ┆ 12948  ┆ 0.030867 │
+│ India   ┆ word_swap  ┆ ne  ┆ 7070   ┆ 0.016854 │
+│ US      ┆ same       ┆ eq  ┆ 162401 ┆ 0.467493 │
+│ US      ┆ same       ┆ na  ┆ 23418  ┆ 0.067412 │
+│ US      ┆ same       ┆ ne  ┆ 20293  ┆ 0.058416 │
+│ US      ┆ typo       ┆ eq  ┆ 22816  ┆ 0.065679 │
+│ US      ┆ typo       ┆ na  ┆ 2989   ┆ 0.008604 │
+│ US      ┆ typo       ┆ ne  ┆ 2939   ┆ 0.00846  │
+│ US      ┆ word_addrm ┆ eq  ┆ 44518  ┆ 0.128151 │
+│ US      ┆ word_addrm ┆ na  ┆ 4270   ┆ 0.012292 │
+│ US      ┆ word_addrm ┆ ne  ┆ 4289   ┆ 0.012346 │
+│ US      ┆ word_swap  ┆ eq  ┆ 48121  ┆ 0.138523 │
+│ US      ┆ word_swap  ┆ na  ┆ 5398   ┆ 0.015539 │
+│ US      ┆ word_swap  ┆ ne  ┆ 5935   ┆ 0.017085 │
+└─────────┴────────────┴─────┴────────┴──────────┘

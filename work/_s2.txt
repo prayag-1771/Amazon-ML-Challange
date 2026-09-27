@@ -1,0 +1,68 @@
+def ce_hard_feats(d, split):
+    """Hard-pair cross-encoder score (null outside the band it scores), its rank and gap within the query."""
+    vf = pl.read_parquet(W + f"{'valid' if split == 'valid' else 'test'}_feats.parquet", columns=["q_row", "s1_row", "s1_id", "s23_id"])
+    h = vf.join(pl.read_parquet(W + f"ce_hard_s1_{split}.parquet"), on=["q_row", "s1_row"]).select("s1_id", "s23_id", "ce_h")
+    d = d.join(h, on=["s1_id", "s23_id"], how="left")
+    return d.with_columns(pl.col("ce_h").rank("ordinal", descending=True).over("s23_id").alias("ce_h_rank"),
+                          (pl.col("ce_h") - pl.col("ce_h").max().over("s23_id")).alias("ce_h_gap"))
+
+def feats(d):
+    d = d.with_columns(
+        pl.col("p").rank("ordinal", descending=True).over("s23_id").alias("q_rank"),
+        (pl.col("p") - pl.col("p").max().over("s23_id")).alias("q_gap_best"),
+        pl.col("p").sort(descending=True).slice(1, 1).first().over("s23_id").fill_null(0).alias("q_p2"),
+        pl.len().over("s23_id").alias("q_n"),
+        pl.len().over("s1_id").alias("s1_n"),
+    )
+    top = d.filter(pl.col("q_rank") == 1)
+    for th, nm in [(0.9, "hi"), (0.5, "mid")]:
+        agg = top.filter(pl.col("p") >= th).group_by("s1_id", "src").agg(pl.len().alias("n"))
+        a2 = agg.filter(pl.col("src") == 2).select("s1_id", pl.col("n").alias(f"s1_{nm}2"))
+        a3 = agg.filter(pl.col("src") == 3).select("s1_id", pl.col("n").alias(f"s1_{nm}3"))
+        d = d.join(a2, on="s1_id", how="left").join(a3, on="s1_id", how="left").with_columns(
+            pl.col(f"s1_{nm}2").fill_null(0), pl.col(f"s1_{nm}3").fill_null(0))
+        own = ((pl.col("q_rank") == 1) & (pl.col("p") >= th)).cast(pl.Int32)
+        d = d.with_columns(
+            (pl.when(pl.col("src") == 2).then(pl.col(f"s1_{nm}2")).otherwise(pl.col(f"s1_{nm}3")) - own).alias(f"s1_{nm}_same"),
+            pl.when(pl.col("src") == 2).then(pl.col(f"s1_{nm}3")).otherwise(pl.col(f"s1_{nm}2")).alias(f"s1_{nm}_other"),
+        ).drop(f"s1_{nm}2", f"s1_{nm}3")
+    d = d.with_columns(
+        pl.col("p").rank("ordinal", descending=True).over("s1_id", "src").alias("s1_src_rank"),
+        (pl.col("p") - pl.col("p").max().over("s1_id")).alias("s1_gap_best"),
+    )
+    # competitor: strongest alternative S1 in this query and its collective support
+    d = d.with_columns(
+        (pl.col("s1_hi_same") + pl.col("s1_hi_other")).alias("s1_hi_tot"))
+    alt = d.select("s23_id", "q_rank", "s1_hi_tot", "s1_hi_same")
+    r1 = alt.filter(pl.col("q_rank") == 1).select("s23_id", pl.col("s1_hi_tot").alias("r1_hi_tot"), pl.col("s1_hi_same").alias("r1_hi_same"))
+    r2 = alt.filter(pl.col("q_rank") == 2).select("s23_id", pl.col("s1_hi_tot").alias("r2_hi_tot"), pl.col("s1_hi_same").alias("r2_hi_same"))
+    d = d.join(r1, on="s23_id", how="left").join(r2, on="s23_id", how="left")
+    d = d.with_columns(
+        pl.when(pl.col("q_rank") == 1).then(pl.col("r2_hi_tot")).otherwise(pl.col("r1_hi_tot")).fill_null(-1).alias("alt_hi_tot"),
+        pl.when(pl.col("q_rank") == 1).then(pl.col("r2_hi_same")).otherwise(pl.col("r1_hi_same")).fill_null(-1).alias("alt_hi_same"),
+    ).drop("r1_hi_tot", "r1_hi_same", "r2_hi_tot", "r2_hi_same")
+    return d
+
+F = ["p", "pa", "pb", "ce_logit", "nc_tset", "ac_tset", "src", "q_addr_empty", "q_nonascii", "s1_name_cnt",
+     "q_rank", "q_gap_best", "q_p2", "q_n", "s1_n", "s1_hi_same", "s1_hi_other", "s1_mid_same", "s1_mid_other",
+     "s1_src_rank", "s1_gap_best", "s1_hi_tot", "alt_hi_tot", "alt_hi_same", "nrel_c", "add_n", "drop_n",
+     "sib_add_min", "sib_add_max", "sib_drop_min", "sib_drop_max", "ce_h", "ce_h_rank", "ce_h_gap"]
+# v10 also used sib_num / sib_name (siblings sharing the house number / name). On test, distractor families share
+# the shifted house number, so they flipped from evidence against to evidence for a match (see shift_cap).
+P = dict(objective="binary", learning_rate=0.05, num_leaves=31, min_data_in_leaf=200, feature_fraction=0.8,
+         bagging_fraction=0.8, bagging_freq=1, lambda_l2=1.0, verbose=-1, seed=7, num_threads=14)
+R = 400
+SEEDS = [7, 17, 27]  # stage 2 is bagged over seeds (lower retraining variance on the unlabelled country)
+
+def fit_predict(Xtr, ytr, Xte):
+    return np.mean([lgb.train({**P, "seed": sd}, lgb.Dataset(Xtr, ytr), R).predict(Xte, num_threads=14) for sd in SEEDS], axis=0)
+
+D3 = [3, 4, 5, 7, 9, 11, 13, 21]  # house-number shifts used by the distractor generator (besides +-1, +-2)
+CK = ["country", "dg", "leg", "nsame"]
+280:def stage_train():
+281-    s1v = pl.read_parquet(W + "norm_train_s1.parquet", columns=["entity_id", "country"]).filter(is_valid_expr("entity_id")).rename({"entity_id": "s1_id"})
+282-    gt = load_ground_truth()
+283-    d = ce_hard_feats(sib_feats(struct_feats(feats(base("valid")), "train"), "train"), "valid")
+284-    # fold of each query = hash of its top-1 S1 (keeps an S1's queries together)
+285-    qf = d.filter(pl.col("q_rank") == 1).select("s23_id", (pl.col("s1_id").hash(3) % 5).alias("fold"))
+286-    d = d.join(qf, on="s23_id")

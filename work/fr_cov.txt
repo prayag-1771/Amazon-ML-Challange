@@ -1,0 +1,51 @@
+shape: (3, 5)
+┌─────────┬─────────┬──────────┬────────────┬───────────┐
+│ country ┆ len     ┆ has_cand ┆ addr_empty ┆ non_ascii │
+│ ---     ┆ ---     ┆ ---      ┆ ---        ┆ ---       │
+│ str     ┆ u32     ┆ f64      ┆ f64        ┆ f64       │
+╞═════════╪═════════╪══════════╪════════════╪═══════════╡
+│ France  ┆ 1434993 ┆ 0.999715 ┆ 0.03002    ┆ 0.242372  │
+│ India   ┆ 4717565 ┆ 0.994137 ┆ 0.023742   ┆ 0.228193  │
+│ US      ┆ 3817031 ┆ 0.992675 ┆ 0.028929   ┆ 0.063231  │
+└─────────┴─────────┴──────────┴────────────┴───────────┘
+train addr_empty: shape: (2, 2)
+┌─────────┬────────────┐
+│ country ┆ addr_empty │
+│ ---     ┆ ---        │
+│ str     ┆ f64        │
+╞═════════╪════════════╡
+│ US      ┆ 0.035897   │
+│ India   ┆ 0.029708   │
+└─────────┴────────────┘
+shape: (25, 2)
+┌─────────────────────────────────────────────────┬────────────────────────────────────────────────────────┐
+│ business_name                                   ┆ business_address                                       │
+│ ---                                             ┆ ---                                                    │
+│ str                                             ┆ str                                                    │
+╞═════════════════════════════════════════════════╪════════════════════════════════════════════════════════╡
+│ Onyxtavobelo                                    ┆ 10 - ALL DES TRAVERSIERS, Bordeaux, Nouvelle-Aquitaine │
+│ CALOEVO                                         ┆ 040 RUE DES AARELLES, Pornic                           │
+│ Soissonnaise & Çie SCI                          ┆ 262 RUE PULLEPORT, BORDEAUX                            │
+│ Solfayearc                                      ┆ N° 20 IMP D'AGEN, Bordeaux                             │
+│ ROUGFS & CIE SAS                                ┆                                                        │
+│ Kortavosyn                                      ┆ 0012 R NEUVE, Pessac, Nouvelle-Aquitaine               │
+│ Zephavi                                         ┆ 044 R Daveses, Tourcoing                               │
+│ Calociraxylo                                    ┆ 48 Rue Du Losp, Bordeaux, Gironde                      │
+│ Bordeaux Mûsique SARL                           ┆                                                        │
+│ Jaxumbracalo                                    ┆ QUAI OUEST, Bordeaux, Nouvelle-Aquitaine               │
+│ Zephflux                                        ┆ 11 AVE DE L'IGUE MARINE, Nantes                        │
+│ COMITÉ DES ANTENNE INTERNATIONAL SASU           ┆ Nº 8 RUE DE HOLLANSE, CALAIS, Pas-de-Calais            │
+│ DJS FRANCE                                      ┆                                                        │
+│ Lumecto                                         ┆ 14 R DU DBUBS, Nantes, Pays de la Loire                │
+│ Xyloumbrakelo                                   ┆ 9 R. DES BATEAOX LAVOIRS, Nantes, Pays de la Loire     │
+│ Pyrairinyla                                     ┆ 1 RUE DE LA PRINCESSE, Pessac, Gironde                 │
+│ Rizanoviarc                                     ┆ 11 Rue de la Renaissance, Dunkerque, Hauts-de-France   │
+│ DJANGO CENTRE INTERNATIONAL                     ┆ 647 R JULES WATTEUW, ROUBAIX, Nord                     │
+│ Territoriale Boutchou Union Participations SARL ┆ N° 120 RUE DU JARD, MERIGNAC, Gironde                  │
+│ Anciens Saint [Madeligcie]                      ┆ 1 - RUE LEULY, LILLE                                   │
+│ Nylamirahalo                                    ┆ 16 R ANAOLE FRANCE, Mérignac, Gironde                  │
+│ FTS                                             ┆ 15 AVENUE DU POTR, Lège-Cap-Ferret                     │
+│ Umbranex                                        ┆ Nantes, Pays de la Loire, 2 PL DE LA CHAPELLE          │
+│ Municipal & Cie Distribution EI                 ┆ 12 ALLEE PAUL VERLAINE, TOURCOING, Hauts-de-France     │
+│ ECTOSYN                                         ┆ 55 R. DES FAURCS, Bordeaux                             │
+└─────────────────────────────────────────────────┴────────────────────────────────────────────────────────┘

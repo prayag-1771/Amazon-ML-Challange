@@ -1,0 +1,122 @@
+US swap1 num= sim<.5 top1 29482 prec 0.9276 acc 0.926 prec|acc 0.9996 recall-miss 53
+  distinct pairs 14343 top pairs cover 1617
+shape: (25, 5)
+┌─────────────┬──────────┬─────┬───────┬───────┐
+│ dt          ┆ at       ┆ n   ┆ prec  ┆ p2    │
+│ ---         ┆ ---      ┆ --- ┆ ---   ┆ ---   │
+│ str         ┆ str      ┆ u32 ┆ f64   ┆ f32   │
+╞═════════════╪══════════╪═════╪═══════╪═══════╡
+│ associates  ┆ center   ┆ 125 ┆ 1.0   ┆ 1.0   │
+│ care        ┆ center   ┆ 104 ┆ 0.971 ┆ 0.971 │
+│ partners    ┆ center   ┆ 104 ┆ 1.0   ┆ 0.999 │
+│ care        ┆ services ┆ 84  ┆ 1.0   ┆ 1.0   │
+│ center      ┆ services ┆ 79  ┆ 1.0   ┆ 1.0   │
+│ health      ┆ center   ┆ 75  ┆ 0.987 ┆ 0.987 │
+│ associates  ┆ services ┆ 74  ┆ 1.0   ┆ 1.0   │
+│ partners    ┆ services ┆ 74  ┆ 1.0   ┆ 1.0   │
+│ clinic      ┆ center   ┆ 54  ┆ 1.0   ┆ 1.0   │
+│ medicine    ┆ center   ┆ 52  ┆ 0.981 ┆ 0.981 │
+│ md          ┆ center   ┆ 51  ┆ 1.0   ┆ 1.0   │
+│ health      ┆ services ┆ 49  ┆ 1.0   ┆ 1.0   │
+│ care        ┆ service  ┆ 47  ┆ 1.0   ┆ 1.0   │
+│ do          ┆ center   ┆ 46  ┆ 1.0   ┆ 1.0   │
+│ trust       ┆ center   ┆ 44  ┆ 1.0   ┆ 1.0   │
+│ clinic      ┆ services ┆ 44  ┆ 1.0   ┆ 1.0   │
+│ capital     ┆ center   ┆ 43  ┆ 1.0   ┆ 1.0   │
+│ dds         ┆ services ┆ 41  ┆ 1.0   ┆ 1.0   │
+│ dds         ┆ center   ┆ 38  ┆ 1.0   ┆ 1.0   │
+│ associates  ┆ partners ┆ 38  ┆ 0.974 ┆ 0.974 │
+│ specialists ┆ center   ┆ 38  ┆ 1.0   ┆ 1.0   │
+│ md          ┆ services ┆ 38  ┆ 1.0   ┆ 1.0   │
+│ physicians  ┆ services ┆ 37  ┆ 1.0   ┆ 1.0   │
+│ physicians  ┆ center   ┆ 36  ┆ 1.0   ┆ 1.0   │
+│ center      ┆ service  ┆ 35  ┆ 1.0   ┆ 1.0   │
+└─────────────┴──────────┴─────┴───────┴───────┘
+  TRUE dt fanout [('care', 122, 391), ('associates', 26, 291), ('partners', 44, 254), ('health', 72, 235), ('center', 63, 202), ('clinic', 54, 194), ('trust', 67, 157), ('medicine', 31, 139), ('md', 6, 124), ('capital', 28, 112)]
+  FALSE dt fanout [('metropolitan', 12, 12), ('williams', 12, 12), ('health', 11, 11), ('rodriguez', 10, 10), ('scholarship', 9, 10), ('hunger', 8, 9), ('equinox', 8, 8), ('johnson', 8, 8), ('gonzalez', 8, 8), ('heritage', 8, 8)]
+India swap1 num= sim<.5 top1 21421 prec 0.79 acc 0.788 prec|acc 0.9991 recall-miss 57
+  distinct pairs 10010 top pairs cover 2924
+shape: (25, 5)
+┌───────────────┬─────────────┬─────┬───────┬───────┐
+│ dt            ┆ at          ┆ n   ┆ prec  ┆ p2    │
+│ ---           ┆ ---         ┆ --- ┆ ---   ┆ ---   │
+│ str           ┆ str         ┆ u32 ┆ f64   ┆ f32   │
+╞═══════════════╪═════════════╪═════╪═══════╪═══════╡
+│ india         ┆ center      ┆ 217 ┆ 0.959 ┆ 0.96  │
+│ india         ┆ services    ┆ 158 ┆ 0.981 ┆ 0.982 │
+│ food          ┆ phud        ┆ 135 ┆ 0.993 ┆ 0.992 │
+│ brothers      ┆ center      ┆ 123 ┆ 0.976 ┆ 0.976 │
+│ infotech      ┆ imphotek    ┆ 117 ┆ 0.966 ┆ 0.964 │
+│ foundation    ┆ phaumdesn   ┆ 115 ┆ 0.965 ┆ 0.964 │
+│ trading       ┆ center      ┆ 109 ┆ 0.954 ┆ 0.975 │
+│ consultancy   ┆ kmsltemsi   ┆ 105 ┆ 0.99  ┆ 0.99  │
+│ foods         ┆ phuds       ┆ 105 ┆ 1.0   ┆ 1.0   │
+│ solutions     ┆ center      ┆ 101 ┆ 0.98  ┆ 0.971 │
+│ international ┆ imtrnesnl   ┆ 101 ┆ 1.0   ┆ 1.0   │
+│ services      ┆ center      ┆ 96  ┆ 0.979 ┆ 0.971 │
+│ care          ┆ keyr        ┆ 96  ┆ 1.0   ┆ 1.0   │
+│ consultants   ┆ kmsltemts   ┆ 93  ┆ 1.0   ┆ 1.0   │
+│ solutions     ┆ solyusms    ┆ 91  ┆ 0.978 ┆ 0.978 │
+│ power         ┆ pavr        ┆ 90  ┆ 1.0   ┆ 1.0   │
+│ construction  ┆ kmstrksn    ┆ 90  ┆ 1.0   ┆ 1.0   │
+│ india         ┆ service     ┆ 89  ┆ 0.966 ┆ 0.966 │
+│ brothers      ┆ services    ┆ 89  ┆ 0.989 ┆ 0.989 │
+│ traders       ┆ center      ┆ 80  ┆ 0.975 ┆ 0.987 │
+│ solutions     ┆ services    ┆ 79  ┆ 0.911 ┆ 0.917 │
+│ trading       ┆ services    ┆ 78  ┆ 0.974 ┆ 0.974 │
+│ india         ┆ partners    ┆ 77  ┆ 0.974 ┆ 0.974 │
+│ engineering   ┆ imjiniyrimg ┆ 77  ┆ 0.987 ┆ 0.987 │
+│ foundation    ┆ center      ┆ 75  ┆ 0.973 ┆ 0.987 │
+└───────────────┴─────────────┴─────┴───────┴───────┘
+  TRUE dt fanout [('india', 251, 797), ('solutions', 32, 372), ('trading', 72, 331), ('consultancy', 24, 303), ('brothers', 49, 296), ('care', 38, 294), ('foundation', 17, 289), ('consultants', 16, 256), ('construction', 10, 243), ('international', 8, 224)]
+  FALSE dt fanout [('india', 106, 134), ('services', 104, 121), ('solutions', 80, 96), ('technologies', 64, 77), ('industries', 47, 54), ('trading', 46, 54), ('foundation', 47, 54), ('projects', 39, 50), ('infrastructure', 35, 47), ('international', 38, 45)]
+FRANCE test swap1 num= sim<.5 top1 89260 acc 0.374
+  distinct pairs 18458
+shape: (40, 5)
+┌──────────┬───────────────┬─────┬───────┬───────┐
+│ dt       ┆ at            ┆ n   ┆ acc   ┆ p2    │
+│ ---      ┆ ---           ┆ --- ┆ ---   ┆ ---   │
+│ str      ┆ str           ┆ u32 ┆ f64   ┆ f64   │
+╞══════════╪═══════════════╪═════╪═══════╪═══════╡
+│ club     ┆ fils          ┆ 967 ┆ 0.582 ┆ 0.704 │
+│ club     ┆ groupe        ┆ 587 ┆ 0.906 ┆ 0.913 │
+│ ecole    ┆ fils          ┆ 568 ┆ 0.565 ┆ 0.672 │
+│ france   ┆ fils          ┆ 556 ┆ 0.588 ┆ 0.736 │
+│ club     ┆ services      ┆ 534 ┆ 0.978 ┆ 0.983 │
+│ amicale  ┆ fils          ┆ 532 ┆ 0.481 ┆ 0.637 │
+│ comite   ┆ fils          ┆ 502 ┆ 0.707 ┆ 0.791 │
+│ club     ┆ developpement ┆ 481 ┆ 0.114 ┆ 0.188 │
+│ club     ┆ france        ┆ 468 ┆ 0.205 ┆ 0.442 │
+│ club     ┆ associes      ┆ 467 ┆ 0.146 ┆ 0.234 │
+│ saint    ┆ st            ┆ 430 ┆ 1.0   ┆ 1.0   │
+│ sportive ┆ fils          ┆ 397 ┆ 0.252 ┆ 0.421 │
+│ amis     ┆ fils          ┆ 362 ┆ 0.79  ┆ 0.851 │
+│ primaire ┆ fils          ┆ 341 ┆ 0.434 ┆ 0.539 │
+│ ecole    ┆ associes      ┆ 318 ┆ 0.116 ┆ 0.179 │
+│ parents  ┆ fils          ┆ 304 ┆ 0.707 ┆ 0.775 │
+│ france   ┆ associes      ┆ 302 ┆ 0.169 ┆ 0.25  │
+│ centre   ┆ fils          ┆ 301 ┆ 0.488 ┆ 0.635 │
+│ ecole    ┆ services      ┆ 299 ┆ 0.977 ┆ 0.984 │
+│ france   ┆ groupe        ┆ 288 ┆ 0.09  ┆ 0.353 │
+│ ecole    ┆ developpement ┆ 287 ┆ 0.118 ┆ 0.231 │
+│ amicale  ┆ services      ┆ 287 ┆ 0.972 ┆ 0.975 │
+│ club     ┆ amicale       ┆ 286 ┆ 0.517 ┆ 0.59  │
+│ france   ┆ developpement ┆ 281 ┆ 0.103 ┆ 0.278 │
+│ sante    ┆ fils          ┆ 280 ┆ 0.671 ┆ 0.75  │
+│ club     ┆ ecole         ┆ 279 ┆ 0.595 ┆ 0.645 │
+│ ecole    ┆ france        ┆ 279 ┆ 0.348 ┆ 0.565 │
+│ amicale  ┆ developpement ┆ 279 ┆ 0.054 ┆ 0.125 │
+│ amicale  ┆ associes      ┆ 272 ┆ 0.235 ┆ 0.367 │
+│ amicale  ┆ groupe        ┆ 272 ┆ 0.037 ┆ 0.28  │
+│ france   ┆ services      ┆ 272 ┆ 1.0   ┆ 1.0   │
+│ club     ┆ comite        ┆ 266 ┆ 0.707 ┆ 0.741 │
+│ ecole    ┆ groupe        ┆ 263 ┆ 0.224 ┆ 0.456 │
+│ comite   ┆ developpement ┆ 262 ┆ 0.137 ┆ 0.236 │
+│ comite   ┆ france        ┆ 253 ┆ 0.439 ┆ 0.595 │
+│ comite   ┆ services      ┆ 250 ┆ 0.984 ┆ 0.982 │
+│ comite   ┆ associes      ┆ 245 ┆ 0.216 ┆ 0.305 │
+│ comite   ┆ groupe        ┆ 243 ┆ 0.169 ┆ 0.442 │
+│ amicale  ┆ france        ┆ 242 ┆ 0.36  ┆ 0.558 │
+│ union    ┆ fils          ┆ 238 ┆ 0.668 ┆ 0.75  │
+└──────────┴───────────────┴─────┴───────┴───────┘
+  dt fanout [('club', 562, 8051, 0.462), ('ecole', 438, 4712, 0.403), ('amicale', 361, 4252, 0.351), ('comite', 299, 3879, 0.405), ('sportive', 198, 3001, 0.25), ('amis', 219, 2803, 0.425), ('centre', 193, 2364, 0.337), ('college', 161, 2230, 0.362), ('parents', 207, 2176, 0.402), ('union', 262, 2143, 0.436), ('primaire', 130, 2060, 0.329), ('france', 329, 2030, 0.495), ('pharmacie', 126, 1786, 0.161), ('sante', 192, 1644, 0.442), ('fetes', 150, 1567, 0.382)]

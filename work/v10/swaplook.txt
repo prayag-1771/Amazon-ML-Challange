@@ -1,0 +1,172 @@
+
+#### [developpement] S1: Lille Amicale SA | 27 Rue Ernest Mayer, Hauts-de-France, Lille
+   p2=1.000     S3 Lille Amicale | 27 - R Ernest Mayer, Lille, Hauts-de-France
+   p2=1.000     S3 Lille Amicale-SA | 27 - Rue Ernest Mayer, Lille, Hauts-de-France
+   p2=0.922     S2 Développement Lille SA | 27 RUE ERNEST MAYER, Lille
+   p2=0.008     S3 AL | Lille, 116 Rue Ernest Mayer, Nord
+   p2=0.001     S3 SSO Amicale SARL | 27 Rue Ernest Loyer, Lille, Hauts-de-France
+   p2=0.000     S2 Lille Musique SAS | Nord, 70 R. ERNEST MAYER, LILLE
+   p2=0.000 ALT S3 Lille Amicale SARL | 27 Rue Jean Bart, Lille
+   p2=0.000 ALT S3 Lille  Amicale | 25 Rue De La Barer, Lille, Hauts-de-France
+   p2=0.000 ALT S3 Photo Amicale  SCI | Lille, 6 Rue Ernest Mayer, Hauts-de-France
+   p2=0.000 ALT S2 CC | 17 R ERNEST MAYER, Lille, Nord
+   p2=0.000 ALT S3 Lille-Amicale EURL | 38 Rue Ernest Mayer, Lille, Hauts-de-France
+   p2=0.000 ALT S2 Lumcira | 27 R. LOUIS BRAILLE, Nord, Lille
+
+#### [developpement] S1: Grif Amis SA | Dunkerque, 1 Rue de la 2ème DB, Hauts-de-France
+   p2=1.000     S2 Grif  Amis SA | DUNKERQUE, Hauts-de-France, NO 1 RUE DE LA 2EME DB
+   p2=1.000     S2 Grif Amis | NO 1 R. DE LA 2ÈME DB, DUNKERQUE, Hauts-de-France
+   p2=1.000     S3 Grif Amis SA | 1 R. De La 2ème Db, Dunkerque
+   p2=0.994     S2 Zetahaloflux | NO 1 RUE DE LA 2ÈME DB, Dunkerque, Hauts-de-France
+   p2=0.984     S3 Grif Sante SA | 1 Rue De La 2ème Db, Dunkerque
+   p2=0.099     S3 Grif SA Développement | 1 Rue De La 2ème Db, Dunkerque
+   p2=0.000 ALT S2 Zetasolnex | 4 R. DE LA 2EME DB, Dunkerque
+   p2=0.000 ALT S2 Grives Amis SARL | 
+   p2=0.000     S2 ASSISTANCE GRBUEP SNC | NO 11 RUE DE LA 2ÈME DB, DUNKERQUE, Nord
+   p2=0.000     S3 Grif Amis Groupe S.A. | No 4 Rue De La 2eme Db, Dunkerque, Hauts-de-France
+   p2=0.000 ALT S3 Clinique De La Paul Participations | 28 Rue De La 2ème Db, Dunkerque
+   p2=0.000     S2 Grif SNC Groupe | DUNKERQUE, 4 R. DE LA 2ÈME DB
+
+#### [developpement] S1: Nantes Club SAS | 16 Place du Manège, Nantes, Pays de la Loire
+   p2=0.152     S3 Nantes Club | 16 Avenue Saint Pol De Léon, Nantes, Pays de la Loire
+   p2=0.097     S3 Nantes SAS Développement | 16 Pl Du Manege, Nantes, Pays de la Loire
+   p2=0.025     S2 Nantes SAS Développement | NANTES, 16 PLACE DU MANÈGE, Loire-Atlantique
+   p2=0.008 ALT S2 Nantes Maison SAS | NANTES, Loire-Atlantique, 16 PL. DU MANÈGE
+   p2=0.002 ALT S3 Nantes Club | Nantes, Loire-Atlantique, 16 Impasse Lalande
+   p2=0.001 ALT S3 Belolyra | 10 Place du Manège, Nantes, Pays de la Loire
+   p2=0.000 ALT S3 Nantes Club SARL | 17 Pl Du Manege, Nantes
+   p2=0.000 ALT S3 Nantes Club SARL | Loire-Atlantique, Nantes, 116 Pl Du Muguet Nantais
+   p2=0.000 ALT S3 Tg Club SAS | 7 Pl De La Nation, Nantes, Pays de la Loire
+   p2=0.000 ALT S3 NANTES CLUB SAS | 16 Ch. Du Sas Au Vin, Nantes, Loire-Atlantique
+   p2=0.000 ALT S2 Chambres (France) Club [SA] | 6 PL DE LA MANU, NANTES
+   p2=0.000 ALT S2 gbsante.com | 6 PL DU MANÈGE, Nantes, Loire-Atlantique
+
+#### [developpement] S1: Bonne Oasis Anciens EURL | 38 Avenue des Prunus, La Baule-Escoublac, Pays de la Loire
+   p2=1.000     S3 Oasis Bonne | 38 Avenue des Prunus, La Baule-Escoublac, Pays de la Loire
+   p2=1.000     S3 Bonne Oasis Anciens | 38 Avenue Des Prunus, La Baule-escoublac, Pays de la Loire
+   p2=1.000     S3 Bonne Oasis Anciens EURL | 38 Avenue Des Prunus, La Baule-escoublac, Pays de la Loire
+   p2=1.000     S2 Bonne  Oasis Anciens EURL | 
+   p2=0.671     S3 BONNE OASIS MATERNELLE EURL | 38 Avenue Des Prunus, La Baule-escoublac, Pays de la Loire
+   p2=0.070     S3 Bonne Oasis EURL Développement | 38 Avenue Des Prunsu, La Baule-escoublac, Pays de la Loire
+
+#### [groupe] S1: Scolaire Societe SARL | 6 Allée des Flamants, Saint-Nazaire, Pays de la Loire
+   p2=1.000     S3 Deltariza d/b/a Scolaire Societe SARL | 6 Allée des Flamants, Saint-Nazaire, Pays de la Loire
+   p2=1.000     S3 Scolaire Societe | 6 All. Des Flamants, Saint-nazaire
+   p2=1.000     S2 SARL Scolaire Societe | 6 ALL. DES FLAMANTS, Saint-Nazaire, Pays de la Loire
+   p2=1.000     S2 SARL Scolaire Societe | 6 ALL. DES FLAMANTS, Saint-Nazaire, Pays de la Loire
+   p2=1.000     S2 SCOLAIRE  SOCIETE | 6 ALLEE DES FAMANTS, SAINT-NAZAIRE, Pays de la Loire
+   p2=0.802     S2 GROUPE SCOLAIRE SARL | 6 ALLÉE DES FLAMANTS, Saint-Nazaire, Pays de la Loire
+   p2=0.694     S2 SS | 6 ALLÉE DES FLAMANTS, Saint-Nazaire, Pays de la Loire
+   p2=0.314     S3 SC | Allée Des Flamants, Saint-Nazaire, Loire-Atlantique
+   p2=0.005     S2 Scolaire Societe SAS | 19 ALLÉE DES FLAMANTS, SAINT-NAZAIRE, Loire-Atlantique
+   p2=0.000 ALT S2 Scolaire Section SARL | 30 R ANATLE FRANCE, SAINT-NAZAIRE, Pays de la Loire
+   p2=0.000 ALT S2 daccueil societe sas | 12 ALL DES FLAMANTS, ST-NAZAIRE, Loire-Atlantique
+   p2=0.000     S2 Scolaire Societe SCI | SAINT-NAZAIRE, 19 ALMÉE DES FLAMANTS, Loire-Atlantique
+
+#### [groupe] S1: Departemental Club SARL | Pessac, 28 Rue des Gravières, Nouvelle-Aquitaine
+   p2=1.000     S2 DEPARTEMENTAL  CLUB SARL | 0028 R. DES GRAVIERES, PESSAC, Gironde
+   p2=1.000     S3 Departemental Club [Sarl] | 28 Rue Des Gravieres, Pessac, Nouvelle-Aquitaine
+   p2=1.000     S3 Departemental Club SARL | Nouvelle-Aquitaine, Pessac, 28 Rue Des Gravières
+   p2=0.961     S3 Departemental SARL Groupe | 28 Rue Des Gravères, Pessac, Nouvelle-Aquitaine
+   p2=0.001     S3 Cms Club Sarl | 28 Ave De Bretagne, Pessac, Gironde
+   p2=0.001 ALT S3 Departemental Club SARL | N° 41 R De Compostelle, Pessac
+   p2=0.000 ALT S2 departemental societe sarl | 52 R DE COMPOSTELLE, PESSAC, Gironde
+   p2=0.000 ALT S3 Club du Departemental SAS | Pessac, Nouvelle-Aquitaine, 46 R. Des Fauvettes
+   p2=0.000 ALT S2 Nom Club Groupe | 59 R. DES GRAVIÈRES, PESSAC
+   p2=0.000     S3 SARL Departemental Club Groupe | 33 Rue Des Grdvières, Pessac, Nouvelle-Aquitaine
+   p2=0.000     S2 ASSOCIATION DE PLEINE DISTRIBUTION | 48 R. DES GRAVIERES, PESSAC
+   p2=0.000     S2 Departemental  SASU Club | 33 RUE DES GRAVIÈRES, PESSAC, Gironde
+
+#### [groupe] S1: Caetera Culture SARL | 4 Rue d'Ostende, Tourcoing, Hauts-de-France
+   p2=1.000     S2 Caetera Culture | 4 RUE D'OSTENDE, TOURCOING, Hauts-de-France
+   p2=1.000     S3 Caetera Çulture SARL | No 4 Rue D'ostende, Tourcoing, Hauts-de-France
+   p2=1.000     S2 CAETERA CULTURE | Hauts-de-France, 4 RUE D'OSTENDE, TOURCOING
+   p2=0.990     S3 Caetera Compagnie SARL | No 4 Rue D'otsende, Tourcoing, Hauts-de-France
+   p2=0.887     S3 Caetera  Ecole SARL | No 4 R. D'stende, Tourcoing, Hauts-de-France
+   p2=0.250     S3 Caetera SARL Groupe | Hauts-de-France, No 4 R D'ostende, Tourcoing
+
+#### [groupe] S1: Maintien Danse SAS | 17 Les Granges, Pornic, Pays de la Loire
+   p2=1.000     S2 MAINTIEN DANSE | 17 LES GRANGES, PORNIC
+   p2=1.000     S2 Maintien Danse | 17 LES GRANGES, PORNIC
+   p2=1.000     S3 Maintien Danse SAS | 17 Les Garnges, Pornic
+   p2=1.000     S3 Maintien Danse Sas | Pornic, 17 Les Granges
+   p2=1.000     S3 maintiendansesas.com | 17 Les Granges, Pornic
+   p2=0.958     S3 Sas Maintien Comite | 17 Les Granges, Pornic
+   p2=0.754     S3 Maintien SAS Groupe | Pornic, 17 Les Granges
+   p2=0.003     S3 SNC MAINTIEN DANSE | Pornic, 38 Les Granges
+   p2=0.001     S3 Maintien Club SAS | 38 Les Granges, Pornic
+
+#### [sportive] S1: Cressonniere Culturelle SASU | 12 B Rue Pierre Noguey, Bordeaux, Nouvelle-Aquitaine
+   p2=1.000     S3 Cressonniere Culturelle SASU | 12 B R. Pierre Noguey, Bordeaux, Nouvelle-Aquitaine
+   p2=1.000     S2 Cressonniere Culturelle SASU | 12B RUE PIERRE NOGUEY, BORDEAUX
+   p2=0.942     S2 Cressonniere Comite Sasu | 12B RUE PIERE NOGUEY, BORDEAUX
+   p2=0.087     S2 Cressonniere Sportive SASU | 12 B R PIERRE NOGUEY, BORDEAUX
+   p2=0.000 ALT S2 LASSOCIATION CULTURELLE DÉVELOPPEMENT SAS | 12 R. PIERRE NOGUEY, BORDEAUX, Nouvelle-Aquitaine
+
+#### [sportive] S1: JDK Sante EURL | 5 Impasse des Tourmalines, Nantes, Pays de la Loire
+   p2=1.000     S2 JDK SANTE EURL | NANTES, 5 IMP DES TOURMALINES, Pays de la Loire
+   p2=1.000     S2 JDK Sante-E.U.R.L. | NANTES, Pays de la Loire, 5 IMPASSE DES TOURMALINES
+   p2=1.000     S3 JDK Sante | 5 Impasse Des Tourmalines, Nantes, Pays de la Loire
+   p2=1.000     S3 JDK Sante E.U.R.L. | 5 Impasse Des Tourmalines, Pays de la Loire, Nantes
+   p2=0.999     S3 JDK Sânte EURL | 
+   p2=0.998     S2 JDK  State EURL | 5 IMP. DES TOURMALINES, NANTES, Pays de la Loire
+   p2=0.459     S3 JDK EURL Sportive | 5 Impasse Des Tourmalines, Nantes, Pays de la Loire
+   p2=0.000 ALT S3 FM | Nantes, Loire-Atlantique, 3 Imp Des Tourmalines
+
+#### [sportive] S1: Congolais Musique SASU | 5 Rue des Vicaires, Lille, Hauts-de-France
+   p2=1.000     S2 Congolais Musique S.A.S.U. | 5 RUE DES VICAIRES, LILLE, Hauts-de-France
+   p2=1.000     S3 Congolais  Musique | 5 Rue Des Vicaires, Lille, Hauts-de-France
+   p2=1.000     S2 Congolais Musique SASU | LILLE, Hauts-de-France, 5 RUE DES VICAIRES
+   p2=1.000     S3 Congolais Musique SASU | 5 Rue Des Vicaires, Lille, Hauts-de-France
+   p2=1.000     S3 Congolais SASU Musique | 5 R Des Vicaires, Lille, Hauts-de-France
+   p2=1.000     S3 Congolais Musique | Hauts-de-France, Lille, 5 Rue Des Vicaires
+   p2=0.178     S3 Congolais Musique SA | Nº 16 Rue Des Vicaires, Lille, Hauts-de-France
+   p2=0.062     S3 Congolais Sportive SASU | 5 R. Des Vicaires, Lille, Hauts-de-France
+   p2=0.001 ALT S2 CONGOLAISE MUSIQUE (SA) | 47 - RUE VICTOR ALLARD, LILLE, Nord
+
+#### [sportive] S1: Andromede (France) Institut SARL | 3 Impasse des Gants, Bordeaux, Nouvelle-Aquitaine
+   p2=1.000     S2 Andromede (France) Isgtut SARL | 003 IMPASE DES GANTS, BORDEAUX
+   p2=1.000     S3 Andromede (France) Institut SARL | 3 Imp Des Gants, Bordeaux
+   p2=1.000     S3 Andromede (France) Institut Sarl | 3 Impasse Des Gants, Bordeaux
+   p2=0.134     S3 sarl andromede (france) sportive | 3 Impasse Des Gants, Bordeaux
+   p2=0.000     S2 Andromede (France) Institut  Développement SARL | 010 IMPASSE DES GANTS, BORDEAUX
+
+#### [fils] S1: Aeb Sport SAS | 32 Rue de l'Espérance, Hauts-de-France, Roubaix
+   p2=1.000     S3 Aeb Sport SAS | # 32 Rue De L'espérance, Roubaix, Hauts-de-France
+   p2=1.000     S2 AEB SPORTIVE SAS | 32 RUE DE L'ESPÉRANCE, ROUBAIX, Hauts-de-France
+   p2=0.998     S2 Aeb SAS Et Fils | ROUBAIX, 32 RUE DE L'ESPERANCE, Hauts-de-France
+   p2=0.973     S3 Aeb SAS Section | Hauts-de-France, # 32 Rue De L'espérance, Roubaix
+   p2=0.592     S3 Aeb SAS France | # 32 R De L'esperance, Roubaix, Hauts-de-France
+
+#### [fils] S1: Reunionnaise (France) Club SAS | Nantes, Pays de la Loire, 2 Rue des Cupressus
+   p2=1.000     S2 Reunionnaise (France) Club | 2 RUE DES CUPRESSUS, NANTES
+   p2=1.000     S3 Reunionnaise (France) Club | 002 Rue Des Cupressus, Nantes, Loire-Atlantique
+   p2=0.675     S3 Reunionnaise (France) Club S.A.S | 
+   p2=0.138     S3 Reunionnaise Club SAS Et Fils | 002 R. Des Cupressus, Nantes, Loire-Atlantique
+   p2=0.000     S2 Reunionnaise (France)  Club EURL | NANTES, 03 R. DES CUPRESSUS
+   p2=0.000     S2 Reunionnaise (France) Club Groupe S.A.S. | 03 RUE DES CUPRESUSS, NANTES
+   p2=0.000 ALT S3 reveil (france) compagnie participations sas | No. 82 Rue Des Renards, Nantes
+
+#### [fils] S1: Roubaix Collège SARL | 52 Boulevard de Cambrai, Roubaix, Hauts-de-France
+   p2=1.000     S2 Roubaix Collège SARL | 52 BOULEVARD DE CAMBRAI, ROUBAIX
+   p2=1.000     S3 SARL Roubaix Collège | 52 Boulevard De Csmbrai, Roubaix
+   p2=0.964     S3 Roubaix SARL Et  Fils | 52 Bd. De Cambrai, Roubaix
+   p2=0.928     S2 Roubaix Çollège SARL | NO 25 BOULEVARD DE CAMBRAI, ROUBAIX
+   p2=0.273     S2 SARL Roubaix College | 52 RUE PIGOUCHE, Roubaix, Hauts-de-France
+   p2=0.000     S3 XAH SARL Cie | 52 Boulevard De Cambrai, Roubaix
+   p2=0.000 ALT S3 sarl kbg college | 52 Rue Ignres, Roubaix
+   p2=0.000 ALT S3 Solorbi | N° 30 Boulevard De Cambrai, Roubaix, Nord
+   p2=0.000 ALT S3 Scolaire Gestion | 52 Rue Des Arts, Roubaix, Nord
+   p2=0.000 ALT S3 Roubaix Collège International Sarl | Hauts-de-France, No. 10 Rue Pbyen, Roubaix
+   p2=0.000 ALT S3 Roubaix Collège Développement SARL | Roubaix, Nord, 126 Rue Jean Macé
+   p2=0.000 ALT S3 Vaulx Collège (France) SA | 53 Bis Rue Du Chevalier Roland, Roubaix
+
+#### [fils] S1: Cross Amis (France) SARL | 177 Avenue Guy de la Morandais, La Baule-Escoublac, Pays de la Loire
+   p2=1.000     S2 Cross  Amis (France) | LA BAULE-ESCOUBLAC, # 177 AV. GUY DE LA MORANDAIS
+   p2=1.000     S3 Cross | 177 Avenue Guy de la Morandais, La Baule-Escoublac, Pays de la Loire
+   p2=1.000     S2 Cross Amis (France) Sàrl | # 177 AVE GUY DE LA MORANDAIS, LA BAULE-ESCOUBLAC
+   p2=1.000     S2 Cross Amis (France) SARL | # 177 AVENUE GUY DE LA MORANDAIS, LA BAULE-ESCOUBLAC
+   p2=0.559     S3 Cross Amis SARL Et Fils | (177) Avenue Guy De La Morandais, La Baule-escoublac, Pays de la Loire
+   p2=0.000 ALT S3 Cercle Amis SARL | 7 Avenue Guy De La Morandais, La Baule-escoublac
+   p2=0.000     S3 Cross Àmis (France) SCI | 181 Avenue Guy De La Moraneais, La Baule-escoublac, Pays de la Loire
+   p2=0.000 ALT S2 Bcc Amis Sarl | 00116 AVENUE GUY DE LA MORANDAIS, LA BAULE ESCOUBLAC

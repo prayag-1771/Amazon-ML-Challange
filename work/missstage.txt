@@ -1,0 +1,4 @@
+cand_tf_train pair recall 0.9503
+cand_emb_train pair recall 0.9801
+cand_train pair recall 0.9848
+pruned_train pair recall 0.9832

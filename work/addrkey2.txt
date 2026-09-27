@@ -1,0 +1,102 @@
+train shape: (22, 5)
+┌─────────┬───────┬─────────────┬─────────┬──────────┐
+│ country ┆ in_pr ┆ b           ┆ len     ┆ true     │
+│ ---     ┆ ---   ┆ ---         ┆ ---     ┆ ---      │
+│ str     ┆ bool  ┆ enum        ┆ u32     ┆ f64      │
+╞═════════╪═══════╪═════════════╪═════════╪══════════╡
+│ India   ┆ false ┆ (-inf, 50]  ┆ 104541  ┆ 0.000842 │
+│ India   ┆ false ┆ (50, 70]    ┆ 1667    ┆ 0.0      │
+│ India   ┆ false ┆ (70, 85]    ┆ 649     ┆ 0.0      │
+│ India   ┆ false ┆ (85, 95]    ┆ 39      ┆ 0.0      │
+│ India   ┆ false ┆ (99.9, inf] ┆ 7       ┆ 0.0      │
+│ India   ┆ true  ┆ (-inf, 50]  ┆ 81886   ┆ 0.716569 │
+│ India   ┆ true  ┆ (50, 70]    ┆ 78563   ┆ 0.988531 │
+│ India   ┆ true  ┆ (70, 85]    ┆ 73968   ┆ 0.990523 │
+│ India   ┆ true  ┆ (85, 95]    ┆ 55643   ┆ 0.978272 │
+│ India   ┆ true  ┆ (95, 99.9]  ┆ 18874   ┆ 0.971548 │
+│ India   ┆ true  ┆ (99.9, inf] ┆ 417500  ┆ 0.999368 │
+│ US      ┆ false ┆ (-inf, 50]  ┆ 382287  ┆ 0.000317 │
+│ US      ┆ false ┆ (50, 70]    ┆ 3999    ┆ 0.0      │
+│ US      ┆ false ┆ (70, 85]    ┆ 407     ┆ 0.0      │
+│ US      ┆ false ┆ (85, 95]    ┆ 23      ┆ 0.0      │
+│ US      ┆ false ┆ (99.9, inf] ┆ 4       ┆ 0.0      │
+│ US      ┆ true  ┆ (-inf, 50]  ┆ 76498   ┆ 0.710215 │
+│ US      ┆ true  ┆ (50, 70]    ┆ 82952   ┆ 0.952201 │
+│ US      ┆ true  ┆ (70, 85]    ┆ 114290  ┆ 0.944982 │
+│ US      ┆ true  ┆ (85, 95]    ┆ 169850  ┆ 0.970615 │
+│ US      ┆ true  ┆ (95, 99.9]  ┆ 68856   ┆ 0.979116 │
+│ US      ┆ true  ┆ (99.9, inf] ┆ 1258912 ┆ 0.999656 │
+└─────────┴───────┴─────────────┴─────────┴──────────┘
+test shape: (34, 5)
+┌─────────┬───────┬─────────────┬────────┬────────┐
+│ country ┆ in_pr ┆ b           ┆ len    ┆ nq     │
+│ ---     ┆ ---   ┆ ---         ┆ ---    ┆ ---    │
+│ str     ┆ bool  ┆ enum        ┆ u32    ┆ u32    │
+╞═════════╪═══════╪═════════════╪════════╪════════╡
+│ France  ┆ false ┆ (-inf, 50]  ┆ 463144 ┆ 164632 │
+│ France  ┆ false ┆ (50, 70]    ┆ 19586  ┆ 13438  │
+│ France  ┆ false ┆ (70, 85]    ┆ 6260   ┆ 5083   │
+│ France  ┆ false ┆ (85, 95]    ┆ 187    ┆ 184    │
+│ France  ┆ false ┆ (95, 99.9]  ┆ 5      ┆ 5      │
+│ France  ┆ false ┆ (99.9, inf] ┆ 182    ┆ 159    │
+│ France  ┆ true  ┆ (-inf, 50]  ┆ 62062  ┆ 50058  │
+│ France  ┆ true  ┆ (50, 70]    ┆ 37175  ┆ 36586  │
+│ France  ┆ true  ┆ (70, 85]    ┆ 40940  ┆ 40567  │
+│ France  ┆ true  ┆ (85, 95]    ┆ 23571  ┆ 23548  │
+│ France  ┆ true  ┆ (95, 99.9]  ┆ 7377   ┆ 7374   │
+│ France  ┆ true  ┆ (99.9, inf] ┆ 405857 ┆ 405524 │
+│ India   ┆ false ┆ (-inf, 50]  ┆ 89784  ┆ 44201  │
+│ India   ┆ false ┆ (50, 70]    ┆ 1426   ┆ 1377   │
+│ India   ┆ false ┆ (70, 85]    ┆ 543    ┆ 526    │
+│ India   ┆ false ┆ (85, 95]    ┆ 42     ┆ 42     │
+│ India   ┆ false ┆ (99.9, inf] ┆ 11     ┆ 11     │
+│ India   ┆ true  ┆ (-inf, 50]  ┆ 73558  ┆ 62434  │
+│ India   ┆ true  ┆ (50, 70]    ┆ 72255  ┆ 72152  │
+│ India   ┆ true  ┆ (70, 85]    ┆ 66606  ┆ 66583  │
+│ India   ┆ true  ┆ (85, 95]    ┆ 51637  ┆ 51630  │
+│ India   ┆ true  ┆ (95, 99.9]  ┆ 17356  ┆ 17356  │
+│ India   ┆ true  ┆ (99.9, inf] ┆ 381915 ┆ 381900 │
+│ US      ┆ false ┆ (-inf, 50]  ┆ 96913  ┆ 49909  │
+│ US      ┆ false ┆ (50, 70]    ┆ 938    ┆ 909    │
+│ US      ┆ false ┆ (70, 85]    ┆ 105    ┆ 105    │
+│ US      ┆ false ┆ (85, 95]    ┆ 2      ┆ 2      │
+│ US      ┆ false ┆ (99.9, inf] ┆ 6      ┆ 6      │
+│ US      ┆ true  ┆ (-inf, 50]  ┆ 34684  ┆ 31280  │
+│ US      ┆ true  ┆ (50, 70]    ┆ 43632  ┆ 43620  │
+│ US      ┆ true  ┆ (70, 85]    ┆ 60490  ┆ 60488  │
+│ US      ┆ true  ┆ (85, 95]    ┆ 86167  ┆ 86167  │
+│ US      ┆ true  ┆ (95, 99.9]  ┆ 35040  ┆ 35040  │
+│ US      ┆ true  ┆ (99.9, inf] ┆ 631000 ┆ 630993 │
+└─────────┴───────┴─────────────┴────────┴────────┘
+shape: (25, 3)
+┌────────────────────────────┬──────────────────────────┬───────────┐
+│ nq                         ┆ n1                       ┆ ns        │
+│ ---                        ┆ ---                      ┆ ---       │
+│ str                        ┆ str                      ┆ f32       │
+╞════════════════════════════╪══════════════════════════╪═══════════╡
+│ usep federation            ┆ vw federation            ┆ 86.95652  │
+│ nos pharmacie              ┆ ni pharmacie             ┆ 88.0      │
+│ zebres pharmacie           ┆ do pharmacie             ┆ 85.714287 │
+│ aaamusique                 ┆ aaa musique              ┆ 95.238098 │
+│ lege cap ferret primaire   ┆ lege cap ferret club     ┆ 85.714287 │
+│ nantes pharmacie           ┆ nantes                   ┆ 100.0     │
+│ institut sainte            ┆ institut anne            ┆ 85.714287 │
+│ nantes developpement       ┆ nantes                   ┆ 100.0     │
+│ bordeaux                   ┆ bordeaux batiment        ┆ 100.0     │
+│ pop club france            ┆ club                     ┆ 100.0     │
+│ saint herblain ecole       ┆ saint herblain amicale   ┆ 85.714287 │
+│ tourcoing amciel           ┆ tourcoing pharmacie      ┆ 85.714287 │
+│ bordeaux amicale           ┆ bordeaux                 ┆ 100.0     │
+│ cc federation              ┆ archives federation      ┆ 86.95652  │
+│ bw collectif               ┆ dcx collectif            ┆ 85.714287 │
+│ centre hospitalier georges ┆ centre hospitalier marie ┆ 85.714287 │
+│ tennis pharmacie           ┆ je pharmacie             ┆ 85.714287 │
+│ ecole maternelle coloc     ┆ ecole maternelle paul    ┆ 86.486488 │
+│ lille                      ┆ lille ateliers           ┆ 100.0     │
+│ tourcoing                  ┆ tourcoing patrimoine     ┆ 100.0     │
+│ pyramide elementaire       ┆ au elementaire           ┆ 88.0      │
+│ hs college                 ┆ sud college              ┆ 85.714287 │
+│ lille                      ┆ lille sportive           ┆ 100.0     │
+│ federation ex              ┆ federation miss          ┆ 86.95652  │
+│ lege cap ferret ecole      ┆ lege cap ferret conseil  ┆ 86.36364  │
+└────────────────────────────┴──────────────────────────┴───────────┘

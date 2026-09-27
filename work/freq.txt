@@ -1,0 +1,121 @@
+17884
+p=0.347 first_eq
+   S1: Replay Theatre SARL | 5 Place du Bon Pasteur, Nantes, Pays de la Loire
+   Q : Replay Societe | 5 PLACE DU BON PASTEUR, NANTES, Pays de la Loire
+p=0.545 first_eq
+   S1: Amicale de Esprit | 16 Rue de Mirepin, Mérignac, Nouvelle-Aquitaine
+   Q : Amicale de Esprit France | 16 RUE DE MIREPIN, MERIGNAC
+p=0.531 first_eq
+   S1: Pas Centre | 35 Avenue Félix Faure, Bordeaux, Nouvelle-Aquitaine
+   Q : PAS  DÉVELOPPEMENT | # 35 AVENUE FÉLIX FUARE, BORDEAUX, Gironde
+p=0.541 first_eq
+   S1: Nantes Comite SARL | 2 Rue de la Jalotterie, Nantes, Pays de la Loire
+   Q : nantes comite sarl | 2 RUE JEAN MARC NATTIER, NANTES
+p=0.498 first_eq
+   S1: Locataires Comite SA | 2 Rue Faskrudfiord, Dunkerque, Hauts-de-France
+   Q : Locataires Centre SA | 02 R FASKRUDFIORD, DUNKERQUE
+p=0.500 first_eq
+   S1: Établissements Psycho EURL | 10 RUE de cheverus, Bordeaux, Nouvelle-Aquitaine
+   Q : Établissements Psycho EURL Développement | N° 10 R DE CHEVERUS, BORDEAUX
+p=0.440 first_eq
+   S1: Guillaumet Ecole SARL | AV Nancel Penard, residence Tournebride,  batiment Aubepine,  appartement 25 bis, Pessac, Nouvelle-Aquitaine
+   Q : Guillaumet Amicale | AV NANCEL PENARD, RESIDENCE TOURNEBRIDE,  BATIMENT AUBEPINE,  APPARTEMENT 25 BIS, PESSAC, Nouvelle-Aquitaine
+p=0.308 first_eq
+   S1: Nantes Sante SARL | 17 Avenue des Préludes, Nantes, Pays de la Loire
+   Q : Nantes Federation SARL | 17 AVENUE DES PRÉLUDES, NANTES, Pays de la Loire
+p=0.362 first_eq
+   S1: Bordeaux Club SARL | 35 Rue Barennes, Bordeaux, Nouvelle-Aquitaine
+   Q : Bordeaux Club SARL | 35 RUE CRUHCINET, BORDEAUX, Nouvelle-Aquitaine
+p=0.498 first_eq
+   S1: Chasse (France) Logistique SAS | 78 Avenue des Frères Robinson, Mérignac, Nouvelle-Aquitaine
+   Q : Chasse (France) SAS & Associés | 78 AV DES FRÈRES ROBINSON, MÉRIGNAC, Gironde
+p=0.345 first_eq
+   S1: Medicale (France) Cafe SARL | 12 Rue Frère Alexandre Lemesle, Nantes, Pays de la Loire
+   Q : Medicale (France) SARL Développement | 12 R. FRÈRE ALEXANDRE LEMESLE, NANTES, Loire-Atlantique
+p=0.579 first_eq
+   S1: Football Amicale SAS | 8 Route du Rocher, La Baule-Escoublac, Pays de la Loire
+   Q : Football SAS Développement | #8 ROUTE DU ROCHER, LA BAULE-ESCOUBLAC, Loire-Atlantique
+p=0.427 first_eq
+   S1: Complementaire Itineraire Ecole SAS | 175 Boulevard Emile Broodcoorens, Saint-Nazaire, Pays de la Loire
+   Q : CIE | 0175 BLVD EMILE BROODCOORENS, Saint-Nazaire
+p=0.424 first_eq
+   S1: SS Comite SARL | Nouvelle-Aquitaine, 25 Avenue des Mimosas Pyla, La Teste-de-Buch
+   Q : SS Union SARL | 0025 AV DES MIMOSAS PYLA, LA TESTE-DE-BUCH, Nouvelle-Aquitaine
+p=0.410 first_eq
+   S1: Sapeurs Sportive EURL | 58 Rue Ingres, Tourcoing, Hauts-de-France
+   Q : Sapeurs-EURL Groupe | 58 RUE INGRES, TOURCOING, Nord
+p=0.507 first_eq
+   S1: Lille Comite SA | 7 Rue de la Liberté, Lille, Hauts-de-France
+   Q : LILLE SA-DÉVELOPPEMENT | 7 R DE LA LIBERTÉ, LILLE, Nord
+p=0.301 first_eq
+   S1: Dunkerque Parents SASU | 72 Rue Henri Terquem, Dunkerque, Hauts-de-France
+   Q : Dunkerque Amis SASU | 72 RUE HENRI TERQUEM, DUNKERQUE
+p=0.437 first_eq
+   S1: Saint-Herblain Agricole SAS | Saint-Herblain, 21 Rue des Frères Grimm, Pays de la Loire
+   Q : Saint-Herblain Agricole SAS | Saint-herblain, 21 Avenue De Villandry
+p=0.474 first_eq
+   S1: Art Comite SAS | 41 RUE de Madrid, Bordeaux, Nouvelle-Aquitaine
+   Q : Calodova | 41 R De Madrid, Bordeaux, Gironde
+p=0.308 first_eq
+   S1: Quand Compagnie SARL | 16 Avenue des Roitelets, Saint-Herblain, Pays de la Loire
+   Q : Quand Culture SARL | 16 Avenue Des Roitelets, Saint-herblain
+p=0.347 first_eq
+   S1: Roubaix Pharmacie SASU | 23 Rue de Saint-Amand, Hauts-de-France, Roubaix
+   Q : Roubaix-SASU & Associés | 23 Rue De Saint-amand, Roubaix, Nord
+p=0.683 first_eq
+   S1: Bordeaux Club SAS | 4 Rue Le-Reynart, Bordeaux, Nouvelle-Aquitaine
+   Q : Bordeaux SAS & Fils | 4 R Le-reynart, Bordeaux
+p=0.681 first_eq
+   S1: Auray Culturelle SAS | 42 Rue Jean Saint-Marc, La Teste-de-Buch, Nouvelle-Aquitaine
+   Q : auray amicale sas | 42 R Jean Saintmarc, La Teste-de-buch, Nouvelle-Aquitaine
+p=0.649 first_eq
+   S1: Bons Soleil Sportive SAS | 3 Rue Beethoven, Calais, Hauts-de-France
+   Q : Bons Soleil Comite (Sas) | 3 Rue Beethoven, Calais
+p=0.428 first_eq
+   S1: École maternelle Joseph | Pays de la Loire, Nantes, 7 Avenue des Palmiers
+   Q : École Joseph Groupe | 7 Avenue Des Palmiers, Nantes
+p=0.643 first_eq
+   S1: Flag Pinel Comite SA | 4 Rue Racine, Tourcoing, Hauts-de-France
+   Q : Flag Pinel Club SA | Tourcoing, 004 Rue Racine
+p=0.456 first_eq
+   S1: Mediterraneenne Anciens SAS | Bordeaux, 44 Chemin Lafitte, Nouvelle-Aquitaine
+   Q : Mediterraneenne SAS Groupe | 44 Chemin Lafirte, Bordeaux
+p=0.324 first_eq
+   S1: Maison Developpement SARL | 31 Rue de la Fusterie, Bordeaux, Nouvelle-Aquitaine
+   Q : Maison Pattounes Développement SARL | 31 R Edmond Marin Lameslée, Pessac, Nouvelle-Aquitaine
+p=0.693 first_eq
+   S1: Maison Oxygene SAS | 12 Rue de Solférino, Lille, Hauts-de-France
+   Q : MO | Lille, 12 Rue De Solférino
+p=0.334 first_eq
+   S1: Avicole & Fils SAS | 12 PL de la Bourse, Bordeaux, Nouvelle-Aquitaine
+   Q : Yumaavi Co | 12 PL de la Bourse, Bordeaux, Nouvelle-Aquitaine
+p=0.411 first_eq
+   S1: Ferme Collège SARL | 6 Ruelle Aino Aalto, Pays de la Loire, Nantes
+   Q : Ferme Institut SARL | 6 Ruelle Aino Aalto, Nantes, Pays de la Loire
+p=0.622 first_eq
+   S1: Detudes (France) Ecole SASU | La Teste-de-Buch, Nouvelle-Aquitaine, 30 Avenue Jean Mermoz Pyla
+   Q : Detudes (France) Centre SASU | 30 Avenue Jean Mermoz Pyla, La Teste-de-buch, Nouvelle-Aquitaine
+p=0.570 first_eq
+   S1: Portugaise (France) Sportive SAS | 112 Rue de Toutes Aides, Saint-Nazaire, Pays de la Loire
+   Q : Portugaise (France) Lycée SAS | 112 Rue De Toutes Aides, St-nazaire
+p=0.573 first_eq
+   S1: Comité du Wild | 46 Avenue Louis Barthou, Bordeaux, Nouvelle-Aquitaine
+   Q : Comité du Wild Développement | 46 Avenue Louis Barthou, Bordeaux, Nouvelle-Aquitaine
+p=0.471 first_eq
+   S1: Lille Fetes SCI | 3 Villa Sainte-Marie, Lille, Hauts-de-France
+   Q : Lille Comite S.C.I. | Hauts-de-France, 3 Villa Sainte-marie, Lille
+p=0.372 first_eq
+   S1: Saint-Herblain Agricole SAS | Saint-Herblain, 21 Rue des Frères Grimm, Pays de la Loire
+   Q : SA | 21 R. Des Frères Grimm, Saint-Herblain, Loire-Atlantique
+p=0.500 first_eq
+   S1: Nantes Societe | 3 Rue d'Iroise, Nantes, Pays de la Loire
+   Q : Nantes Et Fils | Nantes, 3 R. D'iroise
+p=0.473 first_eq
+   S1: Km Élémentaire SCI | 2 Route de Lesnais, Saint-Nazaire, Pays de la Loire
+   Q : Km Pharmacie SCI | Pays de la Loire, 2 Route De Lesnais, Saint-nazaire
+p=0.676 first_eq
+   S1: 777 Compagnie SARL | 102 Rue Camille Godard, Bordeaux, Nouvelle-Aquitaine
+   Q : 777 Loisirs SARL | 102 Rue Camille Godard, Bordeaux, Gironde
+p=0.378 first_eq
+   S1: La Teste-de-Buch Groupe SARL | 16 d Rue de Maugis, La Teste-de-Buch, Nouvelle-Aquitaine
+   Q : La Têste-de-Buch Groupe SARL | 16 Avenue Des Camélias, La Teste De Buch, Gironde

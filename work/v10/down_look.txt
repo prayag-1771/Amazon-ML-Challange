@@ -1,0 +1,161 @@
+========= ('name~', 'num=', 'same')
+
+## S1 Fallen Federation | 9 Rue de l'Equateur, Nantes, Pays de la Loire
+  REJ p=0.93 p2=0.03  Fallen Ecole | 9 RUE DE L'EQUATERU, NANTES, Loire-Atlantique
+     sib p2=1.00 Fallen Federation | 9 RUE DE L'EQUATEUR, NANTES, Loire-Atlantique
+     sib p2=1.00 Fallen Federation SARL | 9 R De L'equateur, Nantes
+     sib p2=0.74 Avifaye | 7 Rue De L'equateur, Nantes, Loire-Atlantique
+     sib p2=0.33 Fallen & Fils | 9 Rue De L'equateur, Nantes
+
+## S1 Promotion Culturelle SAS | 40 Chemin des Garniers, Nantes, Pays de la Loire
+  REJ p=0.93 p2=0.01  Promotion SAS &-Associés | Loire-Atlantique, 40 Ch. Des Garniers, Nantes
+     sib p2=1.00 Promotion Culturelle SAS | 40 Ch Des Garniers, Nantes, Loire-Atlantique
+     sib p2=1.00 Promotion Çulturelle SAS | 40 CHEMIN DES GARNIERS, NANTES, Pays de la Loire
+     sib p2=0.00 Promotion Culturelle S.N.C. | 53 CHEMIN DES GARNIERS, NANTES
+
+## S1 Productions Dinteret Maison SAS | 24 Rue Francis Martin, Bordeaux, Nouvelle-Aquitaine
+  REJ p=0.98 p2=0.12  Productions Dinteret Ecole S.A.S. | 24 R. FRANCIS MARTIN, BORDEAUX, Gironde
+     sib p2=1.00 Productions Dtnieret Maison SAS | 24 RUE FRANCIS MARTIN, BORDEAUX, Gironde
+     sib p2=1.00 (S.A.S.) Productions Dinteret Maison | 24 R FRANCIS MARTIN, Bordeaux, Gironde
+     sib p2=1.00 Productions Dinteret Màison SAS | N°24 Rue Francis Martin, Bordeaux
+     sib p2=1.00 Productions Dinteret Maison Sas | N°24 Rue Francis Martin, Bordeaux
+
+## S1 QOO Maison SA | 48 B RUE Nicolas Leblanc, 1er etage, Lille, Hauts-de-France
+  REJ p=0.96 p2=0.46  QOA Maison SA | 48 B R NICOLAS LEBLANC, LILLE, Nord
+     sib p2=1.00 Haloumbra Labs t/a QOO Maison SA | 48 B RUE Nicolas Leblanc, 1er etage, Lille, Hauts-de-France
+     sib p2=1.00 QM | 48 B RUE NICOLAS LEBLANC, Lille, Nord
+
+## S1 Arts Amicale SAS | 217 Rue Georges Mandel, Bordeaux, Nouvelle-Aquitaine
+  REJ p=0.95 p2=0.55  SAS Arts Danse | N° 217 Rue Georges Mandel, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 Arts Amicale S.A.S. | N° 217 R Georges Mandel, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 Arts Amicale | N° 217 Rue Georges Mandel, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 AA | N° 217 R. Georces Mandel, Bordeaux, Nouvelle-Aquitaine
+
+## S1 United Culturelle SAS | 2 B Rue Lavoisier, Bordeaux, Nouvelle-Aquitaine
+  REJ p=0.98 p2=0.03  United Club S.A.S. | 2B Rue Lavoisier, Bordeaux, Gironde
+     sib p2=1.00 SAS United Çulturelle | RUE LAVOISIER, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 United Çulturelle SAS | Rue Lavoiiser, Bordeaux, Gironde
+     sib p2=1.00 United Culturelle S.A.S. | RUE LAVONSIER, BORDEAUX, Nouvelle-Aquitaine
+     sib p2=0.98 UNITED CULTURELLE SAS | 
+
+## S1 Ecoliers Anciens SAS | 14 Rue du Petit Blottereau, Nantes, Pays de la Loire
+  REJ p=0.98 p2=0.37  SAS Ecoliers Club | Pays de la Loire, Nantes, 14 RUE DU PETIT BLOTTEREAU
+     sib p2=1.00 Ecoliers Anciens SAS | # 14 Rue Du Petit Blottereau, Nantes, Loire-Atlantique
+     sib p2=1.00 Ecoliers Anciens | # 14 R Du Petit Blottereau, Nantes, Loire-Atlantique
+     sib p2=1.00 ECOLIERS ANCIENS | 14 R DU PETIT BLOTTEREAU, NANTES, Pays de la Loire
+     sib p2=1.00 @ecoliersanciens | 14 RUE DU PETT BLOTTEREAU, NANTES, Pays de la Loire
+
+## S1 Rural Amicale | Pays de la Loire, Nantes, 110 Rue du Bois Hardy
+  REJ p=0.98 p2=0.08  Rural Ecole | 110 RUE DU BOIS HARDY, NANTES, Pays de la Loire
+     sib p2=0.19 Rural Amicale | 
+     sib p2=0.12 Rural Anciens | 110 RUE DU BOIS HARDY, NANTES, Pays de la Loire
+
+## S1 Flers Jeunes | 42 bis Avenue du Président Jf Kennedy, Pessac, Nouvelle-Aquitaine
+  REJ p=0.98 p2=0.17  Flers  Amicale | 42 Bis Avenue Du Président Jf Kennedy, Pessac
+     sib p2=1.00 Flersjeunes.Com | 1 Ave Du Président Jf Kennedy, Pessac
+     sib p2=1.00 Flers  Jeunes | 1 AVENUE DU PRÉSIDENT JF KENNEDY, PESSAC
+     sib p2=1.00 FLERS JËUNES | 1 AVENUE DU PRÉSIDENT JF KENNEDY, PESSAC
+     sib p2=1.00 Flers Jeunes SAS | 42 Bis Avenue Du Président Jf Kennedy, Pessac
+
+## S1 DH Union EURL | 22 Rue Saint-Nicolas, Bordeaux, Nouvelle-Aquitaine
+  REJ p=1.00 p2=0.65  DH Amis E.U.R.L. | 22 Rue Saint-nicolas, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 DH UNION EURL | RUE SAINT-NICOLAS, BORDEAUX
+     sib p2=1.00 DH Union EURL | RUE SAINT-NICOLAS, BORDEAUX
+     sib p2=1.00 DH Union E.U.R.L. | 22 Rue Saint-nicolas, Bordeaux, Nouvelle-Aquitaine
+     sib p2=0.99 Eurl Dh Union | Bordeaux, R. SAINT-NICOLAS
+
+## S1 Saint-Nazaire Club SARL | 85 Boulevard du Docteur René Laënnec, Saint-Nazaire, Pays de la Loire
+  REJ p=0.96 p2=0.55  Saint-Nazaire Culture SARL | 85 Boulevard Du Docteur René Laënnec, Saint-nazaire, Pays de la Loire
+     sib p2=1.00 Saint-Nazaire Club | 85 Bd Du Docteur René Laënnec, Saint-nazaire, Pays de la Loire
+     sib p2=1.00 saint-nazaire club sarl | 85 BOULEVARD DU DOCTEUR RENÉ LAËNNEC, SAINT-NAZAIRE, Loire-Atlantique
+     sib p2=1.00 Saint-Nazaire çlub SARL | 85 Bd Du Dorteur René Laënnec, Saint-nazaire, Pays de la Loire
+     sib p2=0.97 Saint-Nazaire  SARL Groupe | 85 BOULEVARD DU DOCTEUR RENÉ LAËNNEC, SAINT-NAZAIRE, Loire-Atlantique
+
+## S1 Printemps (France) Club | Complexe sportif de la Durantiere, Nantes, Pays de la Loire
+  REJ p=0.99 p2=0.57  Printemps Amicale (France) | Complexe Sportif De La Durantiere, Nantes
+     sib p2=1.00 PRINTEMPS (FRANCE) CLUB | Nantes, Complexe Sportif De La Durantiere
+     sib p2=0.77 Printemps Club & Fils | Nantes, Complexe Sportif De La Durantiere
+     sib p2=0.00 Printemps (France) Amis | 24, COMPLEXE SPORTIF DE LA DURANTIERE, NANTES, Loire-Atlantique
+     sib p2=0.00 Printemps (France) Club Groupe | 24, Complexe Sportif De La Durantiere, Nantes
+========= ('name=', 'num=', 'same')
+
+## S1 Bordeaux Federation SA | 34 Rue Joséphine, Bordeaux, Nouvelle-Aquitaine
+  REJ p=0.95 p2=0.12  Bordeaux Federation SA | 34 R. PERMENTADE, Nouvelle-Aquitaine, BORDEAUX
+     sib p2=1.00 Bordeaux Féderation SA | 34 R. JOSÉPHINE, BORDEAUX, Nouvelle-Aquitaine
+     sib p2=1.00 Bordeaux Federation SA | 34 R. Joséphine, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 Bordeaux Federation Sa | 34 Rue Josephine, Bordeaux, Nouvelle-Aquitaine
+     sib p2=1.00 SA Bordeaux Federation | 34 Rue Jotéphine, Bordeaux, Nouvelle-Aquitaine
+
+## S1 La Baule-Escoublac Club SAS | 21 Avenue du Commandant Prosper de Nervo, La Baule-Escoublac, Pays de la Loire
+  REJ p=0.97 p2=0.42  SAS La Baule-Escoublac Club | 21 Av. De Plëormel, La Baule-Escoublac, Loire-Atlantique
+     sib p2=1.00 La Bàule-Escoublac Club SAS | 21 Avenue Du Commandant Prosper De Nervo, La Baule-escoublac, Pays de la Loire
+     sib p2=1.00 La Baule-Escoublac Club SAS | 21 Avenue Du Commandant Prosper De Nervo, La Baule-escoublac, Pays de la Loire
+     sib p2=0.99 BC | La Baule-Escoublac, Pays de la Loire, N° 21 AVENUE DU COMMANDANT PROSPER DE NERVO
+     sib p2=0.99 BC | N° 21 AVENUE DU COMMANDANT PROSPER DE NERVO, La Baule-Escoublac, Pays de la Loire
+
+## S1 Roubaix Amicale SAS | 120 Rue Voltaire, Roubaix, Hauts-de-France
+  REJ p=0.98 p2=0.08  ROUBAIX AMICALE SAS | 120 R. VOLTCIRE, ROUBAIX, Nord
+     sib p2=1.00 Roubaix Àmicale SAS | 120 RUE VOLTAIRE, ROUBAIX, Nord
+     sib p2=1.00 Roubaix Àmicale SAS | 120 RUE VOLTAIRE, ROUBAIX, Nord
+     sib p2=0.98 Roubaix Àmicale SAS | Roubaix, Nord, 120 R Voltaire
+     sib p2=0.00 Roubaix Amicale SAS | 12 Avenue Du Président Coty, Roubaix
+
+## S1 Retraite (France) Club EURL | 108 Rue Mollien, Calais, Hauts-de-France
+  REJ p=0.99 p2=0.26  Retraite (France) Club E.U.R.L. | 108 RUE MOLLMEN, CALAIS, Hauts-de-France
+     sib p2=1.00 Retraite (France) Club | Hauts-de-France, 108 RUE MOLLIEN, CALAIS
+     sib p2=1.00 Retraite (France) Club Eurl | 108 Rue Mollien, Calais
+     sib p2=1.00 EURL Retraite (rFancme) Club | 108 Rue Mollien, Calais
+     sib p2=0.14 Creteil (France) Club EURL | 108 R Mollien, Calais
+
+## S1 Roubaix Ecole SAS | Hauts-de-France, Roubaix, 30 Rue Beaumarchais
+  REJ p=0.94 p2=0.30  Roubaix Ecole SAS | Roubaix, Hauts-de-France, 30 R De Rohan
+     sib p2=1.00 Roubaix École SAS | 30 R Beaumarchais, Roubaix
+     sib p2=0.00 Wexnexpyra | (8) R BEAUMARCHAIS, Roubaix, Nord
+     sib p2=0.00 Roubaix Ecole Sas | Roubaix, 10 R De L'avocat
+     sib p2=0.00 Roubaix Ecole Groupe SAS | ROUBAIX, Hauts-de-France, 29 R DU PROGRÈS
+
+## S1 Roubaix Groupement SARL | 144 Rue d'Oran, Roubaix, Hauts-de-France
+  REJ p=1.00 p2=0.53  Roubaix  Groupement SARL | 144 Rue Dioran, Roubaix, Nord
+     sib p2=0.99 ROUBAIX GROUPEMENT SARL | 144 R DO'RAN, ROUBAIX, Nord
+     sib p2=0.02 Roubaix SARL Groupe | 14 RUE MAZAGAN, ROUBAIX, Hauts-de-France
+     sib p2=0.00 Roubaix Groupement SARL | 41 R. INRES, ROUBAIX, Nord
+     sib p2=0.00 Roubaix Groupement [SARL] | 84 Boulevard De Lyon, Roubaix, Nord
+
+## S1 Cergy Petites Patrimoine EURL | 3 Rue Louis Delos, Lille, Hauts-de-France
+  REJ p=0.99 p2=0.32  Cergy Petites Patrimoine E.U.R.L. | 3 Rue Louis Delos, Lille
+     sib p2=0.00 Cergy Petites Patrimoine SARL | 16 Rue Louis Delos, Lille
+
+## S1 La Teste-de-Buch Ecole SARL | 2 Rue Roger Dubois, La Teste-de-Buch, Nouvelle-Aquitaine
+  REJ p=0.97 p2=0.27  La Teste-de-Buch Ecole SARL | Gironde, LA TESTE-DE-BUCH, N° 2 RUE DADE
+     sib p2=1.00 La-Teste-de-Buch Ecole [SARL] | 2 RUE ROGER DUBOIS, La Teste-de-Buch
+     sib p2=1.00 LA TESTE-DE-BUCH ECOLE SARL | 2 RUE ROGER DUBOIS, LA TESTE-DE-BUCH
+     sib p2=1.00 La Teste-de-Buch Ecole | 2 Rue Roger Dubois, La Teste-de-buch
+     sib p2=1.00 LA TESTE-DE-BUCH ÈCOLE SARL | 2 RUE ROGER DUBOIS, LA TESTE-DE-BUCH
+
+## S1 Lille Amicale SARL | 17 Rue Destailleurs, Lille, Hauts-de-France
+  REJ p=0.98 p2=0.48  Lille Amicale SARL | Hauts-de-France, Lille, # 17 R. Ratisbonne
+     sib p2=1.00 SARL Lille Amicale | 17 RUE DESTAILLEURS, Lille
+     sib p2=1.00 Lille Àmicale SARL | 17 Rue Destailleurs, Lille, Hauts-de-France
+     sib p2=1.00 Lille Amicale  SARL | 17 R Destailleurs, Lille, Hauts-de-France
+     sib p2=0.99 Xyloevolum | 17 Rue Destailleurs, Lille, Hauts-de-France
+
+## S1 Developpement Anciens EURL | 21 Bis Rue des Olivettes, Nantes, Pays de la Loire
+  REJ p=0.99 p2=0.30  Developpement Anciens E.U.R.L. | 21 B Rue Des Olivettes, Nantes, Pays de la Loire
+     sib p2=1.00 Developpement Anciens Eurl | 21 Bis Rue Des Olivettes, Nantes, Pays de la Loire
+     sib p2=1.00 DEVELOPPEMENT ANCIENS  (EURL) | NANTES, Loire-Atlantique, 21 BIS R DES OLIVETTES
+     sib p2=0.16 Anciens Lart Développement | 21 BIS RUE NOIRE, Loire-Atlantique, NANTES
+     sib p2=0.00 Developpement Pattrets EURL | 13 BIS RUE MAURICE TERRIEN, NANTES, Loire-Atlantique
+
+## S1 Sable Primaire EURL | 6 Rue Pierre Delmas, Lille, Hauts-de-France
+  REJ p=0.99 p2=0.48  Sable Primaire E.U.R.L. | No 6 R. Pierer Delmas, Lille
+     sib p2=1.00 Sable Primaire Eurl | LILLE, 6 R. PIERRE DELMAS
+     sib p2=1.00 Sable Prïmaire EURL | 6 R. PIERRE DELMAS, LILLE
+     sib p2=0.00 Sable Primaire Groupe Eurl | 17 R. Pierre Delmas, Lille, Nord
+     sib p2=0.00 Sable Jeunes EURL | 17 RUE PIERRE DELMAS, LILLE, Hauts-de-France
+
+## S1 Pornic Residence EURL | 40 Rue Jules Verne, Pornic, Pays de la Loire
+  REJ p=1.00 p2=0.47  Pornic-Residence E.U.R.L. | 40 Rue Jules Verre, Pornic, Loire-Atlantique
+     sib p2=1.00 Pornic Residence EURL | Pornic, 40 Rue Jules Verne, Loire-Atlantique
+     sib p2=1.00 PORNIC RÉSIDENCE EURL | RUE JULES VERNE, PORNIC, Pays de la Loire
+     sib p2=1.00 Iritavo | 40 Rue Jules Verne, Pornic, Loire-Atlantique
+     sib p2=0.84 Pornic Amis EURL | Nº 40 RUE JLES VERNE, PORNIC, Pays de la Loire

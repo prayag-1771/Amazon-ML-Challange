@@ -1,0 +1,80 @@
+p=0.986 y=-1  S1: Oliveira Harbor Citigroup | 8615 Nations Ford Road, Unit E, Charlotte, NC
+              Q : Oliveira Citigroup  Services | 
+p=0.993 y=-1  S1: Logan Rocky Banc Partners | 260 117th Avenue, Unit #202, Beaverton, OR
+              Q : logan rocky banc partners | 
+p=0.999 y=-1  S1: QS Peak Verde Inc | 35 Gentry Drive, Hot Springs, NC
+              Q : Noviiri | 35 Gentry Drive, Hot Sprinsg, North Carolina
+p=0.995 y=-1  S1: 82/42 Third | 911 New York Street, Waukegan, IL
+              Q : 82/42 Thrbed0 | 
+p=0.952 y=-1  S1: Hutchinson Companies of Columbus | 2850 Alum Creek Drive, Unit 100, Columbus, OH
+              Q : HUTCHINSON OF COLUMBUS CENTER | 
+p=0.997 y=-1  S1: Nivaify Corporation | 3830 24th Avenue, Seattle, WA
+              Q : Nivfofy  Corporation | 3830 24rd Ave, Seattle, Washington
+p=0.996 y=-1  S1: Little Better Ashford | 220 Montgomery Avenue, Unit 15, Springfield, OH
+              Q : Little Better Ashford [Ltd] | 
+p=0.969 y=-1  S1: Elfreda's Keystone Auto Glass P.C. | 104 Carl Albert Parkway, Mcalester, OK
+              Q : Gildkelo | Carl Albert Pkwy, Mcaleser, Oklahoma
+p=0.999 y=-1  S1: Helge's Metropolitan Vision Center | ME, 13 Westwood Road, Augusta
+              Q : Helge's Metropolitan Vision Cenoter | 11 WESTWOOD ROAD, AUGUSTA, ME
+p=0.974 y=-1  S1: Heritage Insurance Consultants LLC | 11679 Oakrise Court, New Kent County, VA
+              Q : Heritage Insurance Cansltnats LLC | 
+p=0.998 y=-1  S1: Legacy Kkr Inc | 213 1/2 Meade Street, City Of Appleton, WI
+              Q : Inc Latcy Kkr | 213 1/2 MEADE STREET, CITY OF APPLETON, WI
+p=0.999 y=-1  S1: Sebriia Care | 209 Central Street, Waxahachie, TX
+              Q : Sebriia Care | 220 Central Street, Texas, Waxahachie
+p=0.999 y=-1  S1: Gulf Ministries | 174 Riverside Avenue, Burlington, VT
+              Q : -- Gulf Ministries Inc. | 174 Riverside Avenue, Burlington, Vermont
+p=0.999 y=-1  S1: Urgent Care Physicians of Mcdonald | 1049 Annabelle Avenue, Mcdonald, OH
+              Q : Urgent Care  Physicians of Mcdonald | 
+p=0.971 y=-1  S1: Heid Truist Group | 7389 Shoreline Drive, Lone Oak, TX
+              Q : Heid Tdtt Group | 
+p=0.998 y=-1  S1: Mountain Metropolitan Ncr | 4760 Edinbergh Drive, Zanesville, OH
+              Q : metropolitanncr.com | 4760 EDINBERGH DR, ZANESVILLE, OH
+p=0.997 y=-1  S1: Thigpen & Ebner Bdc Inc. | 612 Reids Hill Road, Buena Vista City, VA
+              Q : Thigpen & & [Ebner] | 
+p=0.998 y=-1  S1: Classic Trading Services LLC | 424 Center Street, Unit 313, Salem, OR
+              Q : Classic LLC Services Trading | 716 CENTER ST, SALEM, OR
+p=0.994 y=-1  S1: Direct Blue Wells LLC | 1230 Skipwith Street, Beaumont, TX
+              Q : Direct Blue Wells | 
+p=0.997 y=-1  S1: Vivian Oceanhawk of Westfield LLC | 58 Roosevelt Avenue, Westfield, MA
+              Q : Vivian Oceanhawk Oceanhawk of Westfield LLC | 59 ROOSEVELT AVENUE, WESTFIELD, MA
+p=0.993 y=-1  S1: Quality Heritage Madison Inc. | 15914 Misty Heath Lane, Houston, TX
+              Q : Quality  Madison Inc. Center | 15915 Misty Heath Ln, Houston, Texas
+p=0.987 y=-1  S1: Foote, Braswell and Mcmillen | 1620 Hursh Avenue, Wichita Falls, TX
+              Q : Viokelo Co née Foote, Braswell and Mcmillen | 1620 Hursh Avenue, Wichita Falls, TX
+p=0.996 y=-1  S1: Baker Gulf Quantum Inc | 4303 Straw Lane, Roscoe, IL
+              Q : Novidrexlum | 4303 Straw Ln, Roscoe, Illinois
+p=0.996 y=-1  S1: Church & Yu PC | Knoxville, 8227 Pickens Gap Road, TN
+              Q : Church + Yu LLC | 8227 Picknes Gap Road, Knoxville, Tennessee
+p=0.995 y=-1  S1: Gwendolin Richard, DO | 1666 Extension Road, Unit 9 205, Mesa, AZ
+              Q : DORICHARDGWENDOLIN.COM | AZ, MESA DOBSON, 1666 Extension Road
+p=0.996 y=-1  S1: Halcan Precision Inc | 5816 Hearn Road, Phoenix, AZ
+              Q : Halcan  Precision | 581 HEARN ROAD, PMB 4529, PHOENIX, AZ
+p=0.999 y=-1  S1: Hebron Womens Health Physicians | 254 Warnick Road, Hebron, NY
+              Q : Hebron Womens Health Physicians LLC | 54 WARNICK RD, HEBRON, NY
+p=0.997 y=-1  S1: Bureau of Aging | 800 Shakespeare Drive, Grayslake, IL
+              Q : Bureau of [Aging] | 787 SHAKESPEARE DRIVE, <NULL>, GRAYSLAKE, IL
+p=0.988 y=-1  S1: Jasper, LLC | 1812 Calle Barbarita, Albuquerque, NM
+              Q : ONYXVERA | 1812 CALLE BARBARITA, ALBUQUERQUE, NM
+p=0.998 y=-1  S1: Westrick Surgical, LLC | 15473 Via Cartagena Street, Hesperia, CA
+              Q : Westrick 5urgical LLC | 1547 Via Cartagena St, Hesperia, California
+p=0.962 y=-1  S1: Gonzalo & Richmond LLC | 31 Browning Road, Milan, TN
+              Q : Gonzalo Richmond LLC-Services | 
+p=0.999 y=-1  S1: Scholarship Center | Olympia, Fl 1, WA, 1961 Bigelow Avenue
+              Q : Scholarship Center Corp | ##1961 Bigelow Avenue, Fl 1, Ollympia, Washington
+p=0.986 y=-1  S1: VP Crystal Rocky | 508 Gallatin Street, Marion, IN
+              Q : Rifohoy Crystal VP | 508 GALLATIN STREET, MARION, IN
+p=0.998 y=-1  S1: Houston Cultural Premier Association Ltd | 8619 Glenheath Street, Houston, TX
+              Q : Houston Cultural Premier (Association) | 
+p=0.945 y=-1  S1: Hetty Montes Empire Gaming Associates | 12108 Mukilteo Speedway, Mukilteo, WA
+              Q : Montes, Hetty Empire Associates Services | 1233 Mukilteo Speedway, Washington, Mukilteo
+p=0.996 y=-1  S1: Summit Guild | Unit 33, MA, Boston, 125 Farragut Road
+              Q : Summit Guild Inc. | 125- Farragut Road, PMB 5049, Boston, Massachusetts
+p=0.999 y=-1  S1: Mcneil Summit Couriers LLC | 106 Mcwhorter Street, London, KY
+              Q : L.L.C. MCNEIL SUMMIT COURIERS | 406 MCWHORTER ST, LONDON, KY
+p=0.997 y=-1  S1: Terra Johansen Optics LLC | 4601 Ong Street, Amarillo, TX
+              Q : Terra Johansen Optics | 
+p=0.999 y=-1  S1: Richards Resolution LLC | 127 1100, Unit 1, Bountiful, UT
+              Q : RICHARD5 RESOLUTION LLC | 1100, # 1, Bountiful, Utah
+p=0.995 y=-1  S1: Montiq Biotech LLC | 4113 High Point Road, Winston-salem, NC
+              Q : Montiq Bffoetch LLC | 4111 HIGH POINT RD, null, WINSTON-SALEM, NC

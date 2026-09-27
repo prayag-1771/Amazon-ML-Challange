@@ -1,0 +1,34 @@
+  features train: 2,384,792/2,384,792 18s
+  features train: 2,317,419/2,317,419 16s
+train pairs 2,384,792 (pos 0.618), valid pairs 2,317,419, 48 feats
+[100]	train's binary_logloss: 0.0715543	valid's binary_logloss: 0.0895892
+[200]	train's binary_logloss: 0.0588041	valid's binary_logloss: 0.0794722
+[300]	train's binary_logloss: 0.0538537	valid's binary_logloss: 0.0765785
+[400]	train's binary_logloss: 0.0502717	valid's binary_logloss: 0.0750682
+[500]	train's binary_logloss: 0.0475171	valid's binary_logloss: 0.0742179
+[600]	train's binary_logloss: 0.0450769	valid's binary_logloss: 0.0736542
+[700]	train's binary_logloss: 0.042982	valid's binary_logloss: 0.0732496
+[800]	train's binary_logloss: 0.0411644	valid's binary_logloss: 0.0730215
+[900]	train's binary_logloss: 0.0393326	valid's binary_logloss: 0.0727577
+[1000]	train's binary_logloss: 0.0377057	valid's binary_logloss: 0.0726494
+[1100]	train's binary_logloss: 0.0361239	valid's binary_logloss: 0.0725417
+[1200]	train's binary_logloss: 0.0347052	valid's binary_logloss: 0.07246
+[1300]	train's binary_logloss: 0.03337	valid's binary_logloss: 0.0724194
+  t=0.20 f05=0.9644 P=0.9690 R=0.9696 single=0.8978
+  t=0.25 f05=0.9678 P=0.9736 R=0.9680 single=0.9150
+  t=0.30 f05=0.9703 P=0.9774 R=0.9665 single=0.9270
+  t=0.35 f05=0.9721 P=0.9804 R=0.9649 single=0.9354
+  t=0.40 f05=0.9737 P=0.9829 R=0.9633 single=0.9450
+  t=0.45 f05=0.9749 P=0.9850 R=0.9615 single=0.9509
+  t=0.50 f05=0.9758 P=0.9869 R=0.9595 single=0.9580
+  t=0.55 f05=0.9765 P=0.9887 R=0.9575 single=0.9633
+  t=0.60 f05=0.9769 P=0.9902 R=0.9553 single=0.9689
+  t=0.65 f05=0.9771 P=0.9915 R=0.9530 single=0.9735
+  t=0.70 f05=0.9769 P=0.9926 R=0.9503 single=0.9771
+  t=0.75 f05=0.9765 P=0.9937 R=0.9470 single=0.9805
+  t=0.80 f05=0.9758 P=0.9948 R=0.9432 single=0.9833
+  t=0.85 f05=0.9745 P=0.9958 R=0.9380 single=0.9863
+  t=0.90 f05=0.9721 P=0.9969 R=0.9301 single=0.9898
+  t=0.95 f05=0.9659 P=0.9981 R=0.9138 single=0.9934
+VALID 0.65 {'f05': 0.9770523344523597, 'precision_micro': 0.9914736728678385, 'recall_micro': 0.9529509241220906, 'singleton_acc': 0.9734869852526392, 'f05_US': 0.9797617630839033, 'f05_India': 0.973007727856688}
+top features: [('p0', 9651713), ('p0_s1_gap_best', 938669), ('num_jacc', 704465), ('num_min_rel', 586406), ('nf_ratio', 555139), ('legal_eq', 249458), ('q_nums_n', 211660), ('s1_nums_n', 190960), ('nc_len2', 161038), ('ac_tset', 158287), ('num_first_eq', 153964), ('q_ncand', 149076), ('nc_tsort', 142191), ('nc_jw', 141435), ('ac_tsort', 132091), ('addr_tok_jacc', 129409), ('nc_tset', 115646), ('nc_partial', 114772), ('s1_nq', 111098), ('ac_partial', 102203)]

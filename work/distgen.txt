@@ -1,0 +1,64 @@
+shape: (6, 4)
+┌─────────┬──────────┬────────┬───────────┐
+│ country ┆ kind     ┆ len    ┆ same_addr │
+│ ---     ┆ ---      ┆ ---    ┆ ---       │
+│ str     ┆ str      ┆ u32    ┆ f64       │
+╞═════════╪══════════╪════════╪═══════════╡
+│ India   ┆ added    ┆ 302453 ┆ 0.000463  │
+│ India   ┆ no_extra ┆ 25716  ┆ 0.000467  │
+│ India   ┆ swap     ┆ 729403 ┆ 0.005204  │
+│ US      ┆ added    ┆ 598229 ┆ 0.000361  │
+│ US      ┆ no_extra ┆ 27179  ┆ 0.000331  │
+│ US      ┆ swap     ┆ 959883 ┆ 0.021118  │
+└─────────┴──────────┴────────┴───────────┘
+===== added
+  S1: Ss Systems Pvt Ltd | 1St Floor Madar Landmark, Opp Amar Palace Hotel, We Highway Mira Road (E), Thane, Maharashtra
+  Q : Ss  Systems Furniture Pvt Ltd | 3ST FLOOR MADAR LANDMARK, OPP AMAR PALACE HOTEL, WE HIGHWAY MIRA ROAD (E), THANE, महाराष्ट्र
+  S1: Poonamallee Informatics Private Limited | No.97, Flat No.4/15, Goldentreasureapartments, Poonamallee, Tiruvallur, Tamil Nadu
+  Q : Poonamallee Informatics Industries Private Limited | Door No 99, Flat No.4/15, Goldentreasureapartments, Poonamallee, Tiruvallur, TN
+  S1: Saint Louis Family Services Associates | 4602 Edgewood Boulevard, Saint Louis, MO
+  Q : Saint Louis Family Services Associates Ltd | SAINT LOUIS, 4615 EDGEWOOD BLVD, MO
+  S1: Handy, Feltman and Vega | Vancouver, 9804 81st Court, WA
+  Q : Handy, Féltman and Vega LLC | 9811 81ST COUAT, WA, VANCOUVER
+  S1: Rapid Allspring LLC | 2 Bainbridge Place, Unit Unit 1302, Newburgh, NY
+  Q : Rapid Allspring West LLC | 7 Bainbridge Pl, Newbrugh, New York
+  S1: Metropolitan Holdings | 1919 Bennett Road, Dix, NY
+  Q : Holdings Metropolitan Corp | 1920 Bennett Rd, Watkiins GLEN, New York
+  S1: Wildlife Mountain Charities | OH, 7880 Village Drive, Cincinnati
+  Q : Wildlife Mountain Charities Midtown | 7881-C VILLAGE DR, CINCINNATI, OH
+  S1: Sr Enterprises | Plot No. 11, Hyderabad, Type A, Site Ii, Road No.7 Shaikpet Village, Film Nagar, Telangana
+  Q : Sr Enterprises Group | PLOT NO. 14, TYPE A, SITE II, ROAD NO.7 SHAIKPET VILLAGE, FILM NAGAR, HYDERABAD, Andhra Pradesh
+===== swap
+  S1: Tech Projects Private Limited | Flat No. 178, Ground Floor, Tilak Khand Giri Nagar, Kalkaji, Near Govind Puri, New Delhi, South Delhi, Delhi
+  Q : Tech Ventures Limited Private | NO 191 , GROUND FLOOR, TILAK KHAND GIRI NAGAR, KALKAJI, NEAR GOVIND PURI, NEW DELHI, Delhi
+  S1: Anand Consultancy Pvt Ltd | The Galleria Dgl 120, First Floor, Plot 1-B, District Centre, Mayur Vihar, East Delhi, Delhi
+  Q : Anand Cionehultancy Limited | The Galleria Dgl 124, East Delhi, Mayur Vihar Phase One, DL
+  S1: Atlantic Sanayi LLC | 17235 Old Scenic Highway, Zachary, LA
+  Q : Atlantic Partners Service | 17236. Old Scenic Highway, ZACHARY TOWNSIHP, LA
+  S1: Yamuraj Fund Private Limited | Raghavendra Complex No 6, 2Nd Cross 2Nd Main Raja R, Bangalore South, Bangalore, Karnataka
+  Q : >> dowellindiaengineering.com | RAGHAVENDRA COMPLEX NO 6, 2ND CROSS 2ND MAIN RAJA R, BANGALORE SOUTH, BANGALORE, Karnataka
+  S1: PHU Atlantic Gravity | Unit 638, 638 Clearwood Drive, TX, Richardson
+  Q : RHU Atlantic-Gravity | 645 Clearwood Dr, # 638, Richardosn, Texas
+  S1: Infrastructure Puja Consulting Ltd | #6, Srivari Nilayam, 1 Flr, Mallappa L/O 5Th Cross, Infant Mercy Apt., Seegehalli, Bengaluru, Bangalore, Karnataka
+  Q : infrastructure puja engineering ltd | #9, Bengaluru, Bangalore, KA
+  S1: My International Private Limited | 23 & 24, 4Th Cross, Nanjappa Garden Babusapalya, Bangalore, Karnataka
+  Q : ಮೈ ಇನ್‌ಫ್ರಾಸ್ಟ್ರಕ್ಚರ್ ಎಲ್ಎಲ್‌ಪಿ | NO.4-22, BANGALORE, ಕರ್ನಾಟಕ
+  S1: Tiffani's Ace Grill PC | 46-66 Hollis Court, Flushing, NY
+  Q : Tiffani's Ace  Grill Partners | 46-77 HOLLIS CT, FLUSHING, NY
+===== no_extra
+  S1: Lyrora Averin LLC | 221 Locust Street, Frankfort, IL
+  Q : Lyrora [Averin] | ##503 THIRD ST, FLORA, IN
+  S1: Innovative Media Private Limited | Second Floor C-23, Housing Cooperative Society, So Near Amrit Nagar, New Delhi, South Delhi, Delhi
+  Q : Innovative  Media Limited | Muradnagar, Second Floor C-36, DL, Housing Cooperative Society, So Near Amrit Nagar
+  S1: Mayfair Trading Private Limited | New Delhi, South Delhi, D-5/329, Ground Floor, Gali No.5, Sangam Vihar, Delhi
+  Q : Mayfair Trading Limited | D-5/332, GROUND FLOOR, GALI NO.5, SANGAM VIHAR, NEW DELHI, Delhi
+  S1: Gurus Research Private Limited | Plot No.123, Zingabai Takli Bandu Layout, Nagpur, Maharashtra
+  Q : GURUS  RESEARCH LIMITED | Maharashtra, PLOT NO.144, ZINGABAI TAKLI BANDU LAYOUT, NAGPUR
+  S1: Cardiology Smart Partners Corp | 5862 Melville Road, Sykesville, MD
+  Q : Cardiology Smart [Partners] | ##5871 Melville Rd, Eldersburg, Maryland
+  S1: Kolkata Services Private Limited | 372, Howrah, Hossainpur 3Rd Floor, Kolkata, West Bengal, Kolkata
+  Q : Kolkata Services Private Limited Limited | 382, Calcutta, Howrah, পশ্চিমবঙ্গ
+  S1: Cascade Institute of Technology | 8896 Co Rd 1, South Point, OH
+  Q : Cascade  Institute of (Technology) | 711-B DOVER RD, N/A, SUGARCEEK, OH
+  S1: Mas Hydrogen Private Limited | Dharwad, Cts No. 4840B/66 And 4840B/67, Dharwar, Karnataka, Municipal Ward No34B Niketan Garden (Javali Garden), Gokul Ro, Ad, Hubli
+  Q : Mas Hydrogen Limited | DOOR NO 383 CTS NO. 4840B/66 AND 4840B/88, MUNICIPAL WARD NO34B NIKETAN GARDEN (JAVALI GARDEN), GOKUL RO, AD, HUBLI, DHARWAD, Karnataka

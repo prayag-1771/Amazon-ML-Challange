@@ -1,0 +1,163 @@
+Schema([('q_row', UInt32), ('s1_row', UInt32), ('emb_sim', Float32), ('emb_rank', Int16), ('tf_sim', Float32), ('tf_rank', Int16)])
+shape: (4, 3)
+┌─────────┬──────────┬───────┐
+│ country ┆ has_cand ┆ len   │
+│ ---     ┆ ---      ┆ ---   │
+│ str     ┆ bool     ┆ u32   │
+╞═════════╪══════════╪═══════╡
+│ US      ┆ true     ┆ 51974 │
+│ US      ┆ false    ┆ 490   │
+│ India   ┆ true     ┆ 71227 │
+│ India   ┆ false    ┆ 2098  │
+└─────────┴──────────┴───────┘
+shape: (2, 4)
+┌─────────┬───────┬──────────┬────────────┐
+│ country ┆ len   ┆ q_noaddr ┆ q_nonascii │
+│ ---     ┆ ---   ┆ ---      ┆ ---        │
+│ str     ┆ u32   ┆ f64      ┆ f64        │
+╞═════════╪═══════╪══════════╪════════════╡
+│ India   ┆ 73325 ┆ 0.568115 ┆ 0.286396   │
+│ US      ┆ 52464 ┆ 0.908337 ┆ 0.072145   │
+└─────────┴───────┴──────────┴────────────┘
+==================== India
+Q : सिल्वर प्रोड्यूसर प्राइवेट लिमिटेड | FLAT NUMEBR 4, KOLHAPUR, महाराष्ट्र   [has_cand=True]
+S1: Silver Producer Private Limited | Flat Number 4, Ashutosh Apartment, Lane No. 6, Dahanukar Colony, Karve Road, Kothrud, Pune, Maharashtra
+Q : Innovative Logistics Pvt Ltd. | Bangalore, H.no 16B Block, KA   [has_cand=True]
+S1: Innovative Logistics Pvt Ltd | Waterville Apartments, Whitefield Road Opp Sigma Tech Park, Ramagondanahalli, Bangalore, 216B Block, Karnataka, Bangalore
+Q : Deepika Sercies Ltd |    [has_cand=True]
+S1: Deepika Services Ltd | 4/13 Kamal Mansionground Floor, A B Road Colaba, Mumbai, Maharashtra
+Q : New Sytstrmes Private (Limited) |    [has_cand=True]
+S1: New Systems Private Limited | Fl No C-2 104 Sr No 154, Uttam Townscapes, Pune City, Pune, Maharashtra
+Q : Umbradova | D/200, Pune, MH   [has_cand=True]
+S1: Kalptaru Institute of Technology | Pune, Maharashtra, Pune, 200, Gera Plaza Boat Club Road
+Q : Rai (Hacumat) |    [has_cand=True]
+S1: Rai Hanumant | Shop No.14, Mezzanine Floor, Super Tax Tower, Ring Road, Surat City, Surat, Gujarat
+Q : svcfoodsverve.com | HN 532. 1, null, MUMBAI (SUBURBAN), MUMBAI, Maharashtra   [has_cand=False]
+S1: Services Verve Foods Private Limited | 1, Ground Floor, Shivsai Chs., Jagdish Nagar, Datta Mandir Road, Bhandup (West), Mumbai, Maharashtra
+Q : Mr Mubarak Conultalyc |    [has_cand=True]
+S1: Mubarak Consultancy | Unit No. 302A, 3Rd Floor, Global Foyer Mall, Sector 43, Dlf Qe, Gurgaon, Haryana
+Q : M/s Adya Ppre Private Limited |    [has_cand=True]
+S1: Adya Paper Private Limited | Mumbai, 104 Commerce Centre Gujaratindustries Compound Vishweshwa R Nagar Off Aarey Rd Goregaon, Maharashtra
+Q : Halovantagegild | महाराष्ट्र, KALYAN, OFFICE NO.##125, THANE   [has_cand=True]
+S1: Developers Next Holistics Private Limited | Office No.125, 1St Floor, Lodha Ithink-B Wing, Kalyan, Thane, Maharashtra
+Q : Tech Tech Pvt Ltd. |    [has_cand=True]
+S1: Tech Tech Pvt Ltd | 2/1/3 Vijay Nagar Nair, Vani Vidhayal, Mumbai, Maharashtra
+Q : AGRO DV BGUILDBSTRS PVT LTD |    [has_cand=True]
+S1: Agro Dv Builders Pvt Ltd | 40, Nagardas Mansion, Bhagat Singh Road, Vile Parle (West), Mumbai, Mumbai City, Maharashtra
+Q : Véohalo | 301, SOUTH DELHI, Delhi   [has_cand=True]
+S1: VQ Security LLP | 301, 3Rd Floor, Rectangle One, D-4, Saket District Centre, New Delhi, South Delhi, Delhi
+Q : विजन प्रोडक्ट्स प्राइवेट लिमिटेड | 4-B, MUMBAI, MUMBAI CITY, महाराष्ट्र   [has_cand=True]
+S1: Vision Products Private Limited | 2-B, Plt 38, Velani Estate Bldg A, Rani Sati Marg, Khot Kuwa, Malad (East), Mumbai, Mumbai City, Maharashtra
+Q : Mr Arcwex | NO:1(A) PART, BANGALORE, ಕರ್ನಾಟಕ   [has_cand=True]
+S1: Savitur Investments Private Limited | No:1(A) Part, Alok Plaza, Opp:Itpl Whitefield Road, Bangalore, Karnataka
+Q : Sai Investment |    [has_cand=True]
+S1: Sai Investment Private Limited | 3-68, Opp Junior Civil Judge Court Lakkireddy Palli, Kadapa, Cuddapah, Andhra Pradesh
+Q : ಸೆವೆನ್ ಹೆಲ್ತ್‌ಕೇರ್ | HN 35 215, BENGALURU HQ REGION, BANGALORE, Karnataka   [has_cand=False]
+S1: Seven Healthcare | 215, I Floor Ramkutivarbuilding I Stage Indiranagar Bangalore 38, Bangalore, Karnataka
+Q : Bangalore Realty Pvt Ltd Partners |    [has_cand=True]
+S1: Bangalore South Realty Pvt Ltd | No.35/8 (Old No. 1575), 2Nd, Floor, 11Th Main, 4Th Block, Bangalore South, Bangalore, Karnataka
+Q : Noida Cifal LLP | O-b3/2101, Gautam Buddha Nagar, Noida, UP   [has_cand=True]
+S1: Noida Coal LLP | Uttar Pradesh, Gautam Buddha Nagar, O-2101, Noida, 21St Floor, Block, O, Pan Oasis, Sector 70
+Q : #infrastructureld | Floor, null, MH   [has_cand=True]
+S1: Infrastructure Ld Brothers LLP | 16Th Floor, Essar House, 11, Keshavrao Khadye Marg, Mahalaxmi, Mumbai, Mumbai City, Maharashtra
+Q : M/s Earthly India  Limited |    [has_cand=True]
+S1: Earthly India Limited | Shop No. 307, Block-B, Swagar Rain Forest-Ii, Kudasan, Gandhinagar, Gandhinagar, Gandhinagar, Gandhi Nagar, Gujarat
+Q : एसएस एंटरप्राइजेज | B-#30, EAST DELHI, NEW DELHI, Delhi   [has_cand=True]
+S1: Ss Enterprises | B-30, Subhash Chowk, Prakash Trade Center Shop No.1 Basement, Laxmi Nagar, New Delhi, East Delhi, Delhi
+Q : ஜெய் இன்ஃப்ராஸ்ட்ரக்சர் பிரைவேட் லிமிடெட் | NO. 43, CHENNAI, தமிழ்நாடு   [has_cand=True]
+S1: Jai Infrastructure Pvt Ltd | No. 43, Tvs Nagar 4Th Street, Nethaji Street Opp Tvs Nagar 6Th Street, Padi, Chennai, Tamil Nadu
+Q : Mr BLUE POWER PRIVATE  LIMITED |    [has_cand=True]
+S1: Blue Power Private Limited | Plot No. 61, Pillar No.67, Batala Road, Amritsar, Punjab
+Q : ਬਲੂ ਫਾਊਂਡੇਸ਼ਨ ਲਿਮਟਿਡ | H.no. 103, Ferozpur, PB   [has_cand=False]
+S1: Blue Foundation Limited | H.No. 103, Virk Colony, Near Gurdwara Sahib, Patiala, Punjab
+Q : Smt Nageshwar Properties Limited Private | 5., Pune, MH   [has_cand=True]
+S1: Nageshwar Properties Private Limited | Plot No 5, 'Fulora', Flat No. 202, Jeevan Chhaya Co-Op. Hsg. Soc., Paud Roa, D, Pune, Maharashtra
+Q : Mumbai Ltd Services Trading |    [has_cand=True]
+S1: Mumbai Pharmaceuticals Ltd | 6Th Floor Mafatlal Housebackbay Reclamation Churchgate, Mumbai, Maharashtra
+Q : Delhi (Índia) Solutions Pvt Ltd | TG, Hyderabad, D/20, Rangareddy   [has_cand=True]
+S1: Delhi (India) Solutions Pvt Ltd | Plot No20, Bhagyalakshmi, Co-Operative Housing Soci, Rangareddy, Hyderabad, Telangana
+Q : आदित्य केयर प्राइवेट लिमिटेड | S. NO. 244/1, GREATER BOMBAY, PUNE, महाराष्ट्र   [has_cand=True]
+S1: Aditya Care Private Limited | S. No. 244/1, Pl No. 3, Citta Giardino, 3Rd Floor, Fl N, Pune, Maharashtra
+Q : Shakti Clinic Limited |    [has_cand=True]
+S1: Shakti Clinic | 1St Floor Flat No.4, Door No.4/669E, Ragamalika Flats Phase I, Ranjani Block, Velachery, Main Road, Medavakkam, Chennai, Tamil Nadu
+Q : Blossom Triaong Ltd |    [has_cand=True]
+S1: Blossom Trading Ltd | Hyderabad, Plot No.97, Hyderabad, Venkataramana Colony, Nagole, Telangana
+Q : Balaji Healthcare Private Ltd |    [has_cand=True]
+S1: Balaji Healthcare Private Limited | 102, Ground Floor, Bhagwati Kripa, Banipark, Jaipur, Rajasthan
+Q : digital consulting private limited |    [has_cand=True]
+S1: Digital Consulting Private Limited | 124, Radha Orchid Saraswati Kund, Masani Link Road, Mathura, Uttar Pradesh
+Q : લાઇફ એગ્રો પ્રાઇવેટ લિમિટેડ | 6/2497, <NULL>, SURAT, Gujarat   [has_cand=True]
+S1: Life Agro Private Limited | 6/2497, Cabin No. B, 3Rd Floor, Balaji Sadan, Limbu Sheri, Mahidharpura, Surat, Gujarat
+Q : Park  Center | R#c-3, New Delhi, DL   [has_cand=True]
+S1: Park Poly | R#3, Flat No. 5 Nehru Enclave, Kalkaji, New Delhi, Delhi
+==================== US
+Q : HUNGER COALITION LLC |    [has_cand=True]
+S1: Hunger Coalition | Flagstaff, AZ, 4605 Lake Mary Road
+Q : Urban Store Book |    [has_cand=True]
+S1: Urban Book Store | 3593 Dry Creek Road, Fl 1, Medford, OR
+Q : HEART FELLOWSHIP Enterprises |    [has_cand=True]
+S1: Heart Fellowship | 7659 Americus Road, Lafayette, IN
+Q : Synavi | 221 Jericho Road, Aurora, Illinois   [has_cand=True]
+S1: Lisabeth Miedema Coca | 2213 Jericho Road, Aurora, IL
+Q : Orthopedic Pinome [Group] |    [has_cand=True]
+S1: Orthopedic Prime Group | 704 Walnut Street, Sweetwater, TX
+Q : Redwood |    [has_cand=True]
+S1: Redwood | 1323 East Avenue, Berwyn, IL
+Q : Irihalo | ELM STREET, NORRISTOWN BOROUGH, PA   [has_cand=True]
+S1: Masha's Cargo | Norristown Borough, PA, 704 Elm Street
+Q : Barrios Woeld |    [has_cand=True]
+S1: Barrios World | 1839 Kenilworth Avenue, Berwyn, IL
+Q : Internal Medicine Health  Inc & Co |    [has_cand=True]
+S1: Internal Medicine Health Inc | 9975 Encanto Boulevard, Unit B207, Avondale, AZ
+Q : BOARD OF PARKS |    [has_cand=True]
+S1: Board of Parks and Recreation | 216 Pleasantview Ave, Louisville, KY
+Q : Gaify Partners |    [has_cand=True]
+S1: Gaify Wintergreen | 6576 Stockport Cove, Memphis, TN
+Q : Star Company Center |    [has_cand=True]
+S1: Star Investment Company | 11201 Desert Classic Lane, Albuquerque, NM
+Q : Foot + Ankle-Physindcsans |    [has_cand=True]
+S1: Foot & Ankle Physicians | 216 Nichols Drive, Sycamore, IL
+Q : Continental Phrormm [Co] |    [has_cand=True]
+S1: Continental Program Co | 20346 Estrida Drive, Willow Beach, AZ
+Q : Pediatric Dental & Co |    [has_cand=True]
+S1: Pediatric Dental Smart Center | 100 Brown Street, Fairhope, AL
+Q : Garrett Nueabs |    [has_cand=True]
+S1: Garrett Nexus | 127 Dove Street, Rochester, NY
+Q : Desert Center Trading |    [has_cand=True]
+S1: Desert Society | 1853 La Salle Street, Mobile, AL
+Q : Foot & Ankle Health Industries |    [has_cand=True]
+S1: Foot & Ankle Health | 135 Blueberry Drive, NY, Sanford
+Q : Oncology LLC  Medicine |    [has_cand=True]
+S1: Oncology Medicine LLC | Staten Island, NY, 143 Geldner Avenue
+Q : Ace Fóods Inc. |    [has_cand=True]
+S1: Ace Foods Inc. | 7962 9, Sedro-woolley, WA
+Q : Precision (Afmrican) |    [has_cand=True]
+S1: Precision American | TX, 8826 Woodlyn Road, Houston
+Q : Sterling-Inc |    [has_cand=True]
+S1: Sterling Inc | 4414 36th Avenue, Seattle, WA
+Q : Health Féllowship (ID: 62024) |    [has_cand=True]
+S1: Health Fellowship | 736 Commonwealth Drive, Norton City, VA
+Q : Urology Associates Inc. |    [has_cand=True]
+S1: Urology Associates | ME, Kennebunkport, 37 Pier Road
+Q : Huffman Center Inc Services |    [has_cand=True]
+S1: Huffman Medical Center Inc | 83 Left Hand Lane, Lodge Grass, MT
+Q : Piedmont Preparatory LLC Academy |    [has_cand=True]
+S1: Piedmont Preparatory Academy LLC | NC, 109 Hanby Avenue, Kure Beach
+Q : Universal-Semiconductor Industries Inc |    [has_cand=True]
+S1: Universal Semiconductor Industries Inc | 35135 Pontiac Drive, Brookshire, TX
+Q : Straight Edge Cofe |    [has_cand=True]
+S1: Straight Edge Coffee | 201 Darian Drive, Prosper, TX
+Q : Literacy Tulst |    [has_cand=True]
+S1: Literacy Trust | 15 Orchard Street, Acushnet, MA
+Q : Davis Elite |    [has_cand=True]
+S1: Davis Elite Farms, LLC | DE, Middletown, 2616 Farmhouse Hollow
+Q : happy bistro Enterprises |    [has_cand=True]
+S1: Happy Bistro | 11350 Sr 2, Hicksville, OH
+Q : VIO |    [has_cand=True]
+S1: Vio L.L.C. | 102 Kensington Court, Unit B, Windsor Town, VA
+Q : Behavioral Health PLLC Service |    [has_cand=True]
+S1: Behavioral Health Partners PLLC | 2873 Cedar Hill Road, Canal Winchester, OH
+Q : Rizamiraaria | LAKE ROAD, SAYBROOK TWP, OH   [has_cand=True]
+S1: Salgado Midwest Spring LLC | 6035 Lake Road, Unit 313, Ashtabula, OH
+Q : Blue Services Enterprises |    [has_cand=True]
+S1: Blue Arcelormittal | 1643 Brookside Drive, Highlands Ranch, CO

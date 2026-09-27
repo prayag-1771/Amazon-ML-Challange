@@ -1,0 +1,288 @@
+
+### 24 rue pavotiere nantes  (n_s1=2)
+  S1 A: Fédération de Brazil | 24 RUE de la Pavotiere, Nantes, Pays de la Loire
+  S1 B: Babyfoot Comite SARL | Pays de la Loire, 24 Rue de la Pavotière, Nantes
+    s2 Babyfoot Amicale SARL | 29 RUE DE LA PAVOTIÈRE, NANTES  -> B p=0.005
+    s3 Babyfoot Comite SARL | 24 R De La Pavotière, Nantes  -> B p=1.0
+    s3 Fédération  de Brazil | 24 Rue De La Pavotiere, Nantes  -> A p=1.0
+    s2 Fédération de (Brazil) | 24 R DE LA PAVOTIERE, NANTES, Loire-Atlantique  -> A p=1.0
+    s2 Fédération de Brazil SCI | 24 R. DE LA PAVOTIERE, Loire-Atlantique, NANTES  -> A p=0.996
+    s3 Fédération de Brazil SCI | # 29 Rue De La Pavotiere, Nantes, Pays de la Loire  -> A p=0.0
+    s3 SARL Babyfoot Ctce Groupe | 29 R De La Pavotière, Nantes  -> B p=0.0
+    s2 babyfootcomitesarl.com | 24 R. DE LA PAVOTIÈRE, NANTES, Pays de la Loire  -> B p=1.0
+    s3 fdrationbrazil.com | 24 Rue De La Pavotiere, Nantes  -> A p=1.0
+    s2 fédération de brazil participations | 29 RUE DE LA PAVOTIERE, NANTES  -> A p=0.0
+
+### 9 rue fernand magellan saint nazaire  (n_s1=2)
+  S1 A: Salle Amis SARL | 9 RUE Fernand de Magellan, Saint-Nazaire, Pays de la Loire
+  S1 B: Elle (France) Technologies | 9 Rue Fernand de Magellan, Saint-Nazaire, Pays de la Loire
+    s2 ELLE (FRANCE) TECHNOLOGIES | 09 RUE FERNAND DE MAGELLN, ST.-NAZAIRE, Loire-Atlantique  -> B p=1.0
+    s3 Elle (France)  Technologies EURL | 14 R Fernand De Magcllan, Saint-nazaire, Pays de la Loire  -> B p=0.001
+    s3 Elle (France) Et-Fils | 9 R. Fernand De Magellan, Saint-nazaire  -> B p=0.71
+    s2 Elle (France) Technologies Participations SA | 0014 RUE FERNAND DE MAGELLAN, SAINT-NAZAIRE, Pays de la Loire  -> B p=0.0
+    s3 Elle (France) Tëchnologies SCI | 14 R Fernand De Magellan, Saint-nazaire, Pays de la Loire  -> B p=0.0
+    s2 Salle Amis | 9 RUE FENAND DE MAGELLAN, SAINT-NAZAIRE  -> A p=1.0
+    s3 Salle Amis Développement SARL | 18 R Fernnd De Magellan, Saint-nazaire, Pays de la Loire  -> A p=0.0
+    s3 Salle Amis S.A.R.L. | 9 Rue Fernand De Magellan, St.-nazaire, Pays de la Loire  -> A p=1.0
+    s2 Salle Amis Sàrl | ST.-NAZAIRE, 9 R FERNAND DE MAGELLAN  -> A p=1.0
+    s2 Salle Àmis SARL | 9 R FERNAND DE MAGELLAN, ST.-NAZAIRE  -> A p=1.0
+    s2 Salle Àmis SARL | SAINT-NAZAIRE, 9 R. FERNAND DE MAGELLAN  -> A p=1.0
+    s3 elle (france) technologies |   -> B p=0.998
+
+### 16 rue maine nantes  (n_s1=2)
+  S1 A: Couples Amicale SARL | 16 RUE du Maine, Nantes, Pays de la Loire
+  S1 B: Amap Ecole (France) SARL | 16 Rue du Maine, Nantes, Pays de la Loire
+    s2 Amap (France) Parents SARL | Nº 15 R. RIDHER, NANTES  -> B p=0.0
+    s3 Amap (France) SARL et Associés | 16 Rue Du Maine, Nantes  -> B p=0.998
+    s3 COUPLES AMICALE SARL | 16 Rue Du Manie, Nantes, Loire-Atlantique  -> A p=1.0
+    s2 Couples Amicale | 016 R. DU MAINE, NANTES  -> A p=1.0
+    s2 Couples Amicale | 016 R DU MAINE, NANTES  -> A p=1.0
+    s2 Couples Sportive [S.A.R.L.] | NANTES, 016 RUE DU MAINE  -> A p=0.002
+    s2 EURL Amap Ecole (France) | 27 RUE DU MAINE, Nantes, Pays de la Loire  -> B p=0.0
+    s2 SARL AMAP ÉCOLE (FRANCE) | 16 RUE DU MAINE, Nantes, Pays de la Loire  -> B p=1.0
+    s3 amap ecole (france) sas | 27 R Du Maine, Nantes, Pays de la Loire  -> B p=0.332
+
+### 41 rue faures bordeaux  (n_s1=2)
+  S1 A: Chasse Loisirs | 41 Rue des Faures, Bordeaux, Nouvelle-Aquitaine
+  S1 B: Bordeaux Fetes | 41 RUE des Faures, Bordeaux, Nouvelle-Aquitaine
+    s3 Bordeaux Fetes | 41 Rue Corot, Bordeaux, Nouvelle-Aquitaine  -> B p=0.826
+    s3 Bordeaux Fetes | 41 Bis R Peyronnet, Bordeaux, Gironde  -> B p=0.851
+    s2 Bordeaux Fetes  SCI | 41 R. JEAN SOULA, BORDEAUX  -> B p=0.004
+    s2 Bordeaux Fetes Participations | 42 R DES FAURES, BORDEAUX, Gironde  -> B p=0.002
+    s2 Bordeaux Fétes | 41 RUE DES FAURES, BORDEAUX  -> B p=1.0
+    s3 Chasse Développement Groupe | 45 Rue Des Faures, Bordeaux  -> A p=0.0
+    s3 Chasse Loasdleirs | 41 R Des Faures, Bordeaux, Gironde  -> A p=1.0
+    s2 Chasse Loisirs | 41 R DES FAURES, BORDEAUX, Gironde  -> A p=1.0
+    s2 Chasse Loisirs Distribution SAS | 45 - R DES FAURES, BORDEAUX, Gironde  -> A p=0.0
+    s3 Chasse Loisirs SA | 41 R. Des Faures, Bordeaux, Gironde  -> A p=0.999
+    s3 Chasse Loisirs SASU | 41 Rue Des Faures, Bordeaux, Gironde  -> A p=0.996
+    s2 Chasse [Lisifrs] | 41 R. DES FAURES, BORDEAUX, Gironde  -> A p=1.0
+    s2 Fayehalo | NO. 41 RUE FRERE, Bordeaux, Gironde  -> B p=0.022
+    s2 GX  Fetes | NO. 41 RUE DE BORDEAUX, MÉRIGNAC  -> B p=0.0
+    s3 Syndicat (Fetes) | 41 Rue Barrau, Bordeaux, Gironde  -> B p=0.0
+    s3 System  Loisirs | 41 R. Ditour, Bordeaux, Nouvelle-Aquitaine  -> A p=0.02
+    s2 bfetes.com | Bordeaux, 41 R. DES FAURES  -> B p=1.0
+
+### nantes 43 boulevard gustave roch  (n_s1=3)
+  S1 A: Dans Ecole EI | Pays de la Loire, Nantes, 43 BD Gustave Roch
+  S1 B: Nantes Jeunes SARL | Pays de la Loire, Nantes, 43 Boulevard Gustave Roch
+  S1 C: Temps Federation SARL | Pays de la Loire, Nantes, 43 BD Gustave Roch
+    s3 Comité  de Virus | Nantes, 43 Bd Gustave Roch  -> ?other p=1.0
+    s2 Dans Ecole  EI | Nº 43 BD GUSTAVE ROCH, NANTES, Loire-Atlantique  -> A p=1.0
+    s2 Dans Ecole E.I. | Loire-Atlantique, NANTES, Nº 43 BD GUSTAVE ROCH  -> A p=1.0
+    s3 Dans Ecole EI | 43 Bd Gustave Roch, Nantes  -> A p=1.0
+    s3 Dans Ecole Participations EI | 46 Bd Gustave Roch, Nantes, Pays de la Loire  -> A p=0.0
+    s2 Dans Ecole SCI | NANTES, Pays de la Loire, 46 BD GUSTAVE ROCH  -> A p=0.0
+    s3 Dans Ècole EI | 43 Bd Gustave Roch, Nantes  -> A p=1.0
+    s3 Dans ècole EI | 43 Bd Gustave Roch, Nantes  -> A p=1.0
+    s2 Nantes Jeunes SARL | 43 BOULEVARD GUSTAVE ROCH, NANTES, Loire-Atlantique  -> B p=1.0
+    s2 Nantes Jeunes Sarl | 43 BOULEVARD GUSTAVE ROCH, NANTES, Loire-Atlantique  -> B p=1.0
+    s3 Nantes SARL + Fils | #43 Bd Gustave Roch, Nantes, Pays de la Loire  -> B p=0.982
+    s3 SNC Temps Federation | 47 Bd Gustave Roch, Nantes  -> C p=0.0
+    s2 TEMPS  SARL GROUPE | Nº 43 BD GUSTVAE ROCH, NANTES, Loire-Atlantique  -> C p=0.821
+    s2 Temps Federation SARL |   -> C p=0.867
+    s2 Temps Federation SARL | Nº 43 BD GUSTVE ROCH, NANTES, Loire-Atlantique  -> C p=1.0
+    s3 Temps Federation SARL | 43 Bd Gustave Rch, Nantes  -> C p=1.0
+    s3 Temps Federation Sàrl | 43 Bd Gustave Roch, Nantes  -> C p=1.0
+    s3 Temps Loisirs SARL | 47 Bd Gustave Roch, Nantes  -> C p=0.017
+    s3 nantes jeunes eurl | 43 Bd Jean Moulin, Nantes  -> B p=0.0
+    s2 nantes jeunes sarl | 43 BOULEVARD GUSTAVE ROCH, NANTES, Loire-Atlantique  -> B p=1.0
+    s2 temps federation sarl | Nº 43 BD GUSTAVE ROCH, NANTES, Loire-Atlantique  -> C p=1.0
+
+### 6 rue goelette pornic  (n_s1=3)
+  S1 A: Franco Atelier EURL | 6 Rue de la Goelette, Pornic, Pays de la Loire
+  S1 B: Pornic Services | 6 Rue de la Goelette, Pornic, Pays de la Loire
+  S1 C: Environnement Images Primaire SARL | 6 Rue de la Goelette, Pornic, Pays de la Loire
+    s3 @pornicservices | 6 Rue De La Goelette, Pornic, Loire-Atlantique  -> B p=0.997
+    s3 EURL Franco Aeier | 6 Rue De La Goelette, Pornic, Loire-Atlantique  -> A p=1.0
+    s2 EURL Franco Atelier | Pornic, Pays de la Loire, N° 6 R. DE LA GOELETRE  -> A p=1.0
+    s2 Environnement Iges Primaire SARL | N° 6 RUE DE LA GOALETTE, PORNIC, Pays de la Loire  -> C p=0.998
+    s3 Environnement Images Comite SARL | Pornic, Pays de la Loire, N° 10 Rue De La Goelette  -> C p=0.003
+    s2 Environnement Images Primaire | N° 6 R. DE LA GOELETTE, PORNIC, Pays de la Loire  -> C p=1.0
+    s3 Environnement Images Sport SARL | N° 10 Rue De La Goelette, Pornic, Pays de la Loire  -> C p=0.0
+    s2 FRANCO ATELIER EURL | N° 6 RUE DE LA GOELETTE, PORNIC, Pays de la Loire  -> A p=1.0
+    s3 Franco | 6 Rue de la Goelette, Pornic, Pays de la Loire  -> A p=1.0
+    s3 Franco Atelier France (E.U.R.L.) | Pays de la Loire, Pornic, # 11 R De La Goelette  -> A p=0.0
+    s3 Franco EURL et Associés | Pornic, 6 Rue De La Goelette, Loire-Atlantique  -> A p=1.0
+    s3 Kelovantage | 6 Rue De La Goelette, Pornic, Loire-Atlantique  -> B p=0.96
+    s3 PORNIC SERVICES | 6 R. De La Goelette, Pornic, Loire-Atlantique  -> B p=1.0
+    s2 PORNIC SÈRVICES | N° 6 R. DE LA GOELETTE, PORNIC, Pays de la Loire  -> B p=1.0
+    s3 Pornic  Services | 6 Rue De La Goelette, Pornic, Loire-Atlantique  -> B p=1.0
+    s2 Pornic Services | N° 6 RUE DE LA GOELETTE, PORNIC, Pays de la Loire  -> B p=1.0
+    s3 Pornic Services SCI | Loire-Atlantique, Pornic, 6 R De La Goelete  -> B p=0.976
+    s3 Pornic-Services Développement | 17 Rue De La Goelette, Pornic, Pays de la Loire  -> B p=0.0
+    s2 SARL Environnement Images Primaire | N° 6 RUE DE LA GOELETTE, Pornic, Pays de la Loire  -> C p=1.0
+    s2 VE | 332 R. DE LA GOELETTE, Pornic, Pays de la Loire  -> B p=0.001
+    s3 franco atelier développement eurl | # 11 Rue De La Goelette, Pornic, Pays de la Loire  -> A p=0.0
+
+### 96 rue abbe epee bordeaux  (n_s1=3)
+  S1 A: Éducation Ecole | 96 Rue Abbé de l'Epée, Bordeaux, Nouvelle-Aquitaine
+  S1 B: École maternelle Sainte Comedy | 96 Rue Abbé de l'Epée, Bordeaux, Nouvelle-Aquitaine
+  S1 C: Collège Andre | 96 Rue Abbé de l'Epée, Bordeaux, Nouvelle-Aquitaine
+    s2 ARTS ECOLE PARTICIPATIONS SCI | 106 RUE ABBÉ DE L'EPÉE, BORDEAUX, Gironde  -> A p=0.0
+    s2 Blaireau Primaire (France) SAS | 96 RUE ABBÉ DE L'EPÉE, BORDEAUX  -> ?other p=1.0
+    s3 Collège Andre | N° 96 R. Abbé De L'epée, Bordeaux, Gironde  -> C p=1.0
+    s2 Collège Andre France | 105 RUE ABBÉ DE L'EPÉE, BORDEAUX, Nouvelle-Aquitaine  -> C p=0.0
+    s3 Collège Andre Holding | 105 Rue Abbé De L'epbe, Bordeaux  -> C p=0.0
+    s2 Ecole Comedie Sainte | N°16 R. ANDRÉE TAMISÉ, BORDEAUX  -> B p=0.0
+    s2 orchidees & cie sasu | 96 RUE ABBÉ DE L'EPÉE, BORDEAUX  -> ?other p=0.96
+    s2 ÉDUCATION ECOLE | 96 RUE ABBÉ DE L'EPÉE, BORDEAUX  -> A p=1.0
+    s3 École maternelle Comedy France Et Fils | 97 R Abbé De L'epée, Nouvelle-Aquitaine, Bordeaux  -> B p=0.0
+    s2 École maternelle Sainte Comedy SCI | 96 RUE ABBÉ DE L'EPÉE, BORDEAUX  -> B p=0.994
+    s2 École maternelle Sainte Comedy SCI | NO 97 RUE ABBE DE L'EPEE, BORDEAUX, Nouvelle-Aquitaine  -> B p=0.002
+    s2 Éducation Ecole | BORDEAUX, 96 R ABBÉ DE L'EPÉE  -> A p=1.0
+    s3 Éducation Ecole | N° 96 R Abbé De L'epée, Bordeaux, Gironde  -> A p=1.0
+    s3 Éducation SNC Cie | 103 Rue Abbe De L'epee, Bordeaux, Nouvelle-Aquitaine  -> A p=0.0
+
+### 1141 rue peigneurs tourcoing  (n_s1=3)
+  S1 A: Espoir Ecole EURL | 1141 RUE des Peigneurs, Tourcoing, Hauts-de-France
+  S1 B: Riverains Musique SAS | Hauts-de-France, 1141 RUE des peigneurs, Tourcoing
+  S1 C: Tourcoing Energie SARL | 1141 RUE des Peigneurs, Tourcoing, Hauts-de-France
+    s2 ESPOIR  ECOLE EURL | N° 1141 RUE DES PEIGNEURS, TOURCOING, Hauts-de-France  -> A p=1.0
+    s3 Espoir Ecole | 1141 Rue Des Peigneurs, Tourcoing, Nord  -> A p=1.0
+    s3 Espoir Lycee E.U.R.L. | N° 1162 Rue Des Peigneurs, Tourcoing  -> A p=0.001
+    s3 RIVERAINS COMPAGNIE SAS | No 1145 Rue Des Peigneusr, Tourcoing, Nord  -> B p=0.02
+    s3 Riverains  Musique SAS | Nord, Tourcoing, N°1141 R. Des Peigneurs  -> B p=1.0
+    s2 Riverains Musique SA | 01145 RUE DES PEIGNEURS, TOURCOING  -> B p=0.968
+    s3 Riverains Musique SAS | N°1141 Rue Des Peigneurs, Nord, Tourcoing  -> B p=1.0
+    s2 TOURCOING ENERGIE SARL | N° 1141 R DES PEIGNEURS, TOURCOING, Hauts-de-France  -> C p=1.0
+    s2 Tourcoing  Energie SAS | (1142) R DES PEAGNEURS, TOURCOING, Nord  -> C p=0.02
+    s3 Tourcoing Energie | Tourcoing, Nord, 1141 Rue Des Peigneurs  -> C p=1.0
+    s2 Tourcoing Energie Développement SARL | (1142) RUE DES PEIGNEURS, TOURCOING, Nord  -> C p=0.0
+    s2 Tourcoing Energie SARL |   -> C p=0.86
+    s2 Tourcoing SARL Energie | TOURCOING, 113 RUE HOUCHARD  -> C p=0.372
+    s2 Tourcoing SARL Groupe | N° 1141 R DES PEIGNEURS, TOURCOING, Hauts-de-France  -> C p=0.821
+    s2 Tourcoing Énergie SARL | N° 1141 RUE DES PEIGNEURS, TOURCOING, Hauts-de-France  -> C p=1.0
+    s3 Tourcoing ènergie SARL | 1141 R. Des Peigneurs, Tourcoing, Nord  -> C p=1.0
+
+### 1 rue danton dunkerque  (n_s1=4)
+  S1 A: Pesa Sportif EURL | 1 Rue Danton, Dunkerque, Hauts-de-France
+  S1 B: Cdp Hippique Club SARL | 1 Rue Danton, Dunkerque, Hauts-de-France
+  S1 C: Recherche Sportive SARL | 1 Rue Danton, Dunkerque, Hauts-de-France
+  S1 D: Amicale du Saturne | 1 Rue Danton, Dunkerque, Hauts-de-France
+    s3 Amicale | Hauts-de-France, Dunkerque, 1 Rue Danton  -> D p=1.0
+    s3 Amicale Groupe Saturne du | #12 R. Danton, Dunkerque, Nord  -> D p=0.0
+    s2 Amicale du Saturne  International | 12 RUE DANTON, DUNKERQUE, Nord  -> D p=0.0
+    s2 Amicale du Saturne Holding | 12 R DANTON, DUNKERQUE, Nord  -> D p=0.0
+    s2 Amicale du Saturne SARL | 001 RUE DANTON, DUNKERQUE  -> D p=0.993
+    s2 Cdp Hcpqpe Club SARL | 001 RUE DANTON, DUNKERQUE  -> B p=1.0
+    s3 Cdp Hippique | 1 R Dnaton, Dunkerque  -> B p=1.0
+    s2 Cdp Hippique Club S.A.R.L. | 001 R DANTON, DUNKERQUE  -> B p=1.0
+    s2 Cdp Hippique Club SARL | 001 R. DANTON, DUNKERQUE  -> B p=1.0
+    s2 Chercheurs Sportive  Holding | 101 R. DE LA RPUBLIQUE, DUNKERQUE  -> C p=0.0
+    s2 PESA SPÔRTIF SA | 6 R DANTON, DUNKERQUE, Nord  -> A p=0.064
+    s2 Pesa Sportif E.U.R.L. | 001 RUE DANTON, DUNKERQUE  -> A p=1.0
+    s3 Pesa Spôrtif EURL | 1 Rue Danton, Dunkerque  -> A p=1.0
+    s3 Pesa Spôrtif SNC | N° 6 R. Danton, Dunkerque, Nord  -> A p=0.0
+    s3 Pesa-Sportif | 1 Rue Danton, Dunkerque  -> A p=1.0
+    s2 RECHERCHE SPORTIVE S.A.R.L. |   -> C p=0.308
+    s3 RS | 1 R Danton, Dunkerque  -> C p=0.931
+    s2 Recherche Sportive Holding SARL | 6 R. DANTON, DUNKERQUE, Nord  -> C p=0.0
+    s2 Recherche Sportive Participations S.A.R.L. | 6 RUE DANTON, DUNKERQUE, Nord  -> C p=0.0
+    s3 Rizalum | 1 R Danton, Dunkerque  -> A p=0.157
+    s2 SARL Cdp Hippique Amicale | 001 RUE DANTON, Dunkerque  -> B p=0.953
+    s2 amicale du saturne | 001 R DANTON, DUNKERQUE  -> D p=1.0
+
+### 8 rue gauloise saint nazaire  (n_s1=4)
+  S1 A: Maison Publique SARL | 8 Rue Gauloise, Saint-Nazaire, Pays de la Loire
+  S1 B: Saint-Nazaire Club EURL | 8 Rue Gauloise, Saint-Nazaire, Pays de la Loire
+  S1 C: Saint-Nazaire Foyer SARL | 8 Rue Gauloise, Saint-Nazaire, Pays de la Loire
+  S1 D: Chasse Clinique SAS | 8 Rue Gauloise, Saint-Nazaire, Pays de la Loire
+    s2 Bureau Foyer SARL | Nº 86 RTE DU MARAIS DTUST, SAINT-NAZAIRE, Loire-Atlantique  -> C p=0.0
+    s2 CHASSE CLINIQUE SAS | 8 RUE GAULOIE, SAINT-NAZAIRE, Pays de la Loire  -> D p=1.0
+    s2 Chasse Cflibnque Distribution SAS | 9 R. GAULOCSE, ST-NAZAIRE, Pays de la Loire  -> D p=0.0
+    s2 Chasse Clinique SCI | 9 RUE GAULOISE, SAINT-NAZAIRE, Pays de la Loire  -> D p=0.008
+    s2 Club Joseph EURL | 78 RTE DE LA MOTTE-ALLEMAND, ST-NAZAIRE, Pays de la Loire  -> B p=0.0
+    s2 MAISON PUBLIQUE SASU | 12 RUE GAULOISE, SAINT-NAZAIRE, Pays de la Loire  -> A p=0.004
+    s3 Maison Publique | 8 - Rue Gauloise, St-nazaire, Loire-Atlantique  -> A p=1.0
+    s2 Maison Publique France  SARL | ST.-NAZAIRE, Pays de la Loire, 12 R GAULOISE  -> A p=0.0
+    s3 Maison Publique Holding SARL | 12 Rue Gauloise, Saint-nazaire, Pays de la Loire  -> A p=0.0
+    s3 Maison Publique S.A.R.L. | 8 - Rue Gauloise, St-nazaire, Loire-Atlantique  -> A p=1.0
+    s2 Maison Publique SARL France | 8 R GAULIOSE, SAINT-NAZAIRE, Pays de la Loire  -> A p=0.838
+    s2 SAINT-NAZAIRE CLUB [EURL] | 104 RUE DU MAINE, SAINT-NAZAIRE  -> B p=0.005
+    s3 SAINT-NAZAIRE FOYER SARL | 029 R. Albert Camus, Saint-nazaire  -> C p=0.0
+    s2 SARL Maison Publique | 8 RUE GAULOISE, Saint-Nazaire, Pays de la Loire  -> A p=1.0
+    s2 SARL Saint-Nazaire Foyer | 8 RUE GAULOISE, Saint-Nazaire, Pays de la Loire  -> C p=1.0
+    s2 SARL Saint-Nazaire Foyer International | NO 10 RUE GAULOIOE, Saint-Nazaire  -> C p=0.0
+    s3 SARL Saint-Nazaire Fôyer | 8 - R. Gauleise, Saint-Nazaire, Loire-Atlantique  -> C p=1.0
+    s2 SAS Chasse Clinique Holding | 9 RUE GAULOISE, Saint-Nazaire, Pays de la Loire  -> D p=0.0
+    s3 Saint-Nazaire  Jeunes EURL | #8 Rue Jules Romains, Saint-nazaire  -> B p=0.0
+    s3 Saint-Nazaire Club EURL | 8 - Rue Gauloise, St-nazaire, Loire-Atlantique  -> B p=1.0
+    s2 Saint-Nazaire Club Groupe EURL | 15 R GAULOISE, SAINT-NAZAIRE, Pays de la Loire  -> B p=0.0
+    s2 Saint-Nazaire Foyer Sarl | 8 RUE GAULOISE, ST.-NAZAIRE, Pays de la Loire  -> C p=1.0
+    s3 Saint-Nazaire Foyer Sarl | 8 - Rue Gauloise, Saint-nazaire, Loire-Atlantique  -> C p=1.0
+    s3 Saint-Nazaire-Foyer | 8 - R. Gauloise, Saint-nazaire, Loire-Atlantique  -> C p=1.0
+    s2 Saint-Nazaire-Foyer France SAS | 111 RTE DE BRAIS, SAINT-NAZAIRE  -> C p=0.0
+    s2 chasse clinique sas | SAINT-NAZAIRE, 8 RUE GAULOISE, Pays de la Loire  -> D p=1.0
+    s3 saintnazairefoyersarl.com | 8 - Rue Gauloise, Saint-nazaire, Loire-Atlantique  -> C p=1.0
+
+### 3 rue tiriau nantes  (n_s1=4)
+  S1 A: Nantes Amis SARL | 3 Rue Tiriau, Nantes, Pays de la Loire
+  S1 B: Aroha (France) Pharmacie | 3 Rue Tiriau, Nantes, Pays de la Loire
+  S1 C: Union de Galactik | 3 Rue Tiriau, Nantes, Pays de la Loire
+  S1 D: Nantes Sportive EURL | 3 Rue Tiriau, Nantes, Pays de la Loire
+    s2 AROHA (FRANCE) PHARMACIE DISTRIBUTION | 10 R. TIRIUA, NANTES, Pays de la Loire  -> B p=0.0
+    s3 Ariaarc Formerly Aroha (France) Pharmacie | 3 Rue Tiriau, Pays de la Loire, Nantes  -> B p=1.0
+    s3 Aroha (France) | 3 R. Tiriau, Nantes, Loire-Atlantique  -> B p=1.0
+    s2 Aroha (France) Pharmacie | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> B p=1.0
+    s2 Deleves Çlub | 3 R. TIRIAU, NANTES, Loire-Atlantique  -> ?other p=0.998
+    s3 Deleves Çlub | 3 R. Tiriau, Nantes, Loire-Atlantique  -> ?other p=0.998
+    s3 Nantes  SARL Groupe | 3 R Tiriau, Nantes, Loire-Atlantique  -> ?other p=0.137
+    s2 Nantes  Sportive EURL | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> D p=1.0
+    s2 Nantes Amis | 3 R. TIRAU, NANTES, Loire-Atlantique  -> A p=0.993
+    s3 Nantes Amis France SARL | 033 Rte De La Joneliere, Nantes  -> A p=0.0
+    s3 Nantes Amis Groupe SARL | 16 R Tiriau, Nantes, Loire-Atlantique  -> A p=0.0
+    s2 Nantes Amis SARL | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> A p=1.0
+    s2 Nantes Amis SARL | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> A p=1.0
+    s3 Nantes Amis SARL | 3 Rue Tiriau, Nantes, Loire-Atlantique  -> A p=1.0
+    s2 Nantes Amis SARL | 3 R TIRMAU, NANTES, Loire-Atlantique  -> A p=0.998
+    s3 Nantes EURL & Associés | 3 Rue Tiriau, Nantes, Loire-Atlantique  -> D p=0.847
+    s2 Nantes Sportive EURL | 13 R. NICOLAS LANCRET, NANTES, Loire-Atlantique  -> D p=0.001
+    s3 Nantes Sportive International Eurl | 4 R. Tiriau, Nantes, Pays de la Loire  -> D p=0.0
+    s3 Nylafluxkelo DBA Nantes Amis SARL | 3 Rue Tiriau, Nantes, Pays de la Loire  -> A p=1.0
+    s3 UNION DE GALACTIK SASU | No. 7 R. Tiriau, Pays de la Loire, Nantes  -> C p=0.0
+    s2 Union de Galactik | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> C p=1.0
+    s3 Union de Galactik | 3 R. Tiriau, Nantes, Loire-Atlantique  -> C p=1.0
+    s3 Union de Gàlactik | 3 R. Tiriau, Nantes, Loire-Atlantique  -> C p=1.0
+    s3 Union dé Galactik | 3 R. Tiriau, Nantes, Loire-Atlantique  -> C p=1.0
+    s2 Vegetal Ecole | NANTES, Loire-Atlantique, 3 R TIRIAU  -> D p=0.0
+    s2 arohafrancepharmacie.com | 3 RUE TIRIAU, Loire-Atlantique, NANTES  -> B p=1.0
+    s3 arohafrancepharmacie.com | 3 Rue Tiriau, Nantes, Loire-Atlantique  -> B p=1.0
+    s3 arohafrancepharmacie.com | Loire-Atlantique, 3 R. Tiriau, Nantes  -> B p=1.0
+    s3 nantes amis sarl | 3 Rue Tiriau, Nantes, Loire-Atlantique  -> A p=1.0
+    s2 nantessportiveeurl.com | 3 RUE TIRIAU, NANTES, Loire-Atlantique  -> D p=1.0
+
+### 28 rue fort lille  (n_s1=4)
+  S1 A: YWQ Club SA | 28 Rue Le Fort, Lille, Hauts-de-France
+  S1 B: Établissements Photo SARL | 28 Rue Le Fort, Lille, Hauts-de-France
+  S1 C: Clinique Saint Henri | 28 Rue Le Fort, Lille, Hauts-de-France
+  S1 D: Centre Médical Saint Kiz | 28 Rue Le Fort, Lille, Hauts-de-France
+    s3 @centrehospitalier | 28 R Le Fort, Lille, Nord  -> ?other p=0.004
+    s2 COMITE DE LA SÂINTE | 0028 RUE LE FORT, LILLE, Nord  -> C p=0.001
+    s2 Centre Médical Saint Kiz SCI | 29 RUE LE FNRT, LILLE, Hauts-de-France  -> D p=0.004
+    s3 Centre Médical St Kiz | 28 Rue Le Fot, Lille, Nord  -> D p=1.0
+    s3 Centre Médical St Kiz | 28 R. Le Frot, Lille, Nord  -> D p=1.0
+    s2 Centre Saint Médical Kîz | Nord, 0028 R. LE FTRT, LILLE  -> D p=1.0
+    s3 Clinique Henri Et Fils | 28 Rue Le Fort, Lille, Nord  -> C p=0.985
+    s2 Clinique Saint Hênri |   -> C p=0.868
+    s2 Clinique Saint-Henri | Nord, LILLE, 0028 R LE FORT  -> C p=1.0
+    s2 Clinique Sainte Jean SA | 28 RUE DE LA LIBARTÉ, LILLE, Hauts-de-France  -> C p=0.039
+    s2 Clinique Sainte-Jtan Holding | 28 R DE LA LIBERTÉ, LILLE, Hauts-de-France  -> C p=0.0
+    s3 Federation Saint Kiz SCI | Lille, Hauts-de-France, N° 29 R. Le Fort  -> D p=0.0
+    s3 Gilddrex D.B.A. Clinique Saint Henri | 28 Rue Le Fort, Lille, Hauts-de-France  -> C p=1.0
+    s3 HENRI SAINT CLINIQUE | 28 R. Le Fort, Lille, Nord  -> C p=1.0
+    s3 Residence Saint Henri | 28 R. Le Fort, Lille, Nord  -> C p=0.0
+    s3 YC | 28 R. Le Fort, Lille, Nord  -> A p=1.0
+    s3 YC | 28 R. Le Fort, Lille, Nord  -> A p=1.0
+    s3 YWQ Club S.A. | 28 R Le Fort, Lille, Nord  -> A p=1.0
+    s2 YWQ Cndu Distribution SA | 030 R LE FOST, LILLE  -> A p=0.0
+    s2 YWQ Danse SA | 0028 RUE LE FORT, LILLE, Nord  -> A p=0.968
+    s2 YWQ SA Services | 0028 R. LE FORT, LILLE, Nord  -> A p=1.0
+    s2 ywqclub.com | 0028 RUE LE FORT, LILLE, Nord  -> A p=1.0
+    s2 Établissements  Photo | 0028 R LE FORT, LILLE, Nord  -> B p=1.0
+    s2 Établissements Photo Développement Sàrl | 33 R LE FOT, LILLE, Hauts-de-France  -> B p=0.0
+    s2 Établissements Photo Holding SARL | 33 RUE LE FORT, LILLE, Hauts-de-France  -> B p=0.0
+    s2 Établissements Photo SARL |   -> B p=0.988
+    s3 Établissements-Irc-SARL | N° 18 R Le Fort, Lille, Nord  -> B p=0.018
+    s2 école Maternelle De Jean SCI | 0028 RUE LE FORT, LILLE, Nord  -> ?other p=0.0
+    s3 établissements Photo Sarl | 28 R Le Frot, Lille, Nord  -> B p=1.0

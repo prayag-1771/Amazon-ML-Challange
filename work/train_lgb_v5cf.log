@@ -1,0 +1,31 @@
+  features train: 5,000,000/10,765,020 60s
+  features train: 10,000,000/10,765,020 55s
+  features train: 10,765,020/10,765,020 7s
+  features train: 2,317,419/2,317,419 43s
+train pairs 10,765,020 (pos 0.618), valid pairs 2,317,419, 64 feats
+[100]	train's binary_logloss: 0.017748	valid's binary_logloss: 0.0407155
+[200]	train's binary_logloss: 0.0162021	valid's binary_logloss: 0.039464
+[300]	train's binary_logloss: 0.0154436	valid's binary_logloss: 0.0392487
+[400]	train's binary_logloss: 0.0148178	valid's binary_logloss: 0.0391369
+[500]	train's binary_logloss: 0.0142793	valid's binary_logloss: 0.0390782
+[600]	train's binary_logloss: 0.0137863	valid's binary_logloss: 0.0390305
+[700]	train's binary_logloss: 0.0133315	valid's binary_logloss: 0.0390033
+[800]	train's binary_logloss: 0.0128978	valid's binary_logloss: 0.0390008
+  t=0.20 f05=0.9841 P=0.9900 R=0.9758 single=0.9722
+  t=0.25 f05=0.9852 P=0.9914 R=0.9754 single=0.9766
+  t=0.30 f05=0.9860 P=0.9926 R=0.9749 single=0.9802
+  t=0.35 f05=0.9868 P=0.9938 R=0.9743 single=0.9826
+  t=0.40 f05=0.9874 P=0.9948 R=0.9737 single=0.9851
+  t=0.45 f05=0.9880 P=0.9957 R=0.9731 single=0.9882
+  t=0.50 f05=0.9885 P=0.9966 R=0.9724 single=0.9905
+  t=0.55 f05=0.9889 P=0.9973 R=0.9717 single=0.9919
+  t=0.60 f05=0.9891 P=0.9978 R=0.9710 single=0.9929
+  t=0.65 f05=0.9892 P=0.9981 R=0.9704 single=0.9938
+  t=0.70 f05=0.9892 P=0.9984 R=0.9699 single=0.9947
+  t=0.75 f05=0.9893 P=0.9987 R=0.9693 single=0.9958
+  t=0.80 f05=0.9892 P=0.9989 R=0.9685 single=0.9962
+  t=0.85 f05=0.9891 P=0.9991 R=0.9676 single=0.9969
+  t=0.90 f05=0.9888 P=0.9993 R=0.9662 single=0.9974
+  t=0.95 f05=0.9881 P=0.9996 R=0.9635 single=0.9981
+VALID 0.75 {'f05': 0.9892722223339184, 'precision_micro': 0.9987059317763991, 'recall_micro': 0.9692767751560742, 'singleton_acc': 0.9958094931098397, 'f05_US': 0.9900409876458222, 'f05_India': 0.9881246175530224}
+top features: [('ce_logit', 54727445), ('p0', 9721951), ('p0_s1_gap_best', 1380246), ('xq_fmax', 1339871), ('xq_relmin', 1000556), ('ce_qrank', 965776), ('q_ncand', 694877), ('num_min_rel', 514981), ('ce_gap_best', 459509), ('ce_gap_2nd', 358746), ('p0_gap_best', 232693), ('num_jacc', 145875), ('xq_n', 124392), ('p0_qrank', 104100), ('s1_name_cnt', 97961), ('nc_tset', 70680), ('xq_rmin', 63303), ('q_nums_n', 60134), ('nf_ratio', 59115), ('x1_fmax', 51646)]

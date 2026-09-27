@@ -1,0 +1,422 @@
+VAL added-one-token pairs 36979
+shape: (45, 5)
+┌──────────────┬──────┬───────┬───────┬───────┐
+│ tok          ┆ len  ┆ p2    ┆ acc   ┆ lab   │
+│ ---          ┆ ---  ┆ ---   ┆ ---   ┆ ---   │
+│ str          ┆ u32  ┆ f32   ┆ f64   ┆ f64   │
+╞══════════════╪══════╪═══════╪═══════╪═══════╡
+│ center       ┆ 3492 ┆ 0.985 ┆ 0.983 ┆ 0.985 │
+│ services     ┆ 2466 ┆ 0.981 ┆ 0.98  ┆ 0.981 │
+│ service      ┆ 1231 ┆ 0.988 ┆ 0.987 ┆ 0.989 │
+│ partners     ┆ 1039 ┆ 0.89  ┆ 0.889 ┆ 0.888 │
+│ enterprises  ┆ 882  ┆ 0.008 ┆ 0.001 ┆ 0.002 │
+│ industries   ┆ 729  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ holdings     ┆ 720  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ ventures     ┆ 689  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ group        ┆ 673  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ overseas     ┆ 666  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ infratech    ┆ 638  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ exports      ┆ 629  ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ lnc          ┆ 291  ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ trust        ┆ 150  ┆ 0.999 ┆ 1.0   ┆ 1.0   │
+│ society      ┆ 146  ┆ 0.993 ┆ 0.993 ┆ 0.993 │
+│ district     ┆ 144  ┆ 0.993 ┆ 0.993 ┆ 0.993 │
+│ foundation   ┆ 143  ┆ 0.977 ┆ 0.972 ┆ 0.979 │
+│ commission   ┆ 142  ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ authority    ┆ 140  ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ council      ┆ 136  ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ board        ┆ 130  ┆ 0.992 ┆ 0.992 ┆ 0.992 │
+│ association  ┆ 130  ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ federation   ┆ 119  ┆ 0.992 ┆ 0.992 ┆ 0.992 │
+│ trading      ┆ 63   ┆ 0.006 ┆ 0.0   ┆ 0.016 │
+│ garments     ┆ 61   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ c0           ┆ 58   ┆ 0.99  ┆ 0.983 ┆ 1.0   │
+│ agencies     ┆ 57   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ jewellers    ┆ 55   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ praibhet     ┆ 55   ┆ 0.966 ┆ 0.964 ┆ 0.964 │
+│ technologies ┆ 53   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ bakery       ┆ 51   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ pharmacy     ┆ 50   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ hardware     ┆ 50   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ steel        ┆ 50   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ l1c          ┆ 49   ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+│ motors       ┆ 49   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ textiles     ┆ 48   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ c0rp         ┆ 48   ┆ 0.979 ┆ 0.979 ┆ 0.979 │
+│ stores       ┆ 47   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ general      ┆ 46   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ solutions    ┆ 46   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ sweets       ┆ 45   ┆ 0.005 ┆ 0.0   ┆ 0.0   │
+│ foods        ┆ 44   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ electronics  ┆ 44   ┆ 0.0   ┆ 0.0   ┆ 0.0   │
+│ 1imited      ┆ 43   ┆ 1.0   ┆ 1.0   ┆ 1.0   │
+└──────────────┴──────┴───────┴───────┴───────┘
+FR added-one-token pairs 28957
+shape: (45, 4)
+┌────────────────┬──────┬───────┬───────┐
+│ tok            ┆ len  ┆ p2    ┆ acc   │
+│ ---            ┆ ---  ┆ ---   ┆ ---   │
+│ str            ┆ u32  ┆ f64   ┆ f64   │
+╞════════════════╪══════╪═══════╪═══════╡
+│ fils           ┆ 3153 ┆ 0.978 ┆ 0.978 │
+│ france         ┆ 2159 ┆ 0.555 ┆ 0.379 │
+│ groupe         ┆ 1990 ┆ 0.219 ┆ 0.094 │
+│ developpement  ┆ 1952 ┆ 0.378 ┆ 0.174 │
+│ services       ┆ 1740 ┆ 0.995 ┆ 0.994 │
+│ associes       ┆ 1663 ┆ 0.965 ┆ 0.965 │
+│ distribution   ┆ 432  ┆ 0.002 ┆ 0.0   │
+│ participations ┆ 431  ┆ 0.025 ┆ 0.007 │
+│ 5arl           ┆ 409  ┆ 0.993 ┆ 0.988 │
+│ holding        ┆ 379  ┆ 0.0   ┆ 0.0   │
+│ international  ┆ 349  ┆ 0.0   ┆ 0.0   │
+│ snc            ┆ 317  ┆ 0.026 ┆ 0.0   │
+│ 5as            ┆ 266  ┆ 0.991 ┆ 0.989 │
+│ society        ┆ 101  ┆ 1.0   ┆ 1.0   │
+│ club           ┆ 100  ┆ 0.677 ┆ 0.57  │
+│ authority      ┆ 98   ┆ 0.998 ┆ 1.0   │
+│ board          ┆ 96   ┆ 0.999 ┆ 1.0   │
+│ trust          ┆ 96   ┆ 0.993 ┆ 0.99  │
+│ district       ┆ 95   ┆ 1.0   ┆ 1.0   │
+│ foundation     ┆ 91   ┆ 0.999 ┆ 1.0   │
+│ commission     ┆ 85   ┆ 0.988 ┆ 0.988 │
+│ federation     ┆ 79   ┆ 0.961 ┆ 0.962 │
+│ association    ┆ 79   ┆ 1.0   ┆ 1.0   │
+│ council        ┆ 76   ┆ 0.986 ┆ 0.987 │
+│ 5a             ┆ 71   ┆ 0.955 ┆ 0.93  │
+│ comite         ┆ 59   ┆ 0.864 ┆ 0.847 │
+│ 5asu           ┆ 52   ┆ 1.0   ┆ 1.0   │
+│ ecole          ┆ 46   ┆ 0.828 ┆ 0.783 │
+│ amicale        ┆ 45   ┆ 0.781 ┆ 0.756 │
+│ centre         ┆ 44   ┆ 0.619 ┆ 0.523 │
+│ societe        ┆ 39   ┆ 0.744 ┆ 0.744 │
+│ sportive       ┆ 39   ┆ 0.376 ┆ 0.231 │
+│ union          ┆ 33   ┆ 0.48  ┆ 0.333 │
+│ amis           ┆ 33   ┆ 0.799 ┆ 0.667 │
+│ parents        ┆ 33   ┆ 0.567 ┆ 0.485 │
+│ primaire       ┆ 32   ┆ 0.627 ┆ 0.562 │
+│ scl            ┆ 31   ┆ 0.999 ┆ 1.0   │
+│ 5ci            ┆ 31   ┆ 0.971 ┆ 0.968 │
+│ maison         ┆ 23   ┆ 0.245 ┆ 0.13  │
+│ loisirs        ┆ 22   ┆ 0.282 ┆ 0.091 │
+│ el             ┆ 21   ┆ 0.949 ┆ 0.952 │
+│ college        ┆ 21   ┆ 0.553 ┆ 0.381 │
+│ sante          ┆ 19   ┆ 0.587 ┆ 0.526 │
+│ c0mpagnie      ┆ 19   ┆ 0.995 ┆ 1.0   │
+│ culturelle     ┆ 18   ┆ 0.493 ┆ 0.222 │
+└────────────────┴──────┴───────┴───────┘
+add VAL
+shape: (40, 4)
+┌─────────┬──────────────┬──────┬──────┐
+│ country ┆ tok          ┆ len  ┆ lab  │
+│ ---     ┆ ---          ┆ ---  ┆ ---  │
+│ str     ┆ str          ┆ u32  ┆ f64  │
+╞═════════╪══════════════╪══════╪══════╡
+│ India   ┆ center       ┆ 3053 ┆ 0.91 │
+│ India   ┆ services     ┆ 2082 ┆ 0.93 │
+│ India   ┆ service      ┆ 1034 ┆ 0.92 │
+│ India   ┆ partners     ┆ 755  ┆ 0.91 │
+│ India   ┆ enterprises  ┆ 752  ┆ 0.07 │
+│ India   ┆ praibhet     ┆ 91   ┆ 0.79 │
+│ India   ┆ trading      ┆ 91   ┆ 0.02 │
+│ India   ┆ prvate       ┆ 66   ┆ 0.88 │
+│ India   ┆ 1imited      ┆ 59   ┆ 0.97 │
+│ India   ┆ privte       ┆ 58   ┆ 0.9  │
+│ India   ┆ priate       ┆ 56   ┆ 0.89 │
+│ India   ┆ c0           ┆ 53   ┆ 0.94 │
+│ India   ┆ privae       ┆ 52   ┆ 0.92 │
+│ India   ┆ prlvate      ┆ 50   ┆ 0.9  │
+│ India   ┆ elelpi       ┆ 47   ┆ 1.0  │
+│ India   ┆ 5hree        ┆ 46   ┆ 1.0  │
+│ India   ┆ prviate      ┆ 43   ┆ 0.88 │
+│ US      ┆ center       ┆ 2409 ┆ 0.87 │
+│ US      ┆ services     ┆ 1771 ┆ 0.85 │
+│ US      ┆ enterprises  ┆ 1696 ┆ 0.06 │
+│ US      ┆ service      ┆ 894  ┆ 0.83 │
+│ US      ┆ partners     ┆ 874  ┆ 0.64 │
+│ US      ┆ trading      ┆ 639  ┆ 0.04 │
+│ US      ┆ lnc          ┆ 410  ┆ 0.95 │
+│ US      ┆ authority    ┆ 234  ┆ 0.85 │
+│ US      ┆ trust        ┆ 229  ┆ 0.89 │
+│ US      ┆ district     ┆ 224  ┆ 0.89 │
+│ US      ┆ foundation   ┆ 215  ┆ 0.91 │
+│ US      ┆ society      ┆ 210  ┆ 0.91 │
+│ US      ┆ commission   ┆ 209  ┆ 0.91 │
+│ US      ┆ board        ┆ 208  ┆ 0.86 │
+│ US      ┆ council      ┆ 206  ┆ 0.92 │
+│ US      ┆ association  ┆ 202  ┆ 0.91 │
+│ US      ┆ federation   ┆ 180  ┆ 0.91 │
+│ US      ┆ ventures     ┆ 113  ┆ 0.02 │
+│ US      ┆ l1c          ┆ 65   ┆ 0.94 │
+│ US      ┆ c0rp         ┆ 48   ┆ 0.92 │
+│ US      ┆ 0f           ┆ 46   ┆ 0.96 │
+│ US      ┆ lncorporated ┆ 44   ┆ 0.95 │
+│ US      ┆ c0rporation  ┆ 40   ┆ 1.0  │
+└─────────┴──────────────┴──────┴──────┘
+add FR
+shape: (37, 4)
+┌────────────────┬──────┬──────┬──────┐
+│ tok            ┆ len  ┆ p2   ┆ acc  │
+│ ---            ┆ ---  ┆ ---  ┆ ---  │
+│ str            ┆ u32  ┆ f64  ┆ f64  │
+╞════════════════╪══════╪══════╪══════╡
+│ fils           ┆ 3526 ┆ 0.94 ┆ 0.93 │
+│ france         ┆ 2317 ┆ 0.56 ┆ 0.37 │
+│ services       ┆ 2037 ┆ 0.95 ┆ 0.93 │
+│ associes       ┆ 1878 ┆ 0.91 ┆ 0.9  │
+│ developpement  ┆ 1733 ┆ 0.44 ┆ 0.2  │
+│ groupe         ┆ 1616 ┆ 0.28 ┆ 0.12 │
+│ enterprises    ┆ 718  ┆ 0.06 ┆ 0.0  │
+│ snc            ┆ 573  ┆ 0.06 ┆ 0.0  │
+│ 5arl           ┆ 463  ┆ 0.97 ┆ 0.95 │
+│ 5as            ┆ 312  ┆ 0.97 ┆ 0.96 │
+│ participations ┆ 240  ┆ 0.07 ┆ 0.01 │
+│ comite         ┆ 159  ┆ 0.64 ┆ 0.52 │
+│ club           ┆ 123  ┆ 0.57 ┆ 0.46 │
+│ society        ┆ 117  ┆ 0.96 ┆ 0.94 │
+│ district       ┆ 114  ┆ 0.96 ┆ 0.96 │
+│ trust          ┆ 114  ┆ 0.93 ┆ 0.9  │
+│ board          ┆ 112  ┆ 0.97 ┆ 0.96 │
+│ authority      ┆ 109  ┆ 0.96 ┆ 0.95 │
+│ foundation     ┆ 106  ┆ 0.94 ┆ 0.93 │
+│ commission     ┆ 100  ┆ 0.97 ┆ 0.96 │
+│ federation     ┆ 94   ┆ 0.94 ┆ 0.93 │
+│ association    ┆ 91   ┆ 0.94 ┆ 0.92 │
+│ council        ┆ 86   ┆ 0.97 ┆ 0.97 │
+│ 5a             ┆ 83   ┆ 0.89 ┆ 0.84 │
+│ ecole          ┆ 77   ┆ 0.53 ┆ 0.47 │
+│ amicale        ┆ 72   ┆ 0.53 ┆ 0.47 │
+│ 5asu           ┆ 62   ┆ 0.98 ┆ 0.97 │
+│ societe        ┆ 58   ┆ 0.53 ┆ 0.5  │
+│ centre         ┆ 55   ┆ 0.51 ┆ 0.42 │
+│ distribution   ┆ 48   ┆ 0.05 ┆ 0.0  │
+│ amis           ┆ 44   ┆ 0.63 ┆ 0.5  │
+│ scl            ┆ 37   ┆ 0.95 ┆ 0.95 │
+│ sportive       ┆ 34   ┆ 0.43 ┆ 0.26 │
+│ 5ci            ┆ 33   ┆ 0.95 ┆ 0.94 │
+│ parents        ┆ 32   ┆ 0.59 ┆ 0.5  │
+│ primaire       ┆ 30   ┆ 0.67 ┆ 0.6  │
+│ service        ┆ 30   ┆ 0.46 ┆ 0.33 │
+└────────────────┴──────┴──────┴──────┘
+drop VAL
+shape: (51, 4)
+┌─────────┬─────────────┬──────┬──────┐
+│ country ┆ tok         ┆ len  ┆ lab  │
+│ ---     ┆ ---         ┆ ---  ┆ ---  │
+│ str     ┆ str         ┆ u32  ┆ f64  │
+╞═════════╪═════════════╪══════╪══════╡
+│ India   ┆ group       ┆ 786  ┆ 0.97 │
+│ India   ┆ holdings    ┆ 285  ┆ 0.96 │
+│ India   ┆ india       ┆ 216  ┆ 0.88 │
+│ India   ┆ society     ┆ 177  ┆ 0.96 │
+│ India   ┆ partners    ┆ 172  ┆ 0.97 │
+│ India   ┆ associates  ┆ 166  ┆ 0.92 │
+│ India   ┆ trust       ┆ 150  ┆ 0.95 │
+│ India   ┆ school      ┆ 142  ┆ 0.96 │
+│ India   ┆ sons        ┆ 138  ┆ 0.88 │
+│ India   ┆ care        ┆ 111  ┆ 0.93 │
+│ India   ┆ brothers    ┆ 109  ┆ 0.91 │
+│ India   ┆ center      ┆ 98   ┆ 0.93 │
+│ India   ┆ clinic      ┆ 85   ┆ 0.93 │
+│ India   ┆ samiti      ┆ 79   ┆ 0.87 │
+│ India   ┆ technology  ┆ 77   ┆ 0.96 │
+│ India   ┆ home        ┆ 61   ┆ 0.93 │
+│ India   ┆ centre      ┆ 61   ┆ 0.97 │
+│ India   ┆ services    ┆ 54   ┆ 0.93 │
+│ India   ┆ chambers    ┆ 47   ┆ 0.91 │
+│ India   ┆ trading     ┆ 42   ┆ 0.9  │
+│ India   ┆ companies   ┆ 40   ┆ 0.9  │
+│ US      ┆ group       ┆ 2808 ┆ 0.9  │
+│ US      ┆ associates  ┆ 894  ┆ 0.94 │
+│ US      ┆ center      ┆ 783  ┆ 0.93 │
+│ US      ┆ partners    ┆ 727  ┆ 0.95 │
+│ US      ┆ holdings    ┆ 642  ┆ 0.95 │
+│ US      ┆ clinic      ┆ 610  ┆ 0.93 │
+│ US      ┆ care        ┆ 588  ┆ 0.91 │
+│ US      ┆ medicine    ┆ 295  ┆ 0.88 │
+│ US      ┆ health      ┆ 275  ┆ 0.84 │
+│ US      ┆ dds         ┆ 274  ┆ 0.98 │
+│ US      ┆ specialists ┆ 264  ┆ 0.93 │
+│ US      ┆ md          ┆ 254  ┆ 0.93 │
+│ US      ┆ church      ┆ 227  ┆ 0.89 │
+│ US      ┆ physicians  ┆ 225  ┆ 0.91 │
+│ US      ┆ works       ┆ 220  ┆ 0.92 │
+│ US      ┆ services    ┆ 195  ┆ 0.9  │
+│ US      ┆ do          ┆ 190  ┆ 0.97 │
+│ US      ┆ school      ┆ 169  ┆ 0.86 │
+│ US      ┆ studios     ┆ 142  ┆ 0.89 │
+│ US      ┆ service     ┆ 135  ┆ 0.91 │
+│ US      ┆ advisors    ┆ 135  ┆ 0.87 │
+│ US      ┆ systems     ┆ 131  ┆ 0.84 │
+│ US      ┆ digital     ┆ 128  ┆ 0.92 │
+│ US      ┆ alliance    ┆ 127  ┆ 0.93 │
+│ US      ┆ solutions   ┆ 126  ┆ 0.84 │
+│ US      ┆ networks    ┆ 122  ┆ 0.96 │
+│ US      ┆ shop        ┆ 122  ┆ 0.93 │
+│ US      ┆ brands      ┆ 120  ┆ 0.91 │
+│ US      ┆ innovations ┆ 120  ┆ 0.92 │
+│ US      ┆ ventures    ┆ 118  ┆ 0.93 │
+└─────────┴─────────────┴──────┴──────┘
+drop FR
+shape: (40, 4)
+┌─────────────┬──────┬──────┬──────┐
+│ tok         ┆ len  ┆ p2   ┆ acc  │
+│ ---         ┆ ---  ┆ ---  ┆ ---  │
+│ str         ┆ u32  ┆ f64  ┆ f64  │
+╞═════════════╪══════╪══════╪══════╡
+│ france      ┆ 2327 ┆ 0.93 ┆ 0.92 │
+│ club        ┆ 1739 ┆ 0.86 ┆ 0.82 │
+│ fils        ┆ 1095 ┆ 0.97 ┆ 0.97 │
+│ freres      ┆ 1057 ┆ 0.98 ┆ 0.97 │
+│ ecole       ┆ 957  ┆ 0.86 ┆ 0.83 │
+│ comite      ┆ 915  ┆ 0.89 ┆ 0.86 │
+│ amicale     ┆ 893  ┆ 0.89 ┆ 0.86 │
+│ sportive    ┆ 638  ┆ 0.9  ┆ 0.87 │
+│ amis        ┆ 569  ┆ 0.89 ┆ 0.87 │
+│ primaire    ┆ 504  ┆ 0.9  ┆ 0.88 │
+│ centre      ┆ 487  ┆ 0.88 ┆ 0.84 │
+│ union       ┆ 436  ┆ 0.88 ┆ 0.86 │
+│ parents     ┆ 429  ┆ 0.88 ┆ 0.85 │
+│ college     ┆ 395  ┆ 0.85 ┆ 0.81 │
+│ maternelle  ┆ 386  ┆ 0.9  ┆ 0.88 │
+│ societe     ┆ 353  ┆ 0.88 ┆ 0.85 │
+│ sante       ┆ 343  ┆ 0.9  ┆ 0.87 │
+│ fetes       ┆ 314  ┆ 0.92 ┆ 0.89 │
+│ maison      ┆ 305  ┆ 0.88 ┆ 0.86 │
+│ anciens     ┆ 294  ┆ 0.91 ┆ 0.89 │
+│ pharmacie   ┆ 275  ┆ 0.88 ┆ 0.86 │
+│ lycee       ┆ 260  ┆ 0.85 ┆ 0.83 │
+│ loisirs     ┆ 238  ┆ 0.91 ┆ 0.9  │
+│ federation  ┆ 236  ┆ 0.91 ┆ 0.89 │
+│ sport       ┆ 222  ┆ 0.9  ┆ 0.88 │
+│ jeunes      ┆ 217  ┆ 0.89 ┆ 0.86 │
+│ culturelle  ┆ 208  ┆ 0.89 ┆ 0.87 │
+│ groupement  ┆ 207  ┆ 0.84 ┆ 0.82 │
+│ elementaire ┆ 197  ┆ 0.91 ┆ 0.89 │
+│ culture     ┆ 197  ┆ 0.9  ┆ 0.88 │
+│ section     ┆ 190  ┆ 0.89 ┆ 0.86 │
+│ foyer       ┆ 184  ┆ 0.9  ┆ 0.89 │
+│ collectif   ┆ 169  ┆ 0.85 ┆ 0.82 │
+│ groupe      ┆ 165  ┆ 0.8  ┆ 0.76 │
+│ sainte      ┆ 137  ┆ 0.88 ┆ 0.86 │
+│ saint       ┆ 131  ┆ 0.84 ┆ 0.81 │
+│ service     ┆ 127  ┆ 0.91 ┆ 0.88 │
+│ gestion     ┆ 126  ┆ 0.87 ┆ 0.83 │
+│ medical     ┆ 125  ┆ 0.87 ┆ 0.85 │
+│ institut    ┆ 123  ┆ 0.82 ┆ 0.79 │
+└─────────────┴──────┴──────┴──────┘
+swap VAL
+shape: (60, 4)
+┌─────────┬─────────────────────────┬─────┬──────┐
+│ country ┆ tok                     ┆ len ┆ lab  │
+│ ---     ┆ ---                     ┆ --- ┆ ---  │
+│ str     ┆ str                     ┆ u32 ┆ f64  │
+╞═════════╪═════════════════════════╪═════╪══════╡
+│ India   ┆ india>center            ┆ 381 ┆ 0.92 │
+│ India   ┆ india>lndia             ┆ 303 ┆ 0.97 │
+│ India   ┆ global>globl            ┆ 272 ┆ 0.97 │
+│ India   ┆ india>services          ┆ 264 ┆ 0.96 │
+│ India   ┆ tech>tek                ┆ 261 ┆ 0.97 │
+│ India   ┆ it>aiti                 ┆ 249 ┆ 0.98 │
+│ India   ┆ producer>prodyusr       ┆ 239 ┆ 0.97 │
+│ India   ┆ impex>impeks            ┆ 236 ┆ 0.98 │
+│ India   ┆ developers>devlprs      ┆ 230 ┆ 0.99 │
+│ India   ┆ food>phud               ┆ 206 ┆ 0.98 │
+│ India   ┆ builders>bildrs         ┆ 203 ┆ 0.94 │
+│ India   ┆ estate>estet            ┆ 203 ┆ 0.98 │
+│ India   ┆ investment>investmemt   ┆ 193 ┆ 0.99 │
+│ India   ┆ products>prodkts        ┆ 192 ┆ 0.98 │
+│ India   ┆ energy>enrji            ┆ 192 ┆ 0.98 │
+│ India   ┆ systems>sistms          ┆ 192 ┆ 0.95 │
+│ India   ┆ brothers>center         ┆ 191 ┆ 0.94 │
+│ India   ┆ trading>tredimg         ┆ 188 ┆ 0.99 │
+│ India   ┆ services>center         ┆ 185 ┆ 0.91 │
+│ India   ┆ infotech>imphotek       ┆ 183 ┆ 0.99 │
+│ India   ┆ foods>phuds             ┆ 179 ┆ 0.98 │
+│ India   ┆ marketing>marketimg     ┆ 179 ┆ 0.94 │
+│ India   ┆ exports>eksports        ┆ 179 ┆ 0.97 │
+│ India   ┆ investments>investmemts ┆ 174 ┆ 0.97 │
+│ India   ┆ foundation>phaumdesn    ┆ 174 ┆ 0.95 │
+│ India   ┆ logistics>lojistiks     ┆ 171 ┆ 0.98 │
+│ India   ┆ trading>center          ┆ 169 ┆ 0.94 │
+│ India   ┆ media>midiya            ┆ 162 ┆ 0.97 │
+│ India   ┆ solutions>center        ┆ 160 ┆ 0.97 │
+│ India   ┆ projects>projekts       ┆ 159 ┆ 0.97 │
+│ US      ┆ associates>center       ┆ 174 ┆ 0.97 │
+│ US      ┆ partners>center         ┆ 161 ┆ 0.94 │
+│ US      ┆ care>center             ┆ 158 ┆ 0.94 │
+│ US      ┆ center>centre           ┆ 134 ┆ 0.91 │
+│ US      ┆ care>services           ┆ 121 ┆ 0.87 │
+│ US      ┆ partners>services       ┆ 115 ┆ 0.94 │
+│ US      ┆ center>services         ┆ 106 ┆ 0.94 │
+│ US      ┆ associates>services     ┆ 102 ┆ 0.89 │
+│ US      ┆ health>center           ┆ 99  ┆ 0.95 │
+│ US      ┆ care>ce                 ┆ 93  ┆ 0.92 │
+│ US      ┆ health>hea1th           ┆ 86  ┆ 0.91 │
+│ US      ┆ clinic>center           ┆ 85  ┆ 0.94 │
+│ US      ┆ medicine>center         ┆ 78  ┆ 0.92 │
+│ US      ┆ associates>ass0ciates   ┆ 73  ┆ 0.85 │
+│ US      ┆ capital>center          ┆ 70  ┆ 0.93 │
+│ US      ┆ dental>denta1           ┆ 68  ┆ 0.91 │
+│ US      ┆ family>fami1y           ┆ 68  ┆ 0.88 │
+│ US      ┆ clinic>services         ┆ 68  ┆ 0.94 │
+│ US      ┆ md>center               ┆ 67  ┆ 0.96 │
+│ US      ┆ health>services         ┆ 66  ┆ 0.91 │
+│ US      ┆ do>center               ┆ 65  ┆ 0.98 │
+│ US      ┆ care>service            ┆ 64  ┆ 0.94 │
+│ US      ┆ associates>partners     ┆ 62  ┆ 0.85 │
+│ US      ┆ global>center           ┆ 60  ┆ 0.92 │
+│ US      ┆ dds>center              ┆ 56  ┆ 0.96 │
+│ US      ┆ specialists>center      ┆ 55  ┆ 0.96 │
+│ US      ┆ trust>center            ┆ 55  ┆ 0.98 │
+│ US      ┆ capital>capita1         ┆ 55  ┆ 0.93 │
+│ US      ┆ ventures>center         ┆ 54  ┆ 0.87 │
+│ US      ┆ md>services             ┆ 54  ┆ 1.0  │
+└─────────┴─────────────────────────┴─────┴──────┘
+swap FR
+shape: (40, 4)
+┌──────────────────────┬──────┬──────┬──────┐
+│ tok                  ┆ len  ┆ p2   ┆ acc  │
+│ ---                  ┆ ---  ┆ ---  ┆ ---  │
+│ str                  ┆ u32  ┆ f64  ┆ f64  │
+╞══════════════════════╪══════╪══════╪══════╡
+│ club>fils            ┆ 1027 ┆ 0.92 ┆ 0.9  │
+│ freres>frs           ┆ 909  ┆ 0.97 ┆ 0.95 │
+│ club>groupe          ┆ 652  ┆ 0.88 ┆ 0.87 │
+│ club>services        ┆ 636  ┆ 0.9  ┆ 0.88 │
+│ club>comite          ┆ 613  ┆ 0.44 ┆ 0.36 │
+│ france>fils          ┆ 603  ┆ 0.93 ┆ 0.91 │
+│ ecole>fils           ┆ 602  ┆ 0.89 ┆ 0.87 │
+│ amicale>fils         ┆ 584  ┆ 0.91 ┆ 0.89 │
+│ comite>fils          ┆ 548  ┆ 0.93 ┆ 0.91 │
+│ saint>st             ┆ 516  ┆ 0.95 ┆ 0.94 │
+│ club>france          ┆ 513  ┆ 0.88 ┆ 0.86 │
+│ club>associes        ┆ 499  ┆ 0.82 ┆ 0.77 │
+│ club>developpement   ┆ 482  ┆ 0.45 ┆ 0.25 │
+│ club>ecole           ┆ 480  ┆ 0.5  ┆ 0.43 │
+│ sportive>fils        ┆ 424  ┆ 0.85 ┆ 0.81 │
+│ club>amicale         ┆ 405  ┆ 0.62 ┆ 0.57 │
+│ amis>fils            ┆ 384  ┆ 0.94 ┆ 0.93 │
+│ amicale>amis         ┆ 383  ┆ 0.67 ┆ 0.6  │
+│ ecole>services       ┆ 377  ┆ 0.88 ┆ 0.84 │
+│ primaire>fils        ┆ 363  ┆ 0.9  ┆ 0.87 │
+│ amicale>services     ┆ 355  ┆ 0.9  ┆ 0.88 │
+│ ecole>associes       ┆ 331  ┆ 0.78 ┆ 0.7  │
+│ parents>fils         ┆ 327  ┆ 0.92 ┆ 0.91 │
+│ france>associes      ┆ 326  ┆ 0.79 ┆ 0.7  │
+│ centre>fils          ┆ 323  ┆ 0.91 ┆ 0.89 │
+│ amis>amicale         ┆ 318  ┆ 0.57 ┆ 0.42 │
+│ france>services      ┆ 316  ┆ 0.99 ┆ 0.98 │
+│ comite>services      ┆ 312  ┆ 0.91 ┆ 0.89 │
+│ club>college         ┆ 307  ┆ 0.4  ┆ 0.29 │
+│ ecole>france         ┆ 302  ┆ 0.88 ┆ 0.86 │
+│ club>cb              ┆ 300  ┆ 0.94 ┆ 0.93 │
+│ sante>fils           ┆ 297  ┆ 0.92 ┆ 0.91 │
+│ france>groupe        ┆ 296  ┆ 0.64 ┆ 0.46 │
+│ amicale>associes     ┆ 292  ┆ 0.9  ┆ 0.87 │
+│ ecole>developpement  ┆ 291  ┆ 0.52 ┆ 0.27 │
+│ amicale>comite       ┆ 283  ┆ 0.46 ┆ 0.39 │
+│ college>club         ┆ 278  ┆ 0.62 ┆ 0.47 │
+│ comite>france        ┆ 275  ┆ 0.87 ┆ 0.85 │
+│ france>developpement ┆ 274  ┆ 0.59 ┆ 0.36 │
+│ amicale>france       ┆ 274  ┆ 0.88 ┆ 0.87 │
+└──────────────────────┴──────┴──────┴──────┘

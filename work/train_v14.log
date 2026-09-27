@@ -1,0 +1,15 @@
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:89: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  tc = x.select("s1_id", pl.col("tq").alias("tok")).explode("tok").drop_nulls().group_by("s1_id", "tok").len("ct")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:90: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  ga = (x.select("i", "s1_id", pl.col("add").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+E:\Programming\Amazon-ML-Challenge-2026\business_entity_resolution\src\stage2.py:92: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  gd = (x.select("i", "s1_id", "nx", pl.col("drop").alias("tok")).explode("tok").drop_nulls().join(tc, on=["s1_id", "tok"], how="left")
+t=0.6 base 0.98914 (US 0.98996 IN 0.98792)  stage2 0.98990 (US 0.99080 IN 0.98856)
+t=0.65 base 0.98925 (US 0.99005 IN 0.98804)  stage2 0.98996 (US 0.99085 IN 0.98863)
+t=0.7 base 0.98930 (US 0.99007 IN 0.98815)  stage2 0.99004 (US 0.99088 IN 0.98878)
+t=0.75 base 0.98928 (US 0.99005 IN 0.98812)  stage2 0.99000 (US 0.99082 IN 0.98878)
+t=0.8 base 0.98924 (US 0.98997 IN 0.98815)  stage2 0.98994 (US 0.99073 IN 0.98875)
+[('p', np.float64(5045337.0)), ('pb', np.float64(3216606.0)), ('pa', np.float64(699680.0)), ('ce_h', np.float64(49151.0)), ('ce_logit', np.float64(23457.0)), ('q_p2', np.float64(15911.0)), ('nratio', np.float64(12952.0)), ('q_n', np.float64(11359.0)), ('nd3', np.float64(8936.0)), ('ce_h_gap', np.float64(8235.0)), ('q_gap_best', np.float64(6057.0)), ('s1_name_cnt', np.float64(5277.0)), ('ndiff', np.float64(4632.0)), ('nc_tset', np.float64(3770.0)), ('s1_hi_same', np.float64(2595.0)), ('ac_tset', np.float64(2310.0)), ('s1_gap_best', np.float64(2301.0)), ('nrel_c', np.float64(2012.0)), ('s1_hi_other', np.float64(1758.0)), ('s1_n', np.float64(1450.0)), ('ce_h_rank', np.float64(1443.0)), ('s1_src_rank', np.float64(1347.0)), ('s1_hi_tot', np.float64(1310.0)), ('s1_mid_same', np.float64(1280.0)), ('alt_hi_same', np.float64(1061.0)), ('q_rank', np.float64(1013.0)), ('add_n', np.float64(936.0)), ('alt_hi_tot', np.float64(922.0)), ('drop_n', np.float64(776.0)), ('src', np.float64(531.0)), ('sib_drop_min', np.float64(380.0)), ('sib_drop_max', np.float64(379.0)), ('sib_add_min', np.float64(292.0)), ('s1_mid_other', np.float64(263.0)), ('q_addr_empty', np.float64(119.0)), ('q_nonascii', np.float64(115.0)), ('sib_add_max', np.float64(99.0))]
+shift cap: 0 cells, 0 pairs rejected []
+per-country T: 0.98999 (US 0.99082 IN 0.98875)
++ shift cap: 0.98999 (US 0.99082 IN 0.98875)

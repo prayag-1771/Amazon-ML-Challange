@@ -1,0 +1,98 @@
+shape: (10, 4)
+┌─────────┬──────────────────────┬────────┬────────┐
+│ country ┆ kind                 ┆ len    ┆ share  │
+│ ---     ┆ ---                  ┆ ---    ┆ ---    │
+│ str     ┆ str                  ┆ u32    ┆ f64    │
+╞═════════╪══════════════════════╪════════╪════════╡
+│ India   ┆ TP                   ┆ 295877 ┆ 0.9661 │
+│ India   ┆ not_in_cand          ┆ 7442   ┆ 0.0243 │
+│ India   ┆ top_below_t          ┆ 1813   ┆ 0.0059 │
+│ India   ┆ wrong_s1_assigned    ┆ 52     ┆ 0.0002 │
+│ India   ┆ wrong_top_unassigned ┆ 1084   ┆ 0.0035 │
+│ US      ┆ TP                   ┆ 443466 ┆ 0.9714 │
+│ US      ┆ not_in_cand          ┆ 5354   ┆ 0.0117 │
+│ US      ┆ top_below_t          ┆ 4363   ┆ 0.0096 │
+│ US      ┆ wrong_s1_assigned    ┆ 102    ┆ 0.0002 │
+│ US      ┆ wrong_top_unassigned ┆ 3225   ┆ 0.0071 │
+└─────────┴──────────────────────┴────────┴────────┘
+S1: Grandeur Operators Private Limited | Flat 06 Aryan Residency Plot 100 Cdc Chinchwad, Pune, Maharashtra
+ Q: GRANDEUR OPDRROS PRIVATE LIMITED | 
+S1: Surgical Care LLC | 195 8th Avenue, Kankakee, IL
+ Q: Surgical LLC Care Care | 
+S1: Cure Diner | 17 Warren Avenue, Unit 202, Woburn, MA
+ Q: CURE DINER LLC | 
+S1: Prime Logistics Limited | Cp-147, Viraj Khand, Lucknow, Uttar Pradesh
+ Q: Prime Logistics Ltd | 
+S1: Chiropractic Care P.C. | 27889 Number Six Road, Alexandria, NY
+ Q: Chir0practic Care | 
+S1: TZO Allied Third | 109 Trail Lane, Gray, TN
+ Q: Solavi | TRAIL LANE, GRAY, TN
+S1: Supreme Global Private Limited | Fl No-701 Sn-26/4 & 31/23Bl-A-1 Rajyog Township Wadgaon Khurd, Pune, Maharashtra
+ Q: Supreme  Global Porare Limited | 
+S1: Balaji Solutions Private Limited | Chelapura Gulzar House, Old City, 21-7-522, Hyderabad, Telangana, Hyderabad
+ Q: BALAJI SOLUTIONS PRIVATE LTD | 
+S1: Ziram Engineers Private Limited | Jw5140, Bharat Diamond Bourse G- Block, Bandra-Kurla Complex, Bandra (, East), Mumbai, Mumbai City, Maharashtra
+ Q: zeprivate.com | Jw140, Mumbai, Mumbai City, MH
+S1: Physical Therapy Clinic LLC | 207 Boy Scout Road, Ray, OH
+ Q: Physical Therapy Clinic Llc Enterprises | 
+S1: Ace Consultancy Private Limited | Off No 903, Icon B/H, Sai Temple, Surat, Gujarat
+ Q: એસ કન્સલ્ટન્સી પ્રાઇવેટ લિમિટેડ | Off No 903, Surat, Vesu, GJ
+S1: Indian Consultancy | 1484, Karnataka, Bangalore, Hullahally Cross, Begur Koppa Road Electronics City
+ Q: Indian Consultancy | 
+S1: Tirupati Solutions | Nandanvan Colony, Aurangabad, Maharashtra, 179, Aurangabad
+ Q: Tirupati  Center Enterprises | 
+S1: Golden Cafe | 509 Melrose Place, Sioux Falls, SD
+ Q: Golden Cafe Enterprises | 
+S1: Alpha Technologies Private Limited | 3Rd Floor, Plot At Kh No- 71/4, Vill Bamnoli, Near Periyar Ins, Njf K-015, New Delhi, South West Delhi, Delhi
+ Q: Alpha Teflhnbcogres Private Limited | 
+S1: Construction Builders Private Limited | 7, Madhya Pradesh, Indore, Navlakha, Gulmarg Complex Scheme No. 47
+ Q: Construction Builders Private Ltd | 
+S1: Lakshmi It Limited | 424, Dm Tower, 21/2, Race Course Road, Indore, Madhya Pradesh
+ Q: Lakshmi Limited Center Enterprises | 
+S1: Dental Partners LLC | 1109 5th Street, Grundy Center, IA
+ Q: Dental Pártners Enterprises | 
+S1: Vision Physicians LLC | 462 Ratley Road, Suffield, CT
+ Q: Vision Physicians L.L.C. | 
+S1: Black Solutions Limited | Plot No.1, 2, 3, Ashok Manor Kovilambakkam, Medavakkam Main Road, Kovilambakkam, Chennai, Tamil Nadu
+ Q: பிளாக் சொல்யூஷன்ஸ் லிமிடெட் | Kilkattalai, 1, TN, Chennai
+S1: Interfaith League | 38405 Raccoon Road, Ocean View, DE
+ Q: Interfaith Llague | 
+S1: Cornerstone Tech Inc | 107 Bauer Court, Cissna Park, IL
+ Q: Cornerstone Inc Services Trading | 
+S1: Jay Projects Private Limited | N0.106, Sushmitha Enclave, 2Nd Main, Ranganathapura, Bangalore North, Bangalore, Karnataka
+ Q: Jay Prójects Private Ltd | 
+S1: Apex Media Private Limited | H.No.10, Sr.No.5882, Jintoor Road, Parbhani, Maharashtra
+ Q: Apex Media Private Ltd | 
+S1: Care Farmer Private Limited | Vijeta, No.14, 2Ndfloor, 80Ft Road4Th Block Koramangala, Bangalore, Karnataka
+ Q: Care  Private Farmer Limited | 
+---- top below t
+p=0.595 S1: Mazariegos Alphabet of Plainville | 85 Broad Street, Plainville, CT
+ Q: Mazariegos Alphabet of  Plainville Co | 1 BRAOD STREET, PLAINVILLE, CT
+p=0.519 S1: Leonard's Hair Studio | 774 Springwood Drive, Mount Gilead, NC
+ Q: Leonard's Hair Studio LLC | 
+p=0.563 S1: Master Solutions Pvt Ltd | 701 To704 7Th Floor Maloo, 1 Plot No26 Scheme No 94C, Indore, Madhya Pradesh
+ Q: Ciraveovera | #701 TO704 7TH FLOOR MALOO, 1 PLOT NO26 SCHEME NO 94C, INDORE, Madhya Pradesh
+p=0.426 S1: Solutions Sakshi Infratech Private Limited | C/O N.V.Manimaran, Krita, J Block G1, Kaspapuram, Tambaram, Kanchipuram, Tamil Nadu
+ Q: Solutions Sakshi Private Limited Center | 
+p=0.156 S1: Soseex L.L.C. | 1141 Brookside Avenue, Evansdale, IA
+ Q: LLC Soseex | 1161 BROOKSIDE AVENUE, EVANSDALE, IA
+p=0.054 S1: Pierce Bdc PLLC | 2154 Clearlake Drive, Rock Hill, SC
+ Q: Pierce PLLC Center | 
+p=0.535 S1: Rios, Cudworth and Meurer Managers Inc | NY, 16-09 149 Street, Whitestone
+ Q: RIOS, CUWONRH AND MEURER MANAGERS INC | 
+p=0.546 S1: Human Rights Coalition LLC | 5624 18th Street, Tucson, AZ
+ Q: Human Rights Coalition LLC Trust | 
+p=0.003 S1: Family Specialists L.L.C. | 10682 Rancho Drive, Phoenix, AZ
+ Q: Family  Specialists L.L.C. Trading | 
+p=0.497 S1: Aditya Exports Private Limited | 101, Oyster Building, 19Th Road, Khar West, Mumbai, Mumbai City, Maharashtra
+ Q: Aditya Exports | 103, Mumbai, Mumbai City, MH
+p=0.565 S1: Holland Comstock Inc | 35 Alder Cir, Council Bluffs, IA
+ Q: Holland Inc Comstock | 
+p=0.044 S1: Marget Valerio Miluna | 245 Remington Drive, IL, Bartlett
+ Q: Marget Valerio Miluna Corp | 246 Remington Drive, PO Box 690, Bartlett, Illinois
+p=0.612 S1: Manuel Ventures LLC | 7 Stratton Circle, Troy, NY
+ Q: Manuel Ventures | 
+p=0.617 S1: Singer Prairie Rare | 9405 Shady Drive, Houston, TX
+ Q: Singer Prairie Rare Inc. | 9043 Shady Drive, Houston, Texas
+p=0.173 S1: Rooh (india) | C/O Anwar Jahan, Ward No.- 24 Mohalla- Sahsupan, P.O. Lalbagh, Darbhanga, Bihar
+ Q: R0oh (india) Ltd | H.no 79 C/o Anwar Jahan, Darbhanga, बिहार

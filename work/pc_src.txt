@@ -1,0 +1,100 @@
+"""Prototype: collective (profile) features from confident first-pass assignments, on validation only.
+Stage-1 p = lgb_v5cf (valid queries unseen in training). Split valid S1 by hash: train stage-2 on half A, eval half B."""
+import sys, time
+sys.path.insert(0, ".")
+import numpy as np
+import polars as pl
+from rapidfuzz import fuzz
+from rapidfuzz.process import cpdist
+import lightgbm as lgb
+from src.model import load_model, predict
+from src.metric import macro_f05
+from src.config import is_valid_expr
+
+W = "../work/"
+t0 = time.time()
+model, feats, T = load_model("lgb_v5cf")
+va = pl.read_parquet(W + "valid_feats.parquet")
+va = va.with_columns(pl.Series("p", predict(model, va, feats)))
+print("pred", time.time() - t0, flush=True)
+
+cols = ["entity_id", "business_name", "name_core", "addr_core", "country"]
+recs = pl.concat([pl.read_parquet(W + f"norm_train_s{k}.parquet", columns=cols) for k in (2, 3)])
+recs = recs.with_columns(pl.col("business_name").str.to_lowercase().str.replace_all(r"[^\p{L}\p{N}]", "").alias("raw"))
+q = recs.rename({"entity_id": "s23_id"}).select("s23_id", "raw", "name_core", "addr_core")
+
+def cluster_feats(df, conf=0.9):
+    # confident assignment: query's argmax with p >= conf
+    top = df.sort("p", descending=True).unique("s23_id", keep="first").filter(pl.col("p") >= conf)
+    mem = top.select("s1_id", pl.col("s23_id").alias("m_id"), pl.col("p").alias("m_p"))
+    ncl = mem.group_by("s1_id").len("cl_n0")
+    pairs = df.select("s1_id", "s23_id").join(mem, on="s1_id").filter(pl.col("m_id") != pl.col("s23_id"))
+    pairs = pairs.join(q, on="s23_id").join(q.rename({c: "m_" + c for c in q.columns if c != "s23_id"}).rename({"s23_id": "m_id"}), on="m_id")
+    a, b = pairs["name_core"].to_list(), pairs["m_name_core"].to_list()
+    pairs = pairs.with_columns(
+        pl.Series("n_tset", cpdist(a, b, scorer=fuzz.token_set_ratio, workers=-1)).cast(pl.Float32),
+        pl.Series("n_ratio", cpdist(a, b, scorer=fuzz.ratio, workers=-1)).cast(pl.Float32),
+        pl.Series("a_tset", cpdist(pairs["addr_core"].to_list(), pairs["m_addr_core"].to_list(), scorer=fuzz.token_set_ratio, workers=-1)).cast(pl.Float32),
+        ((pl.col("raw") == pl.col("m_raw")) & (pl.col("raw") != "")).cast(pl.Float32).alias("raw_eq"),
+    )
+    agg = pairs.group_by("s1_id", "s23_id").agg(
+        pl.len().alias("cl_n"), pl.col("n_tset").max().alias("cl_ntset_max"), pl.col("n_ratio").max().alias("cl_nratio_max"),
+        pl.col("n_tset").mean().alias("cl_ntset_mean"), pl.col("a_tset").max().alias("cl_atset_max"),
+        pl.col("raw_eq").max().alias("cl_raw_eq"), (pl.col("n_ratio") * pl.col("a_tset") / 100).max().alias("cl_na_max"))
+    out = df.join(agg, on=["s1_id", "s23_id"], how="left").with_columns(
+        pl.col("cl_n").fill_null(0), *[pl.col(c).fill_null(-1) for c in ["cl_ntset_max", "cl_nratio_max", "cl_ntset_mean", "cl_atset_max", "cl_raw_eq", "cl_na_max"]])
+    # query-level competition: rank / gap of cl_ntset_max among the query's candidates
+    out = out.with_columns(
+        (pl.col("cl_nratio_max") - pl.col("cl_nratio_max").max().over("s23_id")).alias("cl_nratio_gap"),
+        (pl.col("cl_na_max") - pl.col("cl_na_max").max().over("s23_id")).alias("cl_na_gap"),
+        pl.col("cl_raw_eq").sum().over("s23_id").alias("cl_raw_eq_q"),
+    )
+    return out
+
+va = cluster_feats(va)
+print("cluster feats", time.time() - t0, flush=True)
+gt = pl.read_parquet(W + "gt_pairs.parquet")
+s1 = pl.read_parquet(W + "norm_train_s1.parquet", columns=["entity_id", "country"]).filter(is_valid_expr("entity_id")).rename({"entity_id": "s1_id"})
+half = (pl.col("s1_id").hash(seed=7) % 2 == 0)
+s1A, s1B = s1.filter(half), s1.filter(~half)
+# a query belongs to half A if its argmax candidate among valid S1 is in half A (queries never span halves in training)
+qhalf = va.join(s1, on="s1_id", how="semi").sort("p", descending=True).unique("s23_id", keep="first").select("s23_id", half.alias("A"))
+va = va.join(qhalf, on="s23_id", how="left").with_columns(pl.col("A").fill_null(False))
+new = ["cl_n", "cl_ntset_max", "cl_nratio_max", "cl_ntset_mean", "cl_atset_max", "cl_raw_eq", "cl_na_max", "cl_nratio_gap", "cl_na_gap", "cl_raw_eq_q"]
+F2 = feats + ["p"] + new
+params = dict(objective="binary", learning_rate=0.05, num_leaves=127, min_data_in_leaf=100, feature_fraction=0.8, bagging_fraction=0.8, bagging_freq=1, verbose=-1, num_threads=14, seed=1)
+
+def evalp(d, s1ids, t):
+    top = d.sort("p2", descending=True).unique("s23_id", keep="first").filter(pl.col("p2") >= t)
+    return macro_f05(s1ids["s1_id"], top, gt, by=s1ids)
+
+for name, FF in [("base+p", feats + ["p"]), ("cluster", F2)]:
+    for tr, te, s1te in [(va.filter(pl.col("A")), va.filter(~pl.col("A")), s1B), (va.filter(~pl.col("A")), va.filter(pl.col("A")), s1A)]:
+        m = lgb.train(params, lgb.Dataset(tr.select(FF).to_numpy(), tr["label"].to_numpy()), 400)
+        te = te.with_columns(pl.Series("p2", m.predict(te.select(FF).to_numpy(), num_threads=14)))
+        res = {t: evalp(te, s1te, t) for t in (0.6, 0.7, 0.75, 0.8)}
+        print(name, {t: (round(r["f05"], 5), round(r.get("f05_US", 0), 5), round(r.get("f05_India", 0), 5)) for t, r in res.items()}, flush=True)
+    if name == "cluster":
+        print(sorted(zip(FF, m.feature_importance("gain")), key=lambda x: -x[1])[:15])
+# baseline stage-1
+for te, s1te in [(va.filter(~pl.col("A")), s1B), (va.filter(pl.col("A")), s1A)]:
+    r = evalp(te.with_columns(pl.col("p").alias("p2")), s1te, T)
+    print("stage1", round(r["f05"], 5), round(r.get("f05_US", 0), 5), round(r.get("f05_India", 0), 5))
+print("done", time.time() - t0)
+17:TEXT_COLS = ["name_full", "name_core", "name_alt", "legal", "addr_full", "addr_core", "state", "nums",
+18:             "alpha_comps", "addr_empty"]
+21:def load_side(split: str):
+41:def _jacc(a: pl.Series, b: pl.Series, sep: str) -> np.ndarray:
+51:def _num_matrix(nums: pl.Series, k: int = 4) -> np.ndarray:
+60:def _num_feats(n1: pl.Series, n2: pl.Series):
+75:def pair_features(cand: pl.DataFrame, s1: pl.DataFrame, q: pl.DataFrame) -> pl.DataFrame:
+83:    def cp(scorer, c1, c2=None, **kw):
+104:    empty = (A["addr_empty"] == 1).to_numpy() | (B["addr_empty"] == 1).to_numpy()
+106:        v = cp(sc, "addr_core")
+108:    f["ac_tsort"] = np.where(empty, -1, cp(fuzz.token_sort_ratio, "addr_core")).astype(np.float32)
+112:    f["addr_tok_jacc"] = _jacc(A["addr_core"], B["addr_core"], " ")
+113:    f["num_jacc"], f["num_first_eq"], f["num_min_rel"] = _num_feats(A["nums"], B["nums"])
+114:    f["q_addr_empty"] = B["addr_empty"].cast(pl.Float32).to_numpy()
+126:def context_features(df: pl.DataFrame, score: str) -> pl.DataFrame:
+138:def blocking_feats(df: pl.DataFrame) -> pl.DataFrame:
+148:def build_features(cand: pl.DataFrame, split: str, tag: str, chunk: int = 5_000_000) -> None:

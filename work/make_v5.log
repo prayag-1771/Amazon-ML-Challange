@@ -1,0 +1,9 @@
+ML Challenge 2026 â€” submission validator
+  test dir: dataset/test
+  required S1 entities: 1732544
+  valid S2/S3 match IDs: 9969589
+  matching_results.tsv: 1732544 rows (99775 empty, 1632769 non-empty).
+  candidate_pairs.tsv: 1732544 rows (232 empty, 1732312 non-empty).
+
+PASS â€” no blocking issues found. Safe to submit.
+wrote E:\Programming\Amazon-ML-Challenge-2026\dist\v5\Greedy_Decoders_submission.zip (124 MB) and submissions\v5\MANIFEST.txt

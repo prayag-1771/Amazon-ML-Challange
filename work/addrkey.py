@@ -1,0 +1,17 @@
+import sys; sys.path.insert(0, ".")
+import polars as pl
+W="../work/"
+miss=pl.read_parquet(W+"miss_v12.parquet").filter(~pl.col("qe"))
+s1=pl.read_parquet(W+"norm_train_s1.parquet",columns=["entity_id","country","state","nums"]).rename({"entity_id":"s1_id"})
+q=pl.concat([pl.read_parquet(W+f"norm_train_s{i}.parquet",columns=["entity_id","state","nums"]) for i in (2,3)]).rename({"entity_id":"s23_id","state":"sq","nums":"uq"})
+ex=lambda c: pl.col(c).fill_null("").str.split(" ").list.eval(pl.element().filter(pl.element().str.len_chars()>=2)).list.unique()
+k1=s1.select("s1_id","country","state",ex("nums").alias("n")).explode("n").drop_nulls("n")
+bs=k1.group_by("country","state","n").len("bsz")
+print("block size quantiles", bs.group_by("country").agg([pl.col("bsz").quantile(x).alias(str(x)) for x in (.5,.9,.99)]).rows())
+m=miss.join(q,on="s23_id").join(s1.select("s1_id","state"),on="s1_id")
+m=m.with_columns((pl.col("state")==pl.col("sq")).alias("steq"))
+mk=m.filter("steq").select("s1_id","s23_id","country","state",ex("uq").alias("n")).explode("n").drop_nulls("n")
+hit=mk.join(k1,on=["s1_id","country","state","n"]).join(bs,on=["country","state","n"])
+best=hit.group_by("s1_id","s23_id","country").agg(pl.col("bsz").min())
+print("miss nonempty", m.group_by("country").len().rows(), "state eq", m.group_by("country").agg(pl.col("steq").mean()).rows())
+print("key hit", best.group_by("country").agg(pl.len(),(pl.col("bsz")<=50).sum().alias("le50"),(pl.col("bsz")<=200).sum().alias("le200")).rows())

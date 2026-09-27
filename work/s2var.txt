@@ -1,0 +1,5 @@
+v9              CV 0.98950 (US 0.99031 IN 0.98831)  test excess-up [('France', 3798.0, 6632), ('India', 551.0, 56413), ('US', 1686.0, 18076)]  acc [('France', 868076), ('India', 2711000), ('US', 2242450)]
+struct          CV 0.98960 (US 0.99049 IN 0.98826)  test excess-up [('France', 1825.0, 4993), ('India', -506.0, 55911), ('US', -294.0, 17321)]  acc [('France', 867759), ('India', 2711682), ('US', 2243803)]
+struct_sibtok   CV 0.98962 (US 0.99052 IN 0.98828)  test excess-up [('France', 1796.0, 4972), ('India', -527.0, 55899), ('US', -270.0, 17339)]  acc [('France', 867271), ('India', 2711602), ('US', 2243908)]
+struct_sibname  CV 0.98960 (US 0.99052 IN 0.98824)  test excess-up [('France', 1842.0, 4983), ('India', -525.0, 55908), ('US', -255.0, 17335)]  acc [('France', 865930), ('India', 2711433), ('US', 2243836)]
+v10             CV 0.98979 (US 0.99074 IN 0.98837)  test excess-up [('France', 10584.0, 13602), ('India', 1950.0, 58509), ('US', 33609.0, 51138)]  acc [('France', 874385), ('India', 2715905), ('US', 2282399)]

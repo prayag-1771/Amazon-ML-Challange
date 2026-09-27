@@ -1,0 +1,30 @@
+  features train: 5,000,000/10,765,020 104s
+  features train: 10,000,000/10,765,020 91s
+  features train: 10,765,020/10,765,020 22s
+  features train: 2,317,419/2,317,419 55s
+train pairs 10,765,020 (pos 0.618), valid pairs 2,317,419, 70 feats
+[100]	train's binary_logloss: 0.0176287	valid's binary_logloss: 0.0405789
+[200]	train's binary_logloss: 0.0160708	valid's binary_logloss: 0.0393222
+[300]	train's binary_logloss: 0.0152923	valid's binary_logloss: 0.0390663
+[400]	train's binary_logloss: 0.0146603	valid's binary_logloss: 0.0389246
+[500]	train's binary_logloss: 0.014109	valid's binary_logloss: 0.038873
+[600]	train's binary_logloss: 0.0136103	valid's binary_logloss: 0.0388269
+[700]	train's binary_logloss: 0.0131644	valid's binary_logloss: 0.0388133
+  t=0.20 f05=0.9841 P=0.9901 R=0.9759 single=0.9716
+  t=0.25 f05=0.9851 P=0.9914 R=0.9755 single=0.9759
+  t=0.30 f05=0.9860 P=0.9927 R=0.9750 single=0.9799
+  t=0.35 f05=0.9868 P=0.9938 R=0.9744 single=0.9827
+  t=0.40 f05=0.9874 P=0.9948 R=0.9738 single=0.9852
+  t=0.45 f05=0.9880 P=0.9957 R=0.9732 single=0.9877
+  t=0.50 f05=0.9885 P=0.9965 R=0.9725 single=0.9902
+  t=0.55 f05=0.9890 P=0.9973 R=0.9718 single=0.9920
+  t=0.60 f05=0.9892 P=0.9978 R=0.9711 single=0.9935
+  t=0.65 f05=0.9892 P=0.9982 R=0.9705 single=0.9940
+  t=0.70 f05=0.9893 P=0.9984 R=0.9699 single=0.9949
+  t=0.75 f05=0.9892 P=0.9987 R=0.9693 single=0.9956
+  t=0.80 f05=0.9892 P=0.9989 R=0.9686 single=0.9965
+  t=0.85 f05=0.9891 P=0.9992 R=0.9676 single=0.9972
+  t=0.90 f05=0.9888 P=0.9994 R=0.9663 single=0.9976
+  t=0.95 f05=0.9880 P=0.9995 R=0.9636 single=0.9981
+VALID 0.7 {'f05': 0.9892701144045386, 'precision_micro': 0.998434577484366, 'recall_micro': 0.9699466948443715, 'singleton_acc': 0.9949230397292288, 'f05_US': 0.9900449221996186, 'f05_India': 0.9881134894682391}
+top features: [('ce_logit', 60073628), ('p0', 7250514), ('ce_qrank', 885416), ('xq_krelmin', 549770), ('xq_fmax', 472165), ('ce_gap_best', 381073), ('num_min_rel', 363852), ('q_ncand', 299819), ('ce_gap_2nd', 283948), ('xq_n', 256637), ('xq_relmin', 245713), ('p0_gap_best', 223471), ('p0_qrank', 166305), ('addr_tok_jacc', 154116), ('xq_kfmin', 143712), ('num_jacc', 121104), ('p0_s1_gap_best', 92868), ('s1_name_cnt', 78582), ('p0_gap_2nd', 54772), ('xq_rmean', 53415)]

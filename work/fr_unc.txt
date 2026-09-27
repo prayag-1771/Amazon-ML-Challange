@@ -1,0 +1,72 @@
+S2-124209405  p=0.182
+   Q : sama groupe sarl | 17 RUE GIGANT, NANTES, Loire-Atlantique
+   S1: Sama Sportive SARL | Nantes, 17 RUE Gigant, Pays de la Loire
+S2-124209405  p=0.000
+   Q : sama groupe sarl | 17 RUE GIGANT, NANTES, Loire-Atlantique
+   S1: Nantes Club SAS | 17 RUE de Gigant, Nantes, Pays de la Loire
+S2-124236534  p=0.521
+   Q : Pluridisciplinaire Club SARL | 
+   S1: Pluridisciplinaire Club SARL | Nantes, 3 Rue Pierre Chéreau, Pays de la Loire
+S2-124236534  p=0.443
+   Q : Pluridisciplinaire Club SARL | 
+   S1: Pluridisciplinaire Club SARL | 27 Boulevard de Metz, Lille, Hauts-de-France
+S2-168279567  p=0.111
+   Q : centre médical vertical sarl | 244 RUE DU JARDIN DES PLANTES, LILLE, Hauts-de-France
+   S1: Centre Médical Vertical | 239 RUE du Jardin des Plantes, Lille, Hauts-de-France
+S2-168882269  p=0.198
+   Q : Experts SARL  Groupe | 32 RUE BRASSEUR, LILLE, Nord
+   S1: Experts Clinique SARL | 32 Rue Brasseur, Lille, Hauts-de-France
+S2-185125961  p=0.163
+   Q : Anciens de la Ptits | 113 R PIERRE LÉOSTIC, DUNKERQUE, Hauts-de-France
+   S1: Pharmacie de la Ptits | 113 Rue Pierre Léostic, Dunkerque, Hauts-de-France
+S2-262728630  p=0.254
+   Q : Jeunesse Chasse Culturelle SARL | 2 TER RUE BETHMANN, BAT. B - APPT. 114, BORDEAUX, Nouvelle-Aquitaine
+   S1: Jeunesse Chasse Service SARL | 2 Ter RUE Bethmann, Bat. B - Appt. 114, Bordeaux, Nouvelle-Aquitaine
+S2-554177986  p=0.539
+   Q : Reflexion Pharccie SA | 
+   S1: Reflexion Pharmacie SA | Nouvelle-Aquitaine, Bordeaux, 19 RUE des Douves
+S2-554177986  p=0.074
+   Q : Reflexion Pharccie SA | 
+   S1: Reflexion Pharmacie SAS | 33 COUR2 Aristide Briand, Bordeaux, Nouvelle-Aquitaine
+S2-582998174  p=0.400
+   Q : Xylozeta | 37 AVENUE DE MADAN, Pessac
+   S1: XG Club SARL | 37 Avenue de Madran, Pessac, Nouvelle-Aquitaine
+S2-582998174  p=0.177
+   Q : Xylozeta | 37 AVENUE DE MADAN, Pessac
+   S1: Pessac Federation SAS | 37 Avenue de Madran, Pessac, Nouvelle-Aquitaine
+S2-649933908  p=0.337
+   Q : Vent  Ecole | 
+   S1: Vent Ecole | 14 Boulevard de Ladonne, Pessac, Nouvelle-Aquitaine
+S2-649933908  p=0.186
+   Q : Vent  Ecole | 
+   S1: Vent Ecole EURL | 200 Cours Saint-Louis, Bordeaux, Nouvelle-Aquitaine
+S3-100687821  p=0.712
+   Q : Mutual Phare Fetes E.U.R.L. | # 117 R Des Vivants, Bordeaux
+   S1: Mutual Phare Sport EURL | 117 Rue des Vivants, Bordeaux, Nouvelle-Aquitaine
+S3-341092019  p=0.437
+   Q : Services dû St | 47 Rue Léonard De Vinci, Saint-nazaire
+   S1: École primaire du St | 44 Rue Léonard de Vinci, Saint-Nazaire, Pays de la Loire
+S3-341092019  p=0.000
+   Q : Services dû St | 47 Rue Léonard De Vinci, Saint-nazaire
+   S1: Saint-Nazaire Club SAS | 24 Rue Léonard de Vinci, Saint-Nazaire, Pays de la Loire
+S3-654687973  p=0.183
+   Q : Calobrix | (2) R. Dauzats, Bordeaux
+   S1: Contact Club SAS | 2 Rue Dauzats, Bordeaux, Nouvelle-Aquitaine
+S3-654687973  p=0.010
+   Q : Calobrix | (2) R. Dauzats, Bordeaux
+   S1: Bordeaux Lycee SARL | 42 Rue Dauzats, Bordeaux, Nouvelle-Aquitaine
+S3-745919564  p=0.108
+   Q : Kelokelo | R Des Retaillons, Bordeaux, Nouvelle-Aquitaine
+   S1: Bordeaux Groupement SARL | 54 RUE des retaillons, Bordeaux, Nouvelle-Aquitaine
+S3-745919564  p=0.091
+   Q : Kelokelo | R Des Retaillons, Bordeaux, Nouvelle-Aquitaine
+   S1: Bordeaux Soins SARL | 3 Rue des Retaillons, Nouvelle-Aquitaine, Bordeaux
+S3-862656536  p=0.703
+   Q : Wexvantage | 3 bis Allee des Pingouins, Lège-Cap-Ferret, Nouvelle-Aquitaine
+   S1: Artisanat Ecole | 3 bis Allee des Pingouins, Lège-Cap-Ferret, Nouvelle-Aquitaine
+S3-862656536  p=0.126
+   Q : Wexvantage | 3 bis Allee des Pingouins, Lège-Cap-Ferret, Nouvelle-Aquitaine
+   S1: OSB Institut SA | 3 Allée Pingouins Cap Ferret, Lège-Cap-Ferret, Nouvelle-Aquitaine
+S3-950960299  p=0.644
+   Q : Groupe Scolaire & SARL | 11 R. De Tillay, Saint-Herblain
+   S1: Scolaire & Frères SARL | 11 Rue de Tillay, Saint-Herblain, Pays de la Loire

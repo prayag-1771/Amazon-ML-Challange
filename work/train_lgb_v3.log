@@ -1,0 +1,25 @@
+  features train: 5,000,000/5,384,873 40s
+  features train: 5,384,873/5,384,873 3s
+  features train: 2,317,419/2,317,419 17s
+train pairs 5,384,873 (pos 0.618), valid pairs 2,317,419, 52 feats
+[100]	train's binary_logloss: 0.0187854	valid's binary_logloss: 0.0426929
+[200]	train's binary_logloss: 0.017	valid's binary_logloss: 0.0418505
+[300]	train's binary_logloss: 0.0158519	valid's binary_logloss: 0.0416729
+  t=0.20 f05=0.9831 P=0.9890 R=0.9754 single=0.9687
+  t=0.25 f05=0.9841 P=0.9904 R=0.9750 single=0.9730
+  t=0.30 f05=0.9851 P=0.9917 R=0.9745 single=0.9768
+  t=0.35 f05=0.9859 P=0.9929 R=0.9739 single=0.9806
+  t=0.40 f05=0.9866 P=0.9941 R=0.9732 single=0.9834
+  t=0.45 f05=0.9872 P=0.9951 R=0.9725 single=0.9859
+  t=0.50 f05=0.9877 P=0.9960 R=0.9717 single=0.9875
+  t=0.55 f05=0.9881 P=0.9967 R=0.9709 single=0.9890
+  t=0.60 f05=0.9883 P=0.9972 R=0.9702 single=0.9903
+  t=0.65 f05=0.9884 P=0.9976 R=0.9696 single=0.9921
+  t=0.70 f05=0.9885 P=0.9980 R=0.9690 single=0.9931
+  t=0.75 f05=0.9885 P=0.9983 R=0.9683 single=0.9940
+  t=0.80 f05=0.9884 P=0.9986 R=0.9674 single=0.9946
+  t=0.85 f05=0.9882 P=0.9988 R=0.9662 single=0.9957
+  t=0.90 f05=0.9879 P=0.9991 R=0.9644 single=0.9972
+  t=0.95 f05=0.9868 P=0.9994 R=0.9609 single=0.9979
+VALID 0.75 {'f05': 0.9885111886508651, 'precision_micro': 0.9982821097476418, 'recall_micro': 0.9682895940889747, 'singleton_acc': 0.9940365863486179, 'f05_India': 0.9874003470079618, 'f05_US': 0.9892553268213364}
+top features: [('ce_logit', 30095397), ('p0', 4067397), ('ce_qrank', 341781), ('ce_gap_best', 260893), ('num_min_rel', 250670), ('num_jacc', 213684), ('nf_ratio', 161230), ('ce_gap_2nd', 114484), ('q_nums_n', 89623), ('p0_gap_best', 87728), ('s1_nums_n', 57575), ('num_first_eq', 57089), ('p0_qrank', 55464), ('p0_s1_gap_best', 42142), ('s1_name_cnt', 41823), ('p0_gap_2nd', 39454), ('q_ncand', 36706), ('legal_eq', 33567), ('ac_tset', 28156), ('s1_nq', 27597)]

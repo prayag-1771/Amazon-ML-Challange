@@ -1,0 +1,97 @@
+E:\Programming\Amazon-ML-Challenge-2026\work\v10\addtok.py:14: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  x=d.filter(pl.col("country")==country).explode("add").filter(pl.col("add").is_not_null())
+E:\Programming\Amazon-ML-Challenge-2026\work\v10\addtok.py:21: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  x=t.filter(pl.col("country")==c).explode("add").filter(pl.col("add").is_not_null())
+US ADDED tokens (val)
+shape: (20, 4)
+┌─────────────┬───────┬──────────┬──────────┐
+│ add         ┆ len   ┆ acc      ┆ y        │
+│ ---         ┆ ---   ┆ ---      ┆ ---      │
+│ str         ┆ u32   ┆ f64      ┆ f64      │
+╞═════════════╪═══════╪══════════╪══════════╡
+│ center      ┆ 17142 ┆ 0.815891 ┆ 0.845292 │
+│ services    ┆ 12376 ┆ 0.812783 ┆ 0.843164 │
+│ service     ┆ 6052  ┆ 0.793787 ┆ 0.825677 │
+│ partners    ┆ 4855  ┆ 0.762307 ┆ 0.797734 │
+│ enterprises ┆ 4091  ┆ 0.000978 ┆ 0.058665 │
+│ …           ┆ …     ┆ …        ┆ …        │
+│ trust       ┆ 292   ┆ 0.712329 ┆ 0.743151 │
+│ district    ┆ 284   ┆ 0.704225 ┆ 0.753521 │
+│ association ┆ 272   ┆ 0.6875   ┆ 0.727941 │
+│ society     ┆ 271   ┆ 0.712177 ┆ 0.749077 │
+│ foundation  ┆ 266   ┆ 0.744361 ┆ 0.774436 │
+└─────────────┴───────┴──────────┴──────────┘
+India ADDED tokens (val)
+shape: (20, 4)
+┌───────────┬───────┬──────────┬──────────┐
+│ add       ┆ len   ┆ acc      ┆ y        │
+│ ---       ┆ ---   ┆ ---      ┆ ---      │
+│ str       ┆ u32   ┆ f64      ┆ f64      │
+╞═══════════╪═══════╪══════════╪══════════╡
+│ center    ┆ 13015 ┆ 0.831502 ┆ 0.856012 │
+│ services  ┆ 8831  ┆ 0.85868  ┆ 0.881101 │
+│ service   ┆ 4467  ┆ 0.864115 ┆ 0.881352 │
+│ praibhet  ┆ 4323  ┆ 0.965071 ┆ 0.968078 │
+│ partners  ┆ 3515  ┆ 0.815078 ┆ 0.844097 │
+│ …         ┆ …     ┆ …        ┆ …        │
+│ prodyusr  ┆ 1387  ┆ 0.968998 ┆ 0.97044  │
+│ estet     ┆ 1385  ┆ 0.986282 ┆ 0.988448 │
+│ imtrnesnl ┆ 1316  ┆ 0.987082 ┆ 0.988602 │
+│ tredimg   ┆ 1313  ┆ 0.988576 ┆ 0.985529 │
+│ prodkts   ┆ 1276  ┆ 0.979624 ┆ 0.980408 │
+└───────────┴───────┴──────────┴──────────┘
+France ADDED tokens (test)
+shape: (20, 3)
+┌─────────────┬───────┬──────────┐
+│ add         ┆ len   ┆ acc      │
+│ ---         ┆ ---   ┆ ---      │
+│ str         ┆ u32   ┆ f64      │
+╞═════════════╪═══════╪══════════╡
+│ fils        ┆ 14941 ┆ 0.886955 │
+│ services    ┆ 9568  ┆ 0.844691 │
+│ france      ┆ 7907  ┆ 0.687492 │
+│ associes    ┆ 7765  ┆ 0.789697 │
+│ groupe      ┆ 7390  ┆ 0.245332 │
+│ …           ┆ …     ┆ …        │
+│ centre      ┆ 1447  ┆ 0.419489 │
+│ service     ┆ 1330  ┆ 0.35188  │
+│ sante       ┆ 1226  ┆ 0.433931 │
+│ enterprises ┆ 1167  ┆ 0.000857 │
+│ parents     ┆ 1158  ┆ 0.346287 │
+└─────────────┴───────┴──────────┘
+US test shape: (12, 3)
+┌──────────┬───────┬──────────┐
+│ add      ┆ len   ┆ acc      │
+│ ---      ┆ ---   ┆ ---      │
+│ str      ┆ u32   ┆ f64      │
+╞══════════╪═══════╪══════════╡
+│ center   ┆ 70630 ┆ 0.945774 │
+│ services ┆ 51397 ┆ 0.941242 │
+│ service  ┆ 24878 ┆ 0.937053 │
+│ partners ┆ 20630 ┆ 0.851333 │
+│ id       ┆ 8996  ┆ 0.906292 │
+│ …        ┆ …     ┆ …        │
+│ lnc      ┆ 2944  ┆ 0.961957 │
+│ nee      ┆ 2745  ┆ 1.0      │
+│ labs     ┆ 2148  ┆ 0.99162  │
+│ one      ┆ 2132  ┆ 0.990619 │
+│ sys      ┆ 2112  ┆ 0.992898 │
+└──────────┴───────┴──────────┘
+India test shape: (12, 3)
+┌──────────┬───────┬──────────┐
+│ add      ┆ len   ┆ acc      │
+│ ---      ┆ ---   ┆ ---      │
+│ str      ┆ u32   ┆ f64      │
+╞══════════╪═══════╪══════════╡
+│ center   ┆ 89980 ┆ 0.946066 │
+│ services ┆ 63421 ┆ 0.942196 │
+│ service  ┆ 31300 ┆ 0.948211 │
+│ praibhet ┆ 29039 ┆ 0.988223 │
+│ partners ┆ 24598 ┆ 0.941581 │
+│ …        ┆ …     ┆ …        │
+│ tek      ┆ 15017 ┆ 0.989479 │
+│ praivrr  ┆ 14588 ┆ 0.992254 │
+│ globl    ┆ 12992 ┆ 0.98907  │
+│ lksmi    ┆ 10425 ┆ 0.987242 │
+│ aiti     ┆ 9924  ┆ 0.988513 │
+└──────────┴───────┴──────────┘

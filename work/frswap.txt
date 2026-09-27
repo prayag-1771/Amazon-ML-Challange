@@ -1,0 +1,79 @@
+shape: (12, 16)
+┌─────────┬───────────────┬────────┬───────────┬───┬──────────────┬───────┬──────────┬───────┐
+│ country ┆ band          ┆ len    ┆ nc_tset   ┆ … ┆ q_name_in_s1 ┆ p0    ┆ legal_eq ┆ src   │
+│ ---     ┆ ---           ┆ ---    ┆ ---       ┆   ┆ ---          ┆ ---   ┆ ---      ┆ ---   │
+│ str     ┆ enum          ┆ u32    ┆ f32       ┆   ┆ f32          ┆ f32   ┆ f32      ┆ f32   │
+╞═════════╪═══════════════╪════════╪═══════════╪═══╪══════════════╪═══════╪══════════╪═══════╡
+│ France  ┆ (-inf, 0.1]   ┆ 13031  ┆ 63.021999 ┆ … ┆ 0.462        ┆ 0.699 ┆ -0.089   ┆ 2.494 │
+│ France  ┆ (0.1, 0.75]   ┆ 12538  ┆ 67.904999 ┆ … ┆ 0.607        ┆ 0.854 ┆ 0.248    ┆ 2.504 │
+│ France  ┆ (0.75, 0.999] ┆ 41818  ┆ 52.831001 ┆ … ┆ 0.427        ┆ 0.73  ┆ -0.175   ┆ 2.55  │
+│ France  ┆ (0.999, inf]  ┆ 57008  ┆ 76.240997 ┆ … ┆ 0.113        ┆ 0.966 ┆ -0.366   ┆ 2.515 │
+│ India   ┆ (-inf, 0.1]   ┆ 3032   ┆ 76.244003 ┆ … ┆ 0.153        ┆ 0.903 ┆ 0.379    ┆ 2.507 │
+│ India   ┆ (0.1, 0.75]   ┆ 806    ┆ 57.75     ┆ … ┆ 0.067        ┆ 0.738 ┆ -0.174   ┆ 2.593 │
+│ India   ┆ (0.75, 0.999] ┆ 14733  ┆ 40.511002 ┆ … ┆ 0.094        ┆ 0.852 ┆ -0.648   ┆ 2.717 │
+│ India   ┆ (0.999, inf]  ┆ 256618 ┆ 72.989998 ┆ … ┆ 0.108        ┆ 0.959 ┆ 0.244    ┆ 2.486 │
+│ US      ┆ (-inf, 0.1]   ┆ 14690  ┆ 73.782997 ┆ … ┆ 0.03         ┆ 0.834 ┆ -0.132   ┆ 2.531 │
+│ US      ┆ (0.1, 0.75]   ┆ 1096   ┆ 81.171997 ┆ … ┆ 0.085        ┆ 0.909 ┆ -0.225   ┆ 2.534 │
+│ US      ┆ (0.75, 0.999] ┆ 22939  ┆ 57.214001 ┆ … ┆ 0.225        ┆ 0.898 ┆ -0.611   ┆ 2.54  │
+│ US      ┆ (0.999, inf]  ┆ 213674 ┆ 80.393997 ┆ … ┆ 0.052        ┆ 0.968 ┆ -0.184   ┆ 2.537 │
+└─────────┴───────────────┴────────┴───────────┴───┴──────────────┴───────┴──────────┴───────┘
+== France band (-inf, 0.1] 13031
+  xq: [('developpement', 1469), ('groupe', 1135), ('sas', 695), ('club', 586), ('sportive', 508), ('sarl', 493), ('france', 417), ('and', 408), ('pharmacie', 384), ('sa', 346), ('union', 346), ('eurl', 311)]
+  x1: [('sarl', 1245), ('sas', 976), ('club', 828), ('ecole', 802), ('centre', 646), ('amicale', 558), ('pharmacie', 503), ('comite', 495), ('primaire', 465), ('sportive', 422), ('sante', 381), ('france', 377)]
+   p=0.000 S1: EHPAD Sainte | 4182 Rue Mollien, Calais, Hauts-de-France
+            Q: Sportif Sainte | 4182 R Mollien, Calais
+   p=0.037 S1: TGJ Service SARL | 28 Rue Marsan, Bordeaux, Nouvelle-Aquitaine
+            Q: TGJ SARL Développement | 28 R Marsan, Bordeaux
+   p=0.003 S1: SCJ Batiment SARL | 19 Rue Gustave Testelin, Lille, Hauts-de-France
+            Q: SCJK  Batiment | 19 R. GUSTAVE TESTELIN, LILLE, Nord
+   p=0.025 S1: KLW College SARL | 14 Impasse Albert Barbary, Dunkerque, Hauts-de-France
+            Q: KGLW çollege SARL | 14 Imp Albert Barbary, Dunkerque
+   p=0.049 S1: Hainaut Lavandieres Jeunes SAS | 6 Allée James Watt, Mérignac, Nouvelle-Aquitaine
+            Q: Hainaut Lavandieres Pharmacie Sas | 6 ALLÉE JAMES WATT, MÉRIGNAC
+   p=0.000 S1: Dojo Ehpad SAS | 5 Place du Martray, Nantes, Pays de la Loire
+            Q: Croisiere Distribution SCI | 5 Place Du Martray, Nantes, Loire-Atlantique
+== France band (0.1, 0.75] 12538
+  xq: [('groupe', 1912), ('developpement', 1410), ('club', 729), ('and', 727), ('france', 624), ('associes', 462), ('sportive', 375), ('fils', 358), ('parents', 305), ('ecole', 271), ('union', 269), ('amicale', 251)]
+  x1: [('ecole', 867), ('club', 821), ('amicale', 631), ('comite', 619), ('sarl', 609), ('sas', 580), ('sportive', 525), ('centre', 488), ('amis', 406), ('france', 380), ('primaire', 372), ('college', 321)]
+   p=0.745 S1: Toques (France) Club SASU | 18 Rue des Champs, Tourcoing, Hauts-de-France
+            Q: Toques (France) Foyer S.A.S.U. | 18 Rue Des Champs, Hauts-de-France, Tourcoing
+   p=0.112 S1: Organisations Memoire Sportive SARL | 14 Avenue Haïtza Pyla, La Teste-de-Buch, Nouvelle-Aquitaine
+            Q: Organisations Memoire SARL Développement | No 14 Avenue Haitza Pyla, La Teste-de-buch
+   p=0.747 S1: Bordeaux Residence SASU | 12 Rue de la Tour d'Auvergne, Bordeaux, Nouvelle-Aquitaine
+            Q: Bordeaux Comite SASU | 12 R DE LA TOUR D'AUVERGNE, BORDEAUX
+   p=0.133 S1: Psy Maternelle | 56 Boulevard Louis Lignon Pyla, La Teste-de-Buch, Nouvelle-Aquitaine
+            Q: Psy Elementaire | 56 Boulevard Louis Lignon Pyla, La Teste-de-buch, Gironde
+   p=0.747 S1: Roubaix Service SAS | 134 Boulevard de Reims, Roubaix, Hauts-de-France
+            Q: Roubaix Ecole SAS | 134 BOULEVARD DE REIMS, ROUBAIX, Nord
+   p=0.552 S1: Cp Union SAS | La Teste-de-Buch, Nouvelle-Aquitaine, 3 x Rue Guynemer
+            Q: CU | La Teste-de-Buch, 3 X Rue Guynemer
+== France band (0.75, 0.999] 41818
+  xq: [('fils', 5324), ('and', 4392), ('et', 3497), ('associes', 2350), ('france', 2174), ('co', 1148), ('club', 970), ('comite', 938), ('amicale', 921), ('ecole', 887), ('groupe', 620), ('amis', 543)]
+  x1: [('sarl', 5516), ('sas', 4840), ('club', 4286), ('ecole', 2679), ('france', 2257), ('amicale', 2190), ('comite', 2017), ('and', 1487), ('centre', 1474), ('sportive', 1407), ('de', 1393), ('amis', 1369)]
+   p=0.996 S1: Nantes Club SARL | 17 Rue de la Verrerie, Nantes, Pays de la Loire
+            Q: Quoyumaaria | 17 Rue De La Verrerie, Pays de la Loire, Nantes
+   p=0.992 S1: Club du Aide | 19 Square Floréal Pyla, La Teste-de-Buch, Nouvelle-Aquitaine
+            Q: CA | 19 Square Floreal Pyla, La Teste-de-Buch
+   p=0.969 S1: Duo Travaux SARL | 37 bis Cite de Verdun, La Teste-de-Buch, Nouvelle-Aquitaine
+            Q: Dovadelta | 37 BIS CITE DE VERDUN, La Teste-de-Buch
+   p=0.977 S1: Clinique Andre | 16 Rue Albert Calmette, Nantes, Pays de la Loire
+            Q: Orbiiri | 16 Rue Albert Calmette, Nantes, Pays de la Loire
+   p=0.922 S1: Association de Plein | 13 Rue Paul Lafargue, Dunkerque, Hauts-de-France
+            Q: Lumvioquo | 13 R PAUL LAFARGUE, Dunkerque, Hauts-de-France
+   p=0.978 S1: Fce Club EURL | 2 Avenue des Roses, Pessac, Nouvelle-Aquitaine
+            Q: Fce EURL France | 2 Av Des Roses, Pessac, Gironde
+== France band (0.999, inf] 57008
+  xq: [('services', 3047), ('co', 2462), ('et', 1044), ('fils', 449), ('frs', 409), ('st', 231), ('5arl', 219), ('and', 203), ('associes', 189), ('5as', 141), ('cb', 126), ('maisondesant', 124)]
+  x1: [('sarl', 8570), ('sas', 7205), ('club', 4465), ('france', 3140), ('amicale', 2718), ('and', 2635), ('ecole', 2604), ('comite', 2561), ('de', 2057), ('eurl', 1925), ('centre', 1805), ('sportive', 1749)]
+   p=1.000 S1: Bernay & Fils EURL | 55 Rue de la Benauge, Bordeaux, Nouvelle-Aquitaine
+            Q: filsbernay.com | 55 R. De La Benauge, Bordeaux, Gironde
+   p=1.000 S1: FU Comite SASU | 2 Avenue Henri Guérin, Lège-Cap-Ferret, Nouvelle-Aquitaine
+            Q: Cie FU SASU | 2 Av Henri Guérin, Lège-Cap-Ferret
+   p=1.000 S1: Coups & Cie SARL | 149 Rue des Orangers, Bordeaux, Nouvelle-Aquitaine
+            Q: COUPSCIESARL.COM | 149 R DES ORANGERS, BORDEAUX, Gironde
+   p=1.000 S1: Trois Compagnie SARL | 4 Rue des Palmiers, Pessac, Nouvelle-Aquitaine
+            Q: SARL Trois Cogaie | 4 Rue Des Palmiers, Pessac, Gironde
+   p=1.000 S1: Eleves Cie EI | RUE de la Grande Chaussee, 4 - Appartement 25 Immeuble 33, Lille, Hauts-de-France
+            Q: elevescieei.com | RUE DE LA GRANDE CHAUSSEE, 4 - APPARTEMENT 25 IMMEUBLE 33, LILLE, Hauts-de-France
+   p=1.000 S1: VJ Primaire SAS | 3 RUE de Quebec, apprt.1, Nantes, Pays de la Loire
+            Q: vjprimairesas.com | 3 R De Quebec, Apprt.1, Nantes, Loire-Atlantique

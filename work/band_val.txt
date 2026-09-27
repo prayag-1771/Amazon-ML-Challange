@@ -1,0 +1,50 @@
+p=0.996 y=1  S1: Best Packaging Global | NY, Hamburg, 4681 Lake Avenue
+              Q : Best Páckaging Global | 
+p=0.986 y=1  S1: Pacific Apex Solution | 5548 Farm Road 94, Springfield, MO
+              Q : pacific apex solution | 
+p=0.998 y=1  S1: Colonial Custom Trading | 418 Bradford Lane, Huntsville, AL
+              Q : colonial custom trading trading | Alabama, 41 Bradford Lane, Huntsville
+p=0.974 y=1  S1: Luna Pacific Insurance LLC | 45 Queens Way, Unit 5, Framingham, MA
+              Q : Caloecto | ##45 QUEENS WAY, FRAMINGHAM, MA
+p=0.999 y=1  S1: Arnold Comstock PLLC | 6254 5100, Hooper, UT
+              Q : Drexveo | 6254 5100, HOOPER, UT
+p=0.998 y=1  S1: Raye Burd Argentina | 50 B John F Kennedy Airport, Rosedale, NY
+              Q : raye burd burd argentina | 
+p=0.999 y=1  S1: Elite Freight Technologies LLC | 156 Smith Lane, Houma, LA
+              Q : Elite-Freight Technologies-LLC | 
+p=0.974 y=1  S1: Degraffenreid Capital Inc. | OH, Ashtabula, 3410 Ridge Road
+              Q : Degraffenreid Capitfl Inc. | 
+p=0.926 y=1  S1: Alina Jones Certified Commodity Corp | 3802 Green Road, Saint Louis, MO
+              Q : Alina Jones Certified Commodity Corp. | 
+p=0.993 y=1  S1: Pacific Advanced Cell, Inc | 8516 Northland Drive, Roanoke County, VA
+              Q : Pacific Advanced Cell, | 
+p=0.996 y=1  S1: Aggy Becker Keystone Plus | 107 Serra Court, CA, Santa Cruz
+              Q : kbaggy.com | 10 SERRA CT, SANTA CRUZ, CA
+p=0.977 y=1  S1: Farmer Renewable LLC | 11 Webster Street, Westbrook, ME
+              Q : Farmer Redsenwbale LLC | 
+p=0.998 y=1  S1: Firefighters Local Union 528 | 708 Maryknoll Drive, Lockport, IL
+              Q : Firefighters Local Union 528 Ltd | 708 Maryknoll Dr, Lockport, Illinois
+p=0.996 y=1  S1: Tyree Marine | 183 Kimberly Road, Hohenwald, TN
+              Q : TYREE MARlNE | 
+p=0.998 y=1  S1: Sivue | MA, 1109 Boylston Street, Unit 005, Boston
+              Q : Scie | 1109 Boylston St, Boston, Massachusetts
+p=0.967 y=1  S1: Floris J. Mckinney, Esq., DDS PC | 466 Unclemier Road, Ohio, NY
+              Q : Floris J. Mckinney, Esq., PC Partners | 0466 UNCLEMIER ROAD, NY, OHIO
+p=0.924 y=1  S1: Viify Corp | 1817 Pocahontas Trail, Lebanon, TN
+              Q : Viarty Corp | Tennessee, Lebanon, ##2147 Pocahontas Trl
+p=0.999 y=1  S1: Seymour, Marinello and Gill LLC | 92 Flatbush Avenue, Hartford, CT
+              Q : Seymour, Marinello ánd Gill LLC | 147 FLATBUSH AVENUE, HARTFROD, CT
+p=0.997 y=1  S1: York Long Inc | 25 Water Pointe Way, Weaverville, NC
+              Q : York  Long Inc | 
+p=0.990 y=1  S1: Lee, Pitcher and Hartsfield Uranium Inc | 211 Stokes Street, Unit D202, Durham, NC
+              Q : DELTAMIRA | DURHAM, #211 STOKES ST, NC
+p=0.999 y=1  S1: Chandler Best Bakery | 249 Daisey Circle, Maryville, TN
+              Q : Chandler Best Bákery | 
+p=0.993 y=1  S1: Slate | 3217 Glenridge Drive, Raleigh, NC
+              Q : Shlame (ID: 41331) | 3217-3219 Glenridge Drive, Raleigh, North Carolina
+p=0.993 y=1  S1: Leonore's Premier Associates PC | 405 5th Street, Red Rock, OK
+              Q : LLC Leonore'S Premier Associates | 00405 Fifth St, Red Rock, Oklahoma
+p=0.997 y=1  S1: Vision Midwest Medicine, LLC | 25646 Rose Lane, Monee, IL
+              Q : Vision  Midwest Medicine, LLC | 
+p=0.988 y=1  S1: Maisey S. Johnson, Esq. | 271 Olive Street, San Bernardino, CA
+              Q : MAISEY JOHNSON, ESQ. PARTNERS | OLIVE ST, PO BOX 8678, SAN BERNARDINO, CA

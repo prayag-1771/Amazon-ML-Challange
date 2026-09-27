@@ -1,0 +1,70 @@
+train shape: (5, 4)
+┌─────────┬────────────┬───────┬───────┐
+│ country ┆ kind       ┆ len   ┆ share │
+│ ---     ┆ ---        ┆ ---   ┆ ---   │
+│ str     ┆ str        ┆ u32   ┆ f64   │
+╞═════════╪════════════╪═══════╪═══════╡
+│ India   ┆ disjoint   ┆ 27564 ┆ 0.976 │
+│ India   ┆ share_word ┆ 690   ┆ 0.024 │
+│ US      ┆ disjoint   ┆ 42559 ┆ 0.989 │
+│ US      ┆ identical  ┆ 1     ┆ 0.0   │
+│ US      ┆ share_word ┆ 492   ┆ 0.011 │
+└─────────┴────────────┴───────┴───────┘
+test shape: (8, 4)
+┌─────────┬────────────┬───────┬───────┐
+│ country ┆ kind       ┆ len   ┆ share │
+│ ---     ┆ ---        ┆ ---   ┆ ---   │
+│ str     ┆ str        ┆ u32   ┆ f64   │
+╞═════════╪════════════╪═══════╪═══════╡
+│ France  ┆ disjoint   ┆ 15217 ┆ 0.947 │
+│ France  ┆ identical  ┆ 7     ┆ 0.0   │
+│ France  ┆ share_word ┆ 845   ┆ 0.053 │
+│ India   ┆ disjoint   ┆ 25660 ┆ 0.978 │
+│ India   ┆ share_word ┆ 590   ┆ 0.022 │
+│ US      ┆ disjoint   ┆ 20502 ┆ 0.99  │
+│ US      ┆ identical  ┆ 1     ┆ 0.0   │
+│ US      ┆ share_word ┆ 198   ┆ 0.01  │
+└─────────┴────────────┴───────┴───────┘
+shape: (25, 3)
+┌─────────────────────────────────┬─────────────────────────────┬──────────────────────────────────┐
+│ name_full                       ┆ name_full_right             ┆ addr_full                        │
+│ ---                             ┆ ---                         ┆ ---                              │
+│ str                             ┆ str                         ┆ str                              │
+╞═════════════════════════════════╪═════════════════════════════╪══════════════════════════════════╡
+│ lille sportive sarl             ┆ lille college sas           ┆ 2 rue des urbanistes lille       │
+│ clinique sainte marie           ┆ ehpad saint sainte          ┆ 9 rue emile fourcand bordeaux    │
+│ lille club sarl                 ┆ yt club sarl                ┆ 52 rue du 8 mai 1945 lille       │
+│ nantes ecole                    ┆ judo chateau ecole          ┆ 4 rue du roi albert nantes       │
+│ club des financement            ┆ chasse club sarl            ┆ 15 rue ronsard dunkerque         │
+│ pessac union sarl               ┆ pessac amis sarl            ┆ 25 terrace rue de la fon de      │
+│                                 ┆                             ┆ madran pessac                    │
+│ je union sarl                   ┆ union de eanm               ┆ 3 avenue du docteur roger        │
+│                                 ┆                             ┆ daignas merignac                 │
+│ quentin france parents sarl     ┆ killer amis france sas      ┆ 10 rue gaetan rondeau nantes     │
+│ maison cigares sas              ┆ maison de sante psallette   ┆ 51 rue jules guesde lille        │
+│ union de arts                   ┆ lencre union sarl           ┆ 125 rue des postes lille         │
+│ accueil france club sci         ┆ prog france sportive        ┆ 53 rue marceau dunkerque         │
+│ team centre sas                 ┆ active france centre        ┆ 267 rue de pornichet saint       │
+│                                 ┆                             ┆ nazaire                          │
+│ dunkerque centre sa             ┆ dunkerque maison sas        ┆ 10 rue des acacias dunkerque     │
+│ amicale du supporteurs          ┆ la teste de buch amicale    ┆ 54 avenue saint exupery la teste │
+│                                 ┆                             ┆ de buch                          │
+│ nantes club sas                 ┆ nantes culture sarl         ┆ 12 rue saint mihiel nantes       │
+│ nantes amicale sarl             ┆ amicale du ami              ┆ 1 rue sully nantes               │
+│ eulalie france sante sarl       ┆ temps hopital france        ┆ 54 avenue du general de gaulle   │
+│                                 ┆                             ┆ la baule escoublac               │
+│ la teste de buch maternelle sas ┆ la teste de buch ecole      ┆ 11 b rue gaston de foix la teste │
+│                                 ┆                             ┆ de buch                          │
+│ club des cine                   ┆ la baule escoublac club sas ┆ 113 avenue du general de gaulle  │
+│                                 ┆                             ┆ la baule escoublac               │
+│ lille anciens sas               ┆ lille collectif sas         ┆ 54 rue jacquemars gielee lille   │
+│ lille sante sas                 ┆ lille college sas           ┆ 12 rue de la paix d utrecht      │
+│                                 ┆                             ┆ lille                            │
+│ team club ei                    ┆ club des don                ┆ 116 avenue charles fourier       │
+│                                 ┆                             ┆ roubaix                          │
+│ lisieux club sas                ┆ meilleurs club ei           ┆ 15 route de la ville halgand la  │
+│                                 ┆                             ┆ baule escoublac                  │
+│ ets escolo eurl                 ┆ ets chasse sas              ┆ 17 rue pierre curie lille        │
+│ comite des bastide              ┆ union des sapeurs           ┆ 4 chemin des grelis moles saint  │
+│                                 ┆                             ┆ nazaire                          │
+└─────────────────────────────────┴─────────────────────────────┴──────────────────────────────────┘

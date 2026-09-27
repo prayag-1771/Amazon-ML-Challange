@@ -1,0 +1,28 @@
+France S1 259452 acc/S1 noceh 3.33 ceh 3.249
+lost 25731 gained 4901
+lost [(True, 1, 1, 15792), (True, 0, 0, 3788), (False, 0, 0, 2199), (True, 1, 0, 1873), (False, 1, 1, 677), (True, 1, 2, 555), (True, 0, 1, 248), (False, 1, 0, 167)]
+    ('Mr Anciens SARL', '17 Avenue Frédéric Loiseau, La Baule-Escoublac, Pays de la Loire', 'Mr SARL France', '17 Avenue Frédéric Loiseau, La Baule-Escoublac')
+    ('Musiciens Culture SAS', '3 RUE FERNAND COUYLAS, Pessac, Nouvelle-Aquitaine', 'Musiciens SAS & Fils', '3 Rue Fernand Couylas, Pessac, Gironde')
+    ('Cmpp Ecole (France) SARL', '162 Rue du Luxembourg, Roubaix, Hauts-de-France', 'Cmpp Ecole SARL & Fils', '# 162 RUE DU LUXEMBOURG, ROUBAIX, Hauts-de-France')
+    ('Amicale des Datcha', "8 Rue d'Houat, Nantes, Pays de la Loire", 'Amicale des Datcha SASU', "Nantes, 8 Rue D'houat")
+    ('Sables Pharmacie', '70 Rue du Bêle, Nantes, Pays de la Loire', 'SABLES & FILS', 'NANTES, 70 R DU BELE')
+    ('MC Amis SARL', '33 Rue Jean Dewasne, Lille, Hauts-de-France', 'MC', '21 Rue Jeanne Lvallard, Lille, Hauts-de-France')
+    ('Bosphore Élémentaire', '4 Rue Louis Braille, Mérignac, Nouvelle-Aquitaine', 'Bosphore Élémentaire SASU', 'Mérignac, No. 4 R. Louis Braille')
+    ('Collège Voile', '3 Rue de Cronstadt, Calais, Hauts-de-France', 'Collège Voile SASU', '3 Rue De Cronstadt, Calais')
+    ('Marnaise Maison', '10 ESPL1 de Pontac, les Halles de Bacalan, Bordeaux, Nouvelle-Aquitaine', 'Marnaise Ehpad', '10 ESPL1 DE PONTAC, LES HALLES DE BACALAN, BORDEAUX, Gironde')
+    ('Djigui Club', "1 Rue de l'Ecole-Saint-Louis, Lille, Hauts-de-France", 'Calokor', "R DE L'ECOLE-SAINT-LOUIS, Lille, Hauts-de-France")
+    ('Recycle Union (France) EURL', "175 Rue d'Iéna, Lille, Hauts-de-France", 'Recycle Union EURL & Fils', "175 Rue D'iéna, Lille")
+    ('École primaire du Jean', '37 Rue Léo Lagrange, Roubaix, Hauts-de-France', 'École du-Jean France', '#37 R. LÉO LAGRANGE, ROUBAIX, Hauts-de-France')
+gain [(False, 0, 0, 1499), (True, 1, 1, 1113), (True, 1, 2, 613), (True, 0, 0, 539), (False, 1, 1, 278), (False, 1, 2, 213), (True, 1, 3, 184), (True, 1, 0, 149)]
+    ('Nantes Groupe SCI', '4 Place Victor Mangin, Nantes, Pays de la Loire', 'Nantes SCI Groupe', '1 Pl Victor Mangin, Nantes, Loire-Atlantique')
+    ('Pleiades Nationale Loisirs SAS', '5 Rue Jean Baptiste Corot, Nantes, Pays de la Loire', 'Lumdovabelo', '5 Rue Jean Baptiste Corot, Nantes, Pays de la Loire')
+    ('Jpb Section SARL', '2 RUE du Hameau, Roubaix, Hauts-de-France', 'JS', 'Roubaix, Nord, (2) RUE DU HAMEAU')
+    ('Union des Petanque', '58 Rue Adolphe Thiers, Dunkerque, Hauts-de-France', 'Union Petanque', 'Nº 60 R. Adolphe Thiers, Dunkerque, Nord')
+    ('Saint-Herblain Jeunes SARL', '12 Rue du Mozambique, Saint-Herblain, Pays de la Loire', 'saint-herblain jeunes sarl', 'Pays de la Loire, SAINT-HERBLAIN, N° 29 R DU MOZAMBIQUE')
+    ('Saint-Herblain Union SARL', '383 Route de Vannes, Saint-Herblain, Pays de la Loire', 'Saint-Herblain Service Sàrl', 'Pays de la Loire, 383 Rte De Vnanes, Saint-herblain')
+    ('Romans Arc Sportive', 'Calais, 193 Rue du Four à Chaux, Hauts-de-France', 'Romans Arc Sportive Sarl', '204 R Du Four A Chaux, Calais')
+    ('Ambition Collège SARL', '24 bis Avenue Saint Exupéry, La Teste-de-Buch, Nouvelle-Aquitaine', 'Ambition SARL Bar', '24 BIS AV SINT EXUPÉRY, LA TESTE-DE-BUCH, Gironde')
+    ('Chasse Comite', '26 Route de la Fontaine Tuaud, Saint-Nazaire, Pays de la Loire', 'CC', 'ROUTE DE LA FONTAINE TUAUD, Saint-Nazaire, Loire-Atlantique')
+    ('Yeux (France) Primaire EI', '9 Rue Docteur Albert Barraud, Bordeaux, Nouvelle-Aquitaine', 'YP', '9 R. DOCTEUR ALBERT BARRAUD, Bordeaux, Nouvelle-Aquitaine')
+    ('Nantes Maternelle SARL', '17 Rue des Bourderies, Nantes, Pays de la Loire', 'Nantes  Maternelle', '17 Rue Des Boureries, Nantes, Pays de la Loire')
+    ('La Baule-Escoublac Comite', '39 Avenue Maurice Morin, La Baule-Escoublac, Pays de la Loire', 'La Baule-Escoublac Services', '39 AVENUE MAURICE MORIN, LA BAULE ESCOUBLAC, Loire-Atlantique')

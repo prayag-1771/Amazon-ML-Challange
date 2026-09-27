@@ -1,0 +1,12 @@
+raw unassigned queries with a unique link: 25435 link correct: 2980 link wrong (true other S1): 1401 true = none: 21054
+   l_n>= 1 25435 correct 2980 none 21054
+   l_n>= 2 5786 correct 843 none 4748
+   l_n>= 3 1468 correct 206 none 1224
+   addr_empty 0 14655 correct 702 none 13521
+   addr_empty 1 10780 correct 2278 none 7533
+name_core unassigned queries with a unique link: 55782 link correct: 4977 link wrong (true other S1): 931 true = none: 49874
+   l_n>= 1 55782 correct 4977 none 49874
+   l_n>= 2 32692 correct 2864 none 29597
+   l_n>= 3 16253 correct 1333 none 14828
+   addr_empty 0 41249 correct 1148 none 39781
+   addr_empty 1 14533 correct 3829 none 10093

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<stdin>", line 21, in <module>
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\dataframe\frame.py", line 5563, in filter
+    ._collect_eager(optimizations=QueryOptFlags._eager())
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\lazyframe\frame.py", line 2240, in _collect_eager
+    return _eager_engine().collect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Programming\Amazon-ML-Challenge-2026\.venv\Lib\site-packages\polars\lazyframe\engine.py", line 443, in collect
+    return wrap_df(ldf.collect(self.name, callback))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+polars.exceptions.ColumnNotFoundError: unable to find column "s1_id"; valid columns: ["s1_row", "entity_id", "business_name", "business_address", "country", "name_full", "name_core", "name_alt", "legal", "addr_full", "addr_core", "state", "nums", "alpha_comps", "addr_empty"]

@@ -1,0 +1,180 @@
+shape: (3, 7)
+┌───────────┬─────────┬──────────┬──────────┬──────────┬──────────┬───────────┐
+│ country_1 ┆ len     ┆ has_xq   ┆ has_x1   ┆ swap     ┆ add_only ┆ drop_only │
+│ ---       ┆ ---     ┆ ---      ┆ ---      ┆ ---      ┆ ---      ┆ ---       │
+│ str       ┆ u32     ┆ f64      ┆ f64      ┆ f64      ┆ f64      ┆ f64       │
+╞═══════════╪═════════╪══════════╪══════════╪══════════╪══════════╪═══════════╡
+│ France    ┆ 870073  ┆ 0.207777 ┆ 0.226603 ┆ 0.178436 ┆ 0.029341 ┆ 0.048167  │
+│ India     ┆ 2713141 ┆ 0.484584 ┆ 0.415998 ┆ 0.395999 ┆ 0.088585 ┆ 0.02      │
+│ US        ┆ 2239698 ┆ 0.33576  ┆ 0.34586  ┆ 0.274488 ┆ 0.061272 ┆ 0.071373  │
+└───────────┴─────────┴──────────┴──────────┴──────────┴──────────┴───────────┘
+== France swap: most common extra query tokens ==
+shape: (40, 2)
+┌───────────────┬───────┐
+│ xq            ┆ count │
+│ ---           ┆ ---   │
+│ str           ┆ u32   │
+╞═══════════════╪═══════╡
+│ fils          ┆ 10694 │
+│ and           ┆ 9002  │
+│ services      ┆ 6401  │
+│ associes      ┆ 5041  │
+│ france        ┆ 3888  │
+│ amicale       ┆ 1867  │
+│ comite        ┆ 1731  │
+│ ecole         ┆ 1667  │
+│ developpement ┆ 1553  │
+│ amis          ┆ 1261  │
+│ groupe        ┆ 1198  │
+│ club          ┆ 1041  │
+│ frs           ┆ 874   │
+│ societe       ┆ 760   │
+│ fetes         ┆ 741   │
+│ centre        ┆ 587   │
+│ sante         ┆ 553   │
+│ primaire      ┆ 513   │
+│ service       ┆ 464   │
+│ lycee         ┆ 459   │
+│ foyer         ┆ 317   │
+│ anciens       ┆ 309   │
+│ maisondesant  ┆ 307   │
+│ sportive      ┆ 291   │
+│ college       ┆ 281   │
+│ parents       ┆ 279   │
+│ maternelle    ┆ 245   │
+│ danse         ┆ 226   │
+│ federation    ┆ 209   │
+│ section       ┆ 177   │
+│ center        ┆ 161   │
+│ soins         ┆ 148   │
+│ c1ub          ┆ 147   │
+│ sys           ┆ 142   │
+│ ehpad         ┆ 139   │
+│ union         ┆ 135   │
+│ conseil       ┆ 131   │
+│ labs          ┆ 120   │
+│ one           ┆ 114   │
+│ svc           ┆ 105   │
+└───────────────┴───────┘
+shape: (30, 5)
+┌──────────┬──────────────────────────────────┬───────────────────────────────┬──────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────┐
+│ p        ┆ business_name_1                  ┆ business_name                 ┆ business_address_1                                       ┆ business_address                                         │
+│ ---      ┆ ---                              ┆ ---                           ┆ ---                                                      ┆ ---                                                      │
+│ f32      ┆ str                              ┆ str                           ┆ str                                                      ┆ str                                                      │
+╞══════════╪══════════════════════════════════╪═══════════════════════════════╪══════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════╡
+│ 0.999991 ┆ Laboratoire College SARL         ┆ Laboratoire Colee SARL        ┆ 21 ter Avenue Phenix Haut-Brion, Pessac, Nouvelle-Aquit… ┆ 21 TER AVENUE PHENIX HAUT-BRION, PESSAC                  │
+│ 0.985275 ┆ Pelerins Ecole SARL              ┆ Pelerins Amis SARL            ┆ 227 Avenue de l'Argonne, Mérignac, Nouvelle-Aquitaine    ┆ 227 Avenue De L'argonne, Mérignac                        │
+│ 0.999981 ┆ MG Maternelle SA                 ┆ MG Maternlle-SA               ┆ 117 Rue Saint Blaise, Tourcoing, Hauts-de-France         ┆ 117 Rue Saint Blaise, Tourcoing, Hauts-de-France         │
+│ 0.977375 ┆ NL Élémentaire EURL              ┆ Novisynio                     ┆ Lège-Cap-Ferret, 4 Impasse des Reservoirs, Nouvelle-Aqu… ┆ 4 Impasse des Reservoirs, Nouvelle-Aquitaine, Lège-Cap-… │
+│ 0.983877 ┆ INP Amis                         ┆ INP Ecole                     ┆ 100 COUR2 de la Martinique, Bordeaux, Nouvelle-Aquitain… ┆ 100 Cour2 De La Martinique, Bordeaux, Gironde            │
+│ 0.969542 ┆ Pornic Union SASU                ┆ PORNIC SASU & FILS            ┆ 2 Rue des Ajoncs, Pornic, Pays de la Loire               ┆ PORNIC, 2 RUE DES AJONCS, Loire-Atlantique               │
+│ 0.999986 ┆ Isba Sportive SARL               ┆ Isba Sosfrve SARL             ┆ Pornic, 12 AV des pins, Pays de la Loire                 ┆ NO. 12 AV DES PINS, PORNIC, Pays de la Loire             │
+│ 0.999956 ┆ Maison Nelly SARL                ┆ Maison Nelily SARL            ┆ 168 Rue Mandron, Bordeaux, Nouvelle-Aquitaine            ┆ 168 Rue Mandron, Bordeaux                                │
+│ 0.999998 ┆ Fan Centre SAS                   ┆ fancentre.com                 ┆ Hauts-de-France, Lille, 41 Rue d'Arras                   ┆ 41 Rue D'arras, Lille, Nord                              │
+│ 0.97772  ┆ Territorial Amis (France)        ┆ Territorial Amicale Services  ┆ 49 Rue Marcel Cerdan, Mérignac, Nouvelle-Aquitaine       ┆ 49 RUE MARCEL CERDAN, MÉRIGNAC, Gironde                  │
+│ 0.99993  ┆ Établissements Ozanam SAS        ┆ Tablissementsozanamsas.Com    ┆ 20 Avenue des Églantiers, La Baule-Escoublac, Pays de l… ┆ La Baule-Escoublac, 20 Ave Des Eglatniers                │
+│ 0.995057 ┆ VLL Parents SAS                  ┆ VLL Primaire SAS              ┆ 8 Rue des Vignes Rouges, Pornic, Pays de la Loire        ┆ 8 RUE DES VIGNES ROUGES, PORNIC, Loire-Atlantique        │
+│ 0.993503 ┆ Deleves Ecole (France) SAS       ┆ Deleves Ecole SAS & Fils      ┆ 6 Avenue des Primeveres, Lège-Cap-Ferret, Nouvelle-Aqui… ┆ 6 AVENUE DES PRIMEVERES, LÈGE-CAP-FERRET, Gironde        │
+│ 0.980106 ┆ Site Bridge Anciens SAS          ┆ SITE BRIDGE RESIDENCE SAS     ┆ 36 Place du Général de Gaulle, Lille, Hauts-de-France    ┆ Nº 36 PL. DU GÉÉNRAL DE GAULLE, LILLE, Hauts-de-France   │
+│ 0.901637 ┆ Lecole Amicale SARL              ┆ Lecole Musique SARL           ┆ 3 Impasse Bourjembois, Lille, Hauts-de-France            ┆ 3 IMP. BOURJEMBOIS, LILLE, Nord                          │
+│ 0.996791 ┆ Centre Médical du Socio          ┆ CMS                           ┆ 11 Impasse Delbart, Calais, Hauts-de-France              ┆ 11 Impasse Delbart, Calais, Hauts-de-France              │
+│ 0.99999  ┆ École primaire Tabernacle        ┆ coleprimairetabernacle.com    ┆ 130 Rue Paul Lafargue, Lille, Hauts-de-France            ┆ NO 130 RUE PAUL LAFARGUE, Lille, Nord                    │
+│ 0.964513 ┆ Magique Groupement SA            ┆ Magique SA & Associés         ┆ 39 Rue Charles Saint-Venant, Lille, Hauts-de-France      ┆ 39 R Charles Saint-venant, Lille, Nord                   │
+│ 0.998566 ┆ Pessac Maison SARL               ┆ Pessac Services SARL          ┆ 4 Rue Fougnet, Pessac, Nouvelle-Aquitaine                ┆ Pessac, 4 R Fougnet, Nouvelle-Aquitaine                  │
+│ 0.99999  ┆ QJX Sportive SAS                 ┆ Qjxsportive.Com               ┆ 24 Rue des Mouettes, Dunkerque, Hauts-de-France          ┆ 24 R Des Mouettes, Dunkerque                             │
+│ 0.999965 ┆ Lenseignement Distribution SAS   ┆ lenseignementdistribution.com ┆ 6 Rue du 110ème Régiment d’Infanterie, Dunkerque, Hauts… ┆ DUNKERQUE, Hauts-de-France, 6 RUE DU 110EME REGIMENT D’… │
+│ 0.984062 ┆ École primaire de Paul           ┆ coleprimairede.com            ┆ Mérignac, Nouvelle-Aquitaine, 13 Rue de la Jeunesse      ┆ 13 R DE LA JEONESSE, Mérignac                            │
+│ 0.861003 ┆ NC Primaire SA                   ┆ NC (AMICALE)                  ┆ 22 Allée Christophe Colomb, Nouvelle-Aquitaine, La Test… ┆ Gironde, 22 ALL CHRISTOPHE COLOMB, LA TESTE-DE-BUCH      │
+│ 0.940633 ┆ Lège-Cap-Ferret Club SAS         ┆ LGECAPFERRETCLUB.COM          ┆ 90 Avenue de la Pointe aux Chevaux, Lège-Cap-Ferret, No… ┆ 90 AVENUE DE LA POUNTE AUX CHEVAUX, Lège-Cap-Ferret, Gi… │
+│ 0.999998 ┆ Contre Lr Amicale EURL           ┆ contrelramicale.com           ┆ 24 RUE Arthur III, Nantes, Pays de la Loire              ┆ 24 R Artur Iii, Nantes                                   │
+│ 0.999868 ┆ Ville Vie Gestion EI             ┆ Ville Vie EI-Développement    ┆ 6 Rue Roland Garros, La Teste-de-Buch, Nouvelle-Aquitai… ┆ 6 R Roland Garros, La Teste De Buch, Nouvelle-Aquitaine  │
+│ 0.99997  ┆ Établissements Jumelage SCI      ┆ Établissements Jumellge SCI   ┆ 4 Avenue Ernest Renan, Saint-Nazaire, Pays de la Loire   ┆ No 4 Av Ernest Renan, Saint-nazaire, Loire-Atlantique    │
+│ 0.998549 ┆ Bonheur Dentaire Culturelle SARL ┆ Bonheur Dentaire SARL et Fils ┆ 40 Rue Ronsard, Calais, Hauts-de-France                  ┆ N°40 Rue Ronsrad, Calais, Pas-de-Calais                  │
+│ 0.999675 ┆ Lm Ecole SCI                     ┆ Lm  Eace SCI                  ┆ 25 Rue du Pradinat, Mérignac, Nouvelle-Aquitaine         ┆ 25 R. DU PRADINAT, Nouvelle-Aquitaine, MERIGNAC          │
+│ 0.944643 ┆ Aair Danse (France) SARL         ┆ Aair Ecole (France) SARL      ┆ 19 A PAS Robin, Nantes, Pays de la Loire                 ┆ 19A PAS ROBIN, NANTES, Pays de la Loire                  │
+└──────────┴──────────────────────────────────┴───────────────────────────────┴──────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────┘
+== France add_only: most common extra query tokens ==
+shape: (40, 2)
+┌────────────────┬───────┐
+│ xq             ┆ count │
+│ ---            ┆ ---   │
+│ str            ┆ u32   │
+╞════════════════╪═══════╡
+│ fils           ┆ 3141  │
+│ and            ┆ 3037  │
+│ associes       ┆ 1728  │
+│ services       ┆ 1652  │
+│ formerly       ┆ 1635  │
+│ france         ┆ 949   │
+│ nee            ┆ 567   │
+│ labs           ┆ 529   │
+│ one            ┆ 515   │
+│ sys            ┆ 514   │
+│ developpement  ┆ 510   │
+│ 5arl           ┆ 436   │
+│ 5as            ┆ 299   │
+│ society        ┆ 111   │
+│ district       ┆ 108   │
+│ board          ┆ 104   │
+│ authority      ┆ 104   │
+│ trust          ┆ 103   │
+│ foundation     ┆ 99    │
+│ commission     ┆ 97    │
+│ comite         ┆ 97    │
+│ association    ┆ 84    │
+│ federation     ┆ 84    │
+│ council        ┆ 83    │
+│ groupe         ┆ 68    │
+│ 5asu           ┆ 60    │
+│ club           ┆ 49    │
+│ ecole          ┆ 40    │
+│ amicale        ┆ 37    │
+│ scl            ┆ 34    │
+│ 5ci            ┆ 31    │
+│ societe        ┆ 30    │
+│ centre         ┆ 27    │
+│ amis           ┆ 24    │
+│ c0mpagnie      ┆ 22    │
+│ primaire       ┆ 19    │
+│ halozeta       ┆ 15    │
+│ fetes          ┆ 14    │
+│ saint          ┆ 13    │
+│ participations ┆ 13    │
+└────────────────┴───────┘
+shape: (30, 5)
+┌──────────┬───────────────────────────────────┬───────────────────────────────────────────────────┬──────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────┐
+│ p        ┆ business_name_1                   ┆ business_name                                     ┆ business_address_1                                       ┆ business_address                                         │
+│ ---      ┆ ---                               ┆ ---                                               ┆ ---                                                      ┆ ---                                                      │
+│ f32      ┆ str                               ┆ str                                               ┆ str                                                      ┆ str                                                      │
+╞══════════╪═══════════════════════════════════╪═══════════════════════════════════════════════════╪══════════════════════════════════════════════════════════╪══════════════════════════════════════════════════════════╡
+│ 0.998273 ┆ Ets Cercle                        ┆ Ets Cercle et  Associés                           ┆ 12 RUE du Cherche Midi, Nantes, Pays de la Loire         ┆ Loire-Atlantique, NANTES, 12 R. DU CHERCHE MII           │
+│ 0.999993 ┆ Faire Comite SARL                 ┆ Veraonyx formerly: Faire Comite SARL              ┆ 7 Cour Pennel, 69 rue jean moulin, Roubaix, Hauts-de-Fr… ┆ 7 Cour Pennel, 69 rue jean moulin, Roubaix, Hauts-de-Fr… │
+│ 0.999983 ┆ Protection (France) Culture SCI   ┆ Noviariadelta dba Protection (France) Culture SCI ┆ RUE du capitaine Kleber Dupuis, Bordeaux, Nouvelle-Aqui… ┆ RUE du capitaine Kleber Dupuis, Bordeaux, Nouvelle-Aqui… │
+│ 0.999987 ┆ Lille Sportive SARL               ┆ Fayeriza+ d/b/a Lille Sportive SARL               ┆ 31 RUE Casimir Delavigne, Appartement 53, Lille, Hauts-… ┆ 31 RUE Casimir Delavigne, Lille, Appartement 53, Hauts-… │
+│ 0.999991 ┆ Amicale des Lyre                  ┆ Veoavix fka Amicale des Lyre                      ┆ Bordeaux, 179 Avenue d'Arès, Nouvelle-Aquitaine          ┆ 179 Avenue d'Arès, Bordeaux, Nouvelle-Aquitaine          │
+│ 0.852402 ┆ Établissements International SARL ┆ ÉTABLISSEMENTS INTERNATIONAL SARL FRANCE          ┆ 18 Rue Moni, Nouvelle-Aquitaine, Bordeaux                ┆ 18 R MOIN, BORDEAUX, Nouvelle-Aquitaine                  │
+│ 0.99999  ┆ Comité des Montagne               ┆ Comité des Montagne Services                      ┆ 26 Rue Louis Armand, Pessac, Nouvelle-Aquitaine          ┆ PESSAC, Nouvelle-Aquitaine, 26 R. LOUIS ARMAND           │
+│ 0.999914 ┆ Porter Amicale (France) SAS       ┆ Ciranexx née Porter Amicale (France) SAS          ┆ 6 Rue du Havre, Roubaix, Hauts-de-France                 ┆ 6 Rue du Havre, Roubaix, Hauts-de-France                 │
+│ 0.999976 ┆ Maison de Santé de Jeanne         ┆ Solkelo One née Maison de Santé de Jeanne         ┆ 20 Rue de Sydney, Tourcoing, Hauts-de-France             ┆ 20 Rue de Sydney, Tourcoing, Hauts-de-France             │
+│ 0.764822 ┆ Union des Deleves                 ┆ Union des  Deleves France                         ┆ 2 Avenue Christian Doppler, Nantes, Pays de la Loire     ┆ N° 2 AVENUE CHRISTIAN DOPPLER, NANTES, Loire-Atlantique  │
+│ 0.999969 ┆ École maternelle Jeanne           ┆ Orbivantage née École maternelle Jeanne           ┆ 45 RUE Montgolfier, Bordeaux, Nouvelle-Aquitaine         ┆ 45 RUE Montgolfier, Bordeaux, Nouvelle-Aquitaine         │
+│ 0.999986 ┆ Maqam Compagnie                   ┆ Maqam C0mpagnie                                   ┆ Calais, Hauts-de-France, 40 Impasse Paul Beun            ┆ 40 IMPASSE PAUL BEUN, CALAIS, Hauts-de-France            │
+│ 0.996032 ┆ Amicale du Eclair                 ┆ Amicale du Eclair & Associés                      ┆ 15 Rue Georges Guynemer, Nantes, Pays de la Loire        ┆ 15 R. Georges Guynemer, Nantes, Loire-Atlantique         │
+│ 0.999988 ┆ Centre Hospitalier du Marie       ┆ Kelonoviio formerly: Centre Hospitalier du Marie  ┆ 74 Rue du Bocage, Pornic, Pays de la Loire               ┆ 74 Rue du Bocage, Pornic, Pays de la Loire               │
+│ 0.995772 ┆ Union des Mediation               ┆ Union des Mediation & Associés                    ┆ 235 Rue du Brun Pain, Tourcoing, Hauts-de-France         ┆ 235 RUE DU BRUN PAIN, TOURCOING, Nord                    │
+│ 0.999452 ┆ Maison Francaise EURL             ┆ Maison Francaise EURL Et  Fils                    ┆ 3 Rue du Palais de Justice, Lille, Hauts-de-France       ┆ 3 R Du Palais De Justice, Lille                          │
+│ 0.999713 ┆ Sauce (France) Compagnie SAS      ┆ SAS SAUCE (FRANCE) CMAGPBMI                       ┆ 2 a Allée du Clos d’Alice, La Teste-de-Buch, Nouvelle-A… ┆ 2 A ALL DU CLOS D’ALICE, Gironde, La Teste-de-Buch       │
+│ 0.99999  ┆ L2a Anciens SAS                   ┆ Vantagerizavio formerly: L2a Anciens SAS          ┆ 97 Rue Elsa Triolet, Lille, Hauts-de-France              ┆ 97 Rue Elsa Triolet, Lille, Hauts-de-France              │
+│ 0.999988 ┆ Calais Comite SAS                 ┆ Lyrabrixvio a/k/a Calais Comite SAS               ┆ 39 Rue du Virval, Calais, Hauts-de-France                ┆ 39 Rue du Virval, Calais, Hauts-de-France                │
+│ 0.998249 ┆ Comité du Ressources              ┆ Comité du Ressources & [Associés]                 ┆ 6 Allee Belem, Lège-Cap-Ferret, Nouvelle-Aquitaine       ┆ 6 Allee Belem, Lège-cap-ferret, Gironde                  │
+│ 0.999985 ┆ Lille Parents SCI                 ┆ Halokorbelo DBA Lille Parents SCI                 ┆ 6 Rue Louis Loucheur, Lille, Hauts-de-France             ┆ 6 Rue Louis Loucheur, Lille, Hauts-de-France             │
+│ 0.998028 ┆ Ets Sporting                      ┆ Ets Sporting & Fils                               ┆ 264 Rue de Gand, Tourcoing, Hauts-de-France              ┆ #264 R De Gand, Tourcoing, Nord                          │
+│ 0.999983 ┆ Institut Merveilles               ┆ Institut-Merveilles Services                      ┆ 58 Avenue de la Libération - Henri Loorius, Dunkerque, … ┆ 58 AVENUE DE LA LIBÉRATION - HENRI LOORIUS, DUNKERQUE, … │
+│ 0.997643 ┆ Fédération des Privée             ┆ FÉDÉRATION DES PRIVÉE &  FILS                     ┆ 40 BIS Rue Jacquemars Gielée, Lille, Hauts-de-France     ┆ 40 BIS R. JACQUEMARS GIELEE, LILLE, Hauts-de-France      │
+│ 0.999992 ┆ Camin Pharmacie SAS               ┆ Korvioiri DBA Camin Pharmacie SAS                 ┆ 84 RUE DU PREFET BONNEFOY, Nantes, Pays de la Loire      ┆ 84 RUE DU PREFET BONNEFOY, Nantes, Pays de la Loire      │
+│ 0.999993 ┆ Amicale de Artistique             ┆ Solectodrex DBA: Amicale de Artistique            ┆ 4 Avenue des Lévriers, Nantes, Pays de la Loire          ┆ 4 Avenue des Lévriers, Nantes, Pays de la Loire          │
+│ 0.999988 ┆ Renaissance Club                  ┆ Orbivio One a/k/a Renaissance Club                ┆ 60 BD Vauban, Lille, Hauts-de-France                     ┆ Lille, 60 BD Vauban, Hauts-de-France                     │
+│ 0.999988 ┆ Clinique Jean                     ┆ Gildhalo Sys a/k/a Clinique Jean                  ┆ 31 Avenue Alfred Motte, Roubaix, Hauts-de-France         ┆ 31 Avenue Alfred Motte, Roubaix, Hauts-de-France         │
+│ 0.997898 ┆ Collège de André                  ┆ Collège  de André & Associés                      ┆ 19 Chemin de la Pelousière, Saint-Herblain, Pays de la … ┆ 19 CHEMIN DE LA PELOUSIERE, SAINT-HERBLAIN               │
+│ 0.999994 ┆ Vroom Groupement EURL             ┆ Korvantage DBA Vroom Groupement EURL              ┆ 4 Rue Victor Martel, Lille, Hauts-de-France              ┆ Lille, Hauts-de-France, 4 Rue Victor Martel              │
+└──────────┴───────────────────────────────────┴───────────────────────────────────────────────────┴──────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────┘

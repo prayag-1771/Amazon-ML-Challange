@@ -1,0 +1,4 @@
+  features test: 5,000,000/13,187,937 79s
+  features test: 10,000,000/13,187,937 117s
+  features test: 13,187,937/13,187,937 76s
+test: 13,187,937 candidate pairs, 5,822,912 matches, 1,632,769/1,732,544 S1 with >=1 match

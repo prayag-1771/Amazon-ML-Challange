@@ -1,0 +1,41 @@
+s1_id,s23_id,p2,n1,nq,sn1,snq,st_sim,num_rel,legal_rel
+S1-390095453,S3-190335607,0.5895132994750395,ehpad michel,ehpad michel,malcense,malcense,100.0,num_missing,add
+S1-211999461,S3-509095580,0.7437852793946514,lille ecole,lille ecole,gustave joncquet,gustave joncquet,100.0,num_missing,same
+S1-834095847,S2-832092670,0.6446766320456957,tourcoing primaire,tourcoing primaire,chaussee denis papin,chaussee denis papin,100.0,num_missing,same
+S1-815134077,S2-834634140,0.23378501976725416,vln ecole,vln ecole,mossardiere,mosardiere,95.2381,num_missing,same
+S1-382852588,S2-401292895,0.08172077778058702,famille sportive,famille sportive,georges mandel,georges mandel,100.0,num_missing,add
+S1-555294545,S3-879669353,0.5083168445104079,dunkerque club,dunkerque club,poincare president,poincare president,100.0,num_missing,add
+S1-920568710,S3-514404312,0.07165657711679506,comite defense,comite defense,francois j raspail vincent,francois j raspail vincent,100.0,num_missing,add
+S1-858446885,S3-718367470,0.16300154190025137,federation techniciens,federation techniciens,epeule,epeule,100.0,num_missing,add
+S1-362395568,S2-826893179,0.18841838508557948,roubaix amicale,roubaix amicale,dantoing,dantoing,100.0,num_missing,same
+S1-658498644,S2-4748149,0.08256015823122993,lille fetes,lille fetes,chaplin,chaplin,100.0,num_missing,add
+S1-332011929,S3-265197783,0.5685904591545919,renouveau sportive,renouveau sportive,manutention,manutention,100.0,num_missing,same
+S1-599421321,S3-86843486,0.7455689194627698,comite chasse,comite chasse,gittinger,gitoinger,88.888885,num_missing,add
+S1-484892090,S2-453277624,0.6283090004253912,ecole maternelle jean,ecole maternelle jean,saules,saules,100.0,num_missing,add
+S1-531743506,S3-432917471,0.5320076725140862,union upec,union upec,joffre marechal,joffre marechal,100.0,num_missing,add
+S1-237546063,S2-520459329,0.42380803567954484,cercle,cercle,benoit pierre,benoit pirrre,92.30769,num_missing,same
+S1-791618838,S2-90086997,0.19519431577195556,vivant connaissance comite,vivant connaissance comite,genets,gents,90.90909,num_missing,same
+S1-461081630,S3-196110776,0.2699419115433576,lycee graminounou,lycee graminounou,phare teignouse,phrae teignouse,93.333336,num_missing,add
+S1-102911432,S3-453374355,0.620422596366541,association latelier,association latelier,francis plante,francis plante,100.0,num_missing,add
+S1-890935623,S3-38061124,0.14687490715735788,centre hospitalier paul,centre hospitalier paul,boyer,boyer,100.0,num_missing,add
+S1-899167828,S3-213565523,0.0659685190128657,ets cercle,ets cercle,auguste blanqui louis,auguste blanqui louis,100.0,num_missing,add
+S1-102805257,S2-392710173,0.5087621068678038,nantes federation,nantes federation,alouettes,alodettes,88.888885,num_missing,drop
+S1-84287257,S3-266329713,0.5741045991001431,association cite,association cite,pascal,pascal,100.0,num_missing,add
+S1-154365670,S2-416539296,0.5979533035051938,jouvence foire parents,jouvence foire parents,genevieve,genevieve,100.0,num_missing,add
+S1-333863621,S3-283624898,0.06016295739723965,association classe,association classe,bis gambetta leon,gambetta leon,86.666664,num_missing,add
+S1-701584932,S2-291296322,0.044719035377497114,84 congo industrie,84 congo industrie,disney walt,disney walt,100.0,num_missing,same
+S1-794749695,S3-535565667,0.41522172779316247,merignac ecole,merignac ecole,champlain,champlain,100.0,num_missing,same
+S1-586181981,S2-53152829,0.664652010460795,roubaix societe,roubaix societe,bis guesde jules,guesde jules,85.71429,num_missing,same
+S1-19904171,S3-945533003,0.03725007954968741,roubaix atelier,roubaix atelier,bellevue,bellevue,100.0,num_missing,drop
+S1-516423211,S3-667540833,0.3408060385708624,maison sante robert,maison sante robert,houchard,hochard,93.333336,num_missing,add
+S1-595516200,S3-656747964,0.11897460743190484,football travaux,football travaux,larouillat,larouillat,100.0,num_missing,add
+S1-313894359,S3-952570942,0.028130936651452342,comite chantiers,comite chantiers,perouse,perouse,100.0,num_missing,add
+S1-233697369,S3-191843778,0.646844959714436,dunkerque culture,dunkerque culture,sebastien,sebastien,100.0,num_missing,drop
+S1-438824714,S3-909685475,0.4914731551941059,club team,club team,ferrer francisco,ferier francisco,93.75,num_missing,add
+S1-339754001,S3-275600789,0.30418450563585653,maison sante sainte jean,maison sante sainte jean,rabelais,rabelais,100.0,num_missing,add
+S1-42930000,S3-748224311,0.2524346944574661,centre medical saint jean,centre medical saint jean,louis seguin,louis seguin,100.0,num_missing,add
+S1-192686102,S2-138645660,0.04171173563263388,comite claire,comite claire,aubidey,subidey,85.71429,num_missing,add
+S1-905694402,S2-792053578,0.08869205622841307,tourcoing sportive,tourcoing sportive,epine,epine,100.0,num_missing,same
+S1-985483283,S3-651924894,0.7433054657126187,college cleder,college cleder,ambulance cour,ambulance cour,100.0,num_missing,add
+S1-639611039,S3-394811865,0.4620684511653829,ko sportive,ko sportive,grand,grand,100.0,num_missing,add
+S1-703643940,S3-290719465,0.664207574236813,gymnastique amicale,gymnastique amicale,hippolyte taine,hippolyte taine,100.0,num_missing,add

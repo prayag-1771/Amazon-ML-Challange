@@ -1,0 +1,15 @@
+US view 1 206s
+US view 2 333s
+US view 3 337s
+US 110424 queries 2752131 pairs 364s
+France view 1 403s
+France view 2 405s
+France view 3 405s
+France 43078 queries 793793 pairs 413s
+India view 1 613s
+India view 2 687s
+India view 3 690s
+India 112004 queries 2685013 pairs 718s
+E:\Programming\Amazon-ML-Challenge-2026\work\v10\resc2.py:73: DeprecationWarning: In Polars 2.0, the default behavior for `empty_as_null` will change to `False`. To keep the current behavior, explicitly set `empty_as_null=True`.
+  df1 = s1.select("country", pl.col("name_core").fill_null("").str.split(" ").list.unique().alias("t")).explode("t").group_by("country", "t").agg(pl.len().alias("df"))
+pairs 6230937 881s

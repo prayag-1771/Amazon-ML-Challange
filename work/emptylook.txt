@@ -1,0 +1,20 @@
+['s23_id', 'business_name', 'business_address', 'country', 'name_full', 'name_core', 'name_alt', 'legal', 'addr_full', 'addr_core', 'state', 'nums', 'alpha_comps', 'addr_empty']
+raw address values for empty: [('', 344883)]
+state set 0.0
+same-name S1 count for true S1 (empty queries): [(1.0, 1.0, 5.0, 55.0)]
+raw name equal 0.05032372158163659 core equal 0.6371321413099597 legal equal 0.7240503474591862
+   ('Smt Innovative Investments Limited Services', 'Innovative Investments Private Limited', 57)
+   ('Community-Center-Pc', 'Community Center PC', 125)
+   ('BASTOS  LP SERVICES', 'Bastos Nuclear LP', 8)
+   ('Vijay Brothers', 'Vijay Brothers Ltd', 14)
+   ('Big Finance Private Trading', 'Big Finance Private Limited', 67)
+   ('American Sdecufremy Services-PC', 'American Security Services PC', 6)
+   ('Aurangabad Center', 'Aurangabad India', 16)
+   ('Blue Initiative Inc.', 'Blue Initiative', 33)
+   ('Southern Pvt. Ltd. (Center)', 'Southern Infra Pvt. Ltd.', 51)
+   ('HERITAGE SOCIETY', 'Heritage Society', 44)
+   ('Dream Services Pvt', 'Dream Services Pvt Ltd', 57)
+   ('Alpaugh Golden Vance Llc', 'Alpaugh Golden Vance LLC', 6)
+   ('Atlantic Program LLC', 'Atlantic Program LLC', 31)
+   ('Dream Marketing பிரைவேட் லிமிடெட்', 'Dream Marketing Private Limited', 70)
+   ('Wakefield, Alves & Billy Córp', 'Wakefield, Alves & Billy Corp', 15)

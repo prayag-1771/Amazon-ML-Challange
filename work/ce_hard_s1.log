@@ -1,0 +1,25 @@
+  hard-pair ce train pairs 1,386,356 (pos 0.441)
+  ce tokenized 1,386,356 pairs 519s
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|##########| 201/201 [00:00<00:00, 2845.64it/s]
+  ce step 500/10831 loss 0.2839 727 pairs/s
+  ce step 1000/10831 loss 0.2694 693 pairs/s
+  ce step 1500/10831 loss 0.2672 698 pairs/s
+  ce step 2000/10831 loss 0.2530 701 pairs/s
+  ce step 2500/10831 loss 0.2503 705 pairs/s
+  ce step 3000/10831 loss 0.2465 711 pairs/s
+  ce step 3500/10831 loss 0.2458 717 pairs/s
+  ce step 4000/10831 loss 0.2438 720 pairs/s
+  ce step 4500/10831 loss 0.2434 719 pairs/s
+  ce step 5000/10831 loss 0.2336 678 pairs/s
+  ce step 5500/10831 loss 0.2224 682 pairs/s
+  ce step 6000/10831 loss 0.2281 677 pairs/s
+  ce step 6500/10831 loss 0.2289 659 pairs/s
+  ce step 7000/10831 loss 0.2265 659 pairs/s
+  ce step 7500/10831 loss 0.2186 644 pairs/s
+  ce step 8000/10831 loss 0.2271 636 pairs/s
+  ce step 8500/10831 loss 0.2259 631 pairs/s
+  ce step 9000/10831 loss 0.2227 635 pairs/s
+  ce step 9500/10831 loss 0.2128 639 pairs/s
+  ce step 10000/10831 loss 0.2145 641 pairs/s
+  ce step 10500/10831 loss 0.2108 635 pairs/s
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.29it/s]Writing model shards: 100%|##########| 1/1 [00:00<00:00,  1.29it/s]

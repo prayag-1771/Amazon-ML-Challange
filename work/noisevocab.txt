@@ -1,0 +1,93 @@
+France conf 711331 no-extra share 0.832 no-missing share 0.837
+shape: (15, 6)
+┌──────────────┬────────┬────────┬─────────────┬────────┬────────┐
+│ extra_tok    ┆ n_e    ┆ r_e    ┆ missing_tok ┆ n_m    ┆ r_m    │
+│ ---          ┆ ---    ┆ ---    ┆ ---         ┆ ---    ┆ ---    │
+│ str          ┆ u32    ┆ f64    ┆ str         ┆ u32    ┆ f64    │
+╞══════════════╪════════╪════════╪═════════════╪════════╪════════╡
+│ null         ┆ 591864 ┆ 0.8321 ┆ null        ┆ 595620 ┆ 0.8373 │
+│ services     ┆ 7052   ┆ 0.0099 ┆ club        ┆ 9060   ┆ 0.0127 │
+│ formerly     ┆ 1625   ┆ 0.0023 ┆ france      ┆ 8001   ┆ 0.0112 │
+│ fils         ┆ 1428   ┆ 0.002  ┆ amicale     ┆ 5326   ┆ 0.0075 │
+│ frs          ┆ 834    ┆ 0.0012 ┆ comite      ┆ 5270   ┆ 0.0074 │
+│ associes     ┆ 682    ┆ 0.001  ┆ ecole       ┆ 5116   ┆ 0.0072 │
+│ nee          ┆ 558    ┆ 0.0008 ┆ freres      ┆ 3815   ┆ 0.0054 │
+│ labs         ┆ 523    ┆ 0.0007 ┆ centre      ┆ 3512   ┆ 0.0049 │
+│ one          ┆ 512    ┆ 0.0007 ┆ sportive    ┆ 3477   ┆ 0.0049 │
+│ sys          ┆ 512    ┆ 0.0007 ┆ union       ┆ 3271   ┆ 0.0046 │
+│ st           ┆ 479    ┆ 0.0007 ┆ maison      ┆ 3228   ┆ 0.0045 │
+│ 5arl         ┆ 403    ┆ 0.0006 ┆ fils        ┆ 2878   ┆ 0.004  │
+│ 5as          ┆ 283    ┆ 0.0004 ┆ amis        ┆ 2707   ┆ 0.0038 │
+│ cb           ┆ 257    ┆ 0.0004 ┆ college     ┆ 2588   ┆ 0.0036 │
+│ maisondesant ┆ 216    ┆ 0.0003 ┆ primaire    ┆ 2366   ┆ 0.0033 │
+└──────────────┴────────┴────────┴─────────────┴────────┴────────┘
+France unc 69807 no-extra share 0.426 no-missing share 0.457
+shape: (15, 6)
+┌───────────────┬───────┬────────┬─────────────┬───────┬────────┐
+│ extra_tok     ┆ n_e   ┆ r_e    ┆ missing_tok ┆ n_m   ┆ r_m    │
+│ ---           ┆ ---   ┆ ---    ┆ ---         ┆ ---   ┆ ---    │
+│ str           ┆ u32   ┆ f64    ┆ str         ┆ u32   ┆ f64    │
+╞═══════════════╪═══════╪════════╪═════════════╪═══════╪════════╡
+│ null          ┆ 29761 ┆ 0.4263 ┆ null        ┆ 31924 ┆ 0.4573 │
+│ groupe        ┆ 3711  ┆ 0.0532 ┆ club        ┆ 3335  ┆ 0.0478 │
+│ developpement ┆ 3117  ┆ 0.0447 ┆ ecole       ┆ 2305  ┆ 0.033  │
+│ france        ┆ 2762  ┆ 0.0396 ┆ amicale     ┆ 1882  ┆ 0.027  │
+│ club          ┆ 1619  ┆ 0.0232 ┆ comite      ┆ 1782  ┆ 0.0255 │
+│ fils          ┆ 1266  ┆ 0.0181 ┆ sportive    ┆ 1491  ┆ 0.0214 │
+│ associes      ┆ 1231  ┆ 0.0176 ┆ centre      ┆ 1475  ┆ 0.0211 │
+│ comite        ┆ 1091  ┆ 0.0156 ┆ amis        ┆ 1212  ┆ 0.0174 │
+│ amicale       ┆ 788   ┆ 0.0113 ┆ france      ┆ 1123  ┆ 0.0161 │
+│ sportive      ┆ 761   ┆ 0.0109 ┆ maison      ┆ 1098  ┆ 0.0157 │
+│ services      ┆ 708   ┆ 0.0101 ┆ college     ┆ 1092  ┆ 0.0156 │
+│ ecole         ┆ 704   ┆ 0.0101 ┆ primaire    ┆ 960   ┆ 0.0138 │
+│ amis          ┆ 610   ┆ 0.0087 ┆ parents     ┆ 903   ┆ 0.0129 │
+│ parents       ┆ 547   ┆ 0.0078 ┆ sante       ┆ 876   ┆ 0.0125 │
+│ centre        ┆ 510   ┆ 0.0073 ┆ union       ┆ 853   ┆ 0.0122 │
+└───────────────┴───────┴────────┴─────────────┴───────┴────────┘
+US conf 2035028 no-extra share 0.679 no-missing share 0.657
+shape: (15, 6)
+┌────────────┬─────────┬────────┬─────────────┬─────────┬────────┐
+│ extra_tok  ┆ n_e     ┆ r_e    ┆ missing_tok ┆ n_m     ┆ r_m    │
+│ ---        ┆ ---     ┆ ---    ┆ ---         ┆ ---     ┆ ---    │
+│ str        ┆ u32     ┆ f64    ┆ str         ┆ u32     ┆ f64    │
+╞════════════╪═════════╪════════╪═════════════╪═════════╪════════╡
+│ null       ┆ 1382420 ┆ 0.6793 ┆ null        ┆ 1337889 ┆ 0.6574 │
+│ center     ┆ 62825   ┆ 0.0309 ┆ group       ┆ 16249   ┆ 0.008  │
+│ services   ┆ 44655   ┆ 0.0219 ┆ associates  ┆ 14871   ┆ 0.0073 │
+│ service    ┆ 21853   ┆ 0.0107 ┆ care        ┆ 14027   ┆ 0.0069 │
+│ formerly   ┆ 8629    ┆ 0.0042 ┆ center      ┆ 12410   ┆ 0.0061 │
+│ partners   ┆ 7379    ┆ 0.0036 ┆ partners    ┆ 12191   ┆ 0.006  │
+│ id         ┆ 7050    ┆ 0.0035 ┆ clinic      ┆ 9108    ┆ 0.0045 │
+│ nee        ┆ 2717    ┆ 0.0013 ┆ health      ┆ 8101    ┆ 0.004  │
+│ lnc        ┆ 2549    ┆ 0.0013 ┆ medicine    ┆ 6120    ┆ 0.003  │
+│ labs       ┆ 2057    ┆ 0.001  ┆ s           ┆ 5951    ┆ 0.0029 │
+│ sys        ┆ 2048    ┆ 0.001  ┆ specialists ┆ 4595    ┆ 0.0023 │
+│ one        ┆ 2037    ┆ 0.001  ┆ physicians  ┆ 4095    ┆ 0.002  │
+│ council    ┆ 895     ┆ 0.0004 ┆ global      ┆ 3611    ┆ 0.0018 │
+│ federation ┆ 882     ┆ 0.0004 ┆ holdings    ┆ 3540    ┆ 0.0017 │
+│ district   ┆ 880     ┆ 0.0004 ┆ dds         ┆ 3189    ┆ 0.0016 │
+└────────────┴─────────┴────────┴─────────────┴─────────┴────────┘
+US unc 57892 no-extra share 0.694 no-missing share 0.668
+shape: (15, 6)
+┌─────────────┬───────┬────────┬─────────────┬───────┬────────┐
+│ extra_tok   ┆ n_e   ┆ r_e    ┆ missing_tok ┆ n_m   ┆ r_m    │
+│ ---         ┆ ---   ┆ ---    ┆ ---         ┆ ---   ┆ ---    │
+│ str         ┆ u32   ┆ f64    ┆ str         ┆ u32   ┆ f64    │
+╞═════════════╪═══════╪════════╪═════════════╪═══════╪════════╡
+│ null        ┆ 40202 ┆ 0.6944 ┆ null        ┆ 38687 ┆ 0.6683 │
+│ partners    ┆ 1285  ┆ 0.0222 ┆ group       ┆ 1317  ┆ 0.0227 │
+│ center      ┆ 1242  ┆ 0.0215 ┆ associates  ┆ 300   ┆ 0.0052 │
+│ services    ┆ 1094  ┆ 0.0189 ┆ care        ┆ 295   ┆ 0.0051 │
+│ service     ┆ 498   ┆ 0.0086 ┆ holdings    ┆ 265   ┆ 0.0046 │
+│ enterprises ┆ 395   ┆ 0.0068 ┆ center      ┆ 248   ┆ 0.0043 │
+│ id          ┆ 248   ┆ 0.0043 ┆ health      ┆ 231   ┆ 0.004  │
+│ lnc         ┆ 51    ┆ 0.0009 ┆ partners    ┆ 215   ┆ 0.0037 │
+│ trading     ┆ 38    ┆ 0.0007 ┆ s           ┆ 210   ┆ 0.0036 │
+│ trust       ┆ 32    ┆ 0.0006 ┆ clinic      ┆ 152   ┆ 0.0026 │
+│ authority   ┆ 26    ┆ 0.0004 ┆ medicine    ┆ 138   ┆ 0.0024 │
+│ district    ┆ 26    ┆ 0.0004 ┆ global      ┆ 110   ┆ 0.0019 │
+│ council     ┆ 22    ┆ 0.0004 ┆ cpa         ┆ 100   ┆ 0.0017 │
+│ fifth       ┆ 22    ┆ 0.0004 ┆ dds         ┆ 98    ┆ 0.0017 │
+│ federation  ┆ 22    ┆ 0.0004 ┆ enterprises ┆ 90    ┆ 0.0016 │
+└─────────────┴───────┴────────┴─────────────┴───────┴────────┘
+['club', 'france', 'ecole', 'amicale', 'comite', 'maison', 'centre', 'union', 'sportive', 'college', 'amis', 'primaire', 'federation', 'pharmacie', 'sante', 'saint', 'etablissements', 'parents', 'ets', 'bordeaux', 'freres', 'lycee', 'fils', 'maternelle', 'nantes', 'sainte', 'lille', 'societe', 'association', 'fetes', 'institut', 'anciens', 'ehpad', 'loisirs', 'culturelle', 'clinique', 'jeunes', 'sport', 'groupement', 'medical']

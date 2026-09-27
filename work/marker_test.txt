@@ -1,0 +1,29 @@
+US all 0.587
+   midtown         n=  19358 pred_matched=0.000 uncertain=0.000
+   northside       n=  19383 pred_matched=0.000 uncertain=0.000
+   greater         n=  19226 pred_matched=0.000 uncertain=0.000
+   holdings        n= 131293 pred_matched=0.074 uncertain=0.006
+   central         n=  21926 pred_matched=0.069 uncertain=0.003
+   formerly        n=   8678 pred_matched=1.000 uncertain=0.000
+   uptown          n=  23955 pred_matched=0.107 uncertain=0.003
+India all 0.575
+   holdings        n=  90317 pred_matched=0.067 uncertain=0.004
+   infratech       n=  83675 pred_matched=0.031 uncertain=0.001
+   overseas        n=  83283 pred_matched=0.028 uncertain=0.001
+   group           n= 114461 pred_matched=0.168 uncertain=0.008
+   exports         n= 103014 pred_matched=0.128 uncertain=0.003
+   stores          n=   6277 pred_matched=0.059 uncertain=0.003
+   formerly        n=   5206 pred_matched=1.000 uncertain=0.000
+France all 0.613
+   participations  n=  34280 pred_matched=0.002 uncertain=0.013
+   snc             n=  16381 pred_matched=0.011 uncertain=0.052
+   holding         n=  33983 pred_matched=0.001 uncertain=0.000
+   distribution    n=  34208 pred_matched=0.006 uncertain=0.004
+   international   n=  34553 pred_matched=0.017 uncertain=0.003
+   developpement   n=  48027 pred_matched=0.100 uncertain=0.081
+   groupe          n=  53876 pred_matched=0.133 uncertain=0.071
+   services        n=  16215 pred_matched=0.693 uncertain=0.069
+   fils            n=  43554 pred_matched=0.616 uncertain=0.068
+   associes        n=  10615 pred_matched=0.552 uncertain=0.281
+   france          n= 139457 pred_matched=0.462 uncertain=0.057
+   club            n= 106698 pred_matched=0.580 uncertain=0.069

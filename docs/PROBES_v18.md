@@ -46,3 +46,16 @@ The sha256 of each file is in its folder's `MANIFEST.txt`. The number-missing ru
 | 1 | v17 | **0.9888** (previous best 0.98873) | – |
 | 2 | fr060 | | |
 | 3 | | | |
+
+## Final package for fr060 (only if it beats v17)
+`dist/v18_fr060/Greedy_Decoders_submission.zip` (validator PASS) was built by `work/v18p/package_fr060.py`, without changing any repository file.
+- `output/`: the fr060 files.
+- Code: a copy of `src/` with `T["France"] = 0.60` in `stage2.py`, so it reproduces the fr060 outputs.
+- README and `Documentation_template.md`: copies updated for v18.
+
+```
+25137cc90e8df0c5c99f02899b4bc39ca475a14a10b0ad30e9a4dba44b0f012d  output/matching_results.tsv
+35013d3a2bfce19cd06b6acd04c7a8a6cdaba647aaf3958320a1d839d0d88869  output/candidate_pairs.tsv
+2df1728c639cdeb09a6664766bcfa514f07b01c61d08e846426120c4065f4228  Greedy_Decoders_submission.zip
+```
+If fr060 does not beat v17, submit `dist/v17/Greedy_Decoders_submission.zip` instead.
